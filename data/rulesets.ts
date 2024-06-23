@@ -18,6 +18,15 @@ export const Rulesets: {[k: string]: FormatData} = {
 			'Min Source Gen = 9',
 		],
 	},
+	divinerules: {
+		effectType: 'ValidatorRule',
+		name: 'Divine Rules',
+		desc: "The standard ruleset for all offical Divine Olympus tiers",
+		ruleset: [
+			'Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'Nickname Clause',  'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod',
+			'Min Source Gen = 9', 'Terastal Clause',
+		],
+	},
 	standardnext: {
 		effectType: 'ValidatorRule',
 		name: 'Standard NEXT',

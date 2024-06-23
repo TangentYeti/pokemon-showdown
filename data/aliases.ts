@@ -2,6 +2,7 @@ export const Aliases: {[alias: string]: string} = {
 	// formats
 	randbats: "[Gen 9] Random Battle",
 	uber: "[Gen 9] Ubers",
+	do : "Divine Olympus",
 	anythinggoes: "[Gen 9] Anything Goes",
 	ubers: "[Gen 9] Ubers",
 	uubers: "[Gen 9] Ubers UU",
@@ -20,6 +21,7 @@ export const Aliases: {[alias: string]: string} = {
 	randdubs: "[Gen 9] Random Doubles Battle",
 	doubles: "[Gen 9] Doubles OU",
 	dou: "[Gen 9] Doubles OU",
+	ddo: "Divine Olympus Doubles",
 	dubs: "[Gen 9] Doubles OU",
 	dubers: "[Gen 9] Doubles Ubers",
 	duu: "[Gen 9] Doubles UU",
