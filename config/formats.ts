@@ -28,27 +28,23 @@ export const Formats: FormatList = [
 		name: "Divine Olympus Singles",
 
 		mod: 'gen9',
-		searchShow: true,
-		ruleset: ['Divine Rules'],
-		banlist: ['Uber', 'AG', 'PU','Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Shed Tail'],
+		ruleset: ['Divine Rules', '- all Pokemon', '+ DO', '! Team Preview'],
 	},
 	{
 		name: "Divine Olympus Doubles",
 
 		mod: 'gen9',
 		gameType: 'doubles',
-		searchShow: true,
-		ruleset: ['Divine Rules'],
-		banlist: ['DUber', 'DOU', 'DPU'],
+		ruleset: ['Divine Rules', '- all Pokemon', '+ DDO', '! Team Preview'],
 	},
 	{
-		name: "Divine Olympus Free-For-All",
+		name: "Divine Olympus FFA",
 
 		mod: 'gen9',
 		gameType: 'freeforall',
 		rated: false,
-		searchShow: true,
-		ruleset: ['Divine Rules'],
+		touramentShow: false,
+		ruleset: ['Divine Rules', '- all Pokemon', '+ DDO', '! Team Preview'],
 	},
 	{
 		section: "S/V Singles",
