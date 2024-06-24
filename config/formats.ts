@@ -125,14 +125,6 @@ export const Formats: FormatList = [
 		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Shed Tail'],
 	},
 	{
-		name: "Divine Olympus",
-
-		mod: 'gen9',
-		searchShow: true,
-		ruleset: ['Divine Rules'],
-		banlist: ['Uber', 'AG', 'PU','Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Shed Tail'],
-	},
-	{
 		name: "[Gen 9] Ubers",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3732719/">Ubers Metagame Discussion</a>`,
@@ -280,15 +272,6 @@ export const Formats: FormatList = [
 		gameType: 'doubles',
 		ruleset: ['Standard Doubles'],
 		banlist: ['DUber', 'Shadow Tag'],
-	},
-	{
-		name: "Divine Olympus Doubles",
-
-		mod: 'gen9',
-		gameType: 'doubles',
-		searchShow: true,
-		ruleset: ['Divine Rules'],
-		banlist: ['DUber', 'DOU', 'DPU', 'Shadow Tag'],
 	},
 	{
 		name: "[Gen 9] Doubles Ubers",
