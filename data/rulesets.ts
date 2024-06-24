@@ -23,8 +23,7 @@ export const Rulesets: {[k: string]: FormatData} = {
 		name: 'Divine Rules',
 		desc: "The standard ruleset for all offical Divine Olympus tiers",
 		ruleset: [
-			'Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'Nickname Clause',  'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod',
-			'Min Source Gen = 9', 'Terastal Clause',
+			'Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'Nickname Clause',  'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Terastal Clause',
 		],
 	},
 	standardnext: {
