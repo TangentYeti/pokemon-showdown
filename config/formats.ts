@@ -39,7 +39,7 @@ export const Formats: FormatList = [
 		gameType: 'doubles',
 		searchShow: true,
 		ruleset: ['Divine Rules'],
-		banlist: ['DUber', 'DOU', 'DPU', 'Shadow Tag'],
+		banlist: ['DUber', 'DOU', 'DPU'],
 	},
 	{
 		name: "Divine Olympus Free-For-All",
@@ -48,15 +48,7 @@ export const Formats: FormatList = [
 		gameType: 'freeforall',
 		rated: false,
 		searchShow: true,
-		tournamentShow: false,
 		ruleset: ['Divine Rules'],
-		banlist: [
-			'Annihilape', 'Arceus', 'Calyrex-Ice', 'Calyrex-Shadow', 'Chi-Yu', 'Chien-Pao', 'Darkrai', 'Deoxys-Base', 'Deoxys-Attack', 'Dialga', 'Dialga-Origin',
-			'Dondozo', 'Eternatus', 'Flutter Mane', 'Giratina', 'Giratina-Origin', 'Groudon', 'Ho-Oh', 'Hoopa-Unbound', 'Iron Bundle', 'Koraidon', 'Kyogre',
-			'Kyurem-White', 'Landorus-Base', 'Lugia', 'Lunala', 'Magearna', 'Mewtwo', 'Miraidon', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Ogerpon-Hearthflame',
-			'Palkia', 'Palkia-Origin', 'Rayquaza', 'Reshiram', 'Shaymin-Sky', 'Solgaleo', 'Spectrier', 'Terapagos', 'Ursaluna', 'Ursaluna-Bloodmoon', 'Urshifu',
-			'Urshifu-Rapid-Strike', 'Zacian', 'Zacian-Crowned', 'Zekrom',
-		],
 	},
 	{
 		section: "S/V Singles",
