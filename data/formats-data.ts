@@ -6043,4 +6043,1124 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	plagasus: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	gordusa: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	matretaur: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	hagufate: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	wyrmekes: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	tsunaren: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	drollepas: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	gryfantle: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	stalantula: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	allopere: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	ganikinos: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	hahootination: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	kelampus: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	teuvenger: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	tungfu: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	sarcobral: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	cerekapro: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	martialeti: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	depandrill: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	vitalysis: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	anaphyletric: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	purrforynx: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	flierarchy: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	zenriest: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	ukerial: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	armorpion: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	spirihit: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	paranorpol: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	mortarmur: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	timberam: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	murmarsh: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	phaestamark: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	carniveel: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	mounteleon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	centriot: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	prayzen: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	archorean: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	lymbynx: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	defonour: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	destrayal: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	manrawin: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	lycanobyl: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	terracabra: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	spelyclops: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	kybohm: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	moosicle: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	gojukuda: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	boarpath: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	frosquito: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	succubush: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	novalotl: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	constethulu: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	hauruid: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	dranova: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	drabloom: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	drarate: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	draquake: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	dranyon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	drachaun: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	glofli: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	octopsy: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	counsol: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	carcasnix: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	plagasma: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	chasorm: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	mangisekto: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	shuriguin: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	hummzinger: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	rambonkin: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	mervenom: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	narfarious: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	tikikong: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	whirlydis: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	hydoracle: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	valhangel: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	lucangel: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	pyrectix: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	salyrant: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	komouldo: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	grizzudo: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	roosolar: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	ceramstes: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	mareberus: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	neightmare: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	marpine: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	parafullo: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	magmelly: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	salasander: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	hurricrane: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	lampire: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	laphorlamp: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	weatherback: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	drakolarmor: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	inferthrope: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	skulletonne: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	terrormite: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	anaconoxious: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	slumucus: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	titectre: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	stalagtergeist: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	falnado: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	mollucone: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	crickmire: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	crickoat: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	disaspider: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	orbider: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	vesplume: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	vesplatinum: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	grapeetle: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	foleetle: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	abyssquid: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	furianzhou: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	tapinfera: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	ankorient: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	odivalk: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	valkischief: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	reckleosteus: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	porcupulse: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	solursa: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	permatross: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	scythatchi: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	tsunamid: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	erothys: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	mortilance: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	luminilver: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	coeisdom: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	phanacy: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	zodelandar: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	forgeitymn: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	juriatal: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	trustice: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	infonus: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	fertiferus: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	petarcass: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	thefchan: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	mosjito: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	subterrandr: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	satellity: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	saigeta: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	kakarraiyan: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	plaguerca: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	genorcade: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	volcarufe: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	bzzuzzuzzg: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	tectonitoad: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	arcangran: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	quendrill: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	araquavik: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	regialpha: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	dunspartan: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	porygene: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	venofree: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	shargarch: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	draplisc: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	rizinraza: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	mafimime: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	sinicabre: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	toxtricityalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	mienshantis: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	dodrioalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	machampalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	aggrite: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	malevite: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	rotomalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	rotomlantern: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	rotommixer: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	rotomwindvane: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	rotombouzouki: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	rotomclock: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	mastophan: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	luxrayalthonc: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	luxrayalthond: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	gigalithalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	revolaunt: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	gogoatalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	marionectre: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	magmortaralthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	electivirealthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	vespiquenalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	sorcereye: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	steelixalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	pangoroalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	spindojo: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	ampharosalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	liepardalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	spiritombalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	shiftryalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	scolipedealthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	jellicentalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	sandacondaalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	abomasnowalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	meganiumalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	typhlosionalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	feraligatralthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	jumpluffalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	aurorbyss: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	tyranpact: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	haxorusalthon: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	draghoulich: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	demogrievus: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	demorcus: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	lethalich: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	tremasque: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	mortarmurmega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	carniveelmega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	vespiquenmega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	hahootinationmega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	anaphyletricmega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	aggritemega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	malevitemega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	satellitymega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	skulletonemega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	toxtricitymega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	neightmaremega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	martialetimega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	magmellymega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	wyrmekesmega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	gogoatmega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	subterrandrmega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	grizzudomega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	whirlydismega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	constethulumega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	thefchanmega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
+	prayzenmega: {
+		tier: "DO",
+		doublesTier: "DDO",
+		natDexTier: "DO"
+	},
 };
