@@ -17,6 +17,17 @@ export const Conditions: {[k: string]: ConditionData} = {
 			this.damage(pokemon.baseMaxhp / 16);
 		},
 	},
+	fer: {
+		name: 'fer',
+		effectType: 'Status',
+		onStart(target, source, sourceEffect) {
+			if (sourceEffect && sourceEffect.effectType === 'Ability') {
+				this.add('-status', target, 'fer', '[from] ability: ' + sourceEffect.name, '[of] ' + source);
+		} else {
+				this.add('-status', target, 'fer');
+		}
+	},
+},
 	par: {
 		name: 'par',
 		effectType: 'Status',
@@ -497,6 +508,103 @@ export const Conditions: {[k: string]: ConditionData} = {
 			this.add('-weather', 'none');
 		},
 	},
+	overcast: {
+		name: 'Overcast',
+		effectType: 'Weather',
+		duration: 0,
+		onTryMovePriority: 1,
+		onWeatherModifyDamage(damage, attacker, defender, move) {
+				if (defender.hasItem('utilityumbrella')) return;
+				if (move.type === 'Normal') {
+						this.debug('overcast normal boost');
+						return this.chainModify(1.2);
+				}
+		},
+		onFieldStart(field, source, effect) {
+			this.add('-weather', 'Overcast', '[from] ability: ' + effect.name, '[of] ' + source);
+		},
+		onFieldResidualOrder: 1,
+		onFieldResidual() {
+				this.add('-weather', 'Overcast', '[upkeep]');
+				this.eachEvent('Weather');
+		},
+		onFieldEnd() {
+				this.add('-weather', 'none');
+		},
+	},
+	strongwinds: {
+		name: 'Strong Winds',
+		effectType: 'Weather',
+		duration: 5,
+		durationCallback(source, effect) {
+				if (source?.hasItem('galehorn')) {
+						return 8;
+				}
+				return 5;
+		},
+		onFieldStart(field, source, effect) {
+				if (effect?.effectType === 'Ability') {
+						if (this.gen <= 5) this.effectState.duration = 0;
+						this.add('-weather', 'Strong Winds', '[from] ability: ' + effect.name, '[of] ' + source);
+				} else {
+						this.add('-weather', 'Strong Winds');
+				}
+		},
+		onEffectiveness(typeMod, target, type, move) {
+				if (move && move.effectType === 'Move' && move.category !== 'Status' && type === 'Flying' && typeMod > 0) {
+						this.add('-activate', '', 'Strong Winds');
+						return 0;
+				}
+		},
+		onModifySpePriority: 10,
+		onModifySpe(spe, pokemon) {
+				if (pokemon.hasType('Flying') && this.field.isWeather('strongwinds')) {
+					return this.modify(spe, 1.5);
+				}
+		},
+		onFieldResidualOrder: 1,
+		onFieldResidual() {
+				this.add('-weather', 'Strong Winds', '[upkeep]');
+				this.eachEvent('Weather');
+		},
+		onFieldEnd() {
+				this.add('-weather', 'none');
+		},
+	},
+	deepfog: {
+		name: 'DeepFog',
+		effectType: 'Weather',
+		duration: 0,
+		onFieldStart(field, source, effect) {
+				if (effect?.effectType === 'Ability') {
+						if (this.gen <= 5) this.effectState.duration = 0;
+						this.add('-weather', 'DeepFog', '[from] ability: ' + effect.name, '[of] ' + source);
+				} else {
+						this.add('-weather', 'DeepFog');
+				}
+		},
+		onModifySpePriority: 10,
+		onModifySpe(spe, pokemon) {
+				if (!pokemon.hasType('Ghost') && this.field.isWeather('deepfog')) {
+						return this.modify(spe, 0.8);
+				}
+		},
+		onFieldResidualOrder: 1,
+		onFieldResidual() {
+				this.add('-weather', 'Deep Fog', '[upkeep]');
+				this.eachEvent('Weather');
+		},
+		onWeatherModifyDamage(damage, attacker, defender, move) {
+				if (defender.hasItem('utilityumbrella')) return;
+				if (move.type === 'Ghost') {
+						this.debug('Deep Fog boost');
+						return this.chainModify(1.5);
+				}
+		},
+		onFieldEnd() {
+				this.add('-weather', 'none');
+		},
+	},
 	primordialsea: {
 		name: 'PrimordialSea',
 		effectType: 'Weather',
@@ -707,6 +815,34 @@ export const Conditions: {[k: string]: ConditionData} = {
 		onFieldResidual() {
 			this.add('-weather', 'Snow', '[upkeep]');
 			if (this.field.isWeather('snow')) this.eachEvent('Weather');
+		},
+		onFieldEnd() {
+			this.add('-weather', 'none');
+		},
+	},
+	thunderstorm: {
+		name: 'Thunderstorm',
+		effectType: 'Weather',
+		duration: 5,
+		onFieldStart(field, source, effect) {
+				if (effect?.effectType === 'Ability') {
+						if (this.gen <= 5) this.effectState.duration = 0;
+						this.add('-weather', 'Thunderstorm', '[from] ability: ' + effect.name, '[of] ' + source);
+				} else {
+						this.add('-weather', 'Thunderstorm');
+				}
+		},
+		onWeatherModifyDamage(damage, attacker, defender, move) {
+				if (defender.hasItem('utilityumbrella')) return;
+				if (move.type === 'Electric') {
+						this.debug('Thunderstorm boost');
+						return this.chainModify(1.3);
+				}
+		},
+		onFieldResidualOrder: 1,
+		onFieldResidual() {
+				this.add('-weather', 'thunderstorm', '[upkeep]');
+				if (this.field.isWeather('thunderstorm')) this.eachEvent('Weather');
 		},
 		onFieldEnd() {
 			this.add('-weather', 'none');
