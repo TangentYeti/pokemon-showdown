@@ -168,6 +168,14 @@ export const DefaultText: {[k: string]: DefaultText} = {
 	},
 
 	// statuses
+	fer: {
+		start: "  [POKEMON] was scared!",
+		startFromItem: "  [POKEMON] was scared by the [ITEM]!",
+		alreadyStarted: "  [POKEMON] is already scared!",
+		end: "  [POKEMON]'s fear faded!",
+		endFromItem: "  [POKEMON]'s [ITEM] cured it's fear!",
+		damage: "  [POKEMON] was hurt by its fear!",
+	},
 	brn: {
 		start: "  [POKEMON] was burned!",
 		startFromItem: "  [POKEMON] was burned by the [ITEM]!",
@@ -277,6 +285,18 @@ export const DefaultText: {[k: string]: DefaultText} = {
 		end: "  The harsh sunlight faded.",
 		upkeep: "  (The sunlight is strong.)",
 	},
+	overcast: {
+		weatherName: "Overcast",
+		start: "  The sky became Overcast!",
+		end: "  The Sky has cleared",
+		upkeep: "  (The sky remains overcast)",
+	},
+	thunderstorm: {
+		weatherName: "Thunderstorm",
+		start: "  A Thunderstorm has started!",
+		end: "  The Thunderstorm has dissipated",
+		upkeep: "  (Thunder crackles.)",
+	},
 	raindance: {
 		weatherName: "Rain",
 		start: "  It started to rain!",
@@ -295,6 +315,12 @@ export const DefaultText: {[k: string]: DefaultText} = {
 		start: "  It started to snow!",
 		end: "  The snow stopped.",
 		upkeep: "  (The snow is falling down.)",
+	},
+	strongwinds: {
+		weatherName: "Strong Winds",
+		start: "  A Strong Wind picks up!",
+		end: "  The Strong wind peetered out.",
+		upkeep: "  (The Winds coninue.)",
 	},
 	desolateland: {
 		weatherName: "Intense Sun",

@@ -2425,4 +2425,120 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Vile Vial",
 		desc: "If held by a Venomicon, its Poison- and Flying-type attacks have 1.2x power.",
 	},
+	bananapeel: {
+		name: "Banana Peel",
+		desc: "If Held by Tikikong, it unlocks its true power",
+	},
+	hexcharm: {
+		name: "Hex Charm",
+		desc: "Boosts Special Defense by 30%",
+	},
+	guardcharm: {
+		name: "Guard Charm",
+		desc: "Boosts Defense by 30%",
+	},
+	shockorb: {
+		name: "Shock Orb",
+		desc: "At the end of every turn, this item attempts to paralyse the holder.",
+	},
+	miraclecharm: {
+		name: "Miracle Charm",
+		desc: "Prevents Critical hits.",
+	},
+	megaphone: {
+		name: "Megaphone",
+		desc: "Boosts Sound based moves.",
+	},
+	galehorn: {
+		name: "Gale Horn",
+		desc: "Increases the duration of the Strong Winds weather condition.",
+	},
+	spearhead: {
+		name: "Spear Head",
+		desc: "Boosts Impaling moves",
+	},
+	wyrmekite: {
+		name: "Wyrmekite",
+		desc: "If held by a Wyrmekes, this item allows it to Mega Evolve in battle.",
+	},
+	hahootinite: {
+		name: "Hahootinite",
+		desc: "If held by a Hahootination, this item allows it to Mega Evolve in battle.",
+	},
+	martialetite: {
+		name: "Martialeite",
+		desc: "If held by a Martialeti, this item allows it to Mega Evolve in battle.",
+	},
+	anaphyletite: {
+		name: "Anaphyletite",
+		desc: "If held by a Anaphyletric, this item allows it to Mega Evolve in battle.",
+	},
+	mortarmurite: {
+		name: "Mortarmurite",
+		desc: "If held by a Mortarmur, this item allows it to Mega Evolve in battle.",
+	},
+	carniveelite: {
+		name: "Carniveelite",
+		desc: "If held by a Carniveel, this item allows it to Mega Evolve in battle.",
+	},
+	prayzenite: {
+		name: "Prayzenite",
+		desc: "If held by a Prayzen, this item allows it to Mega Evolve in battle.",
+	},
+	constethulite: {
+		name: "Constethulite",
+		desc: "If held by a Constethulu, this item allows it to Mega Evolve in battle.",
+	},
+	whirlydite: {
+		name: "Whirlydite",
+		desc: "If held by a Whirlydis, this item allows it to Mega Evolve in battle.",
+	},
+	grizzudite: {
+		name: "Grizzudite",
+		desc: "If held by a Grizzudo, this item allows it to Mega Evolve in battle.",
+	},
+	neightmarite: {
+		name: "Neightmarite",
+		desc: "If held by a Neightmare, this item allows it to Mega Evolve in battle.",
+	},
+	magmellite: {
+		name: "Magmellite",
+		desc: "If held by a Magmelly, this item allows it to Mega Evolve in battle.",
+	},
+	skulletonnite: {
+		name: "Skulletonnite",
+		desc: "If held by a Skulletonne, this item allows it to Mega Evolve in battle.",
+	},
+	thefchanite: {
+		name: "Thefchanite",
+		desc: "If held by a Thefchan, this item allows it to Mega Evolve in battle.",
+	},
+	subterrandite: {
+		name: "Subterrandite",
+		desc: "If held by a Subterrandr, this item allows it to Mega Evolve in battle.",
+	},
+	satellitite: {
+		name: "Satellitite",
+		desc: "If held by a Satellity, this item allows it to Mega Evolve in battle.",
+	},
+	toxtricitite: {
+		name: "Toxtricitite",
+		desc: "If held by a Toxtricity, this item allows it to Mega Evolve in battle.",
+	},
+	aggritite: {
+		name: "Aggritite",
+		desc: "If held by a Aggrite, this item allows it to Mega Evolve in battle.",
+	},
+	malevitite: {
+		name: "Malevitite",
+		desc: "If held by a Malevite, this item allows it to Mega Evolve in battle.",
+	},
+	gogoatite: {
+		name: "Gogoatite",
+		desc: "If held by a Gogoat-Althon, this item allows it to Mega Evolve in battle.",
+	},
+	vespiquenite: {
+		name: "Vespiquenite",
+		desc: "If held by a Vespiquen-Althon, this item allows it to Mega Evolve in battle.",
+	},
 };

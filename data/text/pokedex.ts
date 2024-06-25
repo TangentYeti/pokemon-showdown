@@ -3767,4 +3767,1162 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	pokestarufopropu2: {
 		name: "Pokestar UFO-PropU2",
 	},
+	pegane: {
+        name: "Pegane"
+    },
+    venagus: {
+        name: "Venagus"
+    },
+    plagasus: {
+        name: "Plagasus"
+    },
+    snogon: {
+        name: "Snogon"
+    },
+    goraze: {
+        name: "Goraze"
+    },
+    gordusa: {
+        name: "Gordusa"
+    },
+    taurull: {
+        name: "Taurull"
+    },
+    minomech: {
+        name: "Minomech"
+    },
+    matretaur: {
+        name: "Matretaur"
+    },
+    hagu: {
+        name: "Hagu"
+    },
+    hagulae: {
+        name: "Hagulae"
+    },
+    hagufate: {
+        name: "Hagufate"
+    },
+    mekes: {
+        name: "Mekes"
+    },
+    chrysekes: {
+        name: "Chrysekes"
+    },
+    wyrmekes: {
+        name: "Wyrmekes"
+    },
+    siriver: {
+        name: "Siriver"
+    },
+    searen: {
+        name: "Searen"
+    },
+    tsunaren: {
+        name: "Tsunaren"
+    },
+    catoffalo: {
+        name: "Catoffalo"
+    },
+    drollepas: {
+        name: "Drollepas"
+    },
+    greffin: {
+        name: "Greffin"
+    },
+    gryfaun: {
+        name: "Gryfaun"
+    },
+    gryfantle: {
+        name: "Gryfantle"
+    },
+    araqmite: {
+        name: "Araqmite"
+    },
+    stalantula: {
+        name: "Stalantula"
+    },
+    allowatt: {
+        name: "Allowatt"
+    },
+    allopere: {
+        name: "Allopere"
+    },
+    crustark: {
+        name: "Crustark"
+    },
+    skarmish: {
+        name: "Skarmish"
+    },
+    ganikinos: {
+        name: "Ganikinos"
+    },
+    hootiny: {
+        name: "Hootiny"
+    },
+    nocteena: {
+        name: "Nocteena"
+    },
+    hahootination: {
+        name: "Hahootination"
+    },
+    pygmini: {
+        name: "Pygmini"
+    },
+    kelampus: {
+        name: "Kelampus"
+    },
+    teuvenger: {
+        name: "Teuvenger"
+    },
+    tadpoke: {
+        name: "Tadpoke"
+    },
+    toakwando: {
+        name: "Toakwando"
+    },
+    tungfu: {
+        name: "Tungfu"
+    },
+    reptiah: {
+        name: "Reptiah"
+    },
+    prophegator: {
+        name: "Prophegator"
+    },
+    sarcobral: {
+        name: "Sarcobral"
+    },
+    cerekapro: {
+        name: "Cerekapro"
+    },
+    appreti: {
+        name: "Appreti"
+    },
+    martialeti: {
+        name: "Martialeti"
+    },
+    deproth: {
+        name: "Deproth"
+    },
+    babression: {
+        name: "Babression"
+    },
+    depandrill: {
+        name: "Depandrill"
+    },
+    kinertz: {
+        name: "Kinertz"
+    },
+    potoltage: {
+        name: "Potoltage"
+    },
+    vitalysis: {
+        name: "Vitalysis"
+    },
+    anaphyletric: {
+        name: "Anaphyletric"
+    },
+	anaphyletricmega: {
+        name: "Anaphyletric-Mega"
+    },
+    egynx: {
+        name: "Egynx"
+    },
+    riddypt: {
+        name: "Riddypt"
+    },
+    purrforynx: {
+        name: "Purrforynx"
+    },
+    miserpy: {
+        name: "Miserpy"
+    },
+    inflocktion: {
+        name: "Inflocktion"
+    },
+    flierarchy: {
+        name: "Flierarchy"
+    },
+    yintrum: {
+        name: "Yintrum"
+    },
+    yanquil: {
+        name: "Yanquil"
+    },
+    zenriest: {
+        name: "Zenriest"
+    },
+    uki: {
+        name: "Uki"
+    },
+    ukitter: {
+        name: "Ukitter"
+    },
+    ukerial: {
+        name: "Ukerial"
+    },
+    scorath: {
+        name: "Scorath"
+    },
+    armopoda: {
+        name: "Armopoda"
+    },
+    armorpion: {
+        name: "Armorpion"
+    },
+    boonique: {
+        name: "Boonique"
+    },
+    boosh: {
+        name: "Boosh"
+    },
+    spirihit: {
+        name: "Spirihit"
+    },
+    bespook: {
+        name: "Bespook"
+    },
+    paranorpol: {
+        name: "Paranorpol"
+    },
+    feymur: {
+        name: "Feymur"
+    },
+    fleymur: {
+        name: "Fleymur"
+    },
+    mortarmur: {
+        name: "Mortarmur"
+    },
+	mortarmurmega: {
+        name: "Mortarmur-Mega"
+    },
+    voltoof: {
+        name: "Voltoof"
+    },
+    timberam: {
+        name: "Timberam"
+    },
+    swaxic: {
+        name: "Swaxic"
+    },
+    murmarsh: {
+        name: "Murmarsh"
+    },
+    hammark: {
+        name: "Hammark"
+    },
+    steahamark: {
+        name: "Steahamark"
+    },
+    phaestamark: {
+        name: "Phaestamark"
+    },
+    carniveel: {
+        name: "Carniveel"
+    },
+	carniveelmega: {
+        name: "Carniveel-Mega"
+    },
+    drecko: {
+        name: "Drecko"
+    },
+    dracorok: {
+        name: "Dracorok"
+    },
+    mounteleon: {
+        name: "Mounteleon"
+    },
+    in: {
+        name: "I. N."
+    },
+    centriot: {
+        name: "Centriot"
+    },
+    zentis: {
+        name: "Zentis"
+    },
+    medizen: {
+        name: "Medizen"
+    },
+    prayzen: {
+        name: "Prayzen"
+    },
+	prayzenmega: {
+        name: "Prayzen-Mega"
+    },
+    corean: {
+        name: "Corean"
+    },
+    archorean: {
+        name: "Archorean"
+    },
+    felynx: {
+        name: "Felynx"
+    },
+    lymbynx: {
+        name: "Lymbynx"
+    },
+    desquire: {
+        name: "Desquire"
+    },
+    defaith: {
+        name: "Defaith"
+    },
+    defonour: {
+        name: "Defonour"
+    },
+    destrayal: {
+        name: "Destrayal"
+    },
+    manrawin: {
+        name: "Manrawin"
+    },
+    wolviate: {
+        name: "Wolviate"
+    },
+    lycanobyl: {
+        name: "Lycanobyl"
+    },
+    chucubra: {
+        name: "Chucubra"
+    },
+    chupaprace: {
+        name: "Chupaprace"
+    },
+    terracabra: {
+        name: "Terracabra"
+    },
+    cycliner: {
+        name: "Cycliner"
+    },
+    spelyclops: {
+        name: "Spelyclops"
+    },
+    kyvolt: {
+        name: "Kyvolt"
+    },
+    kybohm: {
+        name: "Kybohm"
+    },
+    froose: {
+        name: "Froose"
+    },
+    moosicle: {
+        name: "Moosicle"
+    },
+    junra: {
+        name: "Junra"
+    },
+    gojukuda: {
+        name: "Gojukuda"
+    },
+    scraplet: {
+        name: "Scraplet"
+    },
+    boarpath: {
+        name: "Boarpath"
+    },
+    icito: {
+        name: "Icito"
+    },
+    frosquito: {
+        name: "Frosquito"
+    },
+    succubush: {
+        name: "Succubush"
+    },
+    axolittle: {
+        name: "Axolittle"
+    },
+    ambycoal: {
+        name: "Ambycoal"
+    },
+    novalotl: {
+        name: "Novalotl"
+    },
+    cephaqua: {
+        name: "Cephaqua"
+    },
+    constethulu: {
+        name: "Constethulu"
+    },
+	constethulumega: {
+        name: "Constethulu-Mega"
+    },
+    draby: {
+        name: "Draby"
+    },
+    dranova: {
+        name: "Dranova"
+    },
+    drabloom: {
+        name: "Drabloom"
+    },
+    drarate: {
+        name: "Drarate"
+    },
+    draquake: {
+        name: "Draquake"
+    },
+    dranyon: {
+        name: "Dranyon"
+    },
+    drachaun: {
+        name: "Drachaun"
+    },
+    octern: {
+        name: "Octern"
+    },
+    doctopus: {
+        name: "Doctopus"
+    },
+    octopsy: {
+        name: "Octopsy"
+    },
+    blat: {
+        name: "Blat"
+    },
+    vampyre: {
+        name: "Vampyre"
+    },
+    counsol: {
+        name: "Counsol"
+    },
+    carcasnix: {
+        name: "Carcasnix"
+    },
+    miaskma: {
+        name: "Miaskma"
+    },
+    damaskma: {
+        name: "Damaskma"
+    },
+    plagasma: {
+        name: "Plagasma"
+    },
+    dirm: {
+        name: "Dirm"
+    },
+    chasorm: {
+        name: "Chasorm"
+    },
+    sektylo: {
+        name: "Sektylo"
+    },
+    mangisekto: {
+        name: "Mangisekto"
+    },
+    ninguin: {
+        name: "Ninguin"
+    },
+    shuriguin: {
+        name: "Shuriguin"
+    },
+    hummzinger: {
+        name: "Hummzinger"
+    },
+    baaly: {
+        name: "Baaly"
+    },
+    rambonkin: {
+        name: "Rambonkin"
+    },
+    mernox: {
+        name: "Mernox"
+    },
+    mervenom: {
+        name: "Mervenom"
+    },
+    narwimp: {
+        name: "Narwimp"
+    },
+    narfarious: {
+        name: "Narfarious"
+    },
+    tikape: {
+        name: "Tikape"
+    },
+    goriki: {
+        name: "Goriki"
+    },
+    tikikong: {
+        name: "Tikikong"
+    },
+    charsoon: {
+        name: "Charsoon"
+    },
+    whirlydis: {
+        name: "Whirlydis"
+    },
+	whirlydismega: {
+        name: "Whirlydis-Mega"
+    },
+    psypent: {
+        name: "Psypent"
+    },
+    mystdra: {
+        name: "Mystdra"
+    },
+    hydoracle: {
+        name: "Hydoracle"
+    },
+    dellin: {
+        name: "Dellin"
+    },
+    halestial: {
+        name: "Halestial"
+    },
+    valhangel: {
+        name: "Valhangel"
+    },
+    devastly: {
+        name: "Devastly"
+    },
+    lucangel: {
+        name: "Lucangel"
+    },
+    ignix: {
+        name: "Ignix"
+    },
+    pyrectix: {
+        name: "Pyrectix"
+    },
+    drakyk: {
+        name: "Drakyk"
+    },
+    kraloch: {
+        name: "Kraloch"
+    },
+    salyrant: {
+        name: "Salyrant"
+    },
+    tremold: {
+        name: "Tremold"
+    },
+    komouldo: {
+        name: "Komouldo"
+    },
+    cubunch: {
+        name: "Cubunch"
+    },
+    dojursa: {
+        name: "Dojursa"
+    },
+    grizzudo: {
+        name: "Grizzudo"
+    },
+	grizzudomega: {
+        name: "Mega Grizzudo"
+    },
+    volchic: {
+        name: "Volchic"
+    },
+    roosolar: {
+        name: "Roosolar"
+    },
+    vipierce: {
+        name: "Vipierce"
+    },
+    ceramstes: {
+        name: "Ceramstes"
+    },
+    cerone: {
+        name: "Cerone"
+    },
+    mareberus: {
+        name: "Mareberus"
+    },
+    foalmise: {
+        name: "Foalmise"
+    },
+    neightmare: {
+        name: "Neightmare-Mega"
+    },
+	neightmaremega: {
+        name: "Neightmare"
+    },
+    lilpine: {
+        name: "Lilpine"
+    },
+    marpine: {
+        name: "Marpine"
+    },
+    biappa: {
+        name: "Biappa"
+    },
+    appasky: {
+        name: "Appasky"
+    },
+    parafullo: {
+        name: "Parafullo"
+    },
+    jelava: {
+        name: "Jelava"
+    },
+    magmelly: {
+        name: "Magmelly"
+    },
+	magmellymega: {
+        name: "Magmelly-Mega"
+    },
+    amphawkes: {
+        name: "Amphawkes"
+    },
+    salasander: {
+        name: "Salasander"
+    },
+    dampling: {
+        name: "Dampling"
+    },
+    hurricrane: {
+        name: "Hurricrane"
+    },
+    lampire: {
+        name: "Lampire"
+    },
+    laveba: {
+        name: "Laveba"
+    },
+    laphorlamp: {
+        name: "Laphorlamp"
+    },
+    piscurtle: {
+        name: "Piscurtle"
+    },
+    agurtle: {
+        name: "Agurtle"
+    },
+    weatherback: {
+        name: "Weatherback"
+    },
+    deserolin: {
+        name: "Deserolin"
+    },
+    drakolin: {
+        name: "Drakolin"
+    },
+    drakolarmor: {
+        name: "Drakolarmor"
+    },
+    puppyre: {
+        name: "Puppyre"
+    },
+    inferthrope: {
+        name: "Inferthrope"
+    },
+    skelegram: {
+        name: "Skelegram"
+    },
+    skeleavy: {
+        name: "Skeleavy"
+    },
+    skulletonne: {
+        name: "Skulletonne"
+    },
+	skulletonnemega: {
+        name: "Skulletonne-Mega"
+    },
+    termuny: {
+        name: "Termuny"
+    },
+    terrormite: {
+        name: "Terrormite"
+    },
+    corake: {
+        name: "Corake"
+    },
+    venamba: {
+        name: "Venamba"
+    },
+    anaconxious: {
+        name: "Anaconxious"
+    },
+    slugnant: {
+        name: "Slugnant"
+    },
+    slumucus: {
+        name: "Slumucus"
+    },
+    golost: {
+        name: "Golost"
+    },
+    titectre: {
+        name: "Titectre"
+    },
+    stalagtergeist: {
+        name: "Stalagtergeist"
+    },
+    falust: {
+        name: "Falust"
+    },
+    falreeze: {
+        name: "Falreeze"
+    },
+    falnado: {
+        name: "Falnado"
+    },
+    gastroble: {
+        name: "Gastroble"
+    },
+    mollucone: {
+        name: "Mollucone"
+    },
+    larvaby: {
+        name: "Larvaby"
+    },
+    chryield: {
+        name: "Chryield"
+    },
+    crickmire: {
+        name: "Crickmire"
+    },
+    crickoat: {
+        name: "Crickoat"
+    },
+    disaspider: {
+        name: "Disaspider"
+    },
+    orbider: {
+        name: "Orbider"
+    },
+    chryalat: {
+        name: "Chryalat"
+    },
+    vesplume: {
+        name: "Vesplume"
+    },
+    vesplatinum: {
+        name: "Vesplatinum"
+    },
+    grapeetle: {
+        name: "Grapeetle"
+    },
+    foleetle: {
+        name: "Foleetle"
+    },
+    calimare: {
+        name: "Calimare"
+    },
+    cepharbon: {
+        name: "Cepharbon"
+    },
+    abyssquid: {
+        name: "Abyssquid"
+    },
+    zhouptor: {
+        name: "Zhouptor"
+    },
+    junzhou: {
+        name: "Junzhou"
+    },
+    furianzhou: {
+        name: "Furianzhou"
+    },
+    emtap: {
+        name: "Emtap"
+    },
+    flajara: {
+        name: "Flajara"
+    },
+    tapinfera: {
+        name: "Tapinfera"
+    },
+    anklace: {
+        name: "Anklace"
+    },
+    ankevlar: {
+        name: "Ankevlar"
+    },
+    ankorient: {
+        name: "Ankorient"
+    },
+    recryes: {
+        name: "Recryes"
+    },
+    odivalk: {
+        name: "Odivalk"
+    },
+    valkischief: {
+        name: "Valkischief"
+    },
+    dunush: {
+        name: "Dunush"
+    },
+    vicisteus: {
+        name: "Vicisteus"
+    },
+    reckleosteus: {
+        name: "Reckleosteus"
+    },
+    porcupulse: {
+        name: "Porcupulse"
+    },
+    cublaze: {
+        name: "Cublaze"
+    },
+    solursa: {
+        name: "Solursa"
+    },
+    albafrost: {
+        name: "Albafrost"
+    },
+    permatross: {
+        name: "Permatross"
+    },
+    sickwea: {
+        name: "Sickwea"
+    },
+    ferrickle: {
+        name: "Ferrickle"
+    },
+    scythatchi: {
+        name: "Scythatchi"
+    },
+    tsunanus: {
+        name: "Tsunanus"
+    },
+    erothys: {
+        name: "Erothys"
+    },
+    mortilance: {
+        name: "Mortilance"
+    },
+    luminilver: {
+        name: "Luminilver"
+    },
+    coeisdom: {
+        name: "Coeisdom"
+    },
+    phanacy: {
+        name: "Phanacy"
+    },
+    zodelandar: {
+        name: "Zodelandar"
+    },
+    forgeitymn: {
+        name: "Forgeitymn"
+    },
+    juriatal: {
+        name: "Juriatal"
+    },
+    trustice: {
+        name: "Trustice"
+    },
+    infonus: {
+        name: "Infonus"
+    },
+    fertiferus: {
+        name: "Fertiferus"
+    },
+    jigsabytem: {
+        name: "Jigsabyte-M"
+    },
+    jigsabytes: {
+        name: "Jigsabyte-S"
+    },
+    jigsabytep: {
+        name: "Jigsabyte-P"
+    },
+    jigsabytea: {
+        name: "Jigsabyte-A"
+    },
+    jigsabyted: {
+        name: "Jigsabyte-D"
+    },
+    jigsabytei: {
+        name: "Jigsabyte-I"
+    },
+    jigsabytev: {
+        name: "Jigsabyte-V"
+    },
+    pisbug: {
+        name: "Pisbug"
+    },
+    petarcass: {
+        name: "Petarcass"
+    },
+    nineque: {
+        name: "Nineque"
+    },
+    thefchan: {
+        name: "Thefchan"
+    },
+	thefchanmega: {
+        name: "Thefchan-Mega"
+    },
+    brojito: {
+        name: "Brojito"
+    },
+    mosjito: {
+        name: "Mosjito"
+    },
+    dustandr: {
+        name: "Dustandr"
+    },
+    jormrust: {
+        name: "Jormrust"
+    },
+    subterrandr: {
+        name: "Subterrandr"
+    },
+	subterrandrmega: {
+        name: "Subterrandr-Mega"
+    },
+    orplink: {
+        name: "Orplink"
+    },
+    satellity: {
+        name: "Satellity"
+    },
+	satellitymega: {
+        name: "Satellity-Mega"
+    },
+    saigeta: {
+        name: "Saigeta"
+    },
+    kakarraiyan: {
+        name: "Kakarraiyan"
+    },
+    plaguerca: {
+        name: "Plaguerca"
+    },
+    dolpder: {
+        name: "Dolpder"
+    },
+    genorcade: {
+        name: "Genorcade"
+    },
+    cherubble: {
+        name: "Cherubble"
+    },
+    chemerufe: {
+        name: "Chemerufe"
+    },
+    volcarufe: {
+        name: "Volcarufe"
+    },
+    bzzug: {
+        name: "Bzzug"
+    },
+    bzzuzzg: {
+        name: "Bzzuzzg"
+    },
+    bzzuzzuzzg: {
+        name: "Bzzuzzuzzg"
+    },
+    frusk: {
+        name: "Frusk"
+    },
+    goroadsion: {
+        name: "Goroadsion"
+    },
+    tectonitoad: {
+        name: "Tectonitoad"
+    },
+    arcangran: {
+        name: "Arcangran"
+    },
+    quendrill: {
+        name: "Quendrill"
+    },
+    araquavik: {
+        name: "Araquavik"
+    },
+    regialpha: {
+        name: "Regialpha"
+    },
+    porygene: {
+        name: "Porygene"
+    },
+    venofree: {
+        name: "Venofree"
+    },
+    shargarch: {
+        name: "Shargarch"
+    },
+    draplisc: {
+        name: "Draplisc"
+    },
+    therrazor: {
+        name: "Therrazor"
+    },
+    rizinraza: {
+        name: "Rizinraza"
+    },
+    mafimime: {
+        name: "Mafimime"
+    },
+    venoom: {
+        name: "Venoom"
+    },
+    sinicabre: {
+        name: "Sinicabre"
+    },
+	draghoulich: {
+		name: "Draghoulich"
+	},
+	demogrievus: {
+        name: "Demogrievus"
+    },
+	demorcus: {
+        name: "Demorcus"
+    },
+	lethalich: {
+        name: "Lethalich"
+    },
+	tremasque: {
+        name: "Tremasque"
+    },
+	toxelalthon: {
+        name: "Toxel"
+    },
+    toxtricityalthon: {
+        name: "Toxtricity-Althon"
+    },
+	toxtricitymega: {
+        name: "Toxtricity-Mega"
+    },
+    mienfood: {
+        name: "Mienfood"
+    },
+    mienshantis: {
+        name: "Mienshantis"
+    },
+    dodrioalthon: {
+        name: "Dodrio-Althon"
+    },
+    machampalthon: {
+        name: "Machamp-Althon"
+    },
+    arite: {
+        name: "Arite"
+    },
+    lairite: {
+        name: "Lairite"
+    },
+    aggrite: {
+        name: "Aggrite"
+    },
+	aggritemega: {
+        name: "Aggrite-Mega"
+    },
+    malevitemega: {
+        name: "Malevite-Mega"
+    },
+    rotomalthon: {
+        name: "Rotom-Althon"
+    },
+	rotomlantern: {
+        name: "Rotom-Lanturn"
+    },
+	rotommixer: {
+        name: "Rotom-Mixer"
+    },
+	rotomwindvane: {
+        name: "Rotom-Windvane"
+    },
+	rotombouzouki: {
+        name: "Rotom-Bouzouki"
+    },
+	rotomclock: {
+        name: "Rotom-Clock"
+    },
+    dunspartan: {
+        name: "Dunspartan"
+    },
+    mastophan: {
+        name: "Mastophan"
+    },
+    luxrayalthonc: {
+        name: "Luxray-Althon-C"
+    },
+	luxrayalthond: {
+        name: "Luxray-Althon-D"
+    },
+    gigalithalthon: {
+        name: "Gigalith-Althon"
+    },
+    revolaunt: {
+        name: "Revolaunt"
+    },
+    gogoatalthon: {
+        name: "Gogoat-Althon"
+    },
+	gogoatmega: {
+        name: "Gogoat-Mega"
+    },
+    marionectre: {
+        name: "Marionectre"
+    },
+    magmortaralthon: {
+        name: "Magmortar-Althon"
+    },
+    electivirealthon: {
+        name: "Electivire-Althon"
+    },
+    vespiquenalthon: {
+        name: "Vespiquen-Althon"
+    },
+	vespiquenmega: {
+        name: "Vespiquen-Mega"
+    },
+    sorcereye: {
+        name: "Sorcereye"
+    },
+    steelixalthon: {
+        name: "Steelix-Althon"
+    },
+    pangoroalthon: {
+        name: "Pangoro-Althon"
+    },
+    spindojo: {
+        name: "Spindojo"
+    },
+    ampharosalthon: {
+        name: "Ampharos-Althon"
+    },
+    liepardalthon: {
+        name: "Liepard-Althon"
+    },
+    spiritombalthon: {
+        name: "Spiritomb-Althon"
+    },
+    shiftryalthon: {
+        name: "Shiftry-Althon"
+    },
+    scolipedealthon: {
+        name: "Scolipede-Althon"
+    },
+    jellicentalthon: {
+        name: "Jellicent-Althon"
+    },
+    sandacondaalthon: {
+        name: "Sandaconda-Althon"
+    },
+    abomasnowalthon: {
+        name: "Abomasnow-Althon"
+    },
+    meganiumalthon: {
+        name: "Meganium-Althon"
+    },
+    typhlosionalthon: {
+        name: "Typhlosion-Althon"
+    },
+    feraligatralthon: {
+        name: "Feraligatr-Althon"
+    },
+    jumpluffalthon: {
+        name: "Jumpluff-Althon"
+    },
+	aurorbyss: {
+        name: "Aurorbyss"
+    },
+	tyranpact: {
+        name: "Tyranpact"
+    },
+    haxorusalthon: {
+        name: "Haxorus-Althon"
+    }
 };
