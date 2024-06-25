@@ -22064,4 +22064,1263 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Cool",
 	},
+	haunting: {
+		num: 950,
+		accuracy: 100,
+		basePower: 40,
+		category: "Special",
+		name: "Haunting",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 10,
+			status: 'fer',
+		},
+		target: "normal",
+		type: "Ghost",
+		contestType: "Cute",
+	},
+	bananabeat: {
+		num: 951,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Banana Beat",
+		pp: 10,
+		priority: 0,
+		flags: {snatch: 1},
+		onHit(target) {
+			if (target.hp <= target.maxhp / (3/2) || target.boosts.atk >= 4 || target.maxhp === 1) { // Shedinja clause
+				return false;
+			}
+			this.directDamage(target.maxhp / (2/3));
+			this.boost({atk: 4}, target);
+		},
+		secondary: null,
+		target: "self",
+		type: "Grass",
+		zMove: {effect: 'heal'},
+		contestType: "Cute",
+	},
+	sonicdescent: {
+		num: 952,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Sonic Descent",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		overrideOffensiveStat: 'spe',
+		secondary: null,
+		target: "normal",
+		type: "Flying",
+	},
+	crushingembrace: {
+		num: 953,
+		accuracy: 100,
+		basePower: 60,
+		category: "Physical",
+		name: "Crushing Embrace",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		volatileStatus: 'partiallytrapped',
+		secondary: null,
+		target: "normal",
+		type: "Poison",
+		contestType: "Tough",
+	},
+	swampkick: {
+		num: 954,
+		accuracy: 100,
+		basePower: 75,
+		category: "Physical",
+		name: "Swamp Kick",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, contact: 1},
+		secondary: {
+			chance: 20,
+			boosts: {
+				spe: -1,
+			},
+		},
+		target: "normal",
+		type: "Water",
+		contestType: "Beautiful",
+	},
+	witchbolt: {
+		num: 955,
+		accuracy: 95,
+		basePower: 80,
+		category: "Special",
+		name: "Witch Bolt",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			status: 'par',
+		},
+		target: "allAdjacentFoes",
+		type: "Fairy",
+		contestType: "Beautiful",
+	},
+	coralcrash: {
+		num: 956,
+		accuracy: 100,
+		basePower: 120,
+		category: "Physical",
+		name: "Coral Crash",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		recoil: [25, 100],
+		secondary: null,
+		target: "normal",
+		type: "Water",
+		contestType: "Tough",
+	},
+	bananabeatdown: {
+		num: 957,
+		accuracy: 100,
+		basePower: 110,
+		category: "Physical",
+		name: "Banana Beatdown",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		recoil: [25, 100],
+		secondary: null,
+		target: "normal",
+		type: "Grass",
+		contestType: "Tough",
+	},
+	skyquake: {
+		num: 958,
+		accuracy: 100,
+		basePower: 100,
+		category: "Physical",
+		name: "Skyquake",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, nonsky: 1},
+		secondary: null,
+		target: "allAdjacent",
+		type: "Flying",
+		contestType: "Tough",
+	},
+	preemptivestrike: {
+		num: 486,
+		accuracy: 100,
+		basePower: 0,
+		basePowerCallback(pokemon, target) {
+			let ratio = Math.floor(pokemon.getStat('spe') / target.getStat('spe'));
+			if (!isFinite(ratio)) ratio = 0;
+			const bp = [40, 60, 80, 120, 150][Math.min(ratio, 4)];
+			this.debug(`${bp} bp`);
+			return bp;
+		},
+		category: "Physical",
+		name: "Pre-emptive Strike",
+		pp: 10,
+		priority: 0,
+		flags: {bullet: 1, protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+		zMove: {basePower: 160},
+		maxMove: {basePower: 130},
+		contestType: "Cool",
+	},
+	dryice: {
+		num: 959,
+		accuracy: 95,
+		basePower: 65,
+		category: "Special",
+		name: "Dry Ice",
+		pp: 25,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+			onHit(target, source) {
+				const result = this.random(20);
+				if (result <= 14) {
+					target.trySetStatus('brn', source);
+				} else {
+					target.trySetStatus('frz', source);
+				}
+			},
+		},
+		target: "normal",
+		type: "Ice",
+		contestType: "Cute",
+	},
+	bulletsiege: {
+		num: 960,
+		accuracy: true,
+		basePower: 70,
+		category: "Special",
+		name: "Bullet Siege",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, bullet: 1},
+		secondary: null,
+		target: "normal",
+		type: "Steel",
+		contestType: "Clever",
+	},
+	thunderblade: {
+		num: 961,
+		accuracy: 90,
+		basePower: 120,
+		category: "Physical",
+		name: "Thunder Blade",
+		pp: 10,
+		priority: 0,
+		flags: {charge: 1, protect: 1, mirror: 1},
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			if (['thunderstorm'].includes(attacker.effectiveWeather())) {
+				this.attrLastMove('[still]');
+				this.addMove('-anim', attacker, move.name, defender);
+				return;
+			}
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		secondary: {
+			chance: 5,
+			status: 'par',
+		},
+		target: "normal",
+		type: "Electric",
+	},
+	toxinspear: {
+		num: 962,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Toxin Spear",
+		pp: 15,
+		priority: 0,
+		flags: {impale: 1, contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+			status: 'tox',
+		},
+		target: "normal",
+		type: "Poison",
+		contestType: "Clever",
+	},
+	venomslash: {
+		num: 963,
+		accuracy: 100,
+		basePower: 60,
+		category: "Physical",
+		name: "Venom Slash",
+		pp: 15,
+		priority: 0,
+		flags: {impale: 1, contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 40,
+			status: 'tox',
+		},
+		target: "normal",
+		type: "Poison",
+		contestType: "Clever",
+	},
+	supernova: {
+		num: 964,
+		accuracy: 95,
+		basePower: 105,
+		category: "Special",
+		name: "Supernova",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 10,
+			status: 'brn',
+		},
+		target: "normal",
+		type: "Fire",
+		contestType: "Beautiful",
+	},
+	spiritbomb: {
+		num: 965,
+		accuracy: 85,
+		basePower: 110,
+		category: "Special",
+		name: "Spirit Bomb",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			status: 'fer',
+		},
+		target: "normal",
+		type: "Ghost",
+		contestType: "Beautiful",
+	},
+	wrathofmedusa: {
+		num: 966,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Wrath of Medusa",
+		pp: 15,
+		priority: 0,
+		flags: {bite: 1, contact: 1, protect: 1, mirror: 1},
+		secondaries: [
+			{
+				chance: 10,
+				status: 'frz',
+			}, {
+				chance: 15,
+				status: 'par',
+			},
+		],
+		target: "normal",
+		type: "Ice",
+		contestType: "Cool",
+	},
+	scorchingtail: {
+		num: 967,
+		accuracy: 95,
+		basePower: 85,
+		category: "Physical",
+		name: "Scorching Tail",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 40,
+			boosts: {
+				atk: -1,
+			},
+		},
+		target: "normal",
+		type: "Fire",
+		contestType: "Cute",
+	},
+	cerebralsaw: {
+		num: 968,
+		accuracy: 95,
+		basePower: 85,
+		category: "Physical",
+		name: "Cerebral Saw",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+			boosts: {
+				def: -1,
+			},
+		},
+		target: "normal",
+		type: "Psychic",
+		contestType: "Cute",
+	},
+	chipulse: {
+		num: 969,
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		name: "Chi Pulse",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+			boosts: {
+				spd: -1,
+			},
+		},
+		target: "normal",
+		type: "Fighting",
+		contestType: "Cute",
+	},
+	ancientfury: {
+		num: 970,
+		accuracy: 100,
+		basePower: 85,
+		category: "Physical",
+		name: "Ancient Fury",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			boosts: {
+				def: -1,
+			},
+		},
+		target: "normal",
+		type: "Dragon",
+		contestType: "Cute",
+	},
+	corruption: {
+		num: 971,
+		accuracy: 100,
+		basePower: 65,
+		category: "Special",
+		name: "Corruption",
+		pp: 25,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+			status: 'fer',
+		},
+		target: "normal",
+		type: "Dark",
+		contestType: "Beautiful",
+	},
+	causticbreath: {
+		num: 972,
+		accuracy: 100,
+		basePower: 85,
+		category: "Special",
+		name: "Caustic Breath",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+			status: 'brn',
+		},
+		target: "normal",
+		type: "Poison",
+		contestType: "Beautiful",
+	},
+	kicrush: {
+		num: 973,
+		accuracy: 100,
+		basePower: 75,
+		category: "Physical",
+		name: "Ki Crush",
+		pp: 20,
+		priority: 0,
+		ignoreImmunity: {'Fighting': true},
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Ghost') return 1;
+		},
+		flags: {protect: 1, mirror: 1},
+		target: "normal",
+		type: "Fighting",
+		contestType: "Beautiful",
+	},
+	gammaburst: {
+		num: 974,
+		accuracy: 100,
+		basePower: 95,
+		category: "Special",
+		name: "Gamma Burst",
+		pp: 15,
+		priority: 0,
+		ignoreImmunity: {'Poison': true},
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Steel') return 1;
+		},
+		flags: {protect: 1, mirror: 1},
+		target: "normal",
+		type: "Poison",
+		contestType: "Beautiful",
+	},
+	anchorslam: {
+		num: 976,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Anchor Slam",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 25,
+			self: {
+				boosts: {
+					spe: -1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Steel",
+		contestType: "Tough",
+	},
+	cretacialmaul: {
+		num: 977,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Cretacial Maul",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+			volatileStatus: 'flinch',
+		},
+		target: "normal",
+		type: "Grass",
+		contestType: "Tough",
+	},
+	absolutezero: {
+		num: 978,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Absolute Zero",
+		pp: 10,
+		priority: 0,
+		flags: {},
+		pseudoWeather: 'absolutezero',
+		condition: {
+			duration: 5,
+			onFieldStart(target, source, sourceEffect) {
+				this.add('-fieldactivate', 'move: Absolute Zero');
+				this.hint(`Water-type moves become Ice-type after using ${sourceEffect}.`);
+			},
+			onModifyTypePriority: -2,
+			onModifyType(move) {
+				if (move.type === 'Water') {
+					move.type = 'Ice';
+					this.debug(move.name + "'s type changed to Ice");
+				}
+			},
+		},
+		secondary: null,
+		target: "all",
+		type: "Ice",
+		zMove: {boost: {spa: 1}},
+		contestType: "Beautiful",
+	},
+	crystaltide: {
+		num: 979,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Crystal Tide",
+		pp: 10,
+		priority: 1,
+		flags: {},
+		pseudoWeather: 'crystaltide',
+		condition: {
+			duration: 5,
+			onResidual(target, source, sourceEffect) {
+				if (target.hasType('Water')) {
+					target.heal(target.maxhp / 8);
+					this.debug(source + "'s HP was restored")
+				}
+			},
+		},
+		secondary: null,
+		target: "all",
+		type: "Water",
+		zMove: {boost: {spa: 1}},
+		contestType: "Beautiful",
+	},
+	abyssalrift: {
+		num: 980,
+		accuracy: 95,
+		basePower: 105,
+		category: "Special",
+		name: "Abyssal Rift",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+			status: 'fer',
+		},
+		target: "normal",
+		type: "Water",
+		contestType: "Tough",
+	},
+	allspike: {
+		num: 981,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Allspike",
+		pp: 20,
+		priority: 0,
+		flags: {reflectable: 1, nonsky: 1},
+		onHitSide(move, source) {
+			if(source.hp){
+				for (const side of source.side.foeSidesWithConditions()) {
+						side.addSideCondition('spikes')
+						side.addSideCondition('spikes')
+						side.addSideCondition('spikes')
+				}
+			}
+		},
+		secondary: null,
+		target: "foeSide",
+		type: "Ground",
+		zMove: {boost: {def: 1}},
+		contestType: "Clever",
+	},
+	asteroid: {
+		num: 982,
+		accuracy: 90,
+		basePower: 95,
+		category: "Special",
+		name: "Asteroid",
+		pp: 10,
+		priority: -1,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 5,
+			volatileStatus: 'flinch',
+		},
+		target: "normal",
+		type: "Rock",
+		contestType: "Tough",
+	},
+	astralscythe: {
+		num: 983,
+		accuracy: 95,
+		basePower: 85,
+		category: "Special",
+		name: "Astral Scythe",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, charge: 1, mirror: 1, impale: 1},
+		breaksProtect: true,
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		condition: {
+			duration: 2,
+			onInvulnerability: false,
+		},
+		secondary: null,
+		target: "normal",
+		type: "Psychic",
+		contestType: "Cool",
+	},
+	basaltbarrage: {
+		num: 984,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Basalt Barrage",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 10,
+			boosts: {
+				def: -1,
+			},
+		},
+		target: "allAdjacentFoes",
+		type: "Rock",
+		contestType: "Clever",
+	},
+	spectralhammer: {
+		num: 985,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Spectral Hammer",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 10,
+			boosts: {
+				def: -1,
+			},
+		},
+		target: "allAdjacentFoes",
+		type: "Ghost",
+		contestType: "Clever",
+	},
+	blackhole: {
+		num: 986,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Black Hole",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1, mirror: 1, allyanim: 1, metronome: 1},
+		boosts: {
+			spe: -3,
+		},
+		status: 'fer',
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+		zMove: {boost: {spe: 1}},
+		contestType: "Tough",
+	},
+	cerebralpuncture: {
+		num: 987,
+		accuracy: 100,
+		basePower: 140,
+		category: "Physical",
+		name: "Cerebral Puncture",
+		pp: 5,
+		priority: 0,
+		flags: {charge: 1, protect: 1, mirror: 1},
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			this.boost({atk: 1}, attacker, attacker, move);
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Psychic",
+	},
+	chillingshroud: {
+		num: 988,
+		accuracy: 100,
+		basePower: 95,
+		category: "Special",
+		name: "Chilling Shroud",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 10,
+			status: 'frz',
+		},
+		target: "normal",
+		type: "Psychic",
+		contestType: "Beautiful",
+	},
+	chrysalis: {
+		num: 989,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Chrysalis",
+		pp: 25,
+		priority: 0,
+		flags: {snatch: 1},
+		boosts: {
+			atk: 1,
+			def: 2,
+		},
+		secondary: null,
+		target: "self",
+		type: "Bug",
+		zMove: {effect: 'clearnegativeboost'},
+		contestType: "Tough",
+	},
+	cruelsun: {
+		num: 990,
+		accuracy: 100,
+		basePower: 100,
+		category: "Physical",
+		name: "Cruel Sun",
+		pp: 10,
+		priority: -1,
+		flags: {charge: 1, protect: 1, mirror: 1},
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			this.boost({def: -1}, defender, attacker, move);
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Psychic",
+	},
+	cyclone: {
+		num: 991,
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		name: "Cyclone",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		selfSwitch: true,
+		secondary: null,
+		target: "normal",
+		type: "Flying",
+		contestType: "Cool",
+	},
+	feverclaw: {
+		num: 992,
+		accuracy: 100,
+		basePower: 75,
+		category: "Physical",
+		name: "Fever Claw",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 15,
+			status: 'tox',
+		},
+		target: "normal",
+		type: "Grass",
+		contestType: "Clever",
+	},
+	geigerblade: {
+		num: 993,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Geiger Blade",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			status: 'tox',
+		},
+		target: "normal",
+		type: "Poison",
+		contestType: "Clever",
+	},
+	heavenlyfury: {
+		num: 994,
+		accuracy: 100,
+		basePower: 95,
+		category: "Physical",
+		name: "Heavenly Fury",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+			self: {
+				boosts: {
+					atk: 1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Fairy",
+		contestType: "Cool",
+	},
+	hellishrebuke: {
+		num: 995,
+		accuracy: 100,
+		basePower: 95,
+		category: "Special",
+		name: "Hellish Rebuke",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+			status: 'fer',
+		},
+		target: "normal",
+		type: "Dark",
+		contestType: "Cool",
+	},
+	highaltitude: {
+		num: 996,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "High Altitude",
+		pp: 10,
+		priority: 0,
+		flags: {snatch: 1, heal: 1},
+		heal: [1, 4],
+		boosts: {
+			accuracy: 1,
+		},
+		self: {
+			volatileStatus: 'roost',
+		},
+		condition: {
+			duration: 1,
+			onResidualOrder: 25,
+			onStart(target) {
+				this.add('-singleturn', target, 'move: Roost');
+			},
+			onTypePriority: -1,
+			onType(types, pokemon) {
+				this.effectState.typeWas = types;
+				return types.filter(type => type !== 'Flying');
+			},
+		},
+		secondary: null,
+		target: "self",
+		type: "Flying",
+		zMove: {effect: 'clearnegativeboost'},
+		contestType: "Clever",
+	},
+	killerwatt: {
+		num: 997,
+		accuracy: 95,
+		basePower: 95,
+		category: "Physical",
+		name: "Killerwatt",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+			status: 'par',
+		},
+		target: "normal",
+		type: "Electric",
+		contestType: "Cool",
+	},
+	knightsblade: {
+		num: 998,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Knight's Blade",
+		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, impale: 1},
+		secondary: {
+			chance: 20,
+				self: {
+					boosts: {
+						atk: 1,
+						def: 1,
+					},
+				},
+			},
+		target: "normal",
+		type: "Steel",
+		contestType: "Cool",
+	},
+	labyrinth: {
+		num: 999,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Labyrinth",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1, mirror: 1},
+		boosts: {
+			def: -1,
+			spd: -1,
+		},
+		secondary: {
+			volatileStatus: 'confusion',
+		},
+		target: "allAdjacentFoes",
+		type: "Normal",
+		contestType: "Cool",
+	},
+	geocannon: {
+		num: 1000,
+		accuracy: 75,
+		basePower: 115,
+		category: "Special",
+		name: "Geo Cannon",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			boosts: {
+				spe: -1,
+			},
+		},
+		target: "normal",
+		type: "Ground",
+		contestType: "Beautiful",
+	},
+	wyvernblast: {
+		num: 1002,
+		accuracy: 85,
+		basePower: 110,
+		category: "Special",
+		name: "Wyvern Blast",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+			volatileStatus: 'flinch',
+		},
+		target: "normal",
+		type: "Dragon",
+		contestType: "Tough",
+	},
+	noxiousmaw: {
+		num: 1003,
+		accuracy: 100,
+		basePower: 95,
+		category: "Physical",
+		name: "Noxious Maw",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+			status: 'psn',
+		},
+		target: "normal",
+		type: "Poison",
+		contestType: "Tough",
+	},
+	photonlance: {
+		num: 1004,
+		accuracy: 100,
+		basePower: 150,
+		category: "Physical",
+		name: "Photon Lance",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		self: {
+			boosts: {
+				spe: -1,
+				def: -1,
+				spd: -1,
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Electric",
+		zMove: {basePower: 220},
+		contestType: "Cool",
+	},
+	glaciercrash: {
+		num: 1005,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Glacier Crash",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, contact: 1},
+		secondary: null,
+		target: "normal",
+		type: "Ice",
+		contestType: "Beautiful",
+	},
+	psionicneedles: {
+		num: 1006,
+		accuracy: 100,
+		basePower: 30,
+		category: "Physical",
+		name: "Psionic Needles",
+		pp: 30,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		multihit: 3,
+		secondary: null,
+		target: "normal",
+		type: "Psychic",
+		zMove: {basePower: 140},
+		maxMove: {basePower: 130},
+	},
+	psychicoverload: {
+		num: 1007,
+		accuracy: 30,
+		basePower: 0,
+		category: "Special",
+		name: "Psychic Overload",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: null,
+		ohko: 'Psychic',
+		target: "normal",
+		type: "Psychic",
+		zMove: {basePower: 180},
+		maxMove: {basePower: 130},
+		contestType: "Beautiful",
+	},
+	stubbornroots: {
+		num: 1008,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Stubborn Roots",
+		pp: 20,
+		priority: 0,
+		flags: {snatch: 1, nonsky: 1},
+		volatileStatus: 'ingrain',
+		condition: {
+			onStart(pokemon) {
+				this.add('-start', pokemon, 'move: Stubborn Roots');
+			},
+			onResidualOrder: 7,
+			onResidual(pokemon) {
+				this.heal(pokemon.baseMaxhp / 8);
+			},
+			onTrapPokemon(pokemon) {
+				pokemon.tryTrap();
+			},
+			// groundedness implemented in battle.engine.js:BattlePokemon#isGrounded
+			onDragOut(pokemon) {
+				this.add('-activate', pokemon, 'move: Stubborn Roots');
+				return null;
+			},
+		},
+		secondary: null,
+		target: "self",
+		type: "Grass",
+		zMove: {boost: {spd: 1}},
+		contestType: "Clever",
+	},
+	starburst: {
+		num: 1009,
+		accuracy: 100,
+		basePower: 50,
+		category: "Special",
+		name: "Star Burst",
+		pp: 20,
+		priority: 2,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Fire",
+		contestType: "Cool",
+	},
+	monsoon: {
+		num: 1010,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Monsoon",
+		pp: 5,
+		priority: 0,
+		flags: {},
+		weather: 'ThunderStorm',
+		secondary: null,
+		target: "all",
+		type: "Electric",
+		zMove: {boost: {spe: 1}},
+		contestType: "Beautiful",
+	},
+	scaleshield: {
+		num: 1011,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Scale Shield",
+		pp: 10,
+		priority: 4,
+		flags: {},
+		boosts: {
+			def: 1,
+		},
+		stallingMove: true,
+		volatileStatus: 'protect',
+		onPrepareHit(pokemon) {
+			return !!this.queue.willAct() && this.runEvent('StallMove', pokemon);
+		},
+		onHit(pokemon) {
+			pokemon.addVolatile('stall');
+		},
+		condition: {
+			duration: 1,
+			onStart(target) {
+				this.add('-singleturn', target, 'Protect');
+			},
+			onTryHitPriority: 3,
+			onTryHit(target, source, move) {
+				if (!move.flags['protect']) {
+					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
+					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+					return;
+				}
+				if (move.smartTarget) {
+					move.smartTarget = false;
+				} else {
+					this.add('-activate', target, 'move: Protect');
+				}
+				const lockedmove = source.getVolatile('lockedmove');
+				if (lockedmove) {
+					// Outrage counter is reset
+					if (source.volatiles['lockedmove'].duration === 2) {
+						delete source.volatiles['lockedmove'];
+					}
+				}
+				return this.NOT_FAIL;
+			},
+			onModifyMove(pokemon) {
+			},	
+		},
+		secondary: null,
+		target: "self",
+		type: "Dragon",
+		zMove: {effect: 'clearnegativeboost'},
+		contestType: "Cute",
+	},
+	backdraft: {
+		num: 1012,
+		accuracy: 100,
+		basePower: 40,
+		category: "Special",
+		name: "Backdraft",
+		pp: 10,
+		priority: 0,
+		selfSwitch: true,
+		flags: {protect: 1, mirror: 1, metronome: 1},
+		secondary: {
+			chance: 10,
+			status: 'brn',
+		},
+		target: "normal",
+		type: "Fire",
+		contestType: "Cute",
+	},
+	phylactery: {
+		num: 1013,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Phylactery",
+		pp: 5,
+		priority: 0,
+		flags: {snatch: 1, metronome: 1},
+		onHit(target) {
+			if (target.hp <= target.maxhp / 2 || target.boosts.spa >= 6 || target.maxhp === 1) { // Shedinja clause
+				return false;
+			}
+			this.directDamage(target.maxhp / 2);
+			this.boost({spa: 12}, target);
+		},
+		secondary: null,
+		target: "self",
+		type: "Ghost",
+		zMove: {effect: 'heal'},
+		contestType: "Cute",
+	},
 };

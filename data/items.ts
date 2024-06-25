@@ -7623,4 +7623,394 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 8,
 		isNonstandard: "CAP",
 	},
+	wyrmekite: {
+		name: "Wyrmekite",
+		spritenum: 585,
+		megaStone: "Wyrkemes-Mega",
+		megaEvolves: "Wyrmekes",
+		itemUser: ["Wyrmekes"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1101,
+		gen: 6,
+	},
+	hahootinite: {
+		name: "Hahootinite",
+		spritenum: 585,
+		megaStone: "Hahootination-Mega",
+		megaEvolves: "Hahootination",
+		itemUser: ["Hahootination"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1102,
+		gen: 6,
+	},
+	martialetite: {
+		name: "Martialetite",
+		spritenum: 585,
+		megaStone: "Martialeti-Mega",
+		megaEvolves: "Martialeti",
+		itemUser: ["Martialeti"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1103,
+		gen: 6,
+	},
+	anaphyletite: {
+		name: "Anaphyletite",
+		spritenum: 585,
+		megaStone: "Anaphyletric-Mega",
+		megaEvolves: "Anaphyletric",
+		itemUser: ["Anaphyletric"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1104,
+		gen: 6,
+	},
+	mortarmurite: {
+		name: "Mortarmurite",
+		spritenum: 585,
+		megaStone: "Mortarmur-Mega",
+		megaEvolves: "Mortarmur",
+		itemUser: ["Mortarmur"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1105,
+		gen: 6,
+	},
+	carniveelite: {
+		name: "Carniveelite",
+		spritenum: 585,
+		megaStone: "Carniveel-Mega",
+		megaEvolves: "Carniveel",
+		itemUser: ["Carniveel"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1106,
+		gen: 6,
+	},
+	prayzenite: {
+		name: "Prayzenite",
+		spritenum: 585,
+		megaStone: "Prayzen-Mega",
+		megaEvolves: "Prayzen",
+		itemUser: ["Prayzen"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1107,
+		gen: 6,
+	},
+	constethulite: {
+		name: "Constethulite",
+		spritenum: 585,
+		megaStone: "Constethulu-Mega",
+		megaEvolves: "Constethulu",
+		itemUser: ["Constethulu"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1108,
+		gen: 6,
+	},
+	whirlydite: {
+		name: "Whirlydite",
+		spritenum: 585,
+		megaStone: "Whirlydis-Mega",
+		megaEvolves: "Whirlydis",
+		itemUser: ["Whirlydis"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1109,
+		gen: 6,
+	},
+	grizzudite: {
+		name: "Grizzudite",
+		spritenum: 585,
+		megaStone: "Grizzudo-Mega",
+		megaEvolves: "Grizzudo",
+		itemUser: ["Grizzudo"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1110,
+		gen: 6,
+	},
+	neightmarite: {
+		name: "Neightmarite",
+		spritenum: 585,
+		megaStone: "Neightmare-Mega",
+		megaEvolves: "Neightmare",
+		itemUser: ["Neightmare"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1111,
+		gen: 6,
+	},
+	magmellite: {
+		name: "Magmellite",
+		spritenum: 585,
+		megaStone: "Magmelly-Mega",
+		megaEvolves: "Magmelly",
+		itemUser: ["Magmelly"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1112,
+		gen: 6,
+	},
+	skulletonnite: {
+		name: "Skulletonnite",
+		spritenum: 585,
+		megaStone: "Skulletonne-Mega",
+		megaEvolves: "Skulletonne",
+		itemUser: ["Skulletonne"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1113,
+		gen: 6,
+	},
+	thefchanite: {
+		name: "Thefchanite",
+		spritenum: 585,
+		megaStone: "Thefchan-Mega",
+		megaEvolves: "Carniveel",
+		itemUser: ["Carniveel"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1114,
+		gen: 6,
+	},
+	subterrandite: {
+		name: "Subterrandite",
+		spritenum: 585,
+		megaStone: "Subterrandr-Mega",
+		megaEvolves: "Subterrandr",
+		itemUser: ["Subterrandr"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1115,
+		gen: 6,
+	},
+	satellitite: {
+		name: "Satellitite",
+		spritenum: 585,
+		megaStone: "Satellity-Mega",
+		megaEvolves: "Satellity",
+		itemUser: ["Satellity"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1116,
+		gen: 6,
+	},
+	toxtricitite: {
+		name: "Toxtricitite",
+		spritenum: 585,
+		megaStone: "Toxtricity-Mega",
+		megaEvolves: "Toxtricity-Althon",
+		itemUser: ["Toxtricity-Althon"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1117,
+		gen: 6,
+	},
+	aggritite: {
+		name: "Aggritiite",
+		spritenum: 585,
+		megaStone: "Aggrite-Mega",
+		megaEvolves: "Aggrite",
+		itemUser: ["Aggrite"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1118,
+		gen: 6,
+	},
+	malevitite: {
+		name: "Malevitite",
+		spritenum: 585,
+		megaStone: "Malevite-Mega",
+		megaEvolves: "Malevite",
+		itemUser: ["Malevite"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1119,
+		gen: 6,
+	},
+	gogoatite: {
+		name: "Gogoatite",
+		spritenum: 585,
+		megaStone: "Gogoat-Mega",
+		megaEvolves: "Gogoat-Althon",
+		itemUser: ["Gogoat-Althon"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1120,
+		gen: 6,
+	},
+	vespiquenite: {
+		name: "Vespiquenite",
+		spritenum: 585,
+		megaStone: "Vespiquen-Mega",
+		megaEvolves: "Vespiquen-Althon",
+		itemUser: ["Vespiquen-Althon"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1121,
+		gen: 6,
+	},
+	guardcharm: {
+		name: "Guard Charm",
+		spritenum: 130,
+		fling: {
+			basePower: 40,
+		},
+		onModifyDefPriority: 1,
+		onModifyDef(def, pokemon) {
+			return this.chainModify(1.3);
+		},
+		num: 1122,
+		gen: 5,
+	},
+	hexcharm: {
+		name: "Hex Charm",
+		spritenum: 130,
+		fling: {
+				basePower: 40,
+		},
+		onModifySpDPriority: 1,
+		onModifySpD(spd, pokemon) {
+			return this.chainModify(1.3);
+		},
+		num: 1123,
+		gen: 5,
+	},
+	warhorn: {
+		name: "War Horn",
+		spritenum: 130,
+		fling: {
+			basePower: 40,
+		},
+		onModifyDefPriority: 2,
+		onModifyDef(def, pokemon) {
+			return this.chainModify(1.15);
+		},
+		onModifyAtkPriority: 2,
+		onModifyAtk(atk, pokemon) {
+			return this.chainModify(1.15);
+		},
+		num: 1124,
+		gen: 5,
+	},
+	miraclecharm: {
+		name: "Miracle Charm",
+		spritenum: 130,
+		fling: {
+				basePower: 40,
+		},
+		onCriticalHit: false,
+		num: 1125,
+		gen: 5,
+	},
+	bananapeel: {
+		name: "Banana Peel",
+		spritenum: 51,
+		fling: {
+				basePower: 10,
+		},
+		onModifyAccuracyPriority: -2,
+		onModifyAccuracy(accuracy) {
+				if (typeof accuracy !== 'number') return;
+				this.debug('bananapeel - decreasing accuracy');	return this.chainModify([3686, 4096]);
+		},
+		num: 1126,
+		gen: 2,
+	},
+	shockorb: {
+		name: "Shock Orb",
+		spritenum: 145,
+		fling: {
+			basePower: 30,
+			status: 'par',
+		},
+		onResidualOrder: 28,
+		onResidualSubOrder: 3,
+		onResidual(pokemon) {
+			pokemon.trySetStatus('par', pokemon);
+		},
+		num: 1127,
+		gen: 4,
+	},
+	galehorn: {
+		name: "Gale Horn",
+		spritenum: 88,
+		fling: {
+			basePower: 60,
+		},
+		num: 1128,
+		gen: 4,
+	},
+	spearhead: {
+		name: "Spear Head",
+		spritenum: 749,
+		onBasePowerPriority: 23,
+		onBasePower(basePower, attacker, defender, move) {
+				if (move.flags['impale']) {
+						this.debug('Spear Head Boost');
+						return this.chainModify(1.3);
+				}
+		},
+		num: 1129,
+		gen: 9,
+	},
+	megaphone: {
+		name: "Megaphone",
+		spritenum: 749,
+		onBasePowerPriority: 23,
+		onBasePower(basePower, attacker, defender, move) {
+				if (move.flags['sound']) {
+						this.debug('Megaphone Boost');
+						return this.chainModify(1.3);
+				}
+		},
+		num: 1129,
+		gen: 9,
+	},
 };
