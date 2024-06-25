@@ -28,14 +28,16 @@ export const Formats: FormatList = [
 		name: "Divine Olympus Singles",
 
 		mod: 'gen9',
-		ruleset: ['Divine Rules', '- all Pokemon', '+ DO', '! Team Preview'],
+		ruleset: ['Divine Rules', '-all Pokemon', '+DO', '!Team Preview'],
+		banlist: ['OU'],
 	},
 	{
 		name: "Divine Olympus Doubles",
 
 		mod: 'gen9',
 		gameType: 'doubles',
-		ruleset: ['Divine Rules', '- all Pokemon', '+ DDO', '! Team Preview'],
+		ruleset: ['Divine Rules', '-all Pokemon', '+DDO', '!Team Preview'],
+		banlist: ['DOU'],
 	},
 	{
 		name: "Divine Olympus FFA",
@@ -44,7 +46,8 @@ export const Formats: FormatList = [
 		gameType: 'freeforall',
 		rated: false,
 		touramentShow: false,
-		ruleset: ['Divine Rules', '- all Pokemon', '+ DDO', '! Team Preview'],
+		ruleset: ['Divine Rules', '-all Pokemon', '+DDO', '!Team Preview'],
+		banlist: ['DOU'],
 	},
 	{
 		section: "S/V Singles",
