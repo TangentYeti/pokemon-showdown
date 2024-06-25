@@ -19747,7 +19747,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		gen: 5,
 	},
 	plagasus: {
-		num: 10011,
+		num: 1100,
 		name: "Plagasus",
 		types: ["Flying", "Poison"],
 		baseStats: {hp: 73, atk: 70, def: 85, spa: 98, spd: 106, spe: 103},
@@ -19759,7 +19759,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	gordusa: {
-		num: 10012,
+		num: 1101,
 		name: "Gordusa",
 		types: ["Ice", "Dark"],
 		baseStats: {hp: 74, atk: 102, def: 70, spa: 110, spd: 81, spe: 98},
@@ -19771,7 +19771,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	matretaur: {
-		num: 10013,
+		num: 1102,
 		name: "Matretaur",
 		types: ["Fighting", "Steel"],
 		baseStats: {hp: 100, atk: 124, def: 103, spa: 48, spd: 74, spe: 86},
@@ -19783,7 +19783,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	hagufate: {
-		num: 10014,
+		num: 1103,
 		name: "Hagufate",
 		types: ["Ghost", "Fairy"],
 		baseStats: {hp: 71, atk: 71, def: 68, spa: 112, spd: 104, spe: 109},
@@ -19795,7 +19795,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	wyrmekes: {
-		num: 10015,
+		num: 1104,
 		name: "Wyrmekes",
 		types: ["Bug", "Dragon"],
 		baseStats: {hp: 76, atk: 122, def: 76, spa: 64, spd: 76, spe: 111},
@@ -19809,7 +19809,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	wyrmekesmega: {
-		num: 10015,
+		num: 1104,
 		name: "Wyrmekes-Mega",
 		baseSpecies: "Wyrmekes",
 		forme: "Mega",
@@ -19825,7 +19825,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	tsunaren: {
-		num: 10016,
+		num: 1105,
 		name: "Tsunaren",
 		types: ["Water", "Fairy"],
 		baseStats: {hp: 63, atk: 78, def: 66, spa: 96, spd: 63, spe: 84},
@@ -19837,7 +19837,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	drollepas: {
-		num: 10017,
+		num: 1106,
 		name: "Drollepas",
 		types: ["Ground", "Poison"],
 		baseStats: {hp: 106, atk: 101, def: 89, spa: 47, spd: 98, spe: 59},
@@ -19849,7 +19849,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	gryfantle: {
-		num: 10018,
+		num: 1107,
 		name: "Gryfantle",
 		types: ["Ground", "Flying"],
 		baseStats: {hp: 76, atk: 87, def: 69, spa: 58, spd: 91, spe: 119},
@@ -19861,7 +19861,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	stalantula: {
-		num: 10019,
+		num: 1108,
 		name: "Stalantula",
 		types: ["Rock", "Bug"],
 		baseStats: {hp: 50, atk: 99, def: 68, spa: 68, spd: 61, spe: 134},
@@ -19873,7 +19873,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	allopere: {
-		num: 10020,
+		num: 1109,
 		name: "Allopere",
 		types: ["Dark", "Electric"],
 		baseStats: {hp: 53, atk: 114, def: 77, spa: 51, spd: 52, spe: 143},
@@ -19885,7 +19885,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	ganikinos: {
-		num: 10021,
+		num: 1110,
 		name: "Ganikinos",
 		types: ["Water", "Fighting"],
 		baseStats: {hp: 96, atk: 126, def: 107, spa: 54, spd: 54, spe: 63},
@@ -19897,7 +19897,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	hahootination: {
-		num: 10022,
+		num: 1111,
 		name: "Hahootination",
 		types: ["Flying", "Ghost"],
 		baseStats: {hp: 97, atk: 56, def: 63, spa: 87, spd: 119, spe: 88},
@@ -19911,7 +19911,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	hahootinationmega: {
-		num: 10022,
+		num: 1111,
 		name: "Hahootination-Mega",
 		baseSpecies: "Hahootination",
 		forme: "Mega",
@@ -19927,7 +19927,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	kelampus: {
-		num: 10023,
+		num: 1112,
 		name: "Kelampus",
 		types: ["Water", "Grass"],
 		baseStats: {hp: 74, atk: 91, def: 89, spa: 91, spd: 106, spe: 69},
@@ -19939,7 +19939,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	teuvenger: {
-		num: 10024,
+		num: 1113,
 		name: "Teuvenger",
 		types: ["Ground", "Fighting"],
 		baseStats: {hp: 63, atk: 98, def: 42, spa: 76, spd: 69, spe: 117},
@@ -19951,7 +19951,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	tungfu: {
-		num: 10025,
+		num: 1114,
 		name: "Tungfu",
 		types: ["Grass", "Fighting"],
 		baseStats: {hp: 64, atk: 119, def: 78, spa: 63, spd: 60, spe: 111},
@@ -19963,7 +19963,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	sarcobral: {
-		num: 10026,
+		num: 1115,
 		name: "Sarcobral",
 		types: ["Psychic", "Dragon"],
 		baseStats: {hp: 83, atk: 111, def: 121, spa: 49, spd: 64, spe: 87},
@@ -19975,7 +19975,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	cerekapro: {
-		num: 10027,
+		num: 1116,
 		name: "Cerekapro",
 		types: ["Psychic", "Poison"],
 		baseStats: {hp: 83, atk: 116, def: 87, spa: 64, spd: 49, spe: 116},
@@ -19987,7 +19987,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	martialeti: {
-		num: 10028,
+		num: 1117,
 		name: "Martialeti",
 		types: ["Ice", "Fighting"],
 		baseStats: {hp: 123, atk: 103, def: 79, spa: 42, spd: 107, spe: 51},
@@ -20001,7 +20001,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	martialetimega: {
-		num: 10028,
+		num: 1117,
 		name: "Martialeti-Mega",
 		baseSpecies: "Martialeti",
 		forme: "Mega",
@@ -20017,7 +20017,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	depandrill: {
-		num: 10039,
+		num: 1118,
 		name: "Depandrill",
 		types: ["Normal", "Dark"],
 		baseStats: {hp: 105, atk: 109, def: 67, spa: 76, spd: 73, spe: 75},
@@ -20029,7 +20029,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	anaphyletric: {
-		num: 10030,
+		num: 1119,
 		name: "Anaphyletric",
 		types: ["Electric", "Ghost"],
 		baseStats: {hp: 99, atk: 122, def: 52, spa: 57, spd: 108, spe: 82},
@@ -20043,7 +20043,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	anaphyletricmega: {
-		num: 10092,
+		num: 1119,
 		name: "Anaphyletric-Mega",
 		baseSpecies: "Anaphyletric",
 		forme: "Mega",
@@ -20059,7 +20059,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	vitalysis: {
-		num: 10031,
+		num: 1120,
 		name: "Vitalysis",
 		types: ["Electric", "Psychic"],
 		baseStats: {hp: 99, atk: 57, def: 108, spa: 122, spd: 52, spe: 82},
@@ -20071,7 +20071,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	purrforynx: {
-		num: 10032,
+		num: 1121,
 		name: "Purrforynx",
 		types: ["Ground", "Fairy"],
 		baseStats: {hp: 136, atk: 58, def: 97, spa: 123, spd: 148, spe: 38},
@@ -20083,7 +20083,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	flierarchy: {
-		num: 10033,
+		num: 1122,
 		name: "Flierarchy",
 		types: ["Dark", "Flying"],
 		baseStats: {hp: 71, atk: 67, def: 58, spa: 108, spd: 63, spe: 103},
@@ -20095,7 +20095,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	zenriest: {
-		num: 10034,
+		num: 1123,
 		name: "Zenriest",
 		types: ["Dragon", "Psychic"],
 		baseStats: {hp: 97, atk: 64, def: 56, spa: 111, spd: 124, spe: 73},
@@ -20107,7 +20107,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	ukerial: {
-		num: 10035,
+		num: 1124,
 		name: "Ukerial",
 		types: ["Psychic", "Ice"],
 		baseStats: {hp: 71, atk: 71, def: 80, spa: 134, spd: 138, spe: 106},
@@ -20119,7 +20119,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	armorpion: {
-		num: 10036,
+		num: 1125,
 		name: "Armorpion",
 		types: ["Poison", "Steel"],
 		baseStats: {hp: 72, atk: 112, def: 134, spa: 67, spd: 57, spe: 83},
@@ -20131,7 +20131,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	spirihit: {
-		num: 10037,
+		num: 1126,
 		name: "Spirihit",
 		types: ["Ghost", "Fighting"],
 		baseStats: {hp: 67, atk: 101, def: 72, spa: 63, spd: 61, spe: 86},
@@ -20143,7 +20143,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	paranorpol: {
-		num: 10038,
+		num: 1127,
 		name: "Paranorpol",
 		types: ["Ghost", "Normal"],
 		baseStats: {hp: 62, atk: 71, def: 59, spa: 94, spd: 74, spe: 90},
@@ -20155,7 +20155,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	mortarmur: {
-		num: 10039,
+		num: 1128,
 		name: "Mortarmur",
 		types: ["Fairy", "Fire"],
 		baseStats: {hp: 94, atk: 108, def: 50, spa: 93, spd: 73, spe: 92},
@@ -20169,7 +20169,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	mortarmurmega: {
-		num: 10039,
+		num: 1128,
 		name: "Mortarmur-Mega",
 		baseSpecies: "Mortarmur",
 		forme: "Mega",
@@ -20185,7 +20185,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	timberam: {
-		num: 10040,
+		num: 1129,
 		name: "Timberam",
 		types: ["Grass", "Electric"],
 		baseStats: {hp: 80, atk: 118, def: 95, spa: 45, spd: 68, spe: 79},
@@ -20197,7 +20197,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	murmarsh: {
-		num: 10041,
+		num: 1130,
 		name: "Murmarsh",
 		types: ["Dark", "Poison"],
 		baseStats: {hp: 102, atk: 109, def: 73, spa: 69, spd: 99, spe: 43},
@@ -20209,7 +20209,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	phaestamark: {
-		num: 10042,
+		num: 1131,
 		name: "Phaestamark",
 		types: ["Water", "Fire"],
 		baseStats: {hp: 113, atk: 133, def: 99, spa: 74, spd: 97, spe: 84},
@@ -20221,7 +20221,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	carniveel: {
-		num: 10043,
+		num: 1132,
 		name: "Carniveel",
 		types: ["Dragon", "Water"],
 		baseStats: {hp: 77, atk: 63, def: 49, spa: 116, spd: 77, spe: 113},
@@ -20235,7 +20235,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	carniveelmega: {
-		num: 10043,
+		num: 1132,
 		name: "Carniveel-Mega",
 		baseSpecies: "Carniveel",
 		forme: "Mega",
@@ -20251,7 +20251,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	mounteleon: {
-		num: 10044,
+		num: 1133,
 		name: "Mounteleon",
 		types: ["Dragon", "Rock"],
 		baseStats: {hp: 79, atk: 71, def: 121, spa: 94, spd: 103, spe: 42},
@@ -20263,7 +20263,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	centriot: {
-		num: 10045,
+		num: 1134,
 		name: "Centriot",
 		types: ["Grass", "Steel"],
 		baseStats: {hp: 129, atk: 101, def: 122, spa: 43, spd: 56, spe: 29},
@@ -20275,7 +20275,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	prayzen: {
-		num: 10046,
+		num: 1135,
 		name: "Prayzen",
 		types: ["Bug", "Psychic"],
 		baseStats: {hp: 68, atk: 83, def: 69, spa: 133, spd: 116, spe: 31},
@@ -20289,7 +20289,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	prayzenmega: {
-		num: 10046,
+		num: 1135,
 		name: "Prayzen-Mega",
 		baseSpecies: "Prayzen",
 		forme: "Mega",
@@ -20305,7 +20305,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	archorean: {
-		num: 10047,
+		num: 1136,
 		name: "Archorean",
 		types: ["Fire", "Ground"],
 		baseStats: {hp: 83, atk: 80, def: 102, spa: 92, spd: 97, spe: 31},
@@ -20317,7 +20317,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	lymbynx: {
-		num: 10048,
+		num: 1137,
 		name: "Lymbynx",
 		types: ["Psychic", "Flying"],
 		baseStats: {hp: 107, atk: 48, def: 62, spa: 113, spd: 78, spe: 102},
@@ -20329,7 +20329,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	defonour: {
-		num: 10049,
+		num: 1138,
 		name: "Defonour",
 		types: ["Ghost", "Steel"],
 		baseStats: {hp: 73, atk: 119, def: 136, spa: 23, spd: 83, spe: 61},
@@ -20341,7 +20341,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	destrayal: {
-		num: 10050,
+		num: 1139,
 		name: "Destrayal",
 		types: ["Dark", "Steel"],
 		baseStats: {hp: 50, atk: 119, def: 90, spa: 87, spd: 65, spe: 84},
@@ -20353,7 +20353,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	manrawin: {
-		num: 10051,
+		num: 1140,
 		name: "Manrawin",
 		types: ["Ground", "Water"],
 		baseStats: {hp: 92, atk: 86, def: 71, spa: 79, spd: 93, spe: 54},
@@ -20365,7 +20365,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	lycanobyl: {
-		num: 10052,
+		num: 1141,
 		name: "Lycanobyl",
 		types: ["Poison"],
 		baseStats: {hp: 84, atk: 111, def: 63, spa: 86, spd: 60, spe: 111},
@@ -20377,7 +20377,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	terracabra: {
-		num: 10053,
+		num: 1142,
 		name: "Terracabra",
 		types: ["Ground"],
 		baseStats: {hp: 53, atk: 104, def: 87, spa: 76, spd: 72, spe: 98},
@@ -20389,7 +20389,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	spelyclops: {
-		num: 10054,
+		num: 1143,
 		name: "Spelyclops",
 		types: ["Normal", "Ghost"],
 		baseStats: {hp: 121, atk: 103, def: 84, spa: 102, spd: 97, spe: 13},
@@ -20401,7 +20401,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	kybohm: {
-		num: 10055,
+		num: 1144,
 		name: "Kybohm",
 		types: ["Electric", "Rock"],
 		baseStats: {hp: 68, atk: 52, def: 108, spa: 114, spd: 81, spe: 72},
@@ -20413,7 +20413,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	moosicle: {
-		num: 10056,
+		num: 1145,
 		name: "Moosicle",
 		types: ["Grass", "Ice"],
 		baseStats: {hp: 107, atk: 77, def: 96, spa: 49, spd: 113, spe: 38},
@@ -20425,7 +20425,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	gojukuda: {
-		num: 10057,
+		num: 1146,
 		name: "Gojukuda",
 		types: ["Dragon", "Electric"],
 		baseStats: {hp: 81, atk: 108, def: 70, spa: 108, spd: 95, spe: 48},
@@ -20437,7 +20437,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	boarpath: {
-		num: 10058,
+		num: 1147,
 		name: "Boarpath",
 		types: ["Steel", "Fighting"],
 		baseStats: {hp: 97, atk: 101, def: 107, spa: 39, spd: 67, spe: 84},
@@ -20449,7 +20449,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	frosquito: {
-		num: 10059,
+		num: 1148,
 		name: "Frosquito",
 		types: ["Bug", "Ice"],
 		baseStats: {hp: 48, atk: 77, def: 38, spa: 97, spd: 71, spe: 89},
@@ -20461,7 +20461,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	succubush: {
-		num: 10060,
+		num: 1149,
 		name: "Succubush",
 		types: ["Grass", "Dark"],
 		baseStats: {hp: 86, atk: 56, def: 79, spa: 108, spd: 83, spe: 108},
@@ -20473,7 +20473,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	novalotl: {
-		num: 10061,
+		num: 1150,
 		name: "Novalotl",
 		types: ["Psychic", "Fire"],
 		baseStats: {hp: 83, atk: 38, def: 51, spa: 119, spd: 126, spe: 63},
@@ -20485,7 +20485,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	constethulu: {
-		num: 10062,
+		num: 1151,
 		name: "Constethulu",
 		types: ["Ice", "Fire"],
 		baseStats: {hp: 115, atk: 62, def: 80, spa: 141, spd: 105, spe: 57},
@@ -20499,7 +20499,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	constethulumega: {
-		num: 10062,
+		num: 1151,
 		name: "Constethulu-Mega",
 		baseSpecies: "Constethulu",
 		forme: "Mega",
@@ -20515,7 +20515,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	dranova: {
-		num: 10063,
+		num: 1152,
 		name: "Dranova",
 		types: ["Fire", "Dragon"],
 		baseStats: {hp: 60, atk: 75, def: 45, spa: 105, spd: 90, spe: 120},
@@ -20527,7 +20527,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	drabloom: {
-		num: 10064,
+		num: 1153,
 		name: "Drabloom",
 		types: ["Grass", "Dragon"],
 		baseStats: {hp: 45, atk: 60, def: 75, spa: 90, spd: 120, spe: 105},
@@ -20539,7 +20539,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	drarate: {
-		num: 10065,
+		num: 1154,
 		name: "Drarate",
 		types: ["Fighting", "Dragon"],
 		baseStats: {hp: 105, atk: 120, def: 90, spa: 45, spd: 60, spe: 75},
@@ -20551,7 +20551,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	draquake: {
-		num: 10066,
+		num: 1155,
 		name: "Draquake",
 		types: ["Ground", "Dragon"],
 		baseStats: {hp: 120, atk: 90, def: 105, spa: 75, spd: 45, spe: 60},
@@ -20563,7 +20563,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	dranyon: {
-		num: 10067,
+		num: 1156,
 		name: "Dranyon",
 		types: ["Rock", "Dragon"],
 		baseStats: {hp: 90, atk: 105, def: 120, spa: 60, spd: 75, spe: 45},
@@ -20575,7 +20575,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	drachaun: {
-		num: 10068,
+		num: 1157,
 		name: "Drachaun",
 		types: ["Fairy", "Dragon"],
 		baseStats: {hp: 75, atk: 45, def: 60, spa: 120, spd: 105, spe: 90},
@@ -20587,7 +20587,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	octopsy: {
-		num: 10069,
+		num: 1158,
 		name: "Octopsy",
 		types: ["Dark", "Steel"],
 		baseStats: {hp: 102, atk: 57, def: 33, spa: 107, spd: 119, spe: 52},
@@ -20599,7 +20599,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	counsol: {
-		num: 10070,
+		num: 1159,
 		name: "Counsol",
 		types: ["Dark", "Fire"],
 		baseStats: {hp: 59, atk: 116, def: 67, spa: 75, spd: 62, spe: 121},
@@ -20611,7 +20611,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	carcasnix: {
-		num: 10071,
+		num: 1160,
 		name: "Carcasnix",
 		types: ["Ghost", "Ice"],
 		baseStats: {hp: 85, atk: 102, def: 59, spa: 61, spd: 76, spe: 62},
@@ -20623,7 +20623,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	plagasma: {
-		num: 10072,
+		num: 1161,
 		name: "Plagasma",
 		types: ["Psychic", "Steel"],
 		baseStats: {hp: 88, atk: 51, def: 74, spa: 108, spd: 116, spe: 43},
@@ -20635,7 +20635,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	chasorm: {
-		num: 10073,
+		num: 1162,
 		name: "Chasorm",
 		types: ["Bug", "Ground"],
 		baseStats: {hp: 99, atk: 106, def: 84, spa: 37, spd: 32, spe: 102},
@@ -20647,7 +20647,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	mangisekto: {
-		num: 10074,
+		num: 1163,
 		name: "Mangisekto",
 		types: ["Bug", "Dark"],
 		baseStats: {hp: 61, atk: 88, def: 68, spa: 83, spd: 71, spe: 79},
@@ -20659,7 +20659,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	shuriguin: {
-		num: 10075,
+		num: 1164,
 		name: "Shuriguin",
 		types: ["Fighting", "Electric"],
 		baseStats: {hp: 51, atk: 117, def: 55, spa: 84, spd: 57, spe: 101},
@@ -20671,7 +20671,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	hummzinger: {
-		num: 10076,
+		num: 1165,
 		name: "Hummzinger",
 		types: ["Electric", "Flying"],
 		baseStats: {hp: 48, atk: 48, def: 36, spa: 93, spd: 52, spe: 153},
@@ -20683,7 +20683,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	rambonkin: {
-		num: 10077,
+		num: 1166,
 		name: "Rambonkin",
 		types: ["Normal", "Steel"],
 		baseStats: {hp: 95, atk: 120, def: 105, spa: 36, spd: 42, spe: 77},
@@ -20695,7 +20695,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	mervenom: {
-		num: 10078,
+		num: 1167,
 		name: "Mervenom",
 		types: ["Electric", "Poison"],
 		baseStats: {hp: 73, atk: 87, def: 119, spa: 75, spd: 111, spe: 65},
@@ -20707,7 +20707,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	narfarious: {
-		num: 10079,
+		num: 1168,
 		name: "Narfarious",
 		types: ["Ice", "Poison"],
 		baseStats: {hp: 83, atk: 124, def: 71, spa: 68, spd: 73, spe: 91},
@@ -20719,7 +20719,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	tikikong: {
-		num: 10080,
+		num: 1169,
 		name: "Tikikong",
 		types: ["Grass", "Ghost"],
 		baseStats: {hp: 101, atk: 122, def: 85, spa: 41, spd: 67, spe: 104},
@@ -20731,7 +20731,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	whirlydis: {
-		num: 10081,
+		num: 1170,
 		name: "Whirlydis",
 		types: ["Water", "Electric"],
 		baseStats: {hp: 73, atk: 106, def: 88, spa: 104, spd: 63, spe: 96},
@@ -20745,7 +20745,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	whirlydismega: {
-		num: 10081,
+		num: 1170,
 		name: "Whirlydis-Mega",
 		baseSpecies: "Whirlydis",
 		forme: "Mega",
@@ -20761,7 +20761,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	hydoracle: {
-		num: 10082,
+		num: 1171,
 		name: "Hydoracle",
 		types: ["Psychic", "Water"],
 		baseStats: {hp: 65, atk: 118, def: 88, spa: 60, spd: 103, spe: 86},
@@ -20773,7 +20773,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	valhangel: {
-		num: 10083,
+		num: 1172,
 		name: "Valhangel",
 		types: ["Fairy", "Flying"],
 		baseStats: {hp: 80, atk: 107, def: 122, spa: 67, spd: 78, spe: 71},
@@ -20785,7 +20785,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	lucangel: {
-		num: 10084,
+		num: 1173,
 		name: "Lucangel",
 		types: ["Fairy", "Dark"],
 		baseStats: {hp: 71, atk: 78, def: 67, spa: 122, spd: 107, spe: 80},
@@ -20797,7 +20797,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	pyrectix: {
-		num: 10085,
+		num: 1174,
 		name: "Pyrectix",
 		types: ["Fire", "Ghost"],
 		baseStats: {hp: 112, atk: 49, def: 78, spa: 96, spd: 88, spe: 107},
@@ -20809,7 +20809,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	salyrant: {
-		num: 10086,
+		num: 1175,
 		name: "Salyrant",
 		types: ["Dragon", "Fighting"],
 		baseStats: {hp: 83, atk: 64, def: 102, spa: 109, spd: 70, spe: 97},
@@ -20821,7 +20821,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	komouldo: {
-		num: 10087,
+		num: 1176,
 		name: "Komouldo",
 		types: ["Ground", "Grass"],
 		baseStats: {hp: 92, atk: 111, def: 102, spa: 55, spd: 87, spe: 73},
@@ -20833,7 +20833,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	grizzudo: {
-		num: 10088,
+		num: 1177,
 		name: "Grizzudo",
 		types: ["Normal", "Fighting"],
 		baseStats: {hp: 99, atk: 61, def: 86, spa: 44, spd: 73, spe: 72},
@@ -20847,7 +20847,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	grizzudomega: {
-		num: 10088,
+		num: 1177,
 		name: "Grizzudo-Mega",
 		baseSpecies: "Grizzudo",
 		forme: "Mega",
@@ -20863,7 +20863,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	roosolar: {
-		num: 10089,
+		num: 1178,
 		name: "Roosolar",
 		types: ["Electric", "Fire"],
 		baseStats: {hp: 66, atk: 56, def: 93, spa: 102, spd: 77, spe: 116},
@@ -20875,7 +20875,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	ceramstes: {
-		num: 10090,
+		num: 1179,
 		name: "Ceramstes",
 		types: ["Poison", "Fighting"],
 		baseStats: {hp: 66, atk: 123, def: 73, spa: 82, spd: 52, spe: 124},
@@ -20887,7 +20887,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	mareberus: {
-		num: 10091,
+		num: 1180,
 		name: "Mareberus",
 		types: ["Ghost", "Ground"],
 		baseStats: {hp: 82, atk: 121, def: 73, spa: 87, spd: 70, spe: 87},
@@ -20899,7 +20899,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	neightmare: {
-		num: 10092,
+		num: 1181,
 		name: "Neightmare",
 		types: ["Ghost", "Steel"],
 		baseStats: {hp: 66, atk: 115, def: 100, spa: 40, spd: 80, spe: 119},
@@ -20913,7 +20913,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	neightmaremega: {
-		num: 10092,
+		num: 1181,
 		name: "Neightmare-Mega",
 		baseSpecies: "Neightmare",
 		forme: "Mega",
@@ -20929,7 +20929,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	marpine: {
-		num: 10093,
+		num: 1182,
 		name: "Marpine",
 		types: ["Normal"],
 		baseStats: {hp: 53, atk: 85, def: 61, spa: 67, spd: 53, spe: 96},
@@ -20941,7 +20941,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	parafullo: {
-		num: 10094,
+		num: 1183,
 		name: "Parafullo",
 		types: ["Normal", "Flying"],
 		baseStats: {hp: 112, atk: 55, def: 61, spa: 96, spd: 98, spe: 103},
@@ -20953,7 +20953,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	magmelly: {
-		num: 10095,
+		num: 1184,
 		name: "Magmelly",
 		types: ["Fire", "Poison"],
 		baseStats: {hp: 99, atk: 61, def: 94, spa: 80, spd: 124, spe: 67},
@@ -20967,7 +20967,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	magmellymega: {
-		num: 10095,
+		num: 1184,
 		name: "Magmelly-Mega",
 		baseSpecies: "Magmelly",
 		forme: "Mega",
@@ -20983,7 +20983,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	salasander: {
-		num: 10096,
+		num: 1185,
 		name: "Salasander",
 		types: ["Ground", "Fire"],
 		baseStats: {hp: 89, atk: 86, def: 43, spa: 99, spd: 101, spe: 92},
@@ -20995,7 +20995,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	hurricrane: {
-		num: 10097,
+		num: 1186,
 		name: "Hurricrane",
 		types: ["Water", "Flying"],
 		baseStats: {hp: 59, atk: 55, def: 62, spa: 94, spd: 89, spe: 81},
@@ -21007,7 +21007,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	lampire: {
-		num: 10098,
+		num: 1187,
 		name: "Lampire",
 		types: ["Ghost", "Poison"],
 		baseStats: {hp: 46, atk: 82, def: 54, spa: 76, spd: 51, spe: 96},
@@ -21019,7 +21019,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	laphorlamp: {
-		num: 10099,
+		num: 1188,
 		name: "Laphorlamp",
 		types: ["Fire", "Steel"],
 		baseStats: {hp: 112, atk: 86, def: 104, spa: 87, spd: 97, spe: 34},
@@ -21031,7 +21031,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	weatherback: {
-		num: 10100,
+		num: 1189,
 		name: "Weatherback",
 		types: ["Water", "Steel"],
 		baseStats: {hp: 86, atk: 87, def: 146, spa: 72, spd: 77, spe: 42},
@@ -21043,7 +21043,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	drakolarmor: {
-		num: 10101,
+		num: 1190,
 		name: "Drakolarmor",
 		types: ["Ground", "Dragon"],
 		baseStats: {hp: 103, atk: 81, def: 126, spa: 48, spd: 87, spe: 25},
@@ -21055,7 +21055,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	inferthrope: {
-		num: 10102,
+		num: 1191,
 		name: "Inferthrope",
 		types: ["Dark", "Fire"],
 		baseStats: {hp: 78, atk: 109, def: 63, spa: 82, spd: 71, spe: 97},
@@ -21067,7 +21067,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	skulletonne: {
-		num: 10103,
+		num: 1192,
 		name: "Skulletonne",
 		types: ["Ghost"],
 		baseStats: {hp: 72, atk: 103, def: 84, spa: 51, spd: 65, spe: 75},
@@ -21081,7 +21081,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	skulletonnemega: {
-		num: 10103,
+		num: 1192,
 		name: "Skulletonne-Mega",
 		baseSpecies: "Skulletonne",
 		forme: "Mega",
@@ -21097,7 +21097,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	terrormite: {
-		num: 10104,
+		num: 1193,
 		name: "Terrormite",
 		types: ["Bug", "Ground"],
 		baseStats: {hp: 48, atk: 106, def: 37, spa: 64, spd: 53, spe: 92},
@@ -21109,7 +21109,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	anaconoxious: {
-		num: 10105,
+		num: 1194,
 		name: "Anaconoxious",
 		types: ["Poison"],
 		baseStats: {hp: 128, atk: 101, def: 103, spa: 56, spd: 83, spe: 64},
@@ -21121,7 +21121,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	slumucus: {
-		num: 10106,
+		num: 1195,
 		name: "Slumucus",
 		types: ["Bug", "Poison"],
 		baseStats: {hp: 63, atk: 45, def: 96, spa: 83, spd: 124, spe: 14},
@@ -21133,7 +21133,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	titectre: {
-		num: 10107,
+		num: 1196,
 		name: "Titectre",
 		types: ["Ghost", "Rock"],
 		baseStats: {hp: 119, atk: 103, def: 126, spa: 52, spd: 89, spe: 38},
@@ -21145,7 +21145,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	stalagtergeist: {
-		num: 10108,
+		num: 1197,
 		name: "Stalagtergeist",
 		types: ["Ghost", "Rock"],
 		baseStats: {hp: 89, atk: 103, def: 86, spa: 62, spd: 89, spe: 98},
@@ -21157,7 +21157,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	falnado: {
-		num: 10109,
+		num: 1198,
 		name: "Falnado",
 		types: ["Normal", "Flying"],
 		baseStats: {hp: 51, atk: 97, def: 58, spa: 97, spd: 56, spe: 121},
@@ -21169,7 +21169,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	mollucone: {
-		num: 10110,
+		num: 1199,
 		name: "Mollucone",
 		types: ["Water", "Poison"],
 		baseStats: {hp: 68, atk: 47, def: 122, spa: 78, spd: 101, spe: 34},
@@ -21181,7 +21181,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	crickmire: {
-		num: 10111,
+		num: 1200,
 		name: "Crickmire",
 		types: ["Bug", "Water"],
 		baseStats: {hp: 60, atk: 115, def: 60, spa: 125, spd: 65, spe: 135},
@@ -21193,7 +21193,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	crickoat: {
-		num: 10112,
+		num: 1201,
 		name: "Crickoat",
 		types: ["Bug", "Normal"],
 		baseStats: {hp: 125, atk: 75, def: 65, spa: 135, spd: 95, spe: 65},
@@ -21205,7 +21205,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	disaspider: {
-		num: 10113,
+		num: 1202,
 		name: "Disaspider",
 		types: ["Bug", "Dark"],
 		baseStats: {hp: 60, atk: 85, def: 75, spa: 70, spd: 125, spe: 145},
@@ -21217,7 +21217,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	orbider: {
-		num: 10114,
+		num: 1203,
 		name: "Orbider",
 		types: ["Bug", "Fairy"],
 		baseStats: {hp: 80, atk: 45, def: 60, spa: 115, spd: 135, spe: 125},
@@ -21229,7 +21229,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	vesplume: {
-		num: 10115,
+		num: 1204,
 		name: "Vesplume",
 		types: ["Bug", "Flying"],
 		baseStats: {hp: 75, atk: 135, def: 80, spa: 85, spd: 70, spe: 115},
@@ -21241,7 +21241,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	vesplatinum: {
-		num: 10116,
+		num: 1205,
 		name: "Vesplatinum",
 		types: ["Bug", "Steel"],
 		baseStats: {hp: 65, atk: 155, def: 95, spa: 60, spd: 70, spe: 115},
@@ -21253,7 +21253,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	grapeetle: {
-		num: 10117,
+		num: 1206,
 		name: "Grapeetle",
 		types: ["Bug", "Fighting"],
 		baseStats: {hp: 65, atk: 155, def: 95, spa: 60, spd: 70, spe: 115},
@@ -21265,7 +21265,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	foleetle: {
-		num: 10118,
+		num: 1207,
 		name: "Foleetle",
 		types: ["Bug", "Grass"],
 		baseStats: {hp: 125, atk: 105, def: 115, spa: 70, spd: 95, spe: 50},
@@ -21277,7 +21277,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	abyssquid: {
-		num: 10119,
+		num: 1208,
 		name: "Abyssquid",
 		types: ["Rock", "Water"],
 		baseStats: {hp: 73, atk: 81, def: 114, spa: 129, spd: 113, spe: 90},
@@ -21289,7 +21289,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	furianzhou: {
-		num: 10120,
+		num: 1209,
 		name: "Furianzhou",
 		types: ["Rock", "Grass"],
 		baseStats: {hp: 91, atk: 134, def: 85, spa: 81, spd: 102, spe: 107},
@@ -21301,7 +21301,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	tapinfera: {
-		num: 10121,
+		num: 1210,
 		name: "Tapinfera",
 		types: ["Rock", "Fire"],
 		baseStats: {hp: 76, atk: 96, def: 104, spa: 122, spd: 74, spe: 128},
@@ -21313,7 +21313,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	ankorient: {
-		num: 10122,
+		num: 1211,
 		name: "Ankorient",
 		types: ["Rock", "Steel"],
 		baseStats: {hp: 104, atk: 110, def: 107, spa: 89, spd: 124, spe: 66},
@@ -21325,7 +21325,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	odivalk: {
-		num: 10123,
+		num: 1212,
 		name: "Odivalk",
 		types: ["Flying", "Fighting"],
 		baseStats: {hp: 83, atk: 117, def: 91, spa: 67, spd: 70, spe: 107},
@@ -21337,7 +21337,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	valkischief: {
-		num: 10124,
+		num: 1213,
 		name: "Valkischief",
 		types: ["Flying", "Fighting"],
 		baseStats: {hp: 107, atk: 83, def: 117, spa: 67, spd: 91, spe: 70},
@@ -21349,7 +21349,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	reckleosteus: {
-		num: 10125,
+		num: 1214,
 		name: "Reckleosteus",
 		types: ["Fighting", "Rock"],
 		baseStats: {hp: 94, atk: 132, def: 103, spa: 47, spd: 52, spe: 82},
@@ -21361,7 +21361,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	porcupulse: {
-		num: 10126,
+		num: 1215,
 		name: "Porcupulse",
 		types: ["Steel", "Electric"],
 		baseStats: {hp: 63, atk: 68, def: 111, spa: 104, spd: 83, spe: 71},
@@ -21373,7 +21373,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	solursa: {
-		num: 10127,
+		num: 1216,
 		name: "Solursa",
 		types: ["Fire", "Fighting"],
 		baseStats: {hp: 64, atk: 124, def: 81, spa: 61, spd: 82, spe: 78},
@@ -21385,7 +21385,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	permatross: {
-		num: 10128,
+		num: 1217,
 		name: "Permatross",
 		types: ["Flying", "Ice"],
 		baseStats: {hp: 128, atk: 59, def: 64, spa: 126, spd: 72, spe: 71},
@@ -21397,7 +21397,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	scythatchi: {
-		num: 10129,
+		num: 1218,
 		name: "Scythatchi",
 		types: ["Steel", "Ice"],
 		baseStats: {hp: 57, atk: 49, def: 87, spa: 79, spd: 57, spe: 116},
@@ -21409,7 +21409,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	tsunanus: {
-		num: 10130,
+		num: 1219,
 		name: "Tsunanus",
 		types: ["Water", "Dark"],
 		baseStats: {hp: 105, atk: 108, def: 90, spa: 113, spd: 90, spe: 134},
@@ -21421,7 +21421,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	erothys: {
-		num: 10131,
+		num: 1220,
 		name: "Erothys",
 		types: ["Water", "Fairy"],
 		baseStats: {hp: 87, atk: 88, def: 88, spa: 132, spd: 157, spe: 88},
@@ -21433,7 +21433,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	mortilance: {
-		num: 10132,
+		num: 1221,
 		name: "Mortilance",
 		types: ["Electric"],
 		baseStats: {hp: 128, atk: 162, def: 70, spa: 118, spd: 78, spe: 84},
@@ -21445,7 +21445,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	luminilver: {
-		num: 10133,
+		num: 1222,
 		name: "Luminilver",
 		types: ["Fire"],
 		baseStats: {hp: 78, atk: 110, def: 75, spa: 137, spd: 130, spe: 110},
@@ -21457,7 +21457,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	coeisdom: {
-		num: 10134,
+		num: 1223,
 		name: "Coeisdom",
 		types: ["Psychic"],
 		baseStats: {hp: 160, atk: 80, def: 80, spa: 160, spd: 80, spe: 80},
@@ -21469,7 +21469,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	phanacy: {
-		num: 10135,
+		num: 1224,
 		name: "Phanacy",
 		types: ["Psychic"],
 		baseStats: {hp: 92, atk: 92, def: 92, spa: 180, spd: 92, spe: 92},
@@ -21481,7 +21481,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	zodelandar: {
-		num: 10136,
+		num: 1225,
 		name: "Zodelandar",
 		types: ["Electric", "Dark"],
 		baseStats: {hp: 180, atk: 75, def: 75, spa: 130, spd: 105, spe: 75},
@@ -21493,7 +21493,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	forgeitymn: {
-		num: 10137,
+		num: 1226,
 		name: "Forgeitymn",
 		types: ["Ghost"],
 		baseStats: {hp: 80, atk: 80, def: 185, spa: 135, spd: 80, spe: 80},
@@ -21505,7 +21505,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	juriatal: {
-		num: 10138,
+		num: 1227,
 		name: "Juriatal",
 		types: ["Ghost", "Fairy"],
 		baseStats: {hp: 124, atk: 124, def: 124, spa: 124, spd: 124, spe: 20},
@@ -21517,7 +21517,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	trustice: {
-		num: 10139,
+		num: 1228,
 		name: "Trustice",
 		types: ["Fighting"],
 		baseStats: {hp: 70, atk: 150, def: 70, spa: 150, spd: 150, spe: 50},
@@ -21529,7 +21529,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	infonus: {
-		num: 10140,
+		num: 1229,
 		name: "Infonus",
 		types: ["Flying"],
 		baseStats: {hp: 138, atk: 128, def: 88, spa: 110, spd: 128, spe: 88},
@@ -21541,7 +21541,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	fertiferus: {
-		num: 10141,
+		num: 1230,
 		name: "Fertiferus",
 		types: ["Grass"],
 		baseStats: {hp: 150, atk: 50, def: 130, spa: 50, spd: 130, spe: 130},
@@ -21553,7 +21553,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	petarcass: {
-		num: 10142,
+		num: 1231,
 		name: "Petarcass",
 		types: ["Ghost", "Bug"],
 		baseStats: {hp: 59, atk: 97, def: 77, spa: 82, spd: 73, spe: 97},
@@ -21565,7 +21565,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	thefchan: {
-		num: 10143,
+		num: 1232,
 		name: "Thefchan",
 		types: ["Grass", "Fairy"],
 		baseStats: {hp: 93, atk: 49, def: 68, spa: 86, spd: 104, spe: 87},
@@ -21579,7 +21579,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	thefchanmega: {
-		num: 10143,
+		num: 1232,
 		name: "Thefchan-Mega",
 		baseSpecies: "Thefchan",
 		forme: "Mega",
@@ -21595,7 +21595,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	mosjito: {
-		num: 10144,
+		num: 1233,
 		name: "Mosjito",
 		types: ["Fire", "Bug"],
 		baseStats: {hp: 67, atk: 94, def: 38, spa: 112, spd: 32, spe: 102},
@@ -21607,7 +21607,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	subterrandr: {
-		num: 10145,
+		num: 1234,
 		name: "Subterrandr",
 		types: ["Dragon", "Ground"],
 		baseStats: {hp: 132, atk: 107, def: 83, spa: 49, spd: 81, spe: 78},
@@ -21621,7 +21621,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	subterrandrmega: {
-		num: 10145,
+		num: 1234,
 		name: "Subterrandr-Mega",
 		baseSpecies: "Subterrandr",
 		forme: "Mega",
@@ -21637,7 +21637,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	satellity: {
-		num: 10146,
+		num: 1235,
 		name: "Satellity",
 		types: ["Flying", "Steel"],
 		baseStats: {hp: 90, atk: 33, def: 118, spa: 87, spd: 123, spe: 64},
@@ -21651,7 +21651,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	satellitymega: {
-		num: 10146,
+		num: 1235,
 		name: "Satellity-Mega",
 		baseSpecies: "Satellity",
 		forme: "Mega",
@@ -21667,7 +21667,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	saigeta: {
-		num: 10147,
+		num: 1236,
 		name: "Saigeta",
 		types: ["Psychic", "Fighting"],
 		baseStats: {hp: 102, atk: 102, def: 108, spa: 79, spd: 108, spe: 101},
@@ -21679,7 +21679,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	kakarraiyan: {
-		num: 10148,
+		num: 1237,
 		name: "Kakarraiyan",
 		types: ["Psychic", "Fighting"],
 		baseStats: {hp: 86, atk: 97, def: 92, spa: 97, spd: 91, spe: 137},
@@ -21691,7 +21691,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	plaguerca: {
-		num: 10149,
+		num: 1238,
 		name: "Plaguerca",
 		types: ["Bug", "Poison"],
 		baseStats: {hp: 48, atk: 102, def: 57, spa: 56, spd: 64, spe: 128},
@@ -21703,7 +21703,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	genorcade: {
-		num: 10150,
+		num: 1239,
 		name: "Genorcade",
 		types: ["Dark", "Water"],
 		baseStats: {hp: 118, atk: 124, def: 97, spa: 36, spd: 73, spe: 102},
@@ -21715,7 +21715,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	volcarufe: {
-		num: 10151,
+		num: 1240,
 		name: "Volcarufe",
 		types: ["Rock", "Fairy"],
 		baseStats: {hp: 93, atk: 60, def: 117, spa: 101, spd: 121, spe: 8},
@@ -21727,7 +21727,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	bzzuzzuzzg: {
-		num: 10152,
+		num: 1241,
 		name: "Bzzuzzuzzg",
 		types: ["Bug", "Electric"],
 		baseStats: {hp: 51, atk: 96, def: 53, spa: 99, spd: 47, spe: 114},
@@ -21739,7 +21739,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	tectonitoad: {
-		num: 10153,
+		num: 1242,
 		name: "Tectonitoad",
 		types: ["Ground", "Ice"],
 		baseStats: {hp: 89, atk: 131, def: 103, spa: 61, spd: 48, spe: 78},
@@ -21751,7 +21751,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	arcangran: {
-		num: 10154,
+		num: 1243,
 		name: "Arcangran",
 		types: ["Fire", "Fairy"],
 		baseStats: {hp: 90, atk: 125, def: 85, spa: 70, spd: 100, spe: 70},
@@ -21763,7 +21763,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	quendrill: {
-		num: 10155,
+		num: 1244,
 		name: "Quendrill",
 		types: ["Bug", "Fighting"],
 		baseStats: {hp: 80, atk: 115, def: 80, spa: 85, spd: 100, spe: 80},
@@ -21775,7 +21775,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	araquavik: {
-		num: 10156,
+		num: 1245,
 		name: "Araquavik",
 		types: ["Dragon", "Bug"],
 		baseStats: {hp: 65, atk: 70, def: 95, spa: 145, spd: 135, spe: 30},
@@ -21787,7 +21787,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	regialpha: {
-		num: 10157,
+		num: 1246,
 		name: "Regialpha",
 		types: ["Normal"],
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
@@ -21799,7 +21799,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	porygene: {
-		num: 10158,
+		num: 1247,
 		name: "Porygene",
 		types: ["Electric", "Steel"],
 		baseStats: {hp: 75, atk: 70, def: 95, spa: 125, spd: 95, spe: 80},
@@ -21811,7 +21811,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	venofree: {
-		num: 10159,
+		num: 1248,
 		name: "Venofree",
 		types: ["Bug"],
 		baseStats: {hp: 80, atk: 75, def: 70, spa: 120, spd: 95, spe: 100},
@@ -21823,7 +21823,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	shargarch: {
-		num: 10160,
+		num: 1249,
 		name: "Shargarch",
 		types: ["Water", "Dragon"],
 		baseStats: {hp: 83, atk: 132, def: 77, spa: 80, spd: 70, spe: 98},
@@ -21835,7 +21835,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	draplisc: {
-		num: 10161,
+		num: 1250,
 		name: "Draplisc",
 		types: ["Ground", "Poison"],
 		baseStats: {hp: 85, atk: 100, def: 135, spa: 50, spd: 75, spe: 95},
@@ -21847,7 +21847,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	rizinraza: {
-		num: 10162,
+		num: 1251,
 		name: "Rizinraza",
 		types: ["Rock", "Ground"],
 		baseStats: {hp: 65, atk: 126, def: 63, spa: 75, spd: 75, spe: 111},
@@ -21859,7 +21859,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	mafimime: {
-		num: 10163,
+		num: 1252,
 		name: "Mafimime",
 		types: ["Dark", "Psychic"],
 		baseStats: {hp: 103, atk: 113, def: 86, spa: 48, spd: 72, spe: 68},
@@ -21871,7 +21871,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	sinicabre: {
-		num: 10164,
+		num: 1253,
 		name: "Sinicabre",
 		types: ["Dark", "Poison"],
 		baseStats: {hp: 78, atk: 103, def: 82, spa: 70, spd: 81, spe: 81},
@@ -21883,7 +21883,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	toxtricityalthon: {
-		num: 10165,
+		num: 1254,
 		name: "Toxtricity-Althon",
 		types: ["Electric", "Rock"],
 		baseStats: {hp: 83, atk: 119, def: 81, spa: 67, spd: 69, spe: 83},
@@ -21897,7 +21897,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	toxtricitymega: {
-		num: 10103,
+		num: 1254,
 		name: "Toxtricity-Mega",
 		baseSpecies: "Toxtricity-Althon",
 		forme: "Mega",
@@ -21913,7 +21913,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	mienshantis: {
-		num: 10166,
+		num: 1255,
 		name: "Mienshantis",
 		types: ["Ghost", "Bug"],
 		baseStats: {hp: 57, atk: 121, def: 67, spa: 87, spd: 73, spe: 105},
@@ -21925,7 +21925,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	dodrioalthon: {
-		num: 10167,
+		num: 1256,
 		name: "Dodrio-Althon",
 		types: ["Water", "Fire"],
 		baseStats: {hp: 75, atk: 50, def: 55, spa: 115, spd: 70, spe: 105},
@@ -21937,7 +21937,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	machampalthon: {
-		num: 10168,
+		num: 1257,
 		name: "Machamp-Althon",
 		types: ["Fighting"],
 		baseStats: {hp: 105, atk: 130, def: 105, spa: 50, spd: 60, spe: 55},
@@ -21949,7 +21949,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	aggrite: {
-		num: 10169,
+		num: 1258,
 		name: "Aggrite",
 		types: ["Psychic", "Rock"],
 		baseStats: {hp: 87, atk: 102, def: 57, spa: 92, spd: 146, spe: 46},
@@ -21963,7 +21963,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	aggritemega: {
-		num: 10169,
+		num: 1258,
 		name: "Aggrite-Mega",
 		baseSpecies: "Aggrite",
 		forme: "Mega",
@@ -21979,7 +21979,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	malevite: {
-		num: 10170,
+		num: 1259,
 		name: "Malevite",
 		types: ["Dark", "Rock"],
 		baseStats: {hp: 75, atk: 83, def: 57, spa: 137, spd: 69, spe: 109},
@@ -21993,7 +21993,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	malevitemega: {
-		num: 10170,
+		num: 1259,
 		name: "Malevite-Mega",
 		baseSpecies: "Malevite",
 		forme: "Mega",
@@ -22009,7 +22009,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	rotomalthon: {
-		num: 10171,
+		num: 1260,
 		name: "Rotom-Althon",
 		types: ["Fire", "Ghost"],
 		baseStats: {hp: 45, atk: 55, def: 72, spa: 95, spd: 72, spe: 101},
@@ -22021,7 +22021,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	rotomlantern: {
-		num: 10172,
+		num: 1261,
 		name: "Rotom-Lantern",
 		types: ["Fire", "Fairy"],
 		baseStats: {hp: 60, atk: 58, def: 102, spa: 112, spd: 102, spe: 86},
@@ -22033,7 +22033,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	rotommixer: {
-		num: 10173,
+		num: 1262,
 		name: "Rotom-Mixer",
 		types: ["Fire", "Ground"],
 		baseStats: {hp: 60, atk: 58, def: 102, spa: 112, spd: 102, spe: 86},
@@ -22045,7 +22045,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	rotomwindvane: {
-		num: 10174,
+		num: 1263,
 		name: "Rotom-Windvane",
 		types: ["Fire", "Flying"],
 		baseStats: {hp: 60, atk: 58, def: 102, spa: 112, spd: 102, spe: 86},
@@ -22057,7 +22057,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	rotombouzouki: {
-		num: 10175,
+		num: 1264,
 		name: "Rotom-Bouzouki",
 		types: ["Fire", "Normal"],
 		baseStats: {hp: 60, atk: 58, def: 102, spa: 112, spd: 102, spe: 86},
@@ -22069,7 +22069,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	rotomclock: {
-		num: 10176,
+		num: 1265,
 		name: "Rotom-Clock",
 		types: ["Fire", "Dark"],
 		baseStats: {hp: 60, atk: 58, def: 102, spa: 112, spd: 102, spe: 86},
@@ -22081,7 +22081,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	dunspartan: {
-		num: 10177,
+		num: 1266,
 		name: "Dunspartan",
 		types: ["Ground", "Fighting"],
 		baseStats: {hp: 110, atk: 95, def: 95, spa: 65, spd: 90, spe: 45},
@@ -22093,7 +22093,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	mastophan: {
-		num: 10178,
+		num: 1267,
 		name: "Mastophan",
 		types: ["Steel", "Grass"],
 		baseStats: {hp: 100, atk: 65, def: 120, spa: 97, spd: 130, spe: 23},
@@ -22105,7 +22105,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	luxrayalthonc: {
-		num: 10179,
+		num: 1268,
 		name: "Luxray-Althon-C",
 		types: ["Dark"],
 		baseStats: {hp: 80, atk: 120, def: 79, spa: 70, spd: 79, spe: 95},
@@ -22117,7 +22117,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	luxrayalthond: {
-		num: 10180,
+		num: 1269,
 		name: "Luxray-Althon-D",
 		types: ["Fairy"],
 		baseStats: {hp: 95, atk: 79, def: 79, spa: 120, spd: 80, spe: 70},
@@ -22129,7 +22129,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	gigalithalthon: {
-		num: 10181,
+		num: 1270,
 		name: "Gigalith-Althon",
 		types: ["Steel", "Fairy"],
 		baseStats: {hp: 85, atk: 60, def: 130, spa: 80, spd: 135, spe: 25},
@@ -22141,7 +22141,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	revolaunt: {
-		num: 10182,
+		num: 1271,
 		name: "Revolaunt",
 		types: ["Fighting", "Water"],
 		baseStats: {hp: 74, atk: 109, def: 68, spa: 109, spd: 64, spe: 121},
@@ -22153,7 +22153,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	gogoatalthon: {
-		num: 10183,
+		num: 1272,
 		name: "Gogoat-Althon",
 		types: ["Grass", "Fighting"],
 		baseStats: {hp: 123, atk: 100, def: 107, spa: 51, spd: 91, spe: 58},
@@ -22167,7 +22167,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	gogoatmega: {
-		num: 10183,
+		num: 1273,
 		name: "Gogoat-Mega",
 		baseSpecies: "Gogoat-Althon",
 		forme: "Mega",
@@ -22183,7 +22183,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	marionectre: {
-		num: 10184,
+		num: 1274,
 		name: "Marionectre",
 		types: ["Ghost", "Poison"],
 		baseStats: {hp: 83, atk: 121, def: 91, spa: 83, spd: 87, spe: 65 },
@@ -22195,7 +22195,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	magmortaralthon: {
-		num: 10185,
+		num: 1275,
 		name: "Magmortar-Althon",
 		types: ["Flying", "Fire"],
 		baseStats: {hp: 85, atk: 95, def: 67, spa: 95, spd: 73, spe: 125},
@@ -22207,7 +22207,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	electivirealthon: {
-		num: 10186,
+		num: 1276,
 		name: "Electivire-Althon",
 		types: ["Fairy", "Electric"],
 		baseStats: {hp: 95, atk: 67, def: 75, spa: 123, spd: 95, spe: 85},
@@ -22219,7 +22219,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	vespiquenalthon: {
-		num: 10187,
+		num: 1277,
 		name: "Vespiquen-Althon",
 		types: ["Ground", "Flying"],
 		baseStats: {hp: 70, atk: 110, def: 102, spa: 50, spd: 102, spe: 70},
@@ -22233,7 +22233,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	vespiquenmega: {
-		num: 10187,
+		num: 1277,
 		name: "Vespiquen-Mega",
 		baseSpecies: "Vespiquen-Althon",
 		forme: "Mega",
@@ -22249,7 +22249,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	sorcereye: {
-		num: 10188,
+		num: 1278,
 		name: "Sorcereye",
 		types: ["Fairy", "Psychic"],
 		baseStats: {hp: 84, atk: 65, def: 100, spa: 126, spd: 90, spe: 50},
@@ -22261,7 +22261,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	steelixalthon: {
-		num: 10189,
+		num: 1279,
 		name: "Steelix-Althon",
 		types: ["Steel", "Dragon"],
 		baseStats: {hp: 89, atk: 30, def: 69, spa: 96, spd: 111, spe: 115},
@@ -22273,7 +22273,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	pangoroalthon: {
-		num: 10190,
+		num: 1280,
 		name: "Pangoro-Althon",
 		types: ["Grass", "Dragon"],
 		baseStats: {hp: 95, atk: 124, def: 78, spa: 49, spd: 71, spe: 78},
@@ -22285,7 +22285,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	spindojo: {
-		num: 10191,
+		num: 1281,
 		name: "Spindojo",
 		types: ["Fighting", "Fairy"],
 		baseStats: {hp: 100, atk: 120, def: 90, spa: 60, spd: 60, spe: 90},
@@ -22297,7 +22297,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	ampharosalthon: {
-		num: 10192,
+		num: 1282,
 		name: "Ampharos-Althon",
 		types: ["Dragon", "Dark"],
 		baseStats: {hp: 119, atk: 35, def: 95, spa: 107, spd: 109, spe: 45},
@@ -22309,7 +22309,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	liepardalthon: {
-		num: 10192,
+		num: 1283,
 		name: "Liepard-Althon",
 		types: ["Dark", "Fighting"],
 		baseStats: {hp: 74, atk: 108, def: 74, spa: 83, spd: 50, spe: 106},
@@ -22321,7 +22321,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	spiritombalthon: {
-		num: 10193,
+		num: 1284,
 		name: "Spiritomb-Althon",
 		types: ["Ghost", "Fairy"],
 		baseStats: {hp: 35, atk: 108, def: 92, spa: 108, spd: 92, spe: 50},
@@ -22333,7 +22333,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	shiftryalthon: {
-		num: 10194,
+		num: 1285,
 		name: "Shiftry-Althon",
 		types: ["Grass", "Flying"],
 		baseStats: {hp: 58, atk: 76, def: 53, spa: 121, spd: 41, spe: 131},
@@ -22345,7 +22345,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	scolipedealthon: {
-		num: 10195,
+		num: 1286,
 		name: "Scolipede-Althon",
 		types: ["Rock", "Poison"],
 		baseStats: {hp: 70, atk: 55, def: 89, spa: 100, spd: 79, spe: 112},
@@ -22357,7 +22357,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	jellicentalthon: {
-		num: 10196,
+		num: 1287,
 		name: "Jellicent-Althon",
 		types: ["Fairy", "Water"],
 		baseStats: {hp: 100, atk: 35, def: 85, spa: 85, spd: 115, spe: 60},
@@ -22369,7 +22369,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	sandacondaalthon: {
-		num: 10197,
+		num: 1288,
 		name: "Sandaconda-Althon",
 		types: ["Ground", "Flying"],
 		baseStats: {hp: 94, atk: 30, def: 83, spa: 121, spd: 109, spe: 78},
@@ -22381,7 +22381,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	abomasnowalthon: {
-		num: 10198,
+		num: 1289,
 		name: "Abomasnow-Althon",
 		types: ["Ice", "Fairy"],
 		baseStats: {hp: 96, atk: 57, def: 73, spa: 103, spd: 117, spe: 48},
@@ -22393,7 +22393,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	meganiumalthon: {
-		num: 10199,
+		num: 1290,
 		name: "Meganium-Althon",
 		types: ["Grass", "Fire"],
 		baseStats: {hp: 88, atk: 62, def: 100, spa: 109, spd: 106, spe: 70},
@@ -22405,7 +22405,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	typhlosionalthon: {
-		num: 10200,
+		num: 1291,
 		name: "Typhlosion-Althon",
 		types: ["Fire", "Water"],
 		baseStats: {hp: 78, atk: 54, def: 78, spa: 119, spd: 89, spe: 117},
@@ -22417,7 +22417,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	feraligatralthon: {
-		num: 10201,
+		num: 1292,
 		name: "Feraligatr-Althon",
 		types: ["Water", "Grass"],
 		baseStats: {hp: 86, atk: 105, def: 100, spa: 79, spd: 92, spe: 73},
@@ -22429,7 +22429,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	jumpluffalthon: {
-		num: 10202,
+		num: 1293,
 		name: "Jumpluff-Althon",
 		types: ["Grass", "Electric"],
 		baseStats: {hp: 75, atk: 40, def: 70, spa: 100, spd: 95, spe: 110},
@@ -22441,7 +22441,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	aurorbyss: {
-		num: 10203,
+		num: 1294,
 		name: "Aurorbyss",
 		types: ["Ice", "Water"],
 		baseStats: {hp: 123, atk: 99, def: 72, spa: 92, spd: 77, spe: 62},
@@ -22453,7 +22453,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	tyranpact: {
-		num: 10204,
+		num: 1295,
 		name: "Tyranpact",
 		types: ["Dragon", "Steel"],
 		baseStats: {hp: 92, atk: 121, def: 119, spa: 49, spd: 83, spe: 61},
@@ -22465,7 +22465,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	haxorusalthon: {
-		num: 10205,
+		num: 1296,
 		name: "Haxorus-Althon",
 		types: ["Ice", "Dragon"],
 		baseStats: {hp: 71, atk: 147, def: 115, spa: 40, spd: 70, spe: 97},
@@ -22477,7 +22477,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	draghoulich: {
-		num: 10206,
+		num: 1297,
 		name: "Draghoulich",
 		types: ["Ghost", "Dragon"],
 		baseStats: {hp: 97, atk: 131, def: 40, spa: 131, spd: 40, spe: 101},
@@ -22489,7 +22489,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	demogrievus: {
-		num: 10207,
+		num: 1298,
 		name: "Demogrievus",
 		types: ["Poison", "Dark"],
 		baseStats: {hp: 114, atk: 43, def: 102, spa: 83, spd: 102, spe: 96},
@@ -22501,7 +22501,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	demorcus: {
-		num: 10208,
+		num: 1299,
 		name: "Demorcus",
 		types: ["Fire", "Flying"],
 		baseStats: {hp: 172, atk: 111, def: 56, spa: 111, spd: 55, spe: 35},
@@ -22513,7 +22513,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	lethalich: {
-		num: 10209,
+		num: 1300,
 		name: "Lethalich",
 		types: ["Ghost", "Dark"],
 		baseStats: {hp: 127, atk: 56, def: 74, spa: 135, spd: 101, spe: 57},
@@ -22525,7 +22525,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Fakemon"],
 	},
 	tremasque: {
-		num: 10210,
+		num: 1301,
 		name: "Tremasque",
 		types: ["Ground", "Dark"],
 		baseStats: {hp: 132, atk: 128, def: 91, spa: 35, spd: 79, spe: 75},
