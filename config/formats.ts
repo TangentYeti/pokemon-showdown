@@ -25,14 +25,14 @@ export const Formats: FormatList = [
 		section: "Divine Olympus",
 	},
 	{
-		name: "Divine Olympus Singles",
+		name: "[Gen 9] Divine Olympus Singles",
 
 		mod: 'gen9',
 		ruleset: ['Divine Rules', '-all Pokemon', '+DO', '!Team Preview'],
 		banlist: ['OU'],
 	},
 	{
-		name: "Divine Olympus Doubles",
+		name: "[Gen 9] Divine Olympus Doubles",
 
 		mod: 'gen9',
 		gameType: 'doubles',
@@ -40,7 +40,7 @@ export const Formats: FormatList = [
 		banlist: ['DOU'],
 	},
 	{
-		name: "Divine Olympus FFA",
+		name: "[Gen 9] Divine Olympus FFA",
 
 		mod: 'gen9',
 		gameType: 'freeforall',
