@@ -136,6 +136,10 @@ export const Tags: { [id: IDEntry]: TagData } = {
 
 	// Tiers
 	// -----
+	althon: {
+		name: "Althon",
+		speciesFilter: species => species.tier ==='Althon' || species.tier ==='(Althon)',
+	},
 	uber: {
 		name: "Uber",
 		speciesFilter: species => species.tier === 'Uber' || species.tier === '(Uber)' || species.tier === 'AG',
