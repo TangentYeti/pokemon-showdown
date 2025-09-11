@@ -5976,7 +5976,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 		flags: {breakable: 1},
-		name: "DIssolve",
+		name: "Dissolve",
 		rating: 3.5,
 		num: 297,
 	},

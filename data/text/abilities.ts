@@ -2372,6 +2372,11 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon's Grass type attacks are boosted by 50%",
         shortDesc: "Boosts damage on Grass type attacks"
     },
+	dissolve: {
+		name: "Dissolve",
+		desc: "This Pokemon is immune to Steel-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Steel-type move.",
+		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Steel moves; Steel immunity.",
+	},
 	divination: {
         name: "Divination",
         desc: "Sets Gravity on entry",
