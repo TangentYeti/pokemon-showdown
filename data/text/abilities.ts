@@ -2302,4 +2302,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "This Pokemon's Flying type moves have their power mulitplied by 1.5",
 		shortDesc: "Flying moves are boosted by 1.5x"
 	},
+	badomen: {
+		name: "Bad Omen",
+		desc: "Lowering this Pokemon's Stats damages the opponent",
+		shortDesc: "Lowering this Pokemon's Stats damages the opponent"
+	},
 };

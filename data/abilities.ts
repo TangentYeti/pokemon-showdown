@@ -5733,5 +5733,28 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Avian",
 		rating: 3.5,
 		num: 282,
+	},badomen: {
+		onAfterEachBoost(boost, target, source, effect) {
+			if (!source || target.isAlly(source)) {
+				if (effect.id === 'stickyweb') {
+					this.hint("Court Change Sticky Web counts as lowering your own Speed, and Bad Omen only affects stats lowered by foes.", true, source.side);
+				}
+				return;
+			}
+			let statsLowered = false;
+			let i: BoostID;
+			for (i in boost) {
+				if (boost[i]! < 0) {
+					statsLowered = true;
+				}
+			}
+			if (statsLowered) {
+				this.add('-ability', target, 'Bad Omen');
+				this.damage(source.baseMaxhp / 8, source, target);
+			}
+		},
+		name: "Bad Omen",
+		rating: 2.5,
+		num: 283,
 	},
 };
