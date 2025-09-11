@@ -5658,8 +5658,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			this.field.setWeather('overcast');
 		},
 		onAnySetWeather(target, source, weather) {
-			if (!source.hasAbility('atmokinesis')) 
-				this.damage(source.baseMaxhp / 8, source, target)
+			if (!source.hasAbility('atmokinesis')) {
+				this.damage(source.baseMaxhp / 8, source, this.effectState.source);
+			}
 			const strongWeathers = ['desolateland', 'primordialsea', 'deltastream', 'overcast'];
 			if (this.field.getWeather().id === 'overcast') return false;
 		},
