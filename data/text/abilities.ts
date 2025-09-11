@@ -2307,4 +2307,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "Lowering this Pokemon's Stats damages the opponent",
 		shortDesc: "Lowering this Pokemon's Stats damages the opponent"
 	},
+	battlehardened: {
+		name: "Battle Hardened",
+		desc: "This Pokemon's DEfense increases by 1 stage each turn",
+		shortDesc: "+1 defense each turn"
+	},
 };

@@ -5757,4 +5757,16 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 2.5,
 		num: 283,
 	},
+	battlehardened: {
+		onResidualOrder: 28,
+		onResidualSubOrder: 2,
+		onResidual(pokemon) {
+			if (pokemon.activeTurns) {
+				this.boost({def: 1});
+			}
+		},
+		name: "Battle Hardened",
+		rating: 4.5,
+		num: 284,
+	},
 };
