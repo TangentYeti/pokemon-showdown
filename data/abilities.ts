@@ -5694,7 +5694,23 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4,
 		num: 281,
 	},
-	//ashen grace 282
+	ashengrace: {
+		onStart(source) {
+			for (const action of this.queue) {
+				if (action.choice === 'runPrimal' && action.pokemon === source && source.species.id === 'groudon') return;
+				if (action.choice !== 'runSwitch' && action.choice !== 'runPrimal') break;
+			}
+			this.field.setWeather('sunnyday');
+		},
+		onWeather(target, source, effect) {
+			if (effect.id === 'sunnyday' || effect.id === 'desolateland') {
+				this.heal(target.baseMaxhp / 8);
+			}
+		},
+		name: "Ashen Grace",
+		rating: 3,
+		num: 1047,
+	},
 	atmokinesis: {
 		onStart(source) {
 			this.field.setWeather('overcast');

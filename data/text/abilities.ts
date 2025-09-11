@@ -2317,4 +2317,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "This Pokemon's DEfense increases by 1 stage each turn",
 		shortDesc: "+1 defense each turn"
 	},
+	ashengrace: {
+        name: "Ashen Grace",
+        desc: "This Pokemon sets Sun on entry and heals for 1/6th of its max hp in Sun.",
+        shortDesc: "Sets Sun, heals 1/6th in Sun"
+    },
 };
