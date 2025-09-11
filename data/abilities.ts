@@ -5658,9 +5658,10 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			this.field.setWeather('overcast');
 		},
 		onAnySetWeather(target, source, weather) {
-			this.damage(source.baseMaxhp / 8, source, target)
+			if (!source.hasAbility('atmokinesis')) 
+				this.damage(source.baseMaxhp / 8, source, target)
 			const strongWeathers = ['desolateland', 'primordialsea', 'deltastream', 'overcast'];
-			if (this.field.getWeather().id === 'overcast' && !strongWeathers.includes(weather.id)) return false;
+			if (this.field.getWeather().id === 'overcast') return false;
 		},
 		onEnd(pokemon) {
 			if (this.field.weatherState.source !== pokemon) return;
