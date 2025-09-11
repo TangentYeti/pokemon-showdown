@@ -5635,4 +5635,22 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		num: -3,
 	},
+	//Divine Olympus Exclusives
+	acidbreath: {
+		// upokecenter says this is implemented as an added secondary effect
+		onModifyMove(move) {
+			if (!move?.flags['bite'] || move.target === 'self') return;
+			if (!move.secondaries) {
+				move.secondaries = [];
+			}
+			move.secondaries.push({
+				chance: 30,
+				status: 'tox',
+				ability: this.dex.abilities.get('acidbreath'),
+			});
+		},
+		name: "Acid Breath",
+		rating: 2,
+		num: 279,
+	},
 };

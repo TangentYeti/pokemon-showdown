@@ -2281,4 +2281,10 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 
 		activate: "  [POKEMON] extends [MOVE] by 2 turns!",
 	},
+	// Divine Olympus Exclusives
+	acidbreath: {
+		name: "Acid Breath",
+		desc: "This Pokemon's Biting moves have a 20% chance to inflict Toxic Poison",
+		shortDesc: "Biting Moves have 20% Toxic Chance"
+	},
 };
