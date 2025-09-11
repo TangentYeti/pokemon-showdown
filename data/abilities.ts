@@ -5947,5 +5947,12 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: 295,
 	},
-	
+	divination: {
+		onStart(source) {
+			this.field.addPseudoWeather('gravity');
+		},
+		name: "Divination",
+		rating: 3,
+		num: 295,
+	},
 };
