@@ -5808,4 +5808,31 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: 287,
 	},
+	bodycount: {
+		onStart(pokemon) {
+			if (pokemon.side.totalFainted) {
+				this.add('-activate', pokemon, 'Body Count');
+				const fallen = Math.min(pokemon.side.totalFainted, 5);
+				this.add('-start', pokemon, `fallen${fallen}`, '[silent]');
+				this.effectState.fallen = fallen;
+			}
+		},
+		onEnd(pokemon) {
+			this.add('-end', pokemon, `fallen${this.effectState.fallen}`, '[silent]');
+		},
+		onBasePower(basePower, attacker, defender, move) {
+			this.chainModify([1365, 4096]);
+		},			
+		onPrepareHit(source, target, move) {
+			if (move.category === 'Status' || move.selfdestruct || move.multihit || !this.effectState.fallen) return;
+			if (['dynamaxcannon', 'endeavor', 'fling', 'iceball', 'rollout', 'uturn'].includes(move.id)) return;
+			if (!move.flags['charge'] && !move.isZ && !move.isMax) {
+				move.multihit = this.effectState.fallen +1;
+				move.multihitType = 'bodycount';
+			}
+		},
+		name: "Body Count",
+		rating: 4,
+		num: 288,
+	},
 };
