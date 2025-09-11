@@ -5947,12 +5947,45 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: 295,
 	},
+	cursedgrowth: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Grass') {
+				this.debug('Cursed Growth boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Grass') {
+				this.debug('Cursed Growth boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Cursed Growth",
+		rating: 3.5,
+		num: 296,
+	},
+	dissolve: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Steel') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Dissolve');
+				}
+				return null;
+			}
+		},
+		flags: {breakable: 1},
+		name: "DIssolve",
+		rating: 3.5,
+		num: 297,
+	},
 	divination: {
 		onStart(source) {
 			this.field.addPseudoWeather('gravity');
 		},
 		name: "Divination",
 		rating: 3,
-		num: 295,
+		num: 298,
 	},
 };

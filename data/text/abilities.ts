@@ -2367,6 +2367,11 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "This Pokemon's constricting moves have boosted damage at the end of turns",
 		shortDesc: "Turn based damage boosted by 50%"
 	},
+	cursedgrowth: {
+        name: "Cursed Growth",
+        desc: "This Pokemon's Grass type attacks are boosted by 50%",
+        shortDesc: "Boosts damage on Grass type attacks"
+    },
 	divination: {
         name: "Divination",
         desc: "Sets Gravity on entry",
