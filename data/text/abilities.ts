@@ -2332,4 +2332,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon's attacks are weaker but it attack more when party members have fainted",
         shortDesc: "Moves Power x0.33, hits equal to 7 - number of party mons alive"
     },
+	bodyguard: {
+		name: "Bodyguard",
+		desc: "This Pokemon becomes the target of all attacks when on the field",
+		shortDesc: "Follow me as ability"
+	},
 };

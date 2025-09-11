@@ -5835,4 +5835,16 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4,
 		num: 288,
 	},
+	bodyguard: {
+		onFoeRedirectTarget(target, source, source2, move) {
+			if (!this.effectState.target.isSkyDropped() && this.validTarget(this.effectState.target, source, move.target)) {
+				if (move.smartTarget) move.smartTarget = false;
+				this.debug("Bodyguard redirected target of move");
+				return this.effectState.target;
+			}
+		},
+		name: "Bodyguard",
+		rating: 3.5,
+		num: 289,
+	},
 };
