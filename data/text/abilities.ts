@@ -2287,6 +2287,11 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "This Pokemon's Biting moves have a 20% chance to inflict Toxic Poison",
 		shortDesc: "Biting Moves have 20% Toxic Chance"
 	},
+	anchored: {
+        name: "Anchored",
+        desc: "This Pokemon cannot be forced out. Doing so raises its defense instead",
+        shortDesc: "Cannot be forced out, +1 Def instead"
+    },
 	aquapotent: {
 		name: "Aquapotent",
 		desc: "This Pokemon's Water type moves have their power multiplied by 1.2 and can no longer miss",

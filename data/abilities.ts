@@ -5653,6 +5653,18 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 2,
 		num: 279,
 	},
+	anchored: {
+		onDragOutPriority: 1,
+		onDragOut(pokemon, boost) {
+			this.add('-activate', pokemon, 'ability: Anchored');
+			this.boost({def: 1});
+			return null;
+		},
+		flags: {breakable: 1},
+		name: "Anchored",
+		rating: 3.5,
+		num: 280,
+	},
 	aquapotent: {
 		onAnyInvulnerabilityPriority: 1,
 		onAnyInvulnerability(target, source, move) {
@@ -5680,8 +5692,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Aquapotent",
 		rating: 4,
-		num: 1035,
+		num: 281,
 	},
+	//ashen grace 282
 	atmokinesis: {
 		onStart(source) {
 			this.field.setWeather('overcast');
@@ -5713,7 +5726,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Atmokinesis",
 		rating: 3,
-		num: 281,
+		num: 283,
 	},
 	avian: {
 		onModifyAtkPriority: 5,
@@ -5732,7 +5745,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Avian",
 		rating: 3.5,
-		num: 282,
+		num: 284,
 	},badomen: {
 		onAfterEachBoost(boost, target, source, effect) {
 			if (!source || target.isAlly(source)) {
@@ -5755,7 +5768,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Bad Omen",
 		rating: 2.5,
-		num: 283,
+		num: 285,
 	},
 	battlehardened: {
 		onResidualOrder: 28,
@@ -5767,6 +5780,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Battle Hardened",
 		rating: 4.5,
-		num: 284,
+		num: 286,
 	},
 };
