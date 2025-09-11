@@ -5850,16 +5850,23 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	bootstrap: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Bug') {
-				move.accuracy = true;
-				if (!target.addVolatile('Bootstrap')) {
-					this.add('-immune', target, '[from] ability: Bootstrap');
+				this.add('-immune', target, '[from] ability: Bootstrap');
+				this.boost({spe: 1});
 				}
 				return null;
-			}
+			
 		},
 		flags: {breakable: 1},
 		name: "Bootstrap",
 		rating: 3.5,
 		num: 290,
+	},
+	calculation: {
+		onStart(source) {
+			this.field.addPseudoWeather('trickroom');
+		},
+		name: "Calculation",
+		rating: 3,
+		num: 1009,
 	},
 };

@@ -2342,4 +2342,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "Grants Immunity to Bug type moves",
 		shortDesc: "Immune to Bug Types moves"
 	},
+	calculation: {
+		name: "Calculation",
+		desc: "Trick Room becomes active when this Pokemon enters the field",
+		shortDesc: "Sets Trick Room on entry"
+	},
 };
