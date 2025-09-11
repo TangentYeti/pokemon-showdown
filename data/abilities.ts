@@ -5798,4 +5798,14 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4.5,
 		num: 286,
 	},
+	betrayal: {
+		onAnyFaintPriority: 1,
+		onAnyFaint() {
+			this.boost({ atk: 1 }, this.effectState.target);
+		},
+		flags: {},
+		name: "Betrayal",
+		rating: 3.5,
+		num: 287,
+	},
 };

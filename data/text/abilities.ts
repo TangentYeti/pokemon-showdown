@@ -2297,6 +2297,11 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "This Pokemon's Water type moves have their power multiplied by 1.2 and can no longer miss",
 		shortDesc: "Water Moves are multiplied by 1.2 and never miss"
 	},
+	ashengrace: {
+        name: "Ashen Grace",
+        desc: "This Pokemon sets Sun on entry and heals for 1/8th of its max hp in Sun.",
+        shortDesc: "Sets Sun, heals 1/8th in Sun"
+    },
 	atmokinesis: {
 		name: "Atmokinesis",
 		desc: "The Weather becomes Overcast. Any attempt to change the weather from overcast will damage that pokemon",
@@ -2317,9 +2322,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "This Pokemon's DEfense increases by 1 stage each turn",
 		shortDesc: "+1 defense each turn"
 	},
-	ashengrace: {
-        name: "Ashen Grace",
-        desc: "This Pokemon sets Sun on entry and heals for 1/6th of its max hp in Sun.",
-        shortDesc: "Sets Sun, heals 1/6th in Sun"
-    },
+	betrayal: {
+		name: "Betrayal",
+		desc: "This Pokemon gains attack when a Pokemon faints",
+		shortDesc: "Gains attack when a pokemon faints"
+	},
 };
