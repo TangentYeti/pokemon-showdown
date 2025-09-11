@@ -5715,4 +5715,23 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		num: 281,
 	},
+	avian: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Flying') {
+				this.debug('Avian boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Flying') {
+				this.debug('Avian boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Avian",
+		rating: 3.5,
+		num: 282,
+	},
 };

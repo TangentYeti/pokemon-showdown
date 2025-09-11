@@ -2297,4 +2297,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "The Weather becomes Overcast. Any attempt to change the weather from overcast will damage that pokemon",
 		shortDesc: "Weather becomes Overcast, All Pokemon take 1/8th damage when attempting to change it."
 	},
+	avian: {
+		name: "Avian",
+		desc: "This Pokemon's Flying type moves have their power mulitplied by 1.5",
+		shortDesc: "Flying moves are boosted by 1.5x"
+	},
 };
