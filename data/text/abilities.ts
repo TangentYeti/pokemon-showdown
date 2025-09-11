@@ -2337,4 +2337,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "This Pokemon becomes the target of all attacks when on the field",
 		shortDesc: "Follow me as ability"
 	},
+	bootstrap: {
+		name: "Bootstrap",
+		desc: "Grants Immunity to Bug type moves",
+		shortDesc: "Immune to Bug Types moves"
+	},
 };

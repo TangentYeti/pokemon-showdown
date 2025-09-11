@@ -5847,4 +5847,19 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: 289,
 	},
+	bootstrap: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Bug') {
+				move.accuracy = true;
+				if (!target.addVolatile('Bootstrap')) {
+					this.add('-immune', target, '[from] ability: Bootstrap');
+				}
+				return null;
+			}
+		},
+		flags: {breakable: 1},
+		name: "Bootstrap",
+		rating: 3.5,
+		num: 290,
+	},
 };
