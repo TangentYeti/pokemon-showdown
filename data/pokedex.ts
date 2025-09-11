@@ -19854,6 +19854,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1,
 		weightkg: 16.3,
 		color: "Grey",
+		tags: "fakemon",
 		evos: ["Venagus"],
 		eggGroups: ["Monster", "Field"],
 	},
@@ -19867,6 +19868,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1.4,
 		weightkg: 36.3,
 		color: "Grey",
+		tags: "fakemon",
 		evos: ["Plagasus"],
 		eggGroups: ["Monster", "Field"],
 	},
@@ -19880,6 +19882,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 2.3,
 		weightkg: 86.3,
 		color: "Grey",
+		tags: "fakemon",
 		eggGroups: ["Monster", "Field"],
 	},
 };
