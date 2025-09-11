@@ -5688,6 +5688,13 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		onAnySetWeather(target, source, weather) {
 			if (!source.hasAbility('atmokinesis')) {
+				let activated = false;
+				for (const pokemon of this.getAllActive()) {
+					if (!activated) {
+						this.add('-ability', target, 'Atmokinesis');
+						activated = true;
+					}
+				}
 				this.damage(source.baseMaxhp / 8, source, this.effectState.source);
 			}
 			const strongWeathers = ['desolateland', 'primordialsea', 'deltastream', 'overcast'];
