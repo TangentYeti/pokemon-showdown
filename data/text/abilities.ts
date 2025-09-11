@@ -2365,6 +2365,6 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	constriction: {
 		name: "Constriction",
 		desc: "This Pokemon's constricting moves have boosted damage at the end of turns",
-		shortDesc: "Turn based damage boosted by 30%"
+		shortDesc: "Turn based damage boosted by 50%"
 	},
 };
