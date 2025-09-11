@@ -5653,6 +5653,35 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 2,
 		num: 279,
 	},
+	aquapotent: {
+		onAnyInvulnerabilityPriority: 1,
+		onAnyInvulnerability(target, source, move) {
+			if (move && (source === this.effectState.target || target === this.effectState.target)) return 0;
+		},
+		onAnyAccuracy(accuracy, target, source, move) {
+			if (move && (source === this.effectState.target || target === this.effectState.target)  && move.type === 'Water')  {
+				return true;
+			}
+			return accuracy;
+		},
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if(move.type === 'Water') {
+			this.debug('Aquapotent boost');
+			return this.chainModify(1.2);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if(move.type === 'Water') {
+			this.debug('Aquapotent boost');
+			return this.chainModify(1.2);
+			}
+		},
+		name: "Aquapotent",
+		rating: 4,
+		num: 1035,
+	},
 	atmokinesis: {
 		onStart(source) {
 			this.field.setWeather('overcast');
@@ -5677,6 +5706,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Atmokinesis",
 		rating: 3,
-		num: 280,
+		num: 281,
 	},
 };
