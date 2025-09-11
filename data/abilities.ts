@@ -5988,4 +5988,41 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		num: 298,
 	},
+	draconicheritage: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Dragon') {
+				this.debug('Draconic Heritage\'s boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Dragon') {
+				this.debug('Draconic Heritage\'s boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Draconic Heritage",
+		rating: 3.5,
+		num: 299,
+	},
+	eldrich: {
+		onPrepareHit(source, target, move) {
+			if (move.category === 'Status' || move.category === 'Physical'|| move.multihit || move.flags['noparentalbond'] || move.flags['charge'] ||
+			move.flags['futuremove'] || move.spreadHit || move.isZ || move.isMax) return;
+			move.multihit = 2;
+			move.multihitType = 'eldrich';
+		},
+		onSourceModifySecondaries(secondaries, target, source, move) {
+			if (move.multihitType === 'eldrich' && move.id === 'secretpower' && move.hit < 2) {
+				// hack to prevent accidentally suppressing King's Rock/Razor Fang
+				return secondaries.filter(effect => effect.volatileStatus === 'flinch');
+			}
+		},
+		flags: {},
+		name: "eldrich",
+		rating: 4.5,
+		num: 300,
+	}
 };

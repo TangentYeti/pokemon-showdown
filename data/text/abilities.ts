@@ -2382,4 +2382,14 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "Sets Gravity on entry",
         shortDesc: "Gravity on entry."
     },
+	draconicheritage: {
+        name: "Draconic Heritage",
+        desc: "This Pokemon's dragon type moves are more potent than usual",
+        shortDesc: "Dragon Type moves do 1.5x damage"
+    },
+	eldrich: {
+		name: "Eldrich",
+		desc: "Special attacks hit twice with half power",
+		shortDesc: "Special attacks hit twice with half power"
+	}
 };
