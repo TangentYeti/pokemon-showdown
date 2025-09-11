@@ -5878,19 +5878,39 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onSetStatus(status, target, source, effect) {
 			if (['sunnyday', 'desolateland'].includes(target.effectiveWeather())) {
 				if ((effect as Move)?.status) {
-					this.add('-immune', target, '[from] ability: Leaf Guard');
+					this.add('-immune', target, '[from] ability: Chloromancer');
 				}
 				return false;
 			}
 		},
 		onTryAddVolatile(status, target) {
 			if (status.id === 'yawn' && ['sunnyday', 'desolateland'].includes(target.effectiveWeather())) {
-				this.add('-immune', target, '[from] ability: Leaf Guard');
+				this.add('-immune', target, '[from] ability: Chloromancer');
 				return null;
+			}
+		},
+		onResidual(pokemon) {
+			if (pokemon.status && ['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
+				this.debug('chloromancer');
+				this.add('-activate', pokemon, 'ability: Chloromancer');
+				pokemon.cureStatus();
 			}
 		},
 		name: "Chloromancer",
 		rating: 1.5,
 		num: 292,
+	},
+	chronomancer: {
+		onChargeMove(pokemon, target, move) {
+			if (pokemon.hasAbility('chronomancer')) {
+				this.debug('Chronomancer removes charge for ' + move.id);
+				this.attrLastMove('[still]');
+				this.addMove('-anim', pokemon, move.name, target);
+				return false; // skip charge turn
+			}
+		},
+		name: "Chronomancer",
+		rating: 4,
+		num: 1045,
 	},
 };

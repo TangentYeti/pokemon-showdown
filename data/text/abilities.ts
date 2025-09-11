@@ -2319,7 +2319,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	},
 	battlehardened: {
 		name: "Battle Hardened",
-		desc: "This Pokemon's DEfense increases by 1 stage each turn",
+		desc: "This Pokemon's Defense increases by 1 stage each turn",
 		shortDesc: "+1 defense each turn"
 	},
 	betrayal: {
@@ -2351,5 +2351,10 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		name: "Chloromancer",
 		desc: "This Pokemon's HP and Status conditions are restored in sunlight",
 		shortDesc: "Heals HP and statuses in sun"
+	},
+	chronomancer: {
+		name: "Chronomancer",
+		desc: "This Pokemon doesn't need to charge up moves.",
+		shortDesc: "Charging moves are instant"
 	},
 };
