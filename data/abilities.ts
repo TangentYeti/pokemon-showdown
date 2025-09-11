@@ -5911,6 +5911,41 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Chronomancer",
 		rating: 4,
-		num: 1045,
+		num: 293,
 	},
+	constellation: {
+		onStart(source) {
+			this.field.setWeather('desolateland');
+		},
+		onAnySetWeather(target, source, weather) {
+			const strongWeathers = ['desolateland', 'primordialsea', 'deltastream', 'overcast'];
+			if (this.field.getWeather().id === 'desolateland' && !strongWeathers.includes(weather.id)) return false;
+		},
+		onEnd(pokemon) {
+			if (this.field.weatherState.source !== pokemon) return;
+			for (const target of this.getAllActive()) {
+				if (target === pokemon) continue;
+				if (target.hasAbility('desolateland')) {
+					this.field.weatherState.source = target;
+					return;
+				}
+			}
+			this.field.clearWeather();
+		},
+		name: "Constellation",
+		rating: 4.5,
+		num: 294,
+	},
+	constriction: {
+		onBasePowerPriority: 21,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.volatileStatus === 'partiallytrapped') {
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Constriction",
+		rating: 3.5,
+		num: 295,
+	},
+	
 };

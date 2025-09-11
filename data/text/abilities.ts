@@ -2357,4 +2357,14 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "This Pokemon doesn't need to charge up moves.",
 		shortDesc: "Charging moves are instant"
 	},
+	constellation: {
+		name: "Constellation",
+		desc: "This Pokemon summons intense Sun",
+		shortDesc: "Sets Intense Sun on entry"
+	},
+	constriction: {
+		name: "Constriction",
+		desc: "This Pokemon's constricting moves have boosted damage at the end of turns",
+		shortDesc: "Turn based damage boosted by 30%"
+	},
 };
