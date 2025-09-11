@@ -5867,6 +5867,30 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Calculation",
 		rating: 3,
-		num: 1009,
+		num: 291,
+	},
+	chloromancer: {
+		onWeather(target, source, effect) {
+			if (effect.id === 'sunnyday' || effect.id === 'desolateland') {
+				this.heal(target.baseMaxhp / 8);
+			}
+		},
+		onSetStatus(status, target, source, effect) {
+			if (['sunnyday', 'desolateland'].includes(target.effectiveWeather())) {
+				if ((effect as Move)?.status) {
+					this.add('-immune', target, '[from] ability: Leaf Guard');
+				}
+				return false;
+			}
+		},
+		onTryAddVolatile(status, target) {
+			if (status.id === 'yawn' && ['sunnyday', 'desolateland'].includes(target.effectiveWeather())) {
+				this.add('-immune', target, '[from] ability: Leaf Guard');
+				return null;
+			}
+		},
+		name: "Chloromancer",
+		rating: 1.5,
+		num: 292,
 	},
 };

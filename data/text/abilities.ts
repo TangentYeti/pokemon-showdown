@@ -2347,4 +2347,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "Trick Room becomes active when this Pokemon enters the field",
 		shortDesc: "Sets Trick Room on entry"
 	},
+	chloromancer: {
+		name: "Chloromancer",
+		desc: "This Pokemon's HP and Status conditions are restored in sunlight",
+		shortDesc: "Heals HP and statuses in sun"
+	},
 };
