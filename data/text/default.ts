@@ -277,6 +277,12 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 		end: "  The harsh sunlight faded.",
 		upkeep: "  (The sunlight is strong.)",
 	},
+	overcast: {
+		weatherName: "Overcast",
+		start: "  The sky became Overcast!",
+		end: "  The Sky has cleared",
+		upkeep: "  (The sky remains overcast)",
+	},
 	raindance: {
 		weatherName: "Rain",
 		start: "  It started to rain!",

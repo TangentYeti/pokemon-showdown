@@ -2287,4 +2287,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "This Pokemon's Biting moves have a 20% chance to inflict Toxic Poison",
 		shortDesc: "Biting Moves have 20% Toxic Chance"
 	},
+	atmokinesis: {
+		name: "Atmokinesis",
+		desc: "The Weather becomes Overcast. Any attempt to change the weather from overcast will damage that pokemon",
+		shortDesc: "Weather becomes Overcast, All Pokemon take 1/8th damage when attempting to change it."
+	},
 };

@@ -511,6 +511,30 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 			this.add('-weather', 'none');
 		},
 	},
+	overcast: {
+		name: 'Overcast',
+		effectType: 'Weather',
+		duration: 0,
+		onTryMovePriority: 1,
+		onWeatherModifyDamage(damage, attacker, defender, move) {
+				if (defender.hasItem('utilityumbrella')) return;
+				if (move.type === 'Normal') {
+						this.debug('overcast normal boost');
+						return this.chainModify(1.2);
+				}
+		},
+		onFieldStart(field, source, effect) {
+			this.add('-weather', 'Overcast', '[from] ability: ' + effect.name, '[of] ' + source);
+		},
+		onFieldResidualOrder: 1,
+		onFieldResidual() {
+				this.add('-weather', 'Overcast', '[upkeep]');
+				this.eachEvent('Weather');
+		},
+		onFieldEnd() {
+				this.add('-weather', 'none');
+		},
+	},
 	primordialsea: {
 		name: 'PrimordialSea',
 		effectType: 'Weather',

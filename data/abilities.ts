@@ -5653,4 +5653,28 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 2,
 		num: 279,
 	},
+	atmokinesis: {
+		onStart(source) {
+			this.field.setWeather('overcast');
+		},
+		onAnySetWeather(target, source, weather) {
+			this.damage(source.baseMaxhp / 8, source, target)
+			const strongWeathers = ['desolateland', 'primordialsea', 'deltastream', 'overcast'];
+			if (this.field.getWeather().id === 'overcast' && !strongWeathers.includes(weather.id)) return false;
+		},
+		onEnd(pokemon) {
+			if (this.field.weatherState.source !== pokemon) return;
+			for (const target of this.getAllActive()) {
+				if (target === pokemon) continue;
+				if (target.hasAbility('overcast')) {
+					this.field.weatherState.source = target;
+					return;
+				}
+			}
+			this.field.clearWeather();
+		},
+		name: "Atmokinesis",
+		rating: 3,
+		num: 280,
+	},
 };
