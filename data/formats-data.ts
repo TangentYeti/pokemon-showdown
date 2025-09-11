@@ -6048,4 +6048,19 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	pegane: {
+		tier: "OU",
+		doublesTier: "(DOU)",
+		natDexTier: "OU",
+	},
+	venagus: {
+		tier: "OU",
+		doublesTier: "(DOU)",
+		natDexTier: "OU",
+	},
+	Plagasus: {
+		tier: "OU",
+		doublesTier: "(DOU)",
+		natDexTier: "OU",
+	},
 };

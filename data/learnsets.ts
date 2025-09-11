@@ -99979,4 +99979,28 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{generation: 5, level: 47, moves: ["darkpulse", "flamethrower", "hyperbeam", "icebeam"]},
 		],
 	},
+	pegane: {
+		learnset: {
+			darkpulse: ["9M"],
+			uturn: ["9M"],
+			sludgewave: ["9M"],
+			hurricane: ["9M", "9L24"],
+		},
+	},
+	venagus: {
+		learnset: {
+			darkpulse: ["9M"],
+			uturn: ["9M"],
+			sludgewave: ["9M"],
+			hurricane: ["9M", "9L24"],
+		},
+	},
+	plagasus: {
+		learnset: {
+			darkpulse: ["9M"],
+			uturn: ["9M"],
+			sludgewave: ["9M"],
+			hurricane: ["9M", "9L24"],
+		},
+	},
 };
