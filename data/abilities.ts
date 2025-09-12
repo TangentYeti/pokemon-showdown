@@ -6040,4 +6040,14 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4,
 		num: 301,
 	},
+	executioner: {
+		onBasePower(basePower,pokemon,target,move) {
+			if (target.hp < target.maxhp/2) {
+				return this.chainModify(2);
+			}
+		},
+		name: "Executioner",
+		rating: 4,
+		num: 1074,
+	},
 };

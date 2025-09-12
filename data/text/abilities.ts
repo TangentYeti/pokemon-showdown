@@ -2397,4 +2397,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "Secondary typing changes to match the type of attack being used.",
         shortDesc: "Secondary type changes to match attacking type."
     },
+	executioner: {
+        name: "Executioner",
+        desc: "This Pokemon deals double damage to weakened opponents",
+        shortDesc: "Moves power is doubled when opponent is below half HP"
+    },
 };
