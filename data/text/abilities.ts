@@ -2487,4 +2487,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon's weaknesses to Ghost and Dark are negated",
         shortDesc: "Negates Ghost and Dark type Weaknesses"
     },
+	maelstrom: {
+        name: "Maelstrom",
+        desc: "This Pokemon summons a Thunderstorm when it enters the field",
+        shortDesc: "Summons Thunderstorm weather effect"
+    },
 };

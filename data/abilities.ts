@@ -6326,5 +6326,12 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: 319,
 	},
-	
+	maelstrom: {
+		onStart(source) {
+			this.field.setWeather('thunderstorm');
+		},
+		name: "Maelstrom",
+		rating: 4,
+		num: 320,
+	},
 };
