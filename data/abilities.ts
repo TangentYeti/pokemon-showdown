@@ -6196,6 +6196,37 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Hellborn",
 		rating: 3.5,
-		num: 1056,
+		num: 311,
+	},
+	honour: {
+		onTryBoost(boost, target, source, effect) {
+			if (source && target === source) return;
+				let showMsg = false;
+				let i: BoostID;
+				for (i in boost) {
+					if (boost[i]! < 0) {
+						delete boost[i];
+						showMsg = true;
+					}
+			}
+			if (showMsg && !(effect as ActiveMove).secondaries && effect.id !== 'octolock') {
+				this.add("-fail", target, "unboost", "[from] ability: Honour", "[of] " + target);
+			}
+		},
+		onModifyMovePriority: -2,
+		onModifyMove(move, pokemon) {
+			if (move.secondaries) {
+				delete move.secondaries;
+				// Technically not a secondary effect, but it is negated
+				delete move.self;
+				if (move.id === 'clangoroussoulblaze') delete move.selfBoost;
+				// Actual negation of `AfterMoveSecondary` effects implemented in scripts.js
+				move.hasSheerForce = true;
+			}
+		},
+		flags: {breakable: 1},
+		name: "Honour",
+		rating: 2,
+		num: 312,
 	},
 };

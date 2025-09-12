@@ -2447,4 +2447,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon's Dark type moves gain a 50% boost in damage",
         shortDesc: "Gain boosted damage using Dark type moves"
     },
+	honour: {
+        name: "Honour",
+        desc: "This Pokemon's cannot be lowered, and its moves have no secondary effects",
+        shortDesc: "Stats cannot be lowered. Moves have no secondary effects."
+    },
 };
