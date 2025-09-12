@@ -2452,4 +2452,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon's cannot be lowered, and its moves have no secondary effects",
         shortDesc: "Stats cannot be lowered. Moves have no secondary effects."
     },
+	huntersmark: {
+        name: "Hunter's Mark",
+        desc: "This Pokemon traps both itself and its opponent in once it attacks",
+        shortDesc: "User and Target cannot switch out once attacked"
+    },
 };

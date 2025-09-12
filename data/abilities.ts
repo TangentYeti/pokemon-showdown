@@ -6229,4 +6229,16 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 2,
 		num: 312,
 	},
+	huntersmark: {
+		onSourceDamagingHit(damage, target, source, move) {
+			if (this.checkMoveMakesContact(move, target, source)) {
+				source.addVolatile('trapped', target, move, 'trapper');
+				target.addVolatile('trapped', target, move, 'trapper');
+				return;
+			}
+		},
+		name: "Hunter's Mark",
+		rating: 3.5,
+		num: 313,
+	},
 };
