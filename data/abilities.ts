@@ -6093,4 +6093,22 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 2,
 		num: 305,
 	},
+	furious: {
+		onPrepareHit(source, target, move) {
+			if (move.category === 'Status' || move.category === 'Special'|| move.multihit || move.flags['noparentalbond'] || move.flags['charge'] ||
+			move.flags['futuremove'] || move.spreadHit || move.isZ || move.isMax) return;
+			move.multihit = 2;
+			move.multihitType = 'furious';
+		},
+		onSourceModifySecondaries(secondaries, target, source, move) {
+			if (move.multihitType === 'furious' && move.id === 'secretpower' && move.hit < 2) {
+				// hack to prevent accidentally suppressing King's Rock/Razor Fang
+				return secondaries.filter(effect => effect.volatileStatus === 'flinch');
+			}
+		},
+		flags: {},
+		name: "Furious",
+		rating: 4.5,
+		num: 306,
+	},
 };

@@ -2417,4 +2417,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon lowers the opponents speed when they make contact with it",
         shortDesc: "Opponents that make contact have -1 speed"
     },
+	furious: {
+        name: "Furious",
+        desc: "All Physical attacks happen twice",
+        shortDesc: "Physical Moves Attack twice."
+    },
 };
