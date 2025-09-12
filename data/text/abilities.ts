@@ -2457,4 +2457,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon traps both itself and its opponent in once it attacks",
         shortDesc: "User and Target cannot switch out once attacked"
     },
+	impaler: {
+        name: "Impaler",
+        desc: "This Pokemon's contact moves have increased damage",
+        shortDesc: "Increases contact moves damage"
+    },
 };

@@ -6241,4 +6241,15 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: 313,
 	},
+	impaler: {
+		onBasePowerPriority: 21,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['contact']) {
+				return this.chainModify([5325, 4096]);
+			}
+		},
+		name: "Impaler",
+		rating: 3.5,
+		num: 1014,
+	},
 };
