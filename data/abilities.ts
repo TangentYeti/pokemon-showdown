@@ -6268,4 +6268,18 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 1.5,
 		num: 315,
 	},
+	irradiate: {
+		
+		onResidualOrder: 28,
+		onResidualSubOrder: 2,
+		onResidual(pokemon) {
+			if (!pokemon.hp) return;
+			for (const target of pokemon.foes()) {
+				target.trySetStatus('psn', target);
+			}
+		},
+		name: "Irradiate",
+		rating: 3.5,
+		num: 316,
+	},
 };

@@ -2449,7 +2449,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
     },
 	honour: {
         name: "Honour",
-        desc: "This Pokemon's cannot be lowered, and its moves have no secondary effects",
+        desc: "This Pokemon's stats cannot be lowered, and its moves have no secondary effects",
         shortDesc: "Stats cannot be lowered. Moves have no secondary effects."
     },
 	huntersmark: {
@@ -2466,5 +2466,10 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         name: "Inner Peace",
         desc: "This Pokemon's Special stats cannot be lowered",
         shortDesc: "Prevents Special Stats from being lowered"
+    },
+	irradiate: {
+        name: "Irradiate",
+        desc: "This Pokemon poisons any opponent on the field.",
+        shortDesc: "Poisons the opponent on the field."
     },
 };
