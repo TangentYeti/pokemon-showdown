@@ -2432,4 +2432,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon removes all hazrds from its side of the battle field on entry",
         shortDesc: "Removes hazards on entry"
     },
+	golemgrace: {
+        name: "Golem Grace",
+        desc: "This Pokemon changes type when attacked, it attempts to change to the best type match up possible",
+        shortDesc: "Changes to the most suitable type available when attacked"
+    },
 };

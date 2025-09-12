@@ -6124,7 +6124,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Galeglider",
 		rating: 4,
-		num: 1027,
+		num: 307,
 	},
 	gelatinous: {
 		onStart(pokemon) {
@@ -6137,6 +6137,34 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Gelatinous",
 		rating: 4,
-		num: 1027,
+		num: 308,
+	},
+	golemgrace: {
+		onTryHit(target, source, move) {
+			if (target !== source && ["Poison", "Rock", "Bug", "Psychic", "Fairy", "Dragon"].includes(move.type)) {
+				if (!target.setType("Steel")) return;
+				this.add('-start', target, 'typechange', "Steel", '[from] ability: Golem Grace');
+			}
+			else if (target !== source && ["Normal", "Fire", "Ghost"].includes(move.type)) {
+				if (!target.setType("Rock")) return;
+				this.add('-start', target, 'typechange', "Rock", '[from] ability: Golem Grace');
+			}
+			else if (target !== source && ["Ground", "Grass", "Ice"].includes(move.type)) {
+				if (!target.setType("Ice")) return;
+				this.add('-start', target, 'typechange', "Ice", '[from] ability: Golem Grace');
+			}
+			else if (target !== source && ["Steel", "Electric", "Flying"].includes(move.type)) {
+				if (!target.setType("Electric")) return;
+				this.add('-start', target, 'typechange', "Electric", '[from] ability: Golem Grace');
+			}
+			else if (target !== source && ["Dark", "Water", "Fighting"].includes(move.type)) {
+				if (!target.setType("Dragon")) return;
+				this.add('-start', target, 'typechange', "Dragon", '[from] ability: Golem Grace');
+			}
+			return;
+		},
+		name: "Golem Grace",
+		rating: 4,
+		num: 309,
 	},
 };
