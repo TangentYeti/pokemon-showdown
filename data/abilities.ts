@@ -5808,6 +5808,16 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: 287,
 	},
+	blacksmith: {
+		onTryMove(source, target, move) {
+			if (move?.category === 'Status') {
+				this.heal(target.baseMaxhp / 12);
+			}
+		},
+		name: "Blacksmith",
+		rating: 4,
+		num: 288,
+	},
 	bodycount: {
 		onStart(pokemon) {
 			if (pokemon.side.totalFainted) {
@@ -5833,7 +5843,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Body Count",
 		rating: 4,
-		num: 288,
+		num: 289,
 	},
 	bodyguard: {
 		onFoeRedirectTarget(target, source, source2, move) {
@@ -5845,7 +5855,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Bodyguard",
 		rating: 3.5,
-		num: 289,
+		num: 290,
 	},
 	bootstrap: {
 		onTryHit(target, source, move) {
@@ -5859,7 +5869,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {breakable: 1},
 		name: "Bootstrap",
 		rating: 3.5,
-		num: 290,
+		num: 291,
 	},
 	calculation: {
 		onStart(source) {
@@ -5867,7 +5877,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Calculation",
 		rating: 3,
-		num: 291,
+		num: 292,
 	},
 	chloromancer: {
 		onWeather(target, source, effect) {
@@ -5898,7 +5908,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Chloromancer",
 		rating: 1.5,
-		num: 292,
+		num: 293,
 	},
 	chronomancer: {
 		onChargeMove(pokemon, target, move) {
@@ -5911,7 +5921,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Chronomancer",
 		rating: 4,
-		num: 293,
+		num: 294,
 	},
 	constellation: {
 		onStart(source) {
@@ -5934,7 +5944,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Constellation",
 		rating: 4.5,
-		num: 294,
+		num: 295,
 	},
 	constriction: {
 		onBasePowerPriority: 21,
@@ -5945,7 +5955,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Constriction",
 		rating: 3.5,
-		num: 295,
+		num: 296,
 	},
 	cursedgrowth: {
 		onModifyAtkPriority: 5,
@@ -5964,7 +5974,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Cursed Growth",
 		rating: 3.5,
-		num: 296,
+		num: 297,
 	},
 	dissolve: {
 		onTryHit(target, source, move) {
@@ -5978,7 +5988,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {breakable: 1},
 		name: "Dissolve",
 		rating: 3.5,
-		num: 297,
+		num: 298,
 	},
 	divination: {
 		onStart(source) {
@@ -5986,7 +5996,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Divination",
 		rating: 3,
-		num: 298,
+		num: 299,
 	},
 	draconicheritage: {
 		onModifyAtkPriority: 5,
@@ -6005,7 +6015,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Draconic Heritage",
 		rating: 3.5,
-		num: 299,
+		num: 300,
 	},
 	eldrich: {
 		onPrepareHit(source, target, move) {
@@ -6023,7 +6033,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		name: "Eldrich",
 		rating: 4.5,
-		num: 300,
+		num: 301,
 	},
 	ethereal: {
 		onPrepareHit(source, target, move) {
@@ -6038,7 +6048,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		name: "Ethereal",
 		rating: 4,
-		num: 301,
+		num: 302,
 	},
 	executioner: {
 		onBasePower(basePower,pokemon,target,move) {
@@ -6048,7 +6058,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Executioner",
 		rating: 4,
-		num: 302,
+		num: 303,
 	},
 	falsepositive: {
 		onAfterSetStatus(status, target, source, effect) {
@@ -6070,7 +6080,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "False Positive",
 		rating: 2,
-		num: 303,
+		num: 304,
 	},
 	frailskin: {
 		onDamagingHit(damage, target, source, move) {
@@ -6080,7 +6090,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Frail Skin",
 		rating: 1,
-		num: 304,
+		num: 305,
 	},
 	frostedembrace: {
 		onDamagingHit(damage, target, source, move) {
@@ -6091,7 +6101,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Frosted Embrace",
 		rating: 2,
-		num: 305,
+		num: 306,
 	},
 	furious: {
 		onPrepareHit(source, target, move) {
@@ -6109,7 +6119,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		name: "Furious",
 		rating: 4.5,
-		num: 306,
+		num: 307,
 	},
 	galeglider: {
 		onStart(pokemon) {
@@ -6124,7 +6134,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Galeglider",
 		rating: 4,
-		num: 307,
+		num: 308,
 	},
 	gelatinous: {
 		onStart(pokemon) {
@@ -6137,7 +6147,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Gelatinous",
 		rating: 4,
-		num: 308,
+		num: 309,
 	},
 	golemgrace: {
 		onTryHit(target, source, move) {
@@ -6165,7 +6175,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Golem Grace",
 		rating: 4,
-		num: 309,
+		num: 310,
 	},
 	gorgongaze: {
 		onDamagingHit(damage, target, source, move) {
@@ -6177,7 +6187,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Gorgon Gaze",
 		rating: 2,
-		num: 310,
+		num: 311,
 	},
 	hellborn: {
 		onModifyAtkPriority: 5,
@@ -6196,7 +6206,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Hellborn",
 		rating: 3.5,
-		num: 311,
+		num: 312,
 	},
 	honour: {
 		onTryBoost(boost, target, source, effect) {
@@ -6227,7 +6237,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {breakable: 1},
 		name: "Honour",
 		rating: 2,
-		num: 312,
+		num: 313,
 	},
 	huntersmark: {
 		onSourceDamagingHit(damage, target, source, move) {
@@ -6239,7 +6249,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Hunter's Mark",
 		rating: 3.5,
-		num: 313,
+		num: 314,
 	},
 	impaler: {
 		onBasePowerPriority: 21,
@@ -6250,7 +6260,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Impaler",
 		rating: 3.5,
-		num: 314,
+		num: 315,
 	},
 	innerpeace: {
 		onTryBoost(boost, target, source, effect) {
@@ -6266,7 +6276,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {breakable: 1},
 		name: "Inner Peace",
 		rating: 1.5,
-		num: 315,
+		num: 316,
 	},
 	irradiate: {
 		onResidualOrder: 28,
@@ -6279,7 +6289,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Irradiate",
 		rating: 3.5,
-		num: 316,
+		num: 317,
 	},
 	jellyarmor: {
 		onTryHit(pokemon, target, move) {
@@ -6292,7 +6302,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {breakable: 1},
 		name: "Jelly Armor",
 		rating: 3,
-		num: 317,
+		num: 318,
 	},
 	leechingspirit: {
 		onDamagingHit(damage, target, source, move) {
@@ -6304,7 +6314,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		name: "Leeching Spirit",
 		rating: 2,
-		num: 318,
+		num: 319,
 	},
 	lunarempress: {
 		onSourceModifyAtkPriority: 6,
@@ -6324,7 +6334,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {breakable: 1},
 		name: "Lunar Empress",
 		rating: 3.5,
-		num: 319,
+		num: 320,
 	},
 	maelstrom: {
 		onStart(source) {
@@ -6332,7 +6342,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Maelstrom",
 		rating: 4,
-		num: 320,
+		num: 321,
 	},
 	magmacore: {
 		onResidualOrder: 28,
@@ -6345,6 +6355,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Magma Core",
 		rating: 1.5,
-		num: 321,
+		num: 322,
 	},
 };

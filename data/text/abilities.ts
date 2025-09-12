@@ -2327,6 +2327,11 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "This Pokemon gains attack when a Pokemon faints",
 		shortDesc: "Gains attack when a pokemon faints"
 	},
+	blacksmith: {
+        name: "Blacksmith",
+        desc: "This Pokemon heals itself when it uses a non damaging move",
+        shortDesc: "Heals 1/12th when using non-damaging attacks"
+    },
 	bodycount: {
         name: "Body Count",
         desc: "This Pokemon's attacks are weaker but it attack more when party members have fainted",
@@ -2495,6 +2500,6 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	magmacore: {
         name: "Magma Core",
         desc: "This Pokemon deals damage to all pokemon on the field at the end of each turn",
-        shortDesc: "Does % damage to pokemon for existing"
+        shortDesc: "Does 12% damage to pokemon for existing"
     },
 };
