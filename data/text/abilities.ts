@@ -2422,4 +2422,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "All Physical attacks happen twice",
         shortDesc: "Physical Moves Attack twice."
     },
+	galeglider: {
+        name: "Galeglider",
+        desc: "This Pokemon gains the advantages of the flying type in Strong Winds",
+        shortDesc: "Summons Strong Winds. Gives Flying Type in Strong Winds"
+    },
 };
