@@ -6072,4 +6072,14 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 2,
 		num: 303,
 	},
+	frailskin: {
+		onDamagingHit(damage, target, source, move) {
+			if (move.category === 'Physical') {
+				this.boost({def: -1, spa: 1}, target, target);
+			}
+		},
+		name: "Frail Skin",
+		rating: 1,
+		num: 304,
+	},
 };

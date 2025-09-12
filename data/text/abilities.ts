@@ -2407,4 +2407,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon's status conditions are removed and trasferred to the opponent instead",
         shortDesc: "Removes all status ailments and sends them back to the user"
     },
+	frailskin: {
+        name: "Frail Skin",
+        desc: "This Pokemon's Defense is lowered when attacked with a physical move, but its special attack is increased",
+        shortDesc: "When hit with a physical move, +1 SpAtk, -1 Def"
+    },
 };
