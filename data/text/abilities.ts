@@ -2472,4 +2472,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon poisons any opponent on the field.",
         shortDesc: "Poisons the opponent on the field."
     },
+	jellyarmor: {
+        name: "Jelly Armor",
+        desc: "This Pokemon reflects some of the damage dealth from projectile moves back at the opponent",
+        shortDesc: "Reflect damage from projectile moves."
+    },
 };

@@ -6269,7 +6269,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 315,
 	},
 	irradiate: {
-		
 		onResidualOrder: 28,
 		onResidualSubOrder: 2,
 		onResidual(pokemon) {
@@ -6281,5 +6280,18 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Irradiate",
 		rating: 3.5,
 		num: 316,
+	},
+	jellyarmor: {
+		onTryHit(pokemon, target, move) {
+			if (move.flags['bullet']) {
+				this.add('-immune', pokemon, '[from] ability: Jelly Armor');
+				this.damage(target.baseMaxhp / 8, target, pokemon);
+				return null;
+			}
+		},
+		flags: {breakable: 1},
+		name: "Jelly Armor",
+		rating: 3,
+		num: 317,
 	},
 };
