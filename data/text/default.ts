@@ -277,6 +277,12 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 		end: "  The harsh sunlight faded.",
 		upkeep: "  (The sunlight is strong.)",
 	},
+	thunderstorm: {
+		weatherName: "Thunderstorm",
+		start: "  A Thunderstorm has started!",
+		end: "  The Thunderstorm has dissipated",
+		upkeep: "  (Thunder crackles.)",
+	},
 	overcast: {
 		weatherName: "Overcast",
 		start: "  The sky became Overcast!",
