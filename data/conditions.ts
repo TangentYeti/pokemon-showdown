@@ -536,6 +536,45 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 				this.add('-weather', 'none');
 		},
 	},
+	strongwinds: {
+		name: 'Strong Winds',
+		effectType: 'Weather',
+		duration: 5,
+		durationCallback(source, effect) {
+				if (source?.hasItem('galehorn')) {
+						return 8;
+				}
+				return 5;
+		},
+		onFieldStart(field, source, effect) {
+				if (effect?.effectType === 'Ability') {
+						if (this.gen <= 5) this.effectState.duration = 0;
+						this.add('-weather', 'Strong Winds', '[from] ability: ' + effect.name, '[of] ' + source);
+				} else {
+						this.add('-weather', 'Strong Winds');
+				}
+		},
+		onEffectiveness(typeMod, target, type, move) {
+				if (move && move.effectType === 'Move' && move.category !== 'Status' && type === 'Flying' && typeMod > 0) {
+						this.add('-activate', '', 'Strong Winds');
+						return 0;
+				}
+		},
+		onModifySpePriority: 10,
+		onModifySpe(spe, pokemon) {
+				if (pokemon.hasType('Flying') && this.field.isWeather('strongwinds')) {
+					return this.modify(spe, 1.2);
+				}
+		},
+		onFieldResidualOrder: 1,
+		onFieldResidual() {
+				this.add('-weather', 'Strong Winds', '[upkeep]');
+				this.eachEvent('Weather');
+		},
+		onFieldEnd() {
+				this.add('-weather', 'none');
+		},
+	},
 	primordialsea: {
 		name: 'PrimordialSea',
 		effectType: 'Weather',

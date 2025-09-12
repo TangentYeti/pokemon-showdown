@@ -283,6 +283,12 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 		end: "  The Sky has cleared",
 		upkeep: "  (The sky remains overcast)",
 	},
+	strongwinds: {
+		weatherName: "Strong Winds",
+		start: "  A Strong Wind picks up!",
+		end: "  The Strong wind peetered out.",
+		upkeep: "  (The Winds coninue.)",
+	},
 	raindance: {
 		weatherName: "Rain",
 		start: "  It started to rain!",
