@@ -6048,6 +6048,28 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Executioner",
 		rating: 4,
-		num: 1074,
+		num: 302,
+	},
+	falsepositive: {
+		onAfterSetStatus(status, target, source, effect) {
+			if (!source || source === target) return;
+			if (effect && effect.id === 'toxicspikes') return;
+			this.add('-activate', target, 'ability: False Positive');
+			// Hack to make status-prevention abilities think Synchronize is a status move
+			// and show messages when activating against it.
+			source.trySetStatus(status, target, {status: status.id, id: 'synchronize'} as Effect);
+		},
+		onResidualOrder: 5,
+		onResidualSubOrder: 3,
+		onResidual(pokemon) {
+			if (pokemon.hp && pokemon.status) {
+				this.debug('false positive');
+				this.add('-activate', pokemon, 'ability: False Positive');
+				pokemon.cureStatus();
+			}
+		},
+		name: "False Positive",
+		rating: 2,
+		num: 303,
 	},
 };

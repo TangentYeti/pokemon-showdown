@@ -2402,4 +2402,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon deals double damage to weakened opponents",
         shortDesc: "Moves power is doubled when opponent is below half HP"
     },
+	falsepositive: {
+        name: "False Positive",
+        desc: "This Pokemon's status conditions are removed and trasferred to the opponent instead",
+        shortDesc: "Removes all status ailments and sends them back to the user"
+    },
 };
