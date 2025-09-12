@@ -6357,4 +6357,18 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 1.5,
 		num: 322,
 	},
+	magmapool: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Fire') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Magma Pool');
+				}
+				return null;
+			}
+		},
+		flags: {breakable: 1},
+		name: "Magma Pool",
+		rating: 3.5,
+		num: 323,
+	},
 };

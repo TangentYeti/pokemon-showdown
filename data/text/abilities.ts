@@ -2502,4 +2502,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon deals damage to all pokemon on the field at the end of each turn",
         shortDesc: "Does 12% damage to pokemon for existing"
     },
+	magmapool: {
+        name: "Magma Pool",
+        desc: "This Pokemon restores HP when hit by a fire move",
+        shortDesc: "Heals from fire moves"
+    },
 };
