@@ -6030,9 +6030,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			if (move.hasBounced || move.flags['futuremove'] || move.sourceEffect === 'snatch') return;
 			const type = move.type;
 			if (type && type !== '???' && source.getTypes().join() !== type) {
-				if (source.hasType(type)) return false;
+				if (source.hasType(type)) return;
 				if (!source.addType(type)) return false;
-				this.add('-start', source, 'typeadd', type);
+					this.add('-start', source, 'typeadd', type);
 			}
 		},
 		flags: {},
