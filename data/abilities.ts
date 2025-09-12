@@ -6082,4 +6082,15 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 1,
 		num: 304,
 	},
+	frostedembrace: {
+		onDamagingHit(damage, target, source, move) {
+			if (this.checkMoveMakesContact(move, source, target, true)) {
+				this.add('-ability', target, 'Frosted Embrace');
+				this.boost({spe: -1}, source, target, null, true);
+			}
+		},
+		name: "Frosted Embrace",
+		rating: 2,
+		num: 305,
+	},
 };

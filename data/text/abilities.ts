@@ -2412,4 +2412,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon's Defense is lowered when attacked with a physical move, but its special attack is increased",
         shortDesc: "When hit with a physical move, +1 SpAtk, -1 Def"
     },
+	frostedembrace: {
+        name: "Frosted Embrace",
+        desc: "This Pokemon lowers the opponents speed when they make contact with it",
+        shortDesc: "Opponents that make contact have -1 speed"
+    },
 };
