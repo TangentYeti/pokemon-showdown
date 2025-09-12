@@ -2427,4 +2427,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon gains the advantages of the flying type in Strong Winds",
         shortDesc: "Summons Strong Winds. Gives Flying Type in Strong Winds"
     },
+	gelatinous: {
+        name: "Gelatinous",
+        desc: "This Pokemon removes all hazrds from its side of the battle field on entry",
+        shortDesc: "Removes hazards on entry"
+    },
 };

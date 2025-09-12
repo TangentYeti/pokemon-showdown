@@ -6126,4 +6126,17 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4,
 		num: 1027,
 	},
+	gelatinous: {
+		onStart(pokemon) {
+			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+				for (const condition of sideConditions) {
+					if (pokemon.hp && pokemon.side.removeSideCondition(condition)) {
+						this.add('-sideend', pokemon.side, this.dex.conditions.get(condition).name, '[from] ability Gelatinous', '[of] ' + pokemon);
+					}
+				}
+		},
+		name: "Gelatinous",
+		rating: 4,
+		num: 1027,
+	},
 };
