@@ -6334,4 +6334,17 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4,
 		num: 320,
 	},
+	magmacore: {
+		onResidualOrder: 28,
+		onResidualSubOrder: 2,
+		onResidual(pokemon) {
+			if (!pokemon.hp) return;
+			for (const target of pokemon.foes()) {
+				this.damage(target.baseMaxhp / 12, target, pokemon);
+			}
+		},
+		name: "Magma Core",
+		rating: 1.5,
+		num: 321,
+	},
 };

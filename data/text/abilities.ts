@@ -2492,4 +2492,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon summons a Thunderstorm when it enters the field",
         shortDesc: "Summons Thunderstorm weather effect"
     },
+	magmacore: {
+        name: "Magma Core",
+        desc: "This Pokemon deals damage to all pokemon on the field at the end of each turn",
+        shortDesc: "Does % damage to pokemon for existing"
+    },
 };
