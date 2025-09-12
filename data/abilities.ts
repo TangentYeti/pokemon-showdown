@@ -6021,7 +6021,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 		flags: {},
-		name: "eldrich",
+		name: "Eldrich",
 		rating: 4.5,
 		num: 300,
 	}
