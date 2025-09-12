@@ -6167,4 +6167,16 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4,
 		num: 309,
 	},
+	gorgongaze: {
+		onDamagingHit(damage, target, source, move) {
+			if (this.checkMoveMakesContact(move, source, target)) {
+				if (this.randomChance(4, 10)) {
+					source.trySetStatus('par', target);
+				}
+			}
+		},
+		name: "Gorgon Gaze",
+		rating: 2,
+		num: 310,
+	},
 };

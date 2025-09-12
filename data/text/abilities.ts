@@ -2437,4 +2437,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon changes type when attacked, it attempts to change to the best type match up possible",
         shortDesc: "Changes to the most suitable type available when attacked"
     },
+	gorgongaze: {
+        name: "Gorgon Gaze",
+        desc: "This Pokemon sometimes paralyses opponents when they make contact",
+        shortDesc: "Chance for Opponent to be para'd upon contact"
+    },
 };
