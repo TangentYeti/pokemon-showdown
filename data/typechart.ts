@@ -76,6 +76,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	electric: {
 		damageTaken: {
+			thunderstorm: 3,
 			par: 3,
 			Bug: 0,
 			Dark: 0,
@@ -253,6 +254,7 @@ export const TypeChart: import('../sim/dex-data').TypeDataTable = {
 	},
 	ground: {
 		damageTaken: {
+			thunderstorm: 3,
 			sandstorm: 3,
 			Bug: 0,
 			Dark: 0,
