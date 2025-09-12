@@ -6024,5 +6024,20 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Eldrich",
 		rating: 4.5,
 		num: 300,
-	}
+	},
+	ethereal: {
+		onPrepareHit(source, target, move) {
+			if (move.hasBounced || move.flags['futuremove'] || move.sourceEffect === 'snatch') return;
+			const type = move.type;
+			if (type && type !== '???' && source.getTypes().join() !== type) {
+				if (source.hasType(type)) return false;
+				if (!source.addType(type)) return false;
+				this.add('-start', source, 'typeadd', type);
+			}
+		},
+		flags: {},
+		name: "Ethereal",
+		rating: 4,
+		num: 301,
+	},
 };

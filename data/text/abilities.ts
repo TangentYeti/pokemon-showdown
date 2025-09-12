@@ -2391,5 +2391,10 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		name: "Eldrich",
 		desc: "Special attacks hit twice with half power",
 		shortDesc: "Special attacks hit twice with half power"
-	}
+	},
+	ethereal: {
+        name: "Ethereal",
+        desc: "Secondary typing changes to match the type of attack being used.",
+        shortDesc: "Secondary type changes to match attacking type."
+    },
 };
