@@ -2482,4 +2482,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "Sets Leech seed when hit by a contact move",
         shortDesc: "Puts Leech Seed on opponent when hit by contact move."
     },
+	lunarempress: {
+        name: "Lunar Empress",
+        desc: "This Pokemon's weaknesses to Ghost and Dark are negated",
+        shortDesc: "Negates Ghost and Dark type Weaknesses"
+    },
 };
