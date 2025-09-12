@@ -6114,11 +6114,13 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	galeglider: {
 		onStart(pokemon) {
 			this.field.setWeather('strongwinds');
+		},
+		onWeatherChange(pokemon) {
 			if (['strongwinds'].includes(pokemon.effectiveWeather())) {
 				if (pokemon.hasType('Flying')) return false;
 				if (!pokemon.addType('Flying')) return false;
 				this.add('-start', pokemon, 'typeadd', 'Flying');
-			}
+			} 
 		},
 		name: "Galeglider",
 		rating: 4,
