@@ -6294,4 +6294,17 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		num: 317,
 	},
+	leechingspirit: {
+		onDamagingHit(damage, target, source, move) {
+			if (source.volatiles['leechseed']) return;
+			if (move.flags['contact'] && !move.isMax && !move.flags['futuremove'] && move.id !== 'struggle') {
+				source.addVolatile('leechseed', this.effectState.target);
+			}
+		},
+		flags: {},
+		name: "Leeching Spirit",
+		rating: 2,
+		num: 318,
+	},
+	
 };

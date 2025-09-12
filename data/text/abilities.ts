@@ -2477,4 +2477,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon reflects some of the damage dealth from projectile moves back at the opponent",
         shortDesc: "Reflect damage from projectile moves."
     },
+	leechingspirit: {
+        name: "Leeching Spirit",
+        desc: "Sets Leech seed when hit by a contact move",
+        shortDesc: "Puts Leech Seed on opponent when hit by contact move."
+    },
 };
