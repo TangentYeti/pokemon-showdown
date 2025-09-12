@@ -2442,4 +2442,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon sometimes paralyses opponents when they make contact",
         shortDesc: "Chance for Opponent to be para'd upon contact"
     },
+	hellborn: {
+        name: "Hellborn",
+        desc: "This Pokemon's Dark type moves gain a 50% boost in damage",
+        shortDesc: "Gain boosted damage using Dark type moves"
+    },
 };

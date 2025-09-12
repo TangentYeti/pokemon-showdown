@@ -6179,4 +6179,23 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 2,
 		num: 310,
 	},
+	hellborn: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Dark') {
+				this.debug('Hellborn boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Dark') {
+				this.debug('Hellborn boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Hellborn",
+		rating: 3.5,
+		num: 1056,
+	},
 };
