@@ -6250,6 +6250,22 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Impaler",
 		rating: 3.5,
-		num: 1014,
+		num: 314,
+	},
+	innerpeace: {
+		onTryBoost(boost, target, source, effect) {
+			if (source && target === source) return;
+			if (boost.spa && boost.spa < 0 || boost.spd && boost.spd < 0) {
+				delete boost.spa;
+				delete boost.spd;
+				if (!(effect as ActiveMove).secondaries) {
+					this.add("-fail", target, "unboost", "Special", "[from] ability: Inner Peace", "[of] " + target);
+				}
+			}
+		},
+		flags: {breakable: 1},
+		name: "Inner Peace",
+		rating: 1.5,
+		num: 315,
 	},
 };

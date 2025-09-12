@@ -2462,4 +2462,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon's contact moves have increased damage",
         shortDesc: "Increases contact moves damage"
     },
+	innerpeace: {
+        name: "Inner Peace",
+        desc: "This Pokemon's Special stats cannot be lowered",
+        shortDesc: "Prevents Special Stats from being lowered"
+    },
 };
