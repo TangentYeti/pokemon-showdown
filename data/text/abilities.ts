@@ -2507,4 +2507,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon restores HP when hit by a fire move",
         shortDesc: "Heals from fire moves"
     },
+	mirrormatch: {
+		name: "Mirror Match",
+		desc: "Adds opponents type to its own",
+		shortDesc: "Gain Opponents types"
+	}
 };
