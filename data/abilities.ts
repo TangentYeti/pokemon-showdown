@@ -6407,8 +6407,41 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				pokemon.cureStatus();
 			}
 		},
+		onSetStatus(status, target, source, effect) {
+			if (status.id !== 'brn') return;
+			if ((effect as Move)?.status) {
+				this.add('-immune', target, '[from] ability: Molten');
+			}
+			return false;
+		},
 		name: "Molten",
 		rating: 2,
-		num: 1042,
+		num: 325,
+	},
+	noxiousskin: {
+		onDamagingHitOrder: 1,
+		onDamagingHit(damage, target, source, move) {
+			if (this.checkMoveMakesContact(move, source, target, true)) {
+				this.damage(source.baseMaxhp / 8, source, target);
+			}
+		},
+		name: "Noxious Skin",
+		rating: 2.5,
+		num: 326,
+	},
+	oceansblessing: {
+		onModifyDef(def, pokemon) {
+			if (['raindance', 'primordialsea'].includes(pokemon.effectiveWeather())) {
+				return this.chainModify(1.3);
+			}
+		},
+		onModifySpD(spd, pokemon) {
+			if (['raindance', 'primordialsea'].includes(pokemon.effectiveWeather())) {
+				return this.chainModify(1.3);
+			}
+		},
+		name: "Ocean's Blessing",
+		rating: 3,
+		num: 1060,
 	},
 };

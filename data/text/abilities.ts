@@ -2517,4 +2517,14 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon cannot be burnt and has a chance to burn opponents when it attacks them",
         shortDesc: "Can burn opponents when user uses a contact move"
     },
+	noxiousskin: {
+        name: "Noxious Skin",
+        desc: "This Pokemon deals damage to opponents that make contact",
+        shortDesc: "Deals damage to attackers that make contact"
+    },
+	oceansblessing: {
+        name: "Ocean's Blessing",
+        desc: "This Pokemon's Defense stats are boosted in the rain",
+        shortDesc: "Increases Defenses in rain"
+    },
 };
