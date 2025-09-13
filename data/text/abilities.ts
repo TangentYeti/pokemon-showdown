@@ -2511,5 +2511,10 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		name: "Mirror Match",
 		desc: "Adds opponents type to its own",
 		shortDesc: "Gain Opponents types"
-	}
+	},
+	molten: {
+        name: "Molten",
+        desc: "This Pokemon cannot be burnt and has a chance to burn opponents when it attacks them",
+        shortDesc: "Can burn opponents when user uses a contact move"
+    },
 };

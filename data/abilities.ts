@@ -6371,22 +6371,44 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: 323,
 	},
-	mirrormatch: {
-		onStart(target, source) {
-			// if (source.terastallized) return false;
-			// const oldApparentType = source.apparentType;
-			const enemyType = target.getTypes(true).filter(type => type !== '???');
-			// if (!enemyType.length) {
-			// 		return false;
-			// 	}
-			this.add('-start', source, 'typeadd', enemyType, '[from] ability: Mirror Match');
-				// , '[of] ' + target);
-			// source.addedType = target.addedType;
-			// source.knownType = target.isAlly(source) && target.knownType;
-			// if (!source.knownType) source.apparentType = oldApparentType;
+	// mirrormatch: {
+	// 	onStart(target, source) {
+	// 		// if (source.terastallized) return false;
+	// 		// const oldApparentType = source.apparentType;
+	// 		const enemyType = target.getTypes(true).filter(type => type !== '???');
+	// 		// if (!enemyType.length) {
+	// 		// 		return false;
+	// 		// 	}
+	// 		this.add('-start', source, 'typeadd', enemyType, '[from] ability: Mirror Match');
+	// 			// , '[of] ' + target);
+	// 		// source.addedType = target.addedType;
+	// 		// source.knownType = target.isAlly(source) && target.knownType;
+	// 		// if (!source.knownType) source.apparentType = oldApparentType;
+	// 	},
+	// 	name: "Mirror Match",
+	// 	rating: 2, 
+	// 	num: 324,
+	// },
+	molten: {
+		onModifyMove(move) {
+			if (!move?.flags['contact'] || move.target === 'self') return;
+			if (!move.secondaries) {
+				move.secondaries = [];
+			}
+			move.secondaries.push({
+				chance: 30,
+				status: 'brn',
+				ability: this.dex.abilities.get('molten'),
+			});
 		},
-		name: "Mirror Match",
-		rating: 2, 
-		num: 324,
+		onUpdate(pokemon) {
+			if (pokemon.status === 'brn') {
+				this.add('-activate', pokemon, 'ability: Molten');
+				pokemon.cureStatus();
+			}
+		},
+		name: "Molten",
+		rating: 2,
+		num: 1042,
 	},
 };
