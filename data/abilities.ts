@@ -6548,7 +6548,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onModifyMove(move) {
 			if (move.flags['contact']) delete move.flags['protect'];
 		},
-		flags: {},
 		name: "Relentless",
 		rating: 2,
 		num: 335,

@@ -2564,7 +2564,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
     },
 	relentless: {
         name: "Relentless",
-        desc: "This Pokemon ignores moves like Protect",
-        shortDesc: "Ignores moves like Protect"
+        desc: "This Pokemon ignores moves like Protect and Endure",
+        shortDesc: "Ignores moves like Protect and Endure"
     },
+
 };
