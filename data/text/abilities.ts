@@ -2562,5 +2562,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon takes no recoil damage and has its recoil moves boosted",
         shortDesc: "Removes Recoil and Boosts recoil moves by 1.2x"
     },
-
+	relentless: {
+        name: "Relentless",
+        desc: "This Pokemon ignores moves like Protect",
+        shortDesc: "Ignores moves like Protect"
+    },
 };
