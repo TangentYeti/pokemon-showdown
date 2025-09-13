@@ -6372,7 +6372,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 323,
 	},
 	mirrormatch: {
-		onStart(target, source) {
+		onSwitchIn(target, source) {
 			if (source.species && (source.species.num === 493 || source.species.num === 773)) return false;
 			if (source.terastallized) return false;
 			const oldApparentType = source.apparentType;
@@ -6384,7 +6384,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 					return false;
 				}
 			}
-			this.add('-start', source, 'typechange', '[from] move: Reflect Type', '[of] ' + target);
+			this.add('-start', source, 'typeadd', '[from] ability: Mirror Match', '[of] ' + target);
 			source.addType(newBaseTypes);
 			source.addedType = target.addedType;
 			source.knownType = target.isAlly(source) && target.knownType;
