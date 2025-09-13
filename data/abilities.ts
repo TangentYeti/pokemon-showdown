@@ -6376,6 +6376,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			// if (source.terastallized) return false;
 			// const oldApparentType = source.apparentType;
 			const enemyType = target.getTypes(true).filter(type => type !== '???');
+			this.debug(enemyTypes)
 			if (!enemyType.length) {
 					return false;
 				}
