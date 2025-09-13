@@ -14467,7 +14467,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Guzzlord",
 		types: ["Dark", "Dragon"],
 		gender: "N",
-		baseStats: { hp: 223, atk: 101, def: 53, spa: 97, spd: 53, spe: 43 },
+		baseStats: { hp: 223, atk: 101, def: 153, spa: 97, spd: 153, spe: 43 },
 		abilities: { 0: "Beast Boost" },
 		heightm: 5.5,
 		weightkg: 888,

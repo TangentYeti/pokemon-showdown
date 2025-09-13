@@ -2564,8 +2564,23 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
     },
 	relentless: {
         name: "Relentless",
-        desc: "This Pokemon ignores moves like Protect and Endure",
-        shortDesc: "Ignores moves like Protect and Endure"
+        desc: "This Pokemon ignores moves like Protect",
+        shortDesc: "Ignores moves like Protect "
+    },
+	reptilian: {
+        name: "Reptilian",
+        desc: "This Pokemon restores HP in the sun but takes damage in the cold",
+        shortDesc: "Heal 1/8th in the sunand take 1/8th damage in snow"
+    },
+    rhythm: {
+        name: "Rhythm",
+        desc: "This Pokemon's Speed stat cannot be lowered",
+        shortDesc: "Prevents speed being lowered"
+    },
+    ruthless: {
+        name: "Ruthless",
+        desc: "This Pokemon always lands a critical hit against statused targets",
+        shortDesc: "Always crit a statused target"
     },
 
 };

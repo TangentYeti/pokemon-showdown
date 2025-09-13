@@ -6552,4 +6552,41 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 2,
 		num: 335,
 	},
+	reptilian: {
+		onWeather(target, source, effect) {
+			if (target.hasItem('utilityumbrella')) return;
+			if (effect.id === 'sunnyday' || effect.id === 'desolateland') {
+				this.heal(target.baseMaxhp / 8);
+			} else if (effect.id === 'hail' || effect.id === 'snow') {
+				this.damage(target.baseMaxhp / 8, target, target);
+			}
+		},
+		flags: {breakable: 1},
+		name: "Reptilian",
+		rating: 3,
+		num: 336,
+	},
+	rhythm: {
+		onTryBoost(boost, target, source, effect) {
+			if (source && target === source) return;
+			if (boost.spe && boost.spe < 0) {
+				delete boost.spe;
+				if (!(effect as ActiveMove).secondaries) {
+					this.add("-fail", target, "unboost", "Speed", "[from] ability: Rhythm", "[of] " + target);
+				}
+			}
+		},
+		flags: {breakable: 1},
+		name: "Rhythm",
+		rating: 1.5,
+		num: 337,
+	},
+	ruthless: {
+		onModifyCritRatio(critRatio, source, target) {
+			if (target && ['psn','tox','brn','par','slp','frz'].includes(target.status)) return 5;
+		},
+		name: "Ruthless",
+		rating: 1.5,
+		num: 338,
+	},
 };
