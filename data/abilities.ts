@@ -6462,16 +6462,33 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			if (!move?.drain) {
 				move.drain = [1,4];
 			}
-			// ability: this.dex.abilities.get('parasitic')
 		},
-		// onModifyMove(move, target) {
-		// 	if (move.flags['contact'] && !move.drain) {
-		// 			move.drain = [1,4];
-		// 		}
-		// 	// ability: this.dex.abilities.get('parasitic')
-		// },
 		name: "Parasitic",
 		rating: 2,
 		num: 329,
+	},
+	photonic: {
+		onSourceModifyDamage(damage, source, target, move) {
+			let mod = 1;
+			if (move.type === 'Dark') mod *= 2;
+			return this.chainModify(mod);
+		},
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Fire' || move.type === 'Electric') {
+				this.debug('Photonic boost');
+				return this.chainModify(1.3);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Fire' || move.type === 'Electric') {
+				this.debug('Photonic boost');
+				return this.chainModify(1.3);
+			}
+		},
+		name: "Photonic",
+		rating: 3.5,
+		num: 330,
 	},
 };

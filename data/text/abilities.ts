@@ -2537,4 +2537,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon heals for 25% of the damage it deals with Contact moves",
         shortDesc: "Restore 25% of damage dealt on Contact Moves"
     },
+	photonic: {
+        name: "Photonic",
+        desc: "This Pokemon's Electric and Fire type moves are boosted but it gains a weakness to Dark type moves",
+        shortDesc: "Electric and Fire moves powers are boosted"
+    },
 };
