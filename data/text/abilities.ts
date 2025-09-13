@@ -2557,5 +2557,10 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "Special Damage is partially reflected back to the attacker",
         shortDesc: "Reflect special damage"
     },
+	reinforced: {
+        name: "Reinforced",
+        desc: "This Pokemon takes no recoil damage and has its recoil moves boosted",
+        shortDesc: "Removes Recoil and Boosts recoil moves by 1.2x"
+    },
 
 };
