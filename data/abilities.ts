@@ -6373,22 +6373,17 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	mirrormatch: {
 		onSwitchIn(target, source) {
-			if (source.species && (source.species.num === 493 || source.species.num === 773)) return false;
 			if (source.terastallized) return false;
-			const oldApparentType = source.apparentType;
+			// const oldApparentType = source.apparentType;
 			let newBaseTypes = target.getTypes(true).filter(type => type !== '???');
 			if (!newBaseTypes.length) {
-				if (target.addedType) {
-					newBaseTypes = ['Normal'];
-				} else {
 					return false;
 				}
-			}
-			this.add('-start', source, 'typeadd', '[from] ability: Mirror Match', '[of] ' + target);
-			source.addType(newBaseTypes);
-			source.addedType = target.addedType;
-			source.knownType = target.isAlly(source) && target.knownType;
-			if (!source.knownType) source.apparentType = oldApparentType;
+			this.add('-start', source, 'typeadd', newBaseTypes, '[from] ability: Mirror Match');
+				// , '[of] ' + target);
+			// source.addedType = target.addedType;
+			// source.knownType = target.isAlly(source) && target.knownType;
+			// if (!source.knownType) source.apparentType = oldApparentType;
 		},
 		name: "Mirror Match",
 		rating: 2, 
