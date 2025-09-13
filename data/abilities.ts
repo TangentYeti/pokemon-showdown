@@ -6616,4 +6616,17 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: 340,
 	},
+	silkslinger: {
+		onTryHit(pokemon, target, move) {
+			if (move.flags['bullet'] || move.flags['pulse']) {
+				this.add('-immune', pokemon, '[from] ability: Silk Slinger');
+				this.damage(target.baseMaxhp / 8, target, pokemon);
+				return null;
+			}
+		},
+		flags: {breakable: 1},
+		name: "Silk Slinger",
+		rating: 3,
+		num: 1082,
+	},
 };

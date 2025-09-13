@@ -2592,4 +2592,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon's Sound moves deal boosted damage",
         shortDesc: "Boosts sound moves"
     },
+	silkslinger: {
+        name: "Silk Slinger",
+        desc: "This Pokemon returns projectile based moves",
+        shortDesc: "All projectile moves are returned"
+    },
 };
