@@ -2599,7 +2599,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
     },
 	sinfulaura: {
         name: "Sinful Aura",
-        desc: "This Pokemon's Normal type moves become dark type",
+        desc: "This Pokemon's Normal type moves become dark typeand are boosted by 1.2x",
         shortDesc: "Dark type Pixilate"
     },
 };

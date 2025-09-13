@@ -713,6 +713,7 @@ export class RandomTeams {
 			if (abilities.includes('Galvanize')) return 'Electric';
 			if (abilities.includes('Pixilate')) return 'Fairy';
 			if (abilities.includes('Refrigerate')) return 'Ice';
+			if (abilities.includes('Sinful Aura')) return 'Dark';
 		}
 		return moveType;
 	}
