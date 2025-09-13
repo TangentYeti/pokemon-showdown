@@ -2547,4 +2547,15 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon deals damage when opponents make contact, it also reduces their attack stat",
         shortDesc: "Deals Damage on Contact taken then lowers Attack by 1"
     },
+	pondskipper: {
+        name: "Pond Skipper",
+        desc: "This Pokemon's speed increases for every turn they spend in teh rain",
+        shortDesc: "Boosts Speed every turn in rain"
+    },
+	reflection: {
+        name: "Reflection",
+        desc: "Special Damage is partially reflected back to the attacker",
+        shortDesc: "Reflect special damage"
+    },
+
 };

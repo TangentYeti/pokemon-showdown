@@ -6503,4 +6503,28 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 2.5,
 		num: 331,
 	},
+	pondskipper: {
+		onResidualOrder: 28,
+		onResidualSubOrder: 2,
+		onWeather(target, source, effect) {
+			if (target.activeTurns && effect.id === 'raindance' || effect.id === 'primordialsea') {
+				this.boost({spe: 1});
+			}
+		},
+		name: "Pond Skipper",
+		rating: 4.5,
+		num: 332,
+	},
+	reflection: {
+		onDamagingHitOrder: 1,
+		onDamagingHit(damage, target, source, move) {
+			if (this.getCategory(move) === 'Special') {
+				this.damage(target.getUndynamaxedHP(damage/2), source, target);
+			}
+		},
+		flags: {},
+		name: "Reflection",
+		rating: 4,
+		num: 333,
+	},
 };
