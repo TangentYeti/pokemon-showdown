@@ -6373,7 +6373,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	mirrormatch: {
 		onSwitchIn(target, source) {
-			if (source.terastallized) return false;
+			// if (source.terastallized) return false;
 			// const oldApparentType = source.apparentType;
 			let newBaseTypes = target.getTypes(true).filter(type => type !== '???');
 			if (!newBaseTypes.length) {
