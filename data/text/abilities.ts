@@ -2582,5 +2582,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon always lands a critical hit against statused targets",
         shortDesc: "Always crit a statused target"
     },
-
+	seeingred: {
+        name: "Seeing Red",
+        desc: "This Pokemon gains 1 attack when hit by an attack",
+        shortDesc: "Attack raises when attacked"
+    },
 };

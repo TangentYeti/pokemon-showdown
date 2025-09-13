@@ -6589,4 +6589,12 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 1.5,
 		num: 338,
 	},
+	seeingred: {
+		onDamagingHit(damage, target, source, effect) {
+			this.boost({atk: 1});
+		},
+		name: "Seeing Red",
+		rating: 3.5,
+		num: 339,
+	},
 };
