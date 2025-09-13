@@ -2532,4 +2532,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon deals additional damage when in double or triple battles",
         shortDesc: "Increased Damage when in double or triple battles."
     },
+	parasitic: {
+        name: "Parasitic",
+        desc: "This Pokemon heals for 25% of the damage it deals with Contact moves",
+        shortDesc: "Restore 25% of damage dealt on Contact Moves"
+    },
 };

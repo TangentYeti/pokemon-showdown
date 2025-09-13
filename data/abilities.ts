@@ -6456,4 +6456,22 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 0,
 		num: 328,
 	},
+	parasitic: {
+		onModifyMove(move, target) {
+			if (!move?.flags['contact']) return;
+			if (!move?.drain) {
+				move.drain = [1,4];
+			}
+			// ability: this.dex.abilities.get('parasitic')
+		},
+		// onModifyMove(move, target) {
+		// 	if (move.flags['contact'] && !move.drain) {
+		// 			move.drain = [1,4];
+		// 		}
+		// 	// ability: this.dex.abilities.get('parasitic')
+		// },
+		name: "Parasitic",
+		rating: 2,
+		num: 329,
+	},
 };
