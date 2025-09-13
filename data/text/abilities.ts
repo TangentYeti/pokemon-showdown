@@ -2597,4 +2597,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon returns projectile based moves",
         shortDesc: "All projectile moves are returned"
     },
+	sinfulaura: {
+        name: "Sinful Aura",
+        desc: "This Pokemon's Normal type moves become dark type",
+        shortDesc: "Dark type Pixilate"
+    },
 };
