@@ -2602,4 +2602,14 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon's Normal type moves become dark typeand are boosted by 1.2x",
         shortDesc: "Dark type Pixilate"
     },
+	solsticecore: {
+        name: "Solstice Core",
+        desc: "This Pokemon restores HP when hit by an Ice type move but takes damage in the sun",
+        shortDesc: "Dry Skin but ice not water"
+    },
+	soulfury: {
+        name: "Soul Fury",
+        desc: "Reduces damage taken from Ghost type moves. Increases power of Ghost type moves.",
+        shortDesc: "Reduces Ghost damage taken, increases ghost damage dealt."
+    },
 };
