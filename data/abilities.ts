@@ -6372,14 +6372,14 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 323,
 	},
 	mirrormatch: {
-		onStart(target, source, pokemon) {
+		onStart(target, source) {
 			// if (source.terastallized) return false;
 			// const oldApparentType = source.apparentType;
-			let newBaseTypes = target.getTypes(true).filter(type => type !== '???');
-			if (!newBaseTypes.length) {
+			const enemyType = target.getTypes(true).filter(type => type !== '???');
+			if (!enemyType.length) {
 					return false;
 				}
-			this.add('-start', source, 'typeadd', newBaseTypes, '[from] ability: Mirror Match');
+			this.add('-start', source, 'typeadd', enemyType, '[from] ability: Mirror Match');
 				// , '[of] ' + target);
 			// source.addedType = target.addedType;
 			// source.knownType = target.isAlly(source) && target.knownType;
