@@ -6442,6 +6442,18 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		name: "Ocean's Blessing",
 		rating: 3,
-		num: 1060,
+		num: 327,
+	},
+	packhunter: {
+		name: "Pack Hunter",
+		onAnyModifyDamage(damage, source, target, move) {
+			if (target !== this.effectState.target && !target.isAlly(this.effectState.target)) {
+				this.debug('Pack Hunter Boost');
+				return this.chainModify(1.25);
+			}
+		},
+		flags: {breakable: 1},
+		rating: 0,
+		num: 328,
 	},
 };

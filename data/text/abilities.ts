@@ -2527,4 +2527,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon's Defense stats are boosted in the rain",
         shortDesc: "Increases Defenses in rain"
     },
+	packhunter: {
+        name: "Pack Hunter",
+        desc: "This Pokemon deals additional damage when in double or triple battles",
+        shortDesc: "Increased Damage when in double or triple battles."
+    },
 };
