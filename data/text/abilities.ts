@@ -2540,6 +2540,6 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	photonic: {
         name: "Photonic",
         desc: "This Pokemon's Electric and Fire type moves are boosted but it gains a weakness to Dark type moves",
-        shortDesc: "Electric and Fire moves powers are boosted"
+        shortDesc: "Electric and Fire moves powers are boosted, weak to Dark"
     },
 };
