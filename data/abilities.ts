@@ -6491,4 +6491,16 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: 330,
 	},
+	piercingarmor: {
+		onDamagingHitOrder: 1,
+		onDamagingHit(damage, target, source, move) {
+			if (this.checkMoveMakesContact(move, source, target, true)) {
+				this.damage(source.baseMaxhp / 8, source, target);
+				this.boost({atk: -1}, source, target, null, true);
+			}
+		},
+		name: "Piercing Armor",
+		rating: 2.5,
+		num: 331,
+	},
 };

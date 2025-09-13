@@ -2539,7 +2539,12 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
     },
 	photonic: {
         name: "Photonic",
-        desc: "This Pokemon's Electric and Fire type moves are boosted but it gains a weakness to Dark type moves",
-        shortDesc: "Electric and Fire moves powers are boosted, weak to Dark"
+        desc: "This Pokemon's Electric and Fire type moves are boosted but it takes double damage from Dark type moves",
+        shortDesc: "Electric and Fire moves powers are boosted, x2 damage from Dark moves"
+    },
+	piercingarmor: {
+        name: "Piercing Armor",
+        desc: "This Pokemon deals damage when opponents make contact, it also reduces their attack stat",
+        shortDesc: "Deals Damage on Contact taken then lowers Attack by 1"
     },
 };
