@@ -2587,4 +2587,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon gains 1 attack when hit by an attack",
         shortDesc: "Attack raises when attacked"
     },
+	shrillvoice: {
+        name: "Shrill Voice",
+        desc: "This Pokemon's Sound moves deal boosted damage",
+        shortDesc: "Boosts sound moves"
+    },
 };
