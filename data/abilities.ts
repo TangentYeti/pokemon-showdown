@@ -6650,6 +6650,32 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4,
 		num: 342,
 	},
+	slowmotion: {
+		onAnyAccuracy(accuracy, target, source, move) {
+			if (move && source === this.effectState.target) {
+				return true;
+			}
+			return accuracy;
+		},
+		onBasePowerPriority: 21,
+		onBasePower(basePower, pokemon) {
+			let boosted = true;
+			for (const target of this.getAllActive()) {
+				if (target === pokemon) continue;
+				if (this.queue.willMove(target)) {
+					boosted = false;
+					break;
+				}
+			}
+			if (boosted) {
+				this.debug('Slow Motion boost');
+				return this.chainModify([8192, 4096]);
+			}
+		},
+		name: "Slow Motion",
+		rating: 4,
+		num: 343,
+	},
 	solsticecore: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Ice') {
@@ -6667,7 +6693,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		onWeather(target, source, effect) {
 			if (target.hasItem('utilityumbrella')) return;
-			if (effect.id === 'hail' || effect.id === 'snow') {
+			if (effect.id === 'hail' || effect.id === 'snowscape') {
 				this.heal(target.baseMaxhp / 8);
 			} else if (effect.id === 'sunnyday' || effect.id === 'desolateland') {
 				this.damage(target.baseMaxhp / 8, target, target);
@@ -6676,7 +6702,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {breakable: 1},
 		name: "Solstice Core",
 		rating: 3,
-		num: 343,
+		num: 344,
 	},
 	soulfury: {
 		onSourceModifyAtkPriority: 6,
@@ -6710,6 +6736,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {breakable: 1},
 		name: "Soul Fury",
 		rating: 3.5,
-		num: 344,
+		num: 345,
 	},
 };

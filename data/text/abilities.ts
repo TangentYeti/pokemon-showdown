@@ -2602,6 +2602,11 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon's Normal type moves become dark typeand are boosted by 1.2x",
         shortDesc: "Dark type Pixilate"
     },
+	slowmotion: {
+        name: "Slow Motion",
+        desc: "Cannot dodge attacks, slow attacks are boosted",
+        shortDesc: "Cannot dodge attacks. Slow moves are 2x power"
+    },
 	solsticecore: {
         name: "Solstice Core",
         desc: "This Pokemon restores HP when hit by an Ice type move but takes damage in the sun",
