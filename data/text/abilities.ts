@@ -2627,4 +2627,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "Gains attack instead of being intimidated",
         shortDesc: "Cannot be forced out and is immune to intimidate"
     },
+	stunningentrance: {
+        name: "Stunning Entrance",
+        desc: "This Pokemon lowers ",
+        shortDesc: "Lowers speed stat when switch in"
+    },
 };
