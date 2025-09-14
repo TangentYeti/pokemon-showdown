@@ -6360,7 +6360,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	magmapool: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Fire') {
-				if (!this.heal(target.baseMaxhp / 4)) {
+				if (!this.heal(target.baseMaxhp / 4, target, target)) {
 					this.add('-immune', target, '[from] ability: Magma Pool');
 				}
 				return null;
@@ -6803,5 +6803,19 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Sunrise",
 		rating: 3.5,
 		num: 349,
+	},
+	superiorzen: {
+		onModifyTypePriority: 1,
+		onModifyType(move, pokemon) {
+			const noModifyType = [
+				'hiddenpower', 'judgment', 'multiattack', 'naturalgift', 'revelationdance', 'struggle', 'technoblast', 'terrainpulse', 'weatherball',
+			];
+			if (!(move.isZ && move.category !== 'Physical') && !noModifyType.includes(move.id)) {
+				move.category = 'Special';
+			}
+		},
+		name: "Superior Zen",
+		rating: 0,
+		num: 350,
 	},
 };

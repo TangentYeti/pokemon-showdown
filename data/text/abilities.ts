@@ -2637,4 +2637,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon's Fire type attacks are super effective against Ghost and Dark type opponents",
         shortDesc: "Fire moves are super effective on ghost and dark types"
     },
+	superiorzen: {
+        name: "Superior Zen",
+        desc: "All of this Pokemon's attacks use its Special Attack stat",
+        shortDesc: "Turns all of the user's attacks into special moves"
+    },
 };
