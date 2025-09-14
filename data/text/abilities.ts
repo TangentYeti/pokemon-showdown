@@ -2617,4 +2617,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "Reduces damage taken from Ghost type moves. Increases power of Ghost type moves.",
         shortDesc: "Reduces Ghost damage taken, increases ghost damage dealt."
     },
+	spiritual: {
+        name: "Spiritual",
+        desc: "This Pokemon's Fairy type attacks deal boosted damage",
+        shortDesc: "Gives Stab bonus to Fairy type moves"
+    },
 };

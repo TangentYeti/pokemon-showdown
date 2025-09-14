@@ -6738,4 +6738,14 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: 345,
 	},
+	spiritual: {
+		onBasePower(basePower, user, target, move) {
+			if (move && move.type === 'Dark') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
+		name: "Spiritual",
+		rating: 0,
+		num: 346,
+	},
 };
