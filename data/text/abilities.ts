@@ -2632,4 +2632,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon lowers ",
         shortDesc: "Lowers speed stat when switch in"
     },
+	sunrise: {
+        name: "Sunrise",
+        desc: "This Pokemon's Fire type attacks are super effective against Ghost and Dark type opponents",
+        shortDesc: "Fire moves are super effective on ghost and dark types"
+    },
 };

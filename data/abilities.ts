@@ -6793,4 +6793,15 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: 348,
 	},
+	sunrise: {
+		onModifyDamage(damage, source, target, move) {
+			let mod = 1;
+			if ((move.type === 'Fire' && target.hasType('Ghost')) || (move.type === 'Fire' && target.hasType('Dark'))) mod *= 2;
+			return this.chainModify(mod);
+		},
+		flags: {breakable: 1},
+		name: "Sunrise",
+		rating: 3.5,
+		num: 349,
+	},
 };
