@@ -2622,4 +2622,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon's Fairy type attacks deal boosted damage",
         shortDesc: "Gives Stab bonus to Fairy type moves"
     },
+	standoff: {
+        name: "Stand Off",
+        desc: "Gains attack instead of being intimidated",
+        shortDesc: "Cannot be forced out and is immune to intimidate"
+    },
 };

@@ -6758,4 +6758,20 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: 346,
 	},
+	standoff: {
+		onDragOutPriority: 1,
+		onDragOut(pokemon) {
+			this.add('-activate', pokemon, 'ability: Guard Dog');
+			return null;
+		},
+		onTryBoost(boost, target, source, effect) {
+			if (effect.name === 'Intimidate' && boost.atk) {
+				delete boost.atk;
+				this.boost({atk: 3}, target, target, null, false, true);
+			}
+		},
+		name: "Stand Off",
+		rating: 2,
+		num: 347,
+	},
 };
