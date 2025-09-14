@@ -6739,13 +6739,23 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 345,
 	},
 	spiritual: {
-		onBasePower(basePower, user, target, move) {
-			if (move && move.type === 'Dark') {
-				return this.chainModify([4915, 4096]);
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Fairy') {
+				this.debug('Spiritual boost');
+				return this.chainModify(1.5);
 			}
 		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Fairy') {
+				this.debug('Spiritual boost');
+				return this.chainModify(1.5);
+			}
+		},
+		flags: {},
 		name: "Spiritual",
-		rating: 0,
+		rating: 3.5,
 		num: 346,
 	},
 };
