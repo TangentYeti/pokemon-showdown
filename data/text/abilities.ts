@@ -2657,4 +2657,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon's Speed stat increases when it switches in",
         shortDesc: "Raises Speed when it switches in"
     },
+	tikimask: {
+        name: "Tiki Mask",
+        desc: "This Pokemon's stats change when it is first hit",
+        shortDesc: "Gives boosts when taking damage at full hp."
+    },
 };

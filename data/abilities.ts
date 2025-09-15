@@ -6885,4 +6885,16 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: 353,
 	},
+	tikimask: {
+		onDamagePriority: 1,
+		onDamage(damage, target, source, effect) {
+			if (target.hp >= target.maxhp) {
+				this.debug("Tiki Mask Broken");
+				this.boost({atk: 1, def: -1, spa: 1, spd: -1, spe: 1})
+			}
+		},
+		name: "Tiki Mask",
+		rating: 3.5,
+		num: 354,
+	},
 };
