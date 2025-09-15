@@ -6934,7 +6934,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onTryHit(target, source, move) {
 			if (target !== source && move.flags['wind']) {
 				if (!this.heal(target.baseMaxhp / 4, target, target)) {
-					this.add('-immune', source, '[from] ability: Vacuum');
+					this.add('-immune', target, '[from] ability: Vacuum');
 				}
 				return null;
 			}
@@ -6943,5 +6943,16 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Vacuum",
 		rating: 2,
 		num: 357,
+	},
+	vampiric: {
+		onModifyMove(move) {
+			if (!move?.flags['bite']) return;
+			if (!move?.drain) {
+				move.drain = [1,4];
+			}
+		},
+		name: "Vampiric",
+		rating: 2,
+		num: 358,
 	},
 };

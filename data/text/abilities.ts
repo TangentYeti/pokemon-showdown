@@ -2677,4 +2677,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon restores HP when wind moves are used",
         shortDesc: "Wind Moves get converted to Health"
     },
+	vampiric: {
+        name: "Vampiric",
+        desc: "This Pokemon restores Hp when using Biting attacks",
+        shortDesc: "Restore 50% of damage dealt on Biting Moves"
+    },
 };
