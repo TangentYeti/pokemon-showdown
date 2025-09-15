@@ -6818,4 +6818,44 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 0,
 		num: 350,
 	},
+	survivalist: {
+		onWeatherChange(pokemon) {
+			if (['strongwinds'].includes(pokemon.effectiveWeather())) {
+				if (pokemon.hasType('Flying')) return false;
+				if (!pokemon.addType('Flying')) return false;
+				this.add('-start', pokemon, 'typeadd', 'Flying');
+			} else if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
+				 if (pokemon.hasType('Fire')) return false;
+				 if (!pokemon.addType('Fire')) return false;
+				 this.add('-start', pokemon, 'typeadd', 'Fire');
+			} else if (['raindance', 'primordialsea'].includes(pokemon.effectiveWeather())) {
+				 if (pokemon.hasType('Water')) return false;
+				 if (!pokemon.addType('Water')) return false;
+				 this.add('-start', pokemon, 'typeadd', 'Water');
+			} else if (['sandstorm'].includes(pokemon.effectiveWeather())) {
+				 if (pokemon.hasType('Rock')) return false;
+				 if (!pokemon.addType('Rock')) return false;
+				 this.add('-start', pokemon, 'typeadd', 'Rock');
+			} else if (['snowscape'].includes(pokemon.effectiveWeather())) {
+				 if (pokemon.hasType('Ice')) return false;
+				 if (!pokemon.addType('Ice')) return false;
+				 this.add('-start', pokemon, 'typeadd', 'Ice');
+			} else if (['deepfog'].includes(pokemon.effectiveWeather())) {
+				if (pokemon.hasType('Ghost')) return false;
+				if (!pokemon.addType('Ghost')) return false;
+				this.add('-start', pokemon, 'typeadd', 'Ghost');
+			} else if (['thunderstorm'].includes(pokemon.effectiveWeather())) {
+				if (pokemon.hasType('Electric')) return false;
+				if (!pokemon.addType('Electric')) return false;
+				this.add('-start', pokemon, 'typeadd', 'Electric');
+			}else if (['overcast'].includes(pokemon.effectiveWeather())) {
+				if (pokemon.hasType('Normal')) return false;
+				if (!pokemon.addType('Normal')) return false;
+				this.add('-start', pokemon, 'typeadd', 'Normal');
+			}
+		},
+		name: "Survivalist",
+		rating: 4,
+		num: 351,
+	},
 };

@@ -2642,4 +2642,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "All of this Pokemon's attacks use its Special Attack stat",
         shortDesc: "Turns all of the user's attacks into special moves"
     },
+	survivalist: {
+        name: "Survivalist",
+        desc: "This Pokemon's secondary type changes to match the type of the current weather",
+        shortDesc: "During Weather effects, gain associated secondary typing."
+    },
 };
