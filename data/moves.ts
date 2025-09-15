@@ -22120,8 +22120,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pseudoWeather: 'absolutezero',
 		condition: {
 			duration: 5,
+			durationCallback(source, effect) {
+				return 5;
+			},
 			onFieldStart(target, source, sourceEffect) {
 				this.add('-fieldactivate', 'move: Absolute Zero');
+				this.add('-fieldstart', 'move: Absolute Zero', '[of] ' + source);
 				this.hint(`Water-type moves become Ice-type after using ${sourceEffect}.`);
 			},
 			onModifyTypePriority: -2,
@@ -22130,6 +22134,11 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 					move.type = 'Ice';
 					this.debug(move.name + "'s type changed to Ice");
 				}
+			},
+			onFieldResidualOrder: 27,
+			onFieldResidualSubOrder: 1,
+			onFieldEnd() {
+				this.add('-fieldend', 'move: Absolute Zero');
 			},
 		},
 		secondary: null,

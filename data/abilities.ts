@@ -5860,7 +5860,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	bootstrap: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Bug') {
-				this.add('-immune', target, '[from] ability: Bootstrap', target, target);
+				this.add('-immune', target, '[from] ability: Bootstrap', target);
 				this.boost({spe: 1});
 				}
 				return null;
