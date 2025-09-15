@@ -22291,4 +22291,41 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Fire",
 		contestType: "Cute",
 	},
+	bananabeat: {
+		num: 928,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Banana Beat",
+		pp: 10,
+		priority: 0,
+		flags: {snatch: 1},
+		onHit(target) {
+			if (target.hp <= target.maxhp / (3/2) || target.boosts.atk >= 4 || target.maxhp === 1) { // Shedinja clause
+				return false;
+			}
+			this.directDamage(target.maxhp / (2/3));
+			this.boost({atk: 4}, target);
+		},
+		secondary: null,
+		target: "self",
+		type: "Grass",
+		zMove: {effect: 'heal'},
+		contestType: "Cute",
+	},
+	bananabeatdown: {
+		num: 929,
+		accuracy: 100,
+		basePower: 110,
+		category: "Physical",
+		name: "Banana Beatdown",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		recoil: [25, 100],
+		secondary: null,
+		target: "normal",
+		type: "Grass",
+		contestType: "Tough",
+	},
 };

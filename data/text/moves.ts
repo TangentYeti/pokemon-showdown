@@ -7646,4 +7646,14 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "User switches out after attacking, has small chance to burn",
 		shortDesc: "10% burn, then pivot",
 	},
+	bananabeat: {
+		name: "Banana Beat",
+		desc: "+4 Attack, -33% HP.",
+		shortDesc: "+4 Attack, -33% HP.",
+	},
+	bananabeatdown: {
+		name: "Banana Beatdown",
+		desc: "User takes 25% recoil Damage.",
+		shortDesc: "25% recoil damage.",
+	},
 }; 
