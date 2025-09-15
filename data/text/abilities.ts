@@ -2667,4 +2667,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon's attacks ignore type immunities",
         shortDesc: "Can hit all types regardless of immunities"
     },
+	vaccine: {
+        name: "Vaccine",
+        desc: "This Pokemon's status conditions are healed at teh end of any turn",
+        shortDesc: "Removes Status at the end of turn"
+    },
 };

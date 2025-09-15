@@ -5860,7 +5860,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	bootstrap: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Bug') {
-				this.add('-immune', target, '[from] ability: Bootstrap');
+				this.add('-immune', target, '[from] ability: Bootstrap', target, target);
 				this.boost({spe: 1});
 				}
 				return null;
@@ -5979,7 +5979,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	dissolve: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Steel') {
-				if (!this.heal(target.baseMaxhp / 4)) {
+				if (!this.heal(target.baseMaxhp / 4, target, target)) {
 					this.add('-immune', target, '[from] ability: Dissolve');
 				}
 				return null;
@@ -6915,5 +6915,19 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Truesight",
 		rating: 3,
 		num: 355,
+	},
+	vaccine: {
+		onResidualOrder: 5,
+		onResidualSubOrder: 3,
+		onResidual(pokemon) {
+			if (pokemon.hp && pokemon.status) {
+				this.debug('vaccine');
+				this.add('-activate', pokemon, 'ability: Vaccine');
+				pokemon.cureStatus();
+			}
+		},
+		name: "Vaccine",
+		rating: 3,
+		num: 356,
 	},
 };
