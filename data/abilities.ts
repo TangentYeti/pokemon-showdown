@@ -6890,11 +6890,30 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onDamage(damage, target, source, effect) {
 			if (target.hp >= target.maxhp) {
 				this.debug("Tiki Mask Broken");
-				this.boost({atk: 1, def: -1, spa: 1, spd: -1, spe: 1})
+				this.boost({atk: 1, def: -1, spa: 1, spd: -1})
 			}
 		},
 		name: "Tiki Mask",
 		rating: 3.5,
 		num: 354,
+	},
+	truesight: {
+		onModifyMovePriority: -5,
+		onModifyMove(move) {
+			if (!move.ignoreImmunity) move.ignoreImmunity = {};
+			if (move.ignoreImmunity !== true) {
+				move.ignoreImmunity['Fighting'] = true;
+				move.ignoreImmunity['Normal'] = true;
+				move.ignoreImmunity['Dragon'] = true;
+				move.ignoreImmunity['Electric'] = true;
+				move.ignoreImmunity['Poison'] = true;
+				move.ignoreImmunity['Ground'] = true;
+				move.ignoreImmunity['Psychic'] = true;
+				move.ignoreImmunity['Ghost'] = true;
+			}
+		},
+		name: "Truesight",
+		rating: 3,
+		num: 355,
 	},
 };

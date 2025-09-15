@@ -2662,4 +2662,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon's stats change when it is first hit",
         shortDesc: "Gives boosts when taking damage at full hp."
     },
+	truesight: {
+        name: "Truesight",
+        desc: "This Pokemon's attacks ignore type immunities",
+        shortDesc: "Can hit all types regardless of immunities"
+    },
 };
