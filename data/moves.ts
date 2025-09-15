@@ -22109,7 +22109,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	// Divine Olympus Moves
 	absolutezero: {
-		num: 978,
+		num: 920,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -22124,7 +22124,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				return 5;
 			},
 			onFieldStart(target, source, sourceEffect) {
-				this.add('-fieldactivate', 'move: Absolute Zero');
 				this.add('-fieldstart', 'move: Absolute Zero', '[of] ' + source);
 				this.hint(`Water-type moves become Ice-type after using ${sourceEffect}.`);
 			},
@@ -22146,5 +22145,132 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Ice",
 		zMove: {boost: {spa: 1}},
 		contestType: "Beautiful",
+	},
+	abyssalrift: {
+		num: 921,
+		accuracy: 95,
+		basePower: 105,
+		category: "Special",
+		name: "Abyssal Rift",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		self: {
+			volatileStatus: 'aquaring',
+		},
+		target: "normal",
+		type: "Water",
+		contestType: "Tough",
+	},
+	allspike: {
+		num: 922,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Allspike",
+		pp: 20,
+		priority: 0,
+		flags: {reflectable: 1, nonsky: 1},
+		onHitSide(move, source) {
+			if(source.hp){
+				for (const side of source.side.foeSidesWithConditions()) {
+						side.addSideCondition('spikes')
+						side.addSideCondition('spikes')
+						side.addSideCondition('spikes')
+				}
+			}
+		},
+		secondary: null,
+		target: "foeSide",
+		type: "Ground",
+		zMove: {boost: {def: 1}},
+		contestType: "Clever",
+	},
+	anchorslam: {
+		num: 923,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Anchor Slam",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 25,
+			self: {
+				boosts: {
+					spe: -1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Steel",
+		contestType: "Tough",
+	},
+	ancientfury: {
+		num: 924,
+		accuracy: 100,
+		basePower: 85,
+		category: "Physical",
+		name: "Ancient Fury",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			boosts: {
+				def: -1,
+			},
+		},
+		target: "normal",
+		type: "Dragon",
+		contestType: "Cute",
+	},
+	asteroid: {
+		num: 925,
+		accuracy: 90,
+		basePower: 95,
+		category: "Special",
+		name: "Asteroid",
+		pp: 10,
+		priority: -1,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 5,
+			volatileStatus: 'flinch',
+		},
+		target: "normal",
+		type: "Rock",
+		contestType: "Tough",
+	},
+	astralscythe: {
+		num: 926,
+		accuracy: 95,
+		basePower: 85,
+		category: "Special",
+		name: "Astral Scythe",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, charge: 1, mirror: 1, impale: 1},
+		breaksProtect: true,
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		condition: {
+			duration: 2,
+			onInvulnerability: false,
+		},
+		secondary: null,
+		target: "normal",
+		type: "Psychic",
+		contestType: "Cool",
 	},
 };

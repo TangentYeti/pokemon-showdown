@@ -7613,4 +7613,32 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "All Water Moves become Ice Type for 5 to 8 turns.",
 		shortDesc: "Water Moves become Ice Type",
 	},
+	abyssalrift: {
+		name: "Zen Headbutt",
+		desc: "Applies Aqua Ring to Self",
+		shortDesc: "Applies Aqua Ring to Self",
+	},
+	allspike: {
+		name: "Allspike",
+		desc: "Sets 3 layers of Spikes",
+		shortDesc: "Sets 3 layers of Spikes.",
+	},
+	anchorslam: {
+		name: "Anchor Slam",
+		desc: "25% chance to lower speed.",
+		shortDesc: "25% chance to lower speed.",
+	},
+	ancientfury: {
+		name: "Ancient Fury",
+		desc: "has  30% chance to lower defense.",
+		shortDesc: "20% chance defense drop.",
+	},
+	asteroid: {
+		name: "Asteroid",
+		shortDesc: "No Additional Effect.",
+	},
+	astralscythe: {
+		name: "Astral Scythe",
+		shortDesc: "No additional effect.",
+	},
 }; 
