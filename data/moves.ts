@@ -22328,4 +22328,116 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Grass",
 		contestType: "Tough",
 	},
+	basaltbarrage: {
+		num: 930,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Basalt Barrage",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 10,
+			boosts: {
+				def: -1,
+			},
+		},
+		target: "allAdjacentFoes",
+		type: "Rock",
+		contestType: "Clever",
+	},
+	blackhole: {
+		num: 931,
+		accuracy: 100,
+		basePower: 75,
+		category: "Special",
+		name: "Black Hole",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1, mirror: 1, allyanim: 1, metronome: 1},
+		boosts: {
+			spe: -2,
+		},
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+		zMove: {boost: {spe: 1}},
+		contestType: "Tough",
+	},
+	bulletsiege: {
+		num: 932,
+		accuracy: true,
+		basePower: 70,
+		category: "Special",
+		name: "Bullet Siege",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, bullet: 1},
+		secondary: null,
+		target: "normal",
+		type: "Steel",
+		contestType: "Clever",
+	},
+	causticbreath: {
+		num: 933,
+		accuracy: 100,
+		basePower: 85,
+		category: "Special",
+		name: "Caustic Breath",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+			status: 'brn',
+		},
+		target: "normal",
+		type: "Poison",
+		contestType: "Beautiful",
+	},
+	cerebralpuncture: {
+		num: 934,
+		accuracy: 100,
+		basePower: 140,
+		category: "Physical",
+		name: "Cerebral Puncture",
+		pp: 5,
+		priority: 0,
+		flags: {charge: 1, protect: 1, mirror: 1},
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			this.boost({atk: 1}, attacker, attacker, move);
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Psychic",
+	},
+	cerebralsaw: {
+		num: 935,
+		accuracy: 95,
+		basePower: 85,
+		category: "Physical",
+		name: "Cerebral Saw",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+			boosts: {
+				def: -1,
+			},
+		},
+		target: "normal",
+		type: "Psychic",
+		contestType: "Cute",
+	},
 };

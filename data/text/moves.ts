@@ -7656,4 +7656,34 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "User takes 25% recoil Damage.",
 		shortDesc: "25% recoil damage.",
 	},
+	basaltbarrage: {
+		name: "Basalt Barrage",
+		desc: "Has a 10% chance to lower defense.",
+		shortDesc: "10% chance defense drop.",
+	},
+	blackhole: {
+		name: "Blackhole",
+		desc: "Lowers the speed of the target drastically",
+		shortDesc: "Lowers Targets speed drastically and applies Fear.",
+	},
+	bulletsiege: {
+		name: "Bullet Siege",
+		desc: "Cannot Miss.",
+		shortDesc: "Cannot Miss.",
+	},
+	causticbreath: {
+		name: "Caustic Breath",
+		desc: "Has a 20% chance to burn the target.",
+		shortDesc: "20% Burn chance .",
+	},
+	cerebralpuncture: {
+		name: "Cerebral Puncture",
+		desc: "Charge on teh first turn. Gain +1 Attack. On the Second Turn, Deal Damage",
+		shortDesc: "Turn 1, +1 Atk. Turn 2, Damage",
+	},
+	cerebralsaw: {
+		name: "Cerebral Saw",
+		desc: "Has a 20% chance to lower targets defense.",
+		shortDesc: "20% chance defense drop.",
+	},
 }; 
