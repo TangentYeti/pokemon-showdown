@@ -22273,4 +22273,22 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Psychic",
 		contestType: "Cool",
 	},
+	backdraft: {
+		num: 927,
+		accuracy: 100,
+		basePower: 40,
+		category: "Special",
+		name: "Backdraft",
+		pp: 10,
+		priority: 0,
+		selfSwitch: true,
+		flags: {protect: 1, mirror: 1, metronome: 1},
+		secondary: {
+			chance: 10,
+			status: 'brn',
+		},
+		target: "normal",
+		type: "Fire",
+		contestType: "Cute",
+	},
 };

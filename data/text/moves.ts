@@ -7625,8 +7625,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	anchorslam: {
 		name: "Anchor Slam",
-		desc: "25% chance to lower speed.",
-		shortDesc: "25% chance to lower speed.",
+		desc: "25% chance to lower own speed.",
+		shortDesc: "25% chance to lower own speed.",
 	},
 	ancientfury: {
 		name: "Ancient Fury",
@@ -7640,5 +7640,10 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	astralscythe: {
 		name: "Astral Scythe",
 		shortDesc: "No additional effect.",
+	},
+	backdraft: {
+		name: "Backdraft",
+		desc: "User switches out after attacking, has small chance to burn",
+		shortDesc: "10% burn, then pivot",
 	},
 }; 
