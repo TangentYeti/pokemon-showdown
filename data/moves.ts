@@ -22107,4 +22107,35 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Fire",
 		contestType: "Beautiful",
 	},
+	// Divine Olympus Moves
+	absolutezero: {
+		num: 978,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Absolute Zero",
+		pp: 10,
+		priority: 0,
+		flags: {},
+		pseudoWeather: 'absolutezero',
+		condition: {
+			duration: 5,
+			onFieldStart(target, source, sourceEffect) {
+				this.add('-fieldactivate', 'move: Absolute Zero');
+				this.hint(`Water-type moves become Ice-type after using ${sourceEffect}.`);
+			},
+			onModifyTypePriority: -2,
+			onModifyType(move) {
+				if (move.type === 'Water') {
+					move.type = 'Ice';
+					this.debug(move.name + "'s type changed to Ice");
+				}
+			},
+		},
+		secondary: null,
+		target: "all",
+		type: "Ice",
+		zMove: {boost: {spa: 1}},
+		contestType: "Beautiful",
+	},
 };

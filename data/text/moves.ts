@@ -7608,4 +7608,9 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			shortDesc: "Nearly always goes first. Always crits.",
 		},
 	},
-};
+	absolutezero: {
+		name: "Absolute Zero",
+		desc: "All Water Moves become Ice Type for 5 to 8 turns.",
+		shortDesc: "Water Moves become Ice Type",
+	},
+}; 
