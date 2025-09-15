@@ -6995,7 +6995,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				for (const moveSlot of source.moveSlots) {
 					if (moveSlot.id === move.id) {
 						moveSlot.pp = 0;
-						this.add('-activate', source, 'move: Grudge', move.name);
+						this.add('-activate', source, 'move: Grudge', move.name, target, target);
 					}
 				}
 			}
