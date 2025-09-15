@@ -6858,4 +6858,31 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4,
 		num: 351,
 	},
+	temptress: {
+		onStart(pokemon) {
+			let activated = false;
+			for (const target of pokemon.adjacentFoes()) {
+				if (!activated) {
+					this.add('-ability', pokemon, 'Intimidate', 'boost');
+					activated = true;
+				}
+				if (target.volatiles['substitute']) {
+					this.add('-immune', target);
+				} else {
+					this.boost({spd: -1}, target, pokemon, null, true);
+				}
+			}
+		},
+		name: "Temptress",
+		rating: 3.5,
+		num: 352,
+	},
+	territorial: {
+		onStart(pokemon, source) {
+            this.boost({spe: 1}, pokemon);
+        },
+		name: "Territorial",
+		rating: 3.5,
+		num: 353,
+	},
 };

@@ -2647,4 +2647,14 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon's secondary type changes to match the type of the current weather",
         shortDesc: "During Weather effects, gain associated secondary typing."
     },
+	temptress: {
+        name: "Temptress",
+        desc: "This Pokemon lowers the opponent's Special Defense on switch in",
+        shortDesc: "Lower Spdef on switch in"
+    },
+    territorial: {
+        name: "Territorial",
+        desc: "This Pokemon's Speed stat increases when it switches in",
+        shortDesc: "Raises Speed when it switches in"
+    },
 };
