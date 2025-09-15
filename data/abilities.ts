@@ -6930,4 +6930,18 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		num: 356,
 	},
+	vacuum: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.flags['wind']) {
+				if (!this.heal(target.baseMaxhp / 4, target, target)) {
+					this.add('-immune', source, '[from] ability: Vacuum');
+				}
+				return null;
+			}
+		},
+		flags: {breakable: 1},
+		name: "Vacuum",
+		rating: 2,
+		num: 357,
+	},
 };

@@ -2672,4 +2672,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon's status conditions are healed at teh end of any turn",
         shortDesc: "Removes Status at the end of turn"
     },
+	vacuum: {
+        name: "Vacuum",
+        desc: "This Pokemon restores HP when wind moves are used",
+        shortDesc: "Wind Moves get converted to Health"
+    },
 };
