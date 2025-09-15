@@ -7663,8 +7663,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	blackhole: {
 		name: "Blackhole",
-		desc: "Lowers the speed of the target drastically",
-		shortDesc: "Lowers Targets speed drastically and applies Fear.",
+		desc: "Lowers the speed of the target harshly",
+		shortDesc: "Lowers Targets speed harshly",
 	},
 	bulletsiege: {
 		name: "Bullet Siege",
@@ -7685,5 +7685,35 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Cerebral Saw",
 		desc: "Has a 20% chance to lower targets defense.",
 		shortDesc: "20% chance defense drop.",
+	},
+	chipulse: {
+		name: "Chi Pulse",
+		desc: "Has a 20% chance to lower Targets Special Defense.",
+		shortDesc: "20% chance SpDef drop.",
+	},
+	chillingshroud: {
+		name: "Chilling Shourd",
+		desc: "Has a 10% chance to freeze the target.",
+		shortDesc: "10% chance to freeze.",
+	},
+	chrysalis: {
+		name: "Chrysalis",
+		desc: "boosts attack once and defense twice",
+		shortDesc: "+1 atk, +2 def.",
+	},
+	coralcrash: {
+		name: "Coral Crash",
+		desc: "User takes 25% recoil.",
+		shortDesc: "25% recoil.",
+	},
+	corruption: {
+		name: "Corruption",
+		desc: "Has a 20% chance to inflict Fear.",
+		shortDesc: "20% chance Fear.",
+	},
+	cretacialmaul: {
+		name: "Cretacial Maul",
+		desc: "Has a 20% chance to make the target flinch.",
+		shortDesc: "20% chance to make the target flinch.",
 	},
 }; 
