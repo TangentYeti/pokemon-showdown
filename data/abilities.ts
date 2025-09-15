@@ -6948,11 +6948,114 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onModifyMove(move) {
 			if (!move?.flags['bite']) return;
 			if (!move?.drain) {
-				move.drain = [1,4];
+				move.drain = [1,2];
 			}
 		},
 		name: "Vampiric",
 		rating: 2,
 		num: 358,
+	},
+	venomous: {
+		onBasePowerPriority: 19,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.type === 'Poison') {
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Venomous",
+		rating: 3,
+		num: 359,
+	},
+	warcry: {
+		onStart(pokemon) {
+			let activated = false;
+			for (const target of pokemon.adjacentFoes()) {
+				if (!activated) {
+					this.add('-ability', pokemon, 'War cry', 'boost');
+					activated = true;
+				}
+				if (target.volatiles['substitute']) {
+					this.add('-immune', target);
+				} else {
+					this.boost({def: -1}, target, pokemon, null, true);
+				}
+			}
+		},
+		name: "War Cry",
+		rating: 3.5,
+		num: 360,
+	},
+	widowsbite: {
+		onFaint(target, source, effect) {
+			if (!source || source.fainted || !effect) return;
+			if (effect.effectType === 'Move' && source.lastMove) {
+				let move: Move = source.lastMove;
+				if (move.isMax && move.baseMove) move = this.dex.moves.get(move.baseMove);
+
+				for (const moveSlot of source.moveSlots) {
+					if (moveSlot.id === move.id) {
+						moveSlot.pp = 0;
+						this.add('-activate', source, 'move: Grudge', move.name);
+					}
+				}
+			}
+		},
+		name: "Widow's Bite",
+		rating: 2,
+		num: 361,
+	},
+	wither: {
+		onStart(pokemon) {
+			let activated = false;
+			for (const target of pokemon.adjacentFoes()) {
+				if (!activated) {
+					this.add('-ability', pokemon, 'Wither', 'boost');
+					activated = true;
+				}
+				if (target.volatiles['substitute']) {
+					this.add('-immune', target);
+				} else {
+					this.boost({spa: -1}, target, pokemon, null, true);
+				}
+			}
+		},
+		name: "Wither",
+		rating: 3.5,
+		num: 362,
+	},
+	zenkai: {
+		onDamage(damage, target, source, effect) {
+			if (
+				effect.effectType === "Move" &&
+				!effect.multihit &&
+				(!effect.negateSecondary && !(effect.hasSheerForce && source.hasAbility('sheerforce')))
+			) {
+				this.effectState.checkedZenkai = false;
+			} else {
+				this.effectState.checkedZenkai = true;
+			}
+		},
+		onTryEatItem(item) {
+			const healingItems = [
+				'aguavberry', 'enigmaberry', 'figyberry', 'iapapaberry', 'magoberry', 'sitrusberry', 'wikiberry', 'oranberry', 'berryjuice',
+			];
+			if (healingItems.includes(item.id)) {
+				return this.effectState.checkedZenkai;
+			}
+			return true;
+		},
+		onAfterMoveSecondary(target, source, move) {
+			this.effectState.checkedZenkai = true;
+			if (!source || source === target || !target.hp || !move.totalDamage) return;
+			const lastAttackedBy = target.getLastAttackedBy();
+			if (!lastAttackedBy) return;
+			const damage = move.multihit ? move.totalDamage : lastAttackedBy.damage;
+			if (target.hp <= target.maxhp / 4 && target.hp + damage > target.maxhp / 4) {
+				this.boost({spa: 1,atk: 1}, target, target);
+			}
+		},
+		name: "Zenkai",
+		rating: 2,
+		num: 363,
 	},
 };

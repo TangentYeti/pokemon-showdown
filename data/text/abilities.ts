@@ -2682,4 +2682,29 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
         desc: "This Pokemon restores Hp when using Biting attacks",
         shortDesc: "Restore 50% of damage dealt on Biting Moves"
     },
+	venomous: {
+        name: "Venomous",
+        desc: "",
+        shortDesc: "This Pokemon gains stab on Poison type attacks"
+    },
+	warcry: {
+        name: "War Cry",
+        desc: "",
+        shortDesc: "Lowers enemy Defense Upon switch in"
+    },
+	widowsbite: {
+        name: "Widow's Bite",
+        desc: "This Pokemon gives a grudge to the opponet when fainted by a contact move",
+        shortDesc: "Grudge if u get killed by contact move"
+    },
+    wither: {
+        name: "Wither",
+        desc: "This Pokemon lowers the Special Attack stat of teh opponent on switchin",
+        shortDesc: "Lowers Opponents Sp Atk when entering the battle"
+    },
+	zenkai: {
+		name: "Zenkai",
+		desc: "This Pokemon's Attack and Special Attack are boosted when on low HP",
+		shortDesc: "+1 Attack, +1 SpAttack when under 25%"
+	},
 };
