@@ -22301,10 +22301,10 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: {snatch: 1},
 		onHit(target) {
-			if (target.hp <= target.maxhp / (3/2) || target.boosts.atk >= 4 || target.maxhp === 1) { // Shedinja clause
+			if (target.hp <= target.maxhp / 3 || target.boosts.atk >= 4 || target.maxhp === 1) { // Shedinja clause
 				return false;
 			}
-			this.directDamage(target.maxhp / (2/3));
+			this.directDamage(target.maxhp / 3);
 			this.boost({atk: 4}, target);
 		},
 		secondary: null,
