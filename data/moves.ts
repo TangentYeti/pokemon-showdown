@@ -22596,19 +22596,19 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pseudoWeather: 'crystaltide',
 		condition: {
 			duration: 5,
-			onFieldStart(target, source) {
+			onFieldStart(field, target, source) {
 				this.add('-fieldstart', 'move: Crystal Tide');
 			},
 			onResidualOrder: 5,
 			onResidualSubOrder: 2,
 			onResidual(pokemon) {
 				if (pokemon.hasType('Water')) {
-					pokemon.heal(target.maxhp / 8, pokemon, pokemon);
+					this.heal(pokemon.baseMaxhp / 8, pokemon, pokemon);
 					this.debug(pokemon + "'s HP was restored")
 				}
 			},
 			onFieldResidualOrder: 27,
-			onFieldResidualSubOrder: 1,
+			onFieldResidualSubOrder: 7,
 			onFieldEnd() {
 				this.add('-fieldend', 'move: Crystal Tide');
 			},
