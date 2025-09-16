@@ -23010,7 +23010,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Psionic Needles",
 		pp: 30,
 		priority: 0,
-		flags: {contact: 1, protect: 1, mirror: 1},
+		flags: {protect: 1, mirror: 1},
 		multihit: 3,
 		secondary: null,
 		target: "normal",
@@ -23153,5 +23153,146 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Ghost",
 		contestType: "Clever",
+	},
+	spiritbomb: {
+		num: 972,
+		accuracy: 85,
+		basePower: 110,
+		category: "Special",
+		name: "Spirit Bomb",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 25,
+			boosts: {
+				accuracy: -1,
+			},
+		},
+		target: "normal",
+		type: "Ghost",
+		contestType: "Beautiful",
+	},
+	starburst: {
+		num: 973,
+		accuracy: 100,
+		basePower: 50,
+		category: "Special",
+		name: "Star Burst",
+		pp: 20,
+		priority: 2,
+		flags: {protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Fire",
+		contestType: "Cool",
+	},
+	stubbornroots: {
+		num: 974,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Stubborn Roots",
+		pp: 20,
+		priority: 0,
+		flags: {snatch: 1, nonsky: 1},
+		volatileStatus: 'ingrain',
+		condition: {
+			onStart(pokemon) {
+				this.add('-start', pokemon, 'move: Stubborn Roots');
+			},
+			onResidualOrder: 7,
+			onResidual(pokemon) {
+				this.heal(pokemon.baseMaxhp / 8);
+			},
+			onTrapPokemon(pokemon) {
+				pokemon.tryTrap();
+			},
+			// groundedness implemented in battle.engine.js:BattlePokemon#isGrounded
+			onDragOut(pokemon) {
+				this.add('-activate', pokemon, 'move: Stubborn Roots');
+				return null;
+			},
+		},
+		secondary: {
+			chance: 100,
+			self: {
+				boosts: {
+					atk: 1,
+				},
+			},
+		},
+		target: "self",
+		type: "Grass",
+		zMove: {boost: {spd: 1}},
+		contestType: "Clever",
+	},
+	supernova: {
+		num: 975,
+		accuracy: 95,
+		basePower: 105,
+		category: "Special",
+		name: "Supernova",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 10,
+			status: 'brn',
+		},
+		target: "normal",
+		type: "Fire",
+		contestType: "Beautiful",
+	},
+	swampkick: {
+		num: 976,
+		accuracy: 100,
+		basePower: 75,
+		category: "Physical",
+		name: "Swamp Kick",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, contact: 1},
+		secondary: {
+			chance: 20,
+			boosts: {
+				spe: -1,
+			},
+		},
+		target: "normal",
+		type: "Water",
+		contestType: "Beautiful",
+	},
+	thunderblade: {
+		num: 977,
+		accuracy: 90,
+		basePower: 120,
+		category: "Physical",
+		name: "Thunder Blade",
+		pp: 10,
+		priority: 0,
+		flags: {charge: 1, protect: 1, mirror: 1},
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			if (['thunderstorm'].includes(attacker.effectiveWeather())) {
+				this.attrLastMove('[still]');
+				this.addMove('-anim', attacker, move.name, defender);
+				return;
+			}
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		secondary: {
+			chance: 5,
+			status: 'par',
+		},
+		target: "normal",
+		type: "Electric",
 	},
 };

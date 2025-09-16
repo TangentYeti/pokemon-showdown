@@ -7866,4 +7866,34 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "10% -1 defense.",
 		shortDesc: "10% -1 defense.",
 	},
+	spiritbomb: {
+		name: "Spirit Bomb",
+		desc: "25% accuracy drop.",
+		shortDesc: "25% accuracy drop.",
+	},
+	starburst: {
+		name: "Star Burst",
+		desc: "Usually goes first.",
+		shortDesc: "Usually goes First.",
+	},
+	stubbornroots: {
+		name: "Stubborn Roots",
+		desc: "Cannot switch, gives 1/12 healing per turn.",
+		shortDesc: "Cannot switch, gives 1/12 healing per turn.",
+	},
+	supernova: {
+		name: "Supernova",
+		desc: "10% Burn.",
+		shortDesc: "10% burn.",
+	},
+	swampkick: {
+		name: "Swamp Kick",
+		desc: "20% -1 speed.",
+		shortDesc: "20% -1 speed.",
+	},
+	thunderblade: {
+		name: "Thunderblade",
+		desc: "1st turn Charge, 2nd turn damage. 5% Paralysis chance",
+		shortDesc: "1st turn Charge, 2nd turn damage. 5% para",
+	},
 }; 
