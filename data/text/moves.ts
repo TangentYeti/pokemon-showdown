@@ -7746,4 +7746,33 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "15% Toxic poison chance.",
 		shortDesc: "15% toxic chance.",
 	},
+	gammaburst: {
+		name: "Gamma Burst",
+		desc: "Can hit Steel type Pokemon much yes.",
+		shortDesc: "Can hit steel types Super effectively.",
+	},
+	geigerblade: {
+		name: "Geiger Blade",
+		desc: "30% Toxic Poison.",
+		shortDesc: "30% Toxic Poison.",
+	},
+	geocannon: {
+		name: "Geo Cannon",
+		desc: "30% Speed drop.",
+		shortDesc: "30% speed drop.",
+	},
+	haunting: {
+		name: "Haunting",
+		desc: "10% Fear.",
+		shortDesc: "10% Fear.",
+	},
+	heavenlyfury: {
+		name: "Heavenly Fury",
+		desc: "20% +1 Attack.",
+		shortDesc: "20% +1 Atk.",
+	},
+	glaciercrash: {
+		name: "Glacier Crash",
+		shortDesc: "No additional effect.",
+	},
 }; 
