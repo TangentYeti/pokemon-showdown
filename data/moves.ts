@@ -22848,8 +22848,26 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Fighting",
 		contestType: "Beautiful",
 	},
-	knightsblade: {
+	killerwatt: {
 		num: 957,
+		accuracy: 95,
+		basePower: 95,
+		category: "Physical",
+		name: "Killerwatt",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 30
+			,
+			status: 'brn',
+		},
+		target: "normal",
+		type: "Electric",
+		contestType: "Cool",
+	},
+	knightsblade: {
+		num: 958,
 		accuracy: 100,
 		basePower: 80,
 		category: "Physical",
@@ -22871,7 +22889,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		contestType: "Cool",
 	},
 	labyrinth: {
-		num: 958,
+		num: 959,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -22888,6 +22906,106 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		target: "allAdjacentFoes",
 		type: "Normal",
+		contestType: "Cool",
+	},
+	monsoon: {
+		num: 960,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Monsoon",
+		pp: 5,
+		priority: 0,
+		flags: {},
+		weather: 'ThunderStorm',
+		secondary: null,
+		target: "all",
+		type: "Electric",
+		zMove: {boost: {spe: 1}},
+		contestType: "Beautiful",
+	},
+	noxiousmaw: {
+		num: 961,
+		accuracy: 100,
+		basePower: 95,
+		category: "Physical",
+		name: "Noxious Maw",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+			status: 'psn',
+		},
+		target: "normal",
+		type: "Poison",
+		contestType: "Tough",
+	},
+	photonlance: {
+		num: 962,
+		accuracy: 100,
+		basePower: 150,
+		category: "Physical",
+		name: "Photon Lance",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		self: {
+			boosts: {
+				spe: -1,
+				def: -1,
+				spd: -1,
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Electric",
+		zMove: {basePower: 220},
+		contestType: "Cool",
+	},
+	phylactery: {
+		num: 963,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Phylactery",
+		pp: 5,
+		priority: 0,
+		flags: {snatch: 1, metronome: 1},
+		onHit(target) {
+			if (target.hp <= target.maxhp / 2 || target.boosts.spa >= 6 || target.maxhp === 1) { // Shedinja clause
+				return false;
+			}
+			this.directDamage(target.maxhp / 2);
+			this.boost({spa: 12}, target);
+		},
+		secondary: null,
+		target: "self",
+		type: "Ghost",
+		zMove: {effect: 'heal'},
+		contestType: "Cute",
+	},
+	preemptivestrike: {
+		num: 486,
+		accuracy: 100,
+		basePower: 30,
+		basePowerCallback(pokemon, target) {
+			let ratio = Math.floor(pokemon.getStat('spe') / target.getStat('spe'));
+			if (!isFinite(ratio)) ratio = 0;
+			const bp = [40, 60, 80, 120, 150][Math.min(ratio, 4)];
+			this.debug(`${bp} bp`);
+			return bp;
+		},
+		category: "Physical",
+		name: "Pre-emptive Strike",
+		pp: 10,
+		priority: 0,
+		flags: {bullet: 1, protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+		zMove: {basePower: 160},
+		maxMove: {basePower: 130},
 		contestType: "Cool",
 	},
 };

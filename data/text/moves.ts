@@ -7777,8 +7777,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	hellishrebuke: {
 		name: "Hellish Rebuke",
-		desc: "20% Fear.",
-		shortDesc: "20% Fear.",
+		desc: "20% +1 Special Attack.",
+		shortDesc: "20% +1 Special Attack.",
 	},
 	highaltitude: {
 		name: "High Altitude",
@@ -7792,8 +7792,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	killerwatt: {
 		name: "Killerwatt",
-		desc: "20% paralysis chance.",
-		shortDesc: "20% para.",
+		desc: "30% burn chance.",
+		shortDesc: "30% burn.",
 	},
 	knightsblade: {
 		name: "Knight's Blade",
@@ -7804,5 +7804,32 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Labyrinth",
 		desc: "Lowers targets defenses and causes confusion.",
 		shortDesc: "Lowers targets defenses and causes confusion.",
+	},
+	monsoon: {
+		name: "Monsoon",
+		desc: "Summons Thunderstorm.",
+		shortDesc: "Summons Thunderstorm.",
+	},
+	noxiousmaw: {
+		name: "Noxious Maw",
+		desc: "20% Poison Chance.",
+		shortDesc: "20% poison.",
+	},
+	photonlance: {
+		name: "Photon Lance",
+		desc: "Lowers Defense, Special Defense and Speed.",
+		shortDesc: "-1 Def, -1 SpDef, -1 Spd.",
+	},
+	phylactery: {
+		name: "Phylactery",
+		desc: "Raises the user's Special Attack by 12 stages in exchange for the user losing 1/2 of its maximum HP, rounded down. Fails if the user would faint or if its Special Attack stat stage is 6.",
+		shortDesc: "User loses 50% max HP. Maximizes Special Attack.",
+
+		boost: "  [POKEMON] cut its own HP and maximized its Special Attack!",
+	},
+	preemptivestrike: {
+		name: "Pre-Emptive Strike",
+		desc: "Damage based on speed.",
+		shortDesc: "Damage based on speed.",
 	},
 }; 
