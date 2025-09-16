@@ -22544,4 +22544,125 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Grass",
 		contestType: "Tough",
 	},
+	cruelsun: {
+		num: 942,
+		accuracy: 100,
+		basePower: 100,
+		category: "Physical",
+		name: "Cruel Sun",
+		pp: 10,
+		priority: -1,
+		flags: {charge: 1, protect: 1, mirror: 1},
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			this.boost({def: -1}, defender, attacker, move);
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Psychic",
+	},
+	crushingembrace: {
+		num: 943,
+		accuracy: 100,
+		basePower: 60,
+		category: "Physical",
+		name: "Crushing Embrace",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		volatileStatus: 'partiallytrapped',
+		secondary: null,
+		target: "normal",
+		type: "Poison",
+		contestType: "Tough",
+	},
+	crystaltide: {
+		num: 944,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Crystal Tide",
+		pp: 10,
+		priority: 1,
+		flags: {},
+		pseudoWeather: 'crystaltide',
+		condition: {
+			duration: 5,
+			onResidual(target, source, sourceEffect) {
+				if (target.hasType('Water')) {
+					target.heal(target.maxhp / 8);
+					this.debug(source + "'s HP was restored")
+				}
+			},
+		},
+		secondary: null,
+		target: "all",
+		type: "Water",
+		zMove: {boost: {spa: 1}},
+		contestType: "Beautiful",
+	},
+	cyclone: {
+		num: 945,
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		name: "Cyclone",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		selfSwitch: true,
+		secondary: null,
+		target: "normal",
+		type: "Flying",
+		contestType: "Cool",
+	},
+	dryice: {
+		num: 946,
+		accuracy: 95,
+		basePower: 65,
+		category: "Special",
+		name: "Dry Ice",
+		pp: 25,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+			onHit(target, source) {
+				const result = this.random(20);
+				if (result <= 14) {
+					target.trySetStatus('brn', source);
+				} else {
+					target.trySetStatus('frz', source);
+				}
+			},
+		},
+		target: "normal",
+		type: "Ice",
+		contestType: "Cute",
+	},
+	feverclaw: {
+		num: 947,
+		accuracy: 100,
+		basePower: 75,
+		category: "Physical",
+		name: "Fever Claw",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 15,
+			status: 'tox',
+		},
+		target: "normal",
+		type: "Grass",
+		contestType: "Clever",
+	},
 };

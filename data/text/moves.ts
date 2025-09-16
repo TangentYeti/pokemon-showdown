@@ -7708,12 +7708,42 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	corruption: {
 		name: "Corruption",
-		desc: "Has a 20% chance to inflict Fear.",
-		shortDesc: "20% chance Fear.",
+		desc: "Has a 20% chance to badly poison",
+		shortDesc: "20% chance Badly Poison",
 	},
 	cretacialmaul: {
 		name: "Cretacial Maul",
 		desc: "Has a 20% chance to make the target flinch.",
 		shortDesc: "20% chance to make the target flinch.",
+	},
+	cruelsun: {
+		name: "Cruel Sun",
+		desc: "Turn 1, Lowers targets Defense. Turn 2 Attacks.",
+		shortDesc: "Turn 1, Lowers targets Defense. Turn 2, damage.",
+	},
+	crushingembrace: {
+		name: "Crushing Embrace",
+		desc: "Deals 1/8 each turn for 5 turns.",
+		shortDesc: "Deals 1/8 each turn for 5 turns.",
+	},
+	crystaltide: {
+		name: "Crystal Tide",
+		desc: "1/8 Healing to water types for 5 turns.",
+		shortDesc: "1/8 Healing to water types for 5 turns.",
+	},
+	cyclone: {
+		name: "Cyclone",
+		desc: "User Switches out after attacking.",
+		shortDesc: "User switches after attacking.",
+	},
+	dryice: {
+		name: "Dry Ice",
+		desc: "15% Burn Chance, 5% Freeze chance.",
+		shortDesc: "15% Burn Chance, 5% Freeze chance.",
+	},
+	feverclaw: {
+		name: "Fever Claw",
+		desc: "15% Toxic poison chance.",
+		shortDesc: "15% toxic chance.",
 	},
 }; 
