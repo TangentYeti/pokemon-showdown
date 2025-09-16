@@ -7763,8 +7763,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	haunting: {
 		name: "Haunting",
-		desc: "10% Fear.",
-		shortDesc: "10% Fear.",
+		desc: "No additional effect",
+		shortDesc: "No additonal Effect",
 	},
 	heavenlyfury: {
 		name: "Heavenly Fury",
