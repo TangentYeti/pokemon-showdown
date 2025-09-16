@@ -22787,7 +22787,11 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: {protect: 1, mirror: 1},
 		secondary: {
 			chance: 20,
-			status: 'fer',
+			self: {
+				boosts: {
+					spa: 1,
+				},
+			},
 		},
 		target: "normal",
 		type: "Dark",
