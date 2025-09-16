@@ -7832,4 +7832,38 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Damage based on speed.",
 		shortDesc: "Damage based on speed.",
 	},
+	psionicneedles: {
+		name: "Psionic Needles",
+		desc: "Hits 3 times.",
+		shortDesc: "Hits 3 times.",
+	},
+	psychicoverload: {
+		name: "Psychic Overload",
+		desc: "1 hit KO.",
+		shortDesc: "1 hit KO.",
+	},
+	scaleshield: {
+		name: "Scale Shield",
+		desc: "Protects the user and raises its defense.",
+		shortDesc: "Protects the user and raises its defense.",
+	},
+	scorchingtail: {
+		name: "Scorching Tail",
+		desc: "30% lower attack.",
+		shortDesc: "30% -1 Atk.",
+	},
+	skyquake: {
+		name: "Skyquake",
+		shortDesc: "No additional effect.",
+	},
+	sonicdescent: {
+		name: "Sonic Descent",
+		desc: "Damage based on speed.",
+		shortDesc: "Damage based on speed.",
+	},
+	spectralhammer: {
+		name: "Spectral Hammer",
+		desc: "10% -1 defense.",
+		shortDesc: "10% -1 defense.",
+	},
 }; 

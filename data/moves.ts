@@ -22986,26 +22986,172 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		contestType: "Cute",
 	},
 	preemptivestrike: {
-		num: 486,
+		num: 964,
 		accuracy: 100,
-		basePower: 30,
-		basePowerCallback(pokemon, target) {
-			let ratio = Math.floor(pokemon.getStat('spe') / target.getStat('spe'));
-			if (!isFinite(ratio)) ratio = 0;
-			const bp = [40, 60, 80, 120, 150][Math.min(ratio, 4)];
-			this.debug(`${bp} bp`);
-			return bp;
-		},
+		basePower: 80,
 		category: "Physical",
 		name: "Pre-emptive Strike",
 		pp: 10,
 		priority: 0,
-		flags: {bullet: 1, protect: 1, mirror: 1},
+		flags: {contact: 1,protect: 1, mirror: 1},
+		overrideOffensiveStat: 'def',
 		secondary: null,
 		target: "normal",
 		type: "Dark",
 		zMove: {basePower: 160},
 		maxMove: {basePower: 130},
 		contestType: "Cool",
+	},
+	psionicneedles: {
+		num: 965,
+		accuracy: 100,
+		basePower: 30,
+		category: "Physical",
+		name: "Psionic Needles",
+		pp: 30,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		multihit: 3,
+		secondary: null,
+		target: "normal",
+		type: "Psychic",
+		zMove: {basePower: 140},
+		maxMove: {basePower: 130},
+	},
+	psychicoverload: {
+		num: 966,
+		accuracy: 30,
+		basePower: 0,
+		category: "Special",
+		name: "Psychic Overload",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: null,
+		ohko: 'Psychic',
+		target: "normal",
+		type: "Psychic",
+		zMove: {basePower: 180},
+		maxMove: {basePower: 130},
+		contestType: "Beautiful",
+	},
+	scaleshield: {
+		num: 967,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Scale Shield",
+		pp: 10,
+		priority: 4,
+		flags: {},
+		boosts: {
+			def: 1,
+		},
+		stallingMove: true,
+		volatileStatus: 'protect',
+		onPrepareHit(pokemon) {
+			return !!this.queue.willAct() && this.runEvent('StallMove', pokemon);
+		},
+		onHit(pokemon) {
+			pokemon.addVolatile('stall');
+		},
+		condition: {
+			duration: 1,
+			onStart(target) {
+				this.add('-singleturn', target, 'Protect');
+			},
+			onTryHitPriority: 3,
+			onTryHit(target, source, move) {
+				if (!move.flags['protect']) {
+					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
+					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+					return;
+				}
+				if (move.smartTarget) {
+					move.smartTarget = false;
+				} else {
+					this.add('-activate', target, 'move: Protect');
+				}
+				const lockedmove = source.getVolatile('lockedmove');
+				if (lockedmove) {
+					// Outrage counter is reset
+					if (source.volatiles['lockedmove'].duration === 2) {
+						delete source.volatiles['lockedmove'];
+					}
+				}
+				return this.NOT_FAIL;
+			},
+		},
+		secondary: null,
+		target: "self",
+		type: "Dragon",
+		zMove: {effect: 'clearnegativeboost'},
+		contestType: "Cute",
+	},
+	scorchingtail: {
+		num: 968,
+		accuracy: 95,
+		basePower: 85,
+		category: "Physical",
+		name: "Scorching Tail",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 40,
+			boosts: {
+				atk: -1,
+			},
+		},
+		target: "normal",
+		type: "Fire",
+		contestType: "Cute",
+	},
+	skyquake: {
+		num: 969,
+		accuracy: 100,
+		basePower: 100,
+		category: "Physical",
+		name: "Skyquake",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, nonsky: 1},
+		secondary: null,
+		target: "allAdjacent",
+		type: "Flying",
+		contestType: "Tough",
+	},
+	sonicdescent: {
+		num: 970,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Sonic Descent",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		overrideOffensiveStat: 'spe',
+		secondary: null,
+		target: "normal",
+		type: "Flying",
+	},
+	spectralhammer: {
+		num: 971,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Spectral Hammer",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 10,
+			boosts: {
+				def: -1,
+			},
+		},
+		target: "normal",
+		type: "Ghost",
+		contestType: "Clever",
 	},
 };
