@@ -7748,7 +7748,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	gammaburst: {
 		name: "Gamma Burst",
-		desc: "Can hit Steel type Pokemon much yes.",
+		desc: "Can hit Steel type Pokemon",
 		shortDesc: "Can hit steel types Super effectively.",
 	},
 	geigerblade: {
@@ -7774,5 +7774,35 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	glaciercrash: {
 		name: "Glacier Crash",
 		shortDesc: "No additional effect.",
+	},
+	hellishrebuke: {
+		name: "Hellish Rebuke",
+		desc: "20% Fear.",
+		shortDesc: "20% Fear.",
+	},
+	highaltitude: {
+		name: "High Altitude",
+		desc: "25% restore HP, +1 Accuracy.",
+		shortDesc: "Restore 25% HP, +1 Acc.",
+	},
+	kicrush: {
+		name: "Ki Crush",
+		desc: "Can Hit Ghost Type Pokemon.",
+		shortDesc: "Can hit Ghost types Super effectively.",
+	},
+	killerwatt: {
+		name: "Killerwatt",
+		desc: "20% paralysis chance.",
+		shortDesc: "20% para.",
+	},
+	knightsblade: {
+		name: "Knight's Blade",
+		desc: "20% +1 Def, 20% +1 Atk.",
+		shortDesc: "20% +1 Def, 20% +1 Atk.",
+	},
+	labyrinth: {
+		name: "Labyrinth",
+		desc: "Lowers targets defenses and causes confusion.",
+		shortDesc: "Lowers targets defenses and causes confusion.",
 	},
 }; 

@@ -22776,4 +22776,114 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Fairy",
 		contestType: "Cool",
 	},
+	hellishrebuke: {
+		num: 954,
+		accuracy: 100,
+		basePower: 95,
+		category: "Special",
+		name: "Hellish Rebuke",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+			status: 'fer',
+		},
+		target: "normal",
+		type: "Dark",
+		contestType: "Cool",
+	},
+	highaltitude: {
+		num: 955,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "High Altitude",
+		pp: 10,
+		priority: 0,
+		flags: {snatch: 1, heal: 1},
+		heal: [1, 4],
+		boosts: {
+			accuracy: 1,
+		},
+		self: {
+			volatileStatus: 'roost',
+		},
+		condition: {
+			duration: 1,
+			onResidualOrder: 25,
+			onStart(target) {
+				this.add('-singleturn', target, 'move: Roost');
+			},
+			onTypePriority: -1,
+			onType(types, pokemon) {
+				this.effectState.typeWas = types;
+				return types.filter(type => type !== 'Flying');
+			},
+		},
+		secondary: null,
+		target: "self",
+		type: "Flying",
+		zMove: {effect: 'clearnegativeboost'},
+		contestType: "Clever",
+	},
+	kicrush: {
+		num: 956,
+		accuracy: 100,
+		basePower: 75,
+		category: "Physical",
+		name: "Ki Crush",
+		pp: 20,
+		priority: 0,
+		ignoreImmunity: {'Fighting': true},
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Ghost') return 1;
+		},
+		flags: {protect: 1, mirror: 1},
+		target: "normal",
+		type: "Fighting",
+		contestType: "Beautiful",
+	},
+	knightsblade: {
+		num: 957,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Knight's Blade",
+		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+				self: {
+					boosts: {
+						atk: 1,
+						def: 1,
+					},
+				},
+			},
+		target: "normal",
+		type: "Steel",
+		contestType: "Cool",
+	},
+	labyrinth: {
+		num: 958,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Labyrinth",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1, mirror: 1},
+		boosts: {
+			def: -1,
+			spd: -1,
+		},
+		secondary: {
+			volatileStatus: 'confusion',
+		},
+		target: "allAdjacentFoes",
+		type: "Normal",
+		contestType: "Cool",
+	},
 };
