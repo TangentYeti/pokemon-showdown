@@ -22596,20 +22596,22 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pseudoWeather: 'crystaltide',
 		condition: {
 			duration: 5,
+			onFieldStart(target, source) {
+				this.add('-fieldstart', 'move: Crystal Tide', '[of]' + source);
+			},
 			onResidual(target, source, sourceEffect) {
 				if (target.hasType('Water')) {
 					target.heal(target.maxhp / 8);
-					this.add('-fieldstart', 'move: Crystal Tide', '[of]' + source);
 					this.debug(source + "'s HP was restored")
 				}
 			},
 			onFieldRestart(target, source) {
-				this.field.removePseudoWeather('trickroom');
+				this.field.removePseudoWeather('crystaltide');
 			},
 			onFieldResidualOrder: 27,
 			onFieldResidualSubOrder: 1,
 			onFieldEnd() {
-				this.add('-fieldend', 'move: Trick Room');
+				this.add('-fieldend', 'move: Crystal Tide');
 			},
 		},
 		secondary: null,
