@@ -22599,8 +22599,17 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			onResidual(target, source, sourceEffect) {
 				if (target.hasType('Water')) {
 					target.heal(target.maxhp / 8);
+					this.add('-fieldstart', 'move: Crystal Tide', '[of]' + source);
 					this.debug(source + "'s HP was restored")
 				}
+			},
+			onFieldRestart(target, source) {
+				this.field.removePseudoWeather('trickroom');
+			},
+			onFieldResidualOrder: 27,
+			onFieldResidualSubOrder: 1,
+			onFieldEnd() {
+				this.add('-fieldend', 'move: Trick Room');
 			},
 		},
 		secondary: null,
