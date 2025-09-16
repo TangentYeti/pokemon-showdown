@@ -23298,7 +23298,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	thundercrack: {
 		num: 978,
 		accuracy: 95,
-		basePower: 6,
+		basePower: 60,
 		category: "Physical",
 		name: "Thundercrack",
 		pp: 15,
@@ -23392,7 +23392,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			},
 		],
 		target: "normal",
-		type: "Ice",
+		type: "Dark",
 		contestType: "Cool",
 	},
 	wyvernblast: {
