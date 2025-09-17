@@ -6025,6 +6025,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			if (move.category === 'Status' || move.category === 'Physical'|| move.multihit || move.flags['noparentalbond'] || move.flags['charge'] ||
 			move.flags['futuremove'] || move.spreadHit || move.isZ || move.isMax) return;
 			move.multihit = 2;
+			this.debug('Eldrich')
 			move.multihitType = 'eldrich';
 		},
 		onSourceModifySecondaries(secondaries, target, source, move) {
