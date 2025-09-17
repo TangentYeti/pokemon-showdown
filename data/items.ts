@@ -7745,4 +7745,29 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 2503,
 		gen: 9,
 	},
+	miraclecharm: {
+		name: "Miracle Charm",
+		spritenum: 365,
+		fling: {
+				basePower: 40,
+		},
+		onCriticalHit: false,
+		num: 2504,
+		gen: 9,
+	},
+	shockorb: {
+		name: "Shock Orb",
+		spritenum: 251,
+		fling: {
+			basePower: 30,
+			status: 'par',
+		},
+		onResidualOrder: 28,
+		onResidualSubOrder: 3,
+		onResidual(pokemon) {
+			pokemon.trySetStatus('par', pokemon);
+		},
+		num: 2505,
+		gen: 9,
+	},
 };

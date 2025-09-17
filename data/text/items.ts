@@ -2454,4 +2454,12 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: "Megaphone",
 		desc: "Boosts Sound based moves.",
 	},
+	miraclecharm: {
+		name: "Miracle Charm",
+		desc: "Prevents Critical hits.",
+	},
+	shockorb: {
+		name: "Shock Orb",
+		desc: "At the end of every turn, this item attempts to paralyse the holder.",
+	},
 };
