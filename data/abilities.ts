@@ -5832,7 +5832,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			this.add('-end', pokemon, `fallen${this.effectState.fallen}`, '[silent]');
 		},
 		onBasePower(basePower, attacker, defender, move) {
-			this.debug('Body Count')
+			this.debug('Body Count');
 			this.chainModify([1365, 4096]);
 		},			
 		onPrepareHit(source, target, move) {
@@ -6025,7 +6025,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			if (move.category === 'Status' || move.category === 'Physical'|| move.multihit || move.flags['noparentalbond'] || move.flags['charge'] ||
 			move.flags['futuremove'] || move.spreadHit || move.isZ || move.isMax) return;
 			move.multihit = 2;
-			this.debug('Eldrich')
+			this.debug('Eldrich');
 			move.multihitType = 'eldrich';
 		},
 		onSourceModifySecondaries(secondaries, target, source, move) {
@@ -6057,6 +6057,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	executioner: {
 		onBasePower(basePower,pokemon,target,move) {
 			if (target.hp < target.maxhp/2) {
+				this.debug('Executioner Boost');
 				return this.chainModify(2);
 			}
 		},
@@ -6259,6 +6260,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onBasePowerPriority: 21,
 		onBasePower(basePower, attacker, defender, move) {
 			if (move.flags['contact']) {
+				this.debug('Impaler');
 				return this.chainModify([5325, 4096]);
 			}
 		},
