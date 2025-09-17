@@ -2462,4 +2462,9 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: "Shock Orb",
 		desc: "At the end of every turn, this item attempts to paralyse the holder.",
 	},
+	warhorn: {
+		name: "War Horn",
+		desc: "Slightly boosts attack and defence (15%).",
+	},
+
 };
