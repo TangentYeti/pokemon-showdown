@@ -21,6 +21,8 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 		name: 'par',
 		effectType: 'Status',
 		onStart(target, source, sourceEffect) {
+			if (sourceEffect && sourceEffect.id === 'shockorb') {
+				this.add('-status', target, 'par', '[from] item: Shock Orb');
 			if (sourceEffect && sourceEffect.effectType === 'Ability') {
 				this.add('-status', target, 'par', '[from] ability: ' + sourceEffect.name, `[of] ${source}`);
 			} else {

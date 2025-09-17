@@ -7770,4 +7770,21 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 2505,
 		gen: 9,
 	},
+	warhorn: {
+		name: "War Horn",
+		spritenum: 437,
+		fling: {
+			basePower: 40,
+		},
+		onModifyDefPriority: 2,
+		onModifyDef(def, pokemon) {
+			return this.chainModify(1.15);
+		},
+		onModifyAtkPriority: 2,
+		onModifyAtk(atk, pokemon) {
+			return this.chainModify(1.15);
+		},
+		num: 2507,
+		gen: 5,
+	},
 };
