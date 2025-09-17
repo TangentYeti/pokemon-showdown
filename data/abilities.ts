@@ -6607,7 +6607,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onBasePowerPriority: 7,
 		onBasePower(basePower, attacker, defender, move) {
 			if (move.flags['sound']) {
-				this.debug('Shrill Voice boost');
+				this.debug('Shrill Voice Boost');
 				return this.chainModify([5325, 4096]);
 			}
 		},
