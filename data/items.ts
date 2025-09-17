@@ -7717,6 +7717,32 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			return this.chainModify(1.3);
 		},
 		num: 2501,
-		gen: 5,
+		gen: 9,
+	},
+	hexcharm: {
+		name: "Hex Charm",
+		spritenum: 385,
+		fling: {
+				basePower: 40,
+		},
+		onModifySpDPriority: 1,
+		onModifySpD(spd, pokemon) {
+			return this.chainModify(1.3);
+		},
+		num: 2502,
+		gen: 9,
+	},
+	megaphone: {
+		name: "Megaphone",
+		spritenum: 71,
+		onBasePowerPriority: 23,
+		onBasePower(basePower, attacker, defender, move) {
+				if (move.flags['sound']) {
+						this.debug('Megaphone Boost');
+						return this.chainModify(1.3);
+				}
+		},
+		num: 2503,
+		gen: 9,
 	},
 };

@@ -2446,4 +2446,12 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: "Guard Charm",
 		desc: "Boosts Defense by 30%",
 	},
+	hexcharm: {
+		name: "Hex Charm",
+		desc: "Boosts Special Defense by 30%",
+	},
+	megaphone: {
+		name: "Megaphone",
+		desc: "Boosts Sound based moves.",
+	},
 };
