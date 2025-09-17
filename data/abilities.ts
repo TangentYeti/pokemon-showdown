@@ -5762,7 +5762,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Avian",
 		rating: 3.5,
 		num: 284,
-	},badomen: {
+	},
+	badomen: {
 		onAfterEachBoost(boost, target, source, effect) {
 			if (!source || target.isAlly(source)) {
 				if (effect.id === 'stickyweb') {
@@ -5831,6 +5832,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			this.add('-end', pokemon, `fallen${this.effectState.fallen}`, '[silent]');
 		},
 		onBasePower(basePower, attacker, defender, move) {
+			this.debug('Body Count')
 			this.chainModify([1365, 4096]);
 		},			
 		onPrepareHit(source, target, move) {
@@ -5950,6 +5952,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onBasePowerPriority: 21,
 		onBasePower(basePower, attacker, defender, move) {
 			if (move.volatileStatus === 'partiallytrapped') {
+				this.debug('Constriction')
 				return this.chainModify(1.5);
 			}
 		},
