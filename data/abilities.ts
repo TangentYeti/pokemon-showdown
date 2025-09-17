@@ -6531,7 +6531,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onBasePowerPriority: 23,
 		onBasePower(basePower, attacker, defender, move) {
 			if (move.recoil || move.hasCrashDamage) {
-				this.debug('Reckless boost');
+				this.debug('Reinforced boost');
 				return this.chainModify([4915, 4096]);
 			}
 		},
