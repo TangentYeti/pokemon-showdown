@@ -7696,4 +7696,27 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		gen: 8,
 		isNonstandard: "CAP",
 	},
+	// Divine Olympus Items
+	galehorn: {
+		name: "Gale Horn",
+		spritenum: 106,
+		fling: {
+			basePower: 60,
+		},
+		num: 2500,
+		gen: 9,
+	},
+	guardcharm: {
+		name: "Guard Charm",
+		spritenum: 746,
+		fling: {
+			basePower: 40,
+		},
+		onModifyDefPriority: 1,
+		onModifyDef(def, pokemon) {
+			return this.chainModify(1.3);
+		},
+		num: 2501,
+		gen: 5,
+	},
 };

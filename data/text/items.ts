@@ -2437,4 +2437,13 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: "Vile Vial",
 		shortDesc: "If held by a Venomicon, its Poison- and Flying-type attacks have 1.2x power.",
 	},
+	// Divine Olympus Items
+	galehorn: {
+		name: "Gale Horn",
+		desc: "Increases the duration of the Strong Winds weather condition.",
+	},
+	guardcharm: {
+		name: "Guard Charm",
+		desc: "Boosts Defense by 30%",
+	},
 };
