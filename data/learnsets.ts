@@ -100013,6 +100013,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wildboltstorm: ["9M"],
 			defog: ["9M", "9L24"],
 			roost: ["9M"],
+			cyclone: ["9M"],
 		},
 	},
 	snogon: {
