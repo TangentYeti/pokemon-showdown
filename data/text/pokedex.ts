@@ -3827,4 +3827,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	Drollepas: {
 		name: "Drollepas",
 	},
+	greffin: {
+		name: "Greffin",
+	},
+	gryfaun: {
+		name: "Gryfaun",
+	},
+	gryfantle: {
+		name: "Gryfantle",
+	},
 };

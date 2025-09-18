@@ -100139,4 +100139,34 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			rockslide: ["9M", "9L24"],
 		},
 	},
+	greffin: {
+		learnset: {
+			uturn: ["9M"],
+			highhorsepower: ["9M"],
+			acrobatics: ["9M"],
+			bravebird: ["9M", "9L24"],
+			defog: ["9M", "9L24"],
+			roost: ["9M", "9L24"],
+		},
+	},
+	gryfaun: {
+		learnset: {
+			uturn: ["9M"],
+			highhorsepower: ["9M"],
+			acrobatics: ["9M"],
+			bravebird: ["9M", "9L24"],
+			defog: ["9M", "9L24"],
+			roost: ["9M", "9L24"],
+		},
+	},
+	gryfantle: {
+		learnset: {
+			uturn: ["9M"],
+			highhorsepower: ["9M"],
+			acrobatics: ["9M"],
+			bravebird: ["9M", "9L24"],
+			defog: ["9M", "9L24"],
+			roost: ["9M", "9L24"],
+		},
+	},
 };
