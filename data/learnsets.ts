@@ -100748,4 +100748,40 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			drainingkiss: ["9M", "9L24"],
 		},
 	},
+	scorath: {
+		learnset: {
+			direclaw: ["9M"],
+			ironhead: ["9M"],
+			crosspoison: ["9M"],
+			shoreup: ["9M", "9L24"],
+			swordsdance: ["9M"],
+			leechlife: ["9M"],
+			knockoff: ["9M"],
+			leechlife: ["9M", "9L24"],
+		},
+	},
+	armopoda: {
+		learnset: {
+			direclaw: ["9M"],
+			ironhead: ["9M"],
+			crosspoison: ["9M"],
+			shoreup: ["9M", "9L24"],
+			swordsdance: ["9M"],
+			leechlife: ["9M"],
+			knockoff: ["9M"],
+			leechlife: ["9M", "9L24"],
+		},
+	},
+	armorpion: {
+		learnset: {
+			direclaw: ["9M"],
+			ironhead: ["9M"],
+			crosspoison: ["9M"],
+			shoreup: ["9M", "9L24"],
+			swordsdance: ["9M"],
+			leechlife: ["9M"],
+			knockoff: ["9M"],
+			leechlife: ["9M", "9L24"],
+		},
+	},
 };

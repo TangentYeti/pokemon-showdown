@@ -6368,4 +6368,19 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "(DOU)",
 		natDexTier: "OU",
 	},
+	scorath: {
+		tier: "OU",
+		doublesTier: "(DOU)",
+		natDexTier: "OU",
+	},
+	armopoda: {
+		tier: "OU",
+		doublesTier: "(DOU)",
+		natDexTier: "OU",
+	},
+	armorpion: {
+		tier: "OU",
+		doublesTier: "(DOU)",
+		natDexTier: "OU",
+	},
 };

@@ -3959,4 +3959,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	ukerial: {
 		name: "Ukerial",
 	},
+	scorath: {
+		name: "Scorath",
+	},
+	armopoda: {
+		name: "Armopoda",
+	},
+	armorpion: {
+		name: "Armorpion",
+	},
 };
