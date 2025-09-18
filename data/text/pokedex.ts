@@ -3848,4 +3848,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	allopere: {
 		name: "Allopere",
 	},
+	crustark: {
+		name: "Crustark",
+	},
+	skarmish: {
+		name: "Skarmish",
+	},
+	ganikinos: {
+		name: "Ganikinos",
+	},
 };
