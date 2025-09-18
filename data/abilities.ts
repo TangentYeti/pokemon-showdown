@@ -5812,7 +5812,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	blacksmith: {
 		onTryMove(source, target, move) {
 			if (move?.category === 'Status') {
-				this.heal(target.baseMaxhp / 12);
+				this.heal(target.baseMaxhp / 12, target, target);
 			}
 		},
 		name: "Blacksmith",
@@ -6185,7 +6185,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	gorgongaze: {
 		onDamagingHit(damage, target, source, move) {
 			if (this.checkMoveMakesContact(move, source, target)) {
-				if (this.randomChance(4, 10)) {
+				if (this.randomChance(3, 10)) {
 					source.trySetStatus('par', target);
 				}
 			}
