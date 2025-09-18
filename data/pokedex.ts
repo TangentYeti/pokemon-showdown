@@ -20482,7 +20482,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: 1076,
 		name: "Vitalysis",
 		types: ["Electric", "Psychic"],
-		baseStats: {hp: 99, atk: 57, def: 108, spa: 122, spd: 52, spe: 87},
+		baseStats: {hp: 99, atk: 57, def: 108, spa: 122, spd: 52, spe: 82},
 		abilities: {0: "Psychic Surge", 1: "Wither"},
 		heightm: 3.2,
 		weightkg: 5,
