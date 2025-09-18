@@ -100604,6 +100604,42 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			knockoff: ["9M", "9L24"],
 		},
 	},
+	egynx: {
+		learnset: {
+			earthpower: ["9M"],
+			moonblast: ["9M"],
+			calmmind: ["9M"],
+			psyshock: ["9M", "9L24"],
+			powergem: ["9M"],
+			hex: ["9M"],
+			weatherball: ["9M"],
+			futuresight: ["9M", "9L24"],
+		},
+	},
+	riddypt: {
+		learnset: {
+			earthpower: ["9M"],
+			moonblast: ["9M"],
+			calmmind: ["9M"],
+			psyshock: ["9M", "9L24"],
+			powergem: ["9M"],
+			hex: ["9M"],
+			weatherball: ["9M"],
+			futuresight: ["9M", "9L24"],
+		},
+	},
+	purrforynx: {
+		learnset: {
+			earthpower: ["9M"],
+			moonblast: ["9M"],
+			calmmind: ["9M"],
+			psyshock: ["9M", "9L24"],
+			powergem: ["9M"],
+			hex: ["9M"],
+			weatherball: ["9M"],
+			futuresight: ["9M", "9L24"],
+		},
+	},
 	miserpy: {
 		learnset: {
 			snarl: ["9M"],
