@@ -3842,4 +3842,10 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	stalantula: {
 		name: "Stalantula",
 	},
+	allowatt: {
+		name: "Allowatt",
+	},
+	allopere: {
+		name: "Allopere",
+	},
 };

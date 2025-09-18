@@ -100187,4 +100187,22 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			lunge: ["9M", "9L24"],
 		},
 	},
+	allowatt: {
+		learnset: {
+			crunch: ["9M"],
+			thunderfang: ["9M"],
+			outrage: ["9M"],
+			firefang: ["9M", "9L24"],
+			voltswitch: ["9M", "9L24"],
+		},
+	},
+	allopere: {
+		learnset: {
+			crunch: ["9M"],
+			thunderfang: ["9M"],
+			outrage: ["9M"],
+			firefang: ["9M", "9L24"],
+			voltswitch: ["9M", "9L24"],
+		},
+	},
 };
