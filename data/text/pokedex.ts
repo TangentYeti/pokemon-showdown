@@ -3968,4 +3968,19 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	armorpion: {
 		name: "Armorpion",
 	},
+	boonique: {
+		name: "Boonique",
+	},
+	boosh: {
+		name: "Boosh",
+	},
+	spirihit: {
+		name: "Spirihit",
+	},
+	bespook: {
+		name: "Bespook",
+	},
+	paranorpol: {
+		name: "Paranorpol",
+	},
 };
