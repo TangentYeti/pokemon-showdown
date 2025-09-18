@@ -3857,4 +3857,43 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	ganikinos: {
 		name: "Ganikinos",
 	},
+	hootiny: {
+		name: "Hootiny",
+	},
+	nocteena: {
+		name: "Nocteena",
+	},
+	hahootination: {
+		name: "Hahootination",
+	},
+	pygmini: {
+		name: "Pygmini",
+	},
+	kelampus: {
+		name: "Kelampus",
+	},
+	teuvenger: {
+		name: "Teuvenger",
+	},
+	tadpoke: {
+		name: "Tadpoke",
+	},
+	toakwando: {
+		name: "Toakwando",
+	},
+	tungfu: {
+		name: "Tungfu",
+	},
+	reptiah: {
+		name: "Reptiah",
+	},
+	prophegator: {
+		name: "Prophegator",
+	},
+	sarcobral: {
+		name: "Sarcobral",
+	},
+	cerekapro: {
+		name: "Cerekapro",
+	},
 };
