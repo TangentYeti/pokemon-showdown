@@ -3950,4 +3950,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	zenriest: {
 		name: "Flierarchy",
 	},
+	uki: {
+		name: "Uki",
+	},
+	ukitter: {
+		name: "Ukitter",
+	},
+	ukerial: {
+		name: "Ukerial",
+	},
 };

@@ -100712,4 +100712,40 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			mysticalfire: ["9M", "9L24"],
 		},
 	},
+	uki: {
+		learnset: {
+			chillingshroud: ["9M"],
+			icebeam: ["9M"],
+			freezedry: ["9M"],
+			calmmind: ["9M", "9L24"],
+			nastyplot: ["9M"],
+			moonlight: ["9M"],
+			alluringvoice: ["9M"],
+			drainingkiss: ["9M", "9L24"],
+		},
+	},
+	ukitter: {
+		learnset: {
+			chillingshroud: ["9M"],
+			icebeam: ["9M"],
+			freezedry: ["9M"],
+			calmmind: ["9M", "9L24"],
+			nastyplot: ["9M"],
+			moonlight: ["9M"],
+			alluringvoice: ["9M"],
+			drainingkiss: ["9M", "9L24"],
+		},
+	},
+	ukerial: {
+		learnset: {
+			chillingshroud: ["9M"],
+			icebeam: ["9M"],
+			freezedry: ["9M"],
+			calmmind: ["9M", "9L24"],
+			nastyplot: ["9M"],
+			moonlight: ["9M"],
+			alluringvoice: ["9M"],
+			drainingkiss: ["9M", "9L24"],
+		},
+	},
 };
