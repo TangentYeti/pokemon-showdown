@@ -5644,7 +5644,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				move.secondaries = [];
 			}
 			move.secondaries.push({
-				chance: 30,
+				chance: 20,
 				status: 'tox',
 				ability: this.dex.abilities.get('acidbreath'),
 			});
@@ -5810,8 +5810,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 287,
 	},
 	blacksmith: {
-		onTryMove(source, target, move) {
-			if (move?.category === 'Status') {
+		onPrepareHit(source, target, move) {
+			if (move.category === 'Status') {
 				this.heal(source.baseMaxhp / 12);
 			}
 		},
