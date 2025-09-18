@@ -3776,4 +3776,31 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	plagasus: {
 		name: "Plagasus",
 	},
+	snogon: {
+		name: "Snogon",
+	},
+	goraze: {
+		name: "Goraze",
+	},
+	gordusa: {
+		name: "Gordusa",
+	},
+	taurull: {
+		name: "Taurull",
+	},
+	minomith: {
+		name: "Minomith",
+	},
+	matretaur: {
+		name: "Matretaur",
+	},
+	hagu: {
+		name: "Hagu",
+	},
+	hagulae: {
+		name: "Hagulae",
+	},
+	hagufate: {
+		name: "Hagufate",
+	},
 };

@@ -100003,4 +100003,76 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			hurricane: ["9M", "9L24"],
 		},
 	},
+	snogon: {
+		learnset: {
+			wrathofmedusa: ["9M"],
+			knockoff: ["9M"],
+			powergem: ["9M"],
+			stealthrock: ["9M", "9L24"],
+		},
+	},
+	goraze: {
+		learnset: {
+			wrathofmedusa: ["9M"],
+			knockoff: ["9M"],
+			powergem: ["9M"],
+			stealthrock: ["9M", "9L24"],
+		},
+	},
+	gordusa: {
+		learnset: {
+			wrathofmedusa: ["9M"],
+			knockoff: ["9M"],
+			powergem: ["9M"],
+			stealthrock: ["9M", "9L24"],
+		},
+	},
+	taurull: {
+		learnset: {
+			labyrinth: ["9M"],
+			substitute: ["9M"],
+			drainpunch: ["9M"],
+			milkdrink: ["9M", "9L24"],
+		},
+	},
+	minomith: {
+		learnset: {
+			labyrinth: ["9M"],
+			substitute: ["9M"],
+			drainpunch: ["9M"],
+			milkdrink: ["9M", "9L24"],
+		},
+	},
+	matretaur: {
+		learnset: {
+			labyrinth: ["9M"],
+			substitute: ["9M"],
+			drainpunch: ["9M"],
+			milkdrink: ["9M", "9L24"],
+		},
+	},
+	hagu: {
+		learnset: {
+			futuresight: ["9M"],
+			spiritbomb: ["9M"],
+			witchbolt: ["9M"],
+			stickyweb: ["9M", "9L24"],
+		},
+	},
+	hagulae: {
+		learnset: {
+			futuresight: ["9M"],
+			spiritbomb: ["9M"],
+			witchbolt: ["9M"],
+			stickyweb: ["9M", "9L24"],
+		},
+	},
+	hagufate: {
+		learnset: {
+			futuresight: ["9M"],
+			spiritbomb: ["9M"],
+			witchbolt: ["9M"],
+			stickyweb: ["9M", "9L24"],
+		},
+	},
 };
