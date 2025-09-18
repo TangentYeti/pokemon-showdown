@@ -19878,7 +19878,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Flying", "Poison"],
 		genderRatio: { M: 0.375, F: 0.625 },
 		baseStats: { hp: 73, atk: 60, def: 85, spa: 108, spd: 106, spe: 103 },
-		abilities: { 0: "Poison Point" },
+		abilities: { 0: "Spiritual" },
 		heightm: 2.3,
 		weightkg: 86.3,
 		color: "Grey",
