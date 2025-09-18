@@ -99999,7 +99999,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		learnset: {
 			darkpulse: ["9M"],
 			uturn: ["9M"],
-			sludgewave: ["9M"],
+			gammaburst: ["9M"],
 			hurricane: ["9M", "9L24"],
 		},
 	},
@@ -100121,6 +100121,22 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			scald: ["9M"],
 			icebeam: ["9M"],
 			flipturn: ["9M", "9L24"],
+		},
+	},
+	catoffalo: {
+		learnset: {
+			stealthrock: ["9M"],
+			earthquake: ["9M"],
+			poisongas: ["9M"],
+			rockslide: ["9M", "9L24"],
+		},
+	},
+	drollepas: {
+		learnset: {
+			stealthrock: ["9M"],
+			earthquake: ["9M"],
+			poisongas: ["9M"],
+			rockslide: ["9M", "9L24"],
 		},
 	},
 };
