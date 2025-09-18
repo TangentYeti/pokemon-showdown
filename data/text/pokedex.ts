@@ -3992,4 +3992,10 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	mortarmur: {
 		name: "Mortarmur",
 	},
+	voltoof: {
+		name: "Voltoof",
+	},
+	timberam: {
+		name: "Timberam",
+	},
 };

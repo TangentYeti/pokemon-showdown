@@ -100880,4 +100880,28 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			blazekick: ["9M", "9L24"],
 		},
 	},
+	voltoof: {
+		learnset: {
+			hornleech: ["9M"],
+			trailblaze: ["9M"],
+			wildcharge: ["9M"],
+			woodhammer: ["9M", "9L24"],
+			headsmash: ["9M"],
+			superpower: ["9M"],
+			voltswitch: ["9M"],
+			bulkup: ["9M", "9L24"],
+		},
+	},
+	timberam: {
+		learnset: {
+			hornleech: ["9M"],
+			trailblaze: ["9M"],
+			wildcharge: ["9M"],
+			woodhammer: ["9M", "9L24"],
+			headsmash: ["9M"],
+			superpower: ["9M"],
+			voltswitch: ["9M"],
+			bulkup: ["9M", "9L24"],
+		},
+	},
 };
