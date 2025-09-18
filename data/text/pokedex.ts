@@ -3812,4 +3812,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	wyrmekes: {
 		name: "Wyrmekes",
 	},
+	siriver: {
+		name: "Siriver",
+	},
+	searen: {
+		name: "Searen",
+	},
+	tsunaren: {
+		name: "Tsunaren",
+	},
 };

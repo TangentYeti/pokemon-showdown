@@ -100099,4 +100099,28 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			knockoff: ["9M", "9L24"],
 		},
 	},
+	siriver: {
+		learnset: {
+			moonblast: ["9M"],
+			scald: ["9M"],
+			icebeam: ["9M"],
+			flipturn: ["9M", "9L24"],
+		},
+	},
+	searen: {
+		learnset: {
+			moonblast: ["9M"],
+			scald: ["9M"],
+			icebeam: ["9M"],
+			flipturn: ["9M", "9L24"],
+		},
+	},
+	tsunaren: {
+		learnset: {
+			moonblast: ["9M"],
+			scald: ["9M"],
+			icebeam: ["9M"],
+			flipturn: ["9M", "9L24"],
+		},
+	},
 };
