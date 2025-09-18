@@ -100075,4 +100075,28 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			stickyweb: ["9M", "9L24"],
 		},
 	},
+	mekes: {
+		learnset: {
+			firstimpression: ["9M"],
+			dragonclaw: ["9M"],
+			uturn: ["9M"],
+			knockoff: ["9M", "9L24"],
+		},
+	},
+	chrysekes: {
+		learnset: {
+			firstimpression: ["9M"],
+			dragonclaw: ["9M"],
+			uturn: ["9M"],
+			knockoff: ["9M", "9L24"],
+		},
+	},
+	wyrmekes: {
+		learnset: {
+			firstimpression: ["9M"],
+			dragonclaw: ["9M"],
+			uturn: ["9M"],
+			knockoff: ["9M", "9L24"],
+		},
+	},
 };

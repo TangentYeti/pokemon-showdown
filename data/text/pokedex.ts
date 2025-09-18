@@ -3803,4 +3803,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	hagufate: {
 		name: "Hagufate",
 	},
+	mekes: {
+		name: "Mekes",
+	},
+	chrysekes: {
+		name: "Chrysekes",
+	},
+	wyrmekes: {
+		name: "Wyrmekes",
+	},
 };
