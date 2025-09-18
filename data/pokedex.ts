@@ -20181,7 +20181,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Allopere",
 		types: ["Dark", "Electric"],
 		baseStats: {hp: 53, atk: 114, def: 77, spa: 51, spd: 52, spe: 143},
-		abilities: {0: "Solid Rock", 1: "Infiltrator"},
+		abilities: {0: "Pack Hunter", 1: "Strong Jaw"},
 		heightm: 12,
 		weightkg: 107,
 		color: "Brown",
