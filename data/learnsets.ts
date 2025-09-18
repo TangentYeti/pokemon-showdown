@@ -100866,6 +100866,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			morningsun: ["9M"],
 			encore: ["9M"],
 			blazekick: ["9M", "9L24"],
+		},
 	},
 	mortarmur: {
 		learnset: {
