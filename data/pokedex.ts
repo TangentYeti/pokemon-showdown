@@ -20811,7 +20811,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Timberam",
 		types: ["Grass", "Electric"],
 		baseStats: {hp: 80, atk: 118, def: 95, spa: 45, spd: 68, spe: 79},
-		abilities: {0: "Rhythm", 1: "Fur Coat"},
+		abilities: {0: "Reckless", 1: "Lightningrod"},
 		heightm: 1.4,
 		weightkg: 12,
 		color: "White",
