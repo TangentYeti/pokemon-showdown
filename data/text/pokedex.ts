@@ -3983,4 +3983,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	paranorpol: {
 		name: "Paranorpol",
 	},
+	feymur: {
+		name: "Feymur",
+	},
+	fleymur: {
+		name: "Fleymur",
+	},
+	mortarmur: {
+		name: "Mortarmur",
+	},
 };

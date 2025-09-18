@@ -100844,4 +100844,39 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			memento: ["9M", "9L24"],
 		},
 	},
+	feymur: {
+		learnset: {
+			moonblast: ["9M"],
+			eruption: ["9M"],
+			playrough: ["9M"],
+			backdraft: ["9M", "9L24"],
+			quiverdance: ["9M"],
+			morningsun: ["9M"],
+			encore: ["9M"],
+			blazekick: ["9M", "9L24"],
+		},
+	},
+	fleymur: {
+		learnset: {
+			moonblast: ["9M"],
+			eruption: ["9M"],
+			playrough: ["9M"],
+			backdraft: ["9M", "9L24"],
+			quiverdance: ["9M"],
+			morningsun: ["9M"],
+			encore: ["9M"],
+			blazekick: ["9M", "9L24"],
+	},
+	mortarmur: {
+		learnset: {
+			moonblast: ["9M"],
+			eruption: ["9M"],
+			playrough: ["9M"],
+			backdraft: ["9M", "9L24"],
+			quiverdance: ["9M"],
+			morningsun: ["9M"],
+			encore: ["9M"],
+			blazekick: ["9M", "9L24"],
+		},
+	},
 };
