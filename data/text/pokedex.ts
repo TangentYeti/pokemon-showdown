@@ -3896,4 +3896,19 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	cerekapro: {
 		name: "Cerekapro",
 	},
+	appreti: {
+		name: "Appreti",
+	},
+	martialeti: {
+		name: "Martialeti",
+	},
+	deproth: {
+		name: "Deproth",
+	},
+	babression: {
+		name: "Babression",
+	},
+	depandrill: {
+		name: "Depandrill",
+	},
 };
