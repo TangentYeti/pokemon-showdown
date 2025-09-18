@@ -5812,7 +5812,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	blacksmith: {
 		onTryMove(source, target, move) {
 			if (move?.category === 'Status') {
-				this.heal(source.baseMaxhp / 12, source, target);
+				this.heal(source.baseMaxhp / 12, target, source);
 			}
 		},
 		name: "Blacksmith",
