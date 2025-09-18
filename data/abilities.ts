@@ -5810,10 +5810,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 287,
 	},
 	blacksmith: {
-		onTryHit(pokemon, target, source, move) {
+		onSourceTryHit(target, source, move) {
 			if (move?.category === 'Status') {
-				this.add('-activate', pokemon, 'Blacksmith');
-				this.heal(target.baseMaxhp / 12);
+				this.heal(source.baseMaxhp / 12);
 			}
 		},
 		name: "Blacksmith",
