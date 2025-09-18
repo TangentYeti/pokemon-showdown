@@ -3911,4 +3911,34 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	depandrill: {
 		name: "Depandrill",
 	},
+	kinertz: {
+		name: "kinertz",
+	},
+	potoltage: {
+		name: "Potoltage",
+	},
+	vitalysis: {
+		name: "Vitalysis",
+	},
+	anaphyletric: {
+		name: "Anaphyletric",
+	},
+	egynx: {
+		name: "Egynx",
+	},
+	riddypt: {
+		name: "Riddypt",
+	},
+	purrforynx: {
+		name: "Purrforynx",
+	},
+	miserpy: {
+		name: "Miserpy",
+	},
+	inflocktion: {
+		name: "Inflocktion",
+	},
+	flierarchy: {
+		name: "Flierarchy",
+	},
 };
