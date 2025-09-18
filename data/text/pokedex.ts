@@ -3941,4 +3941,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	flierarchy: {
 		name: "Flierarchy",
 	},
+	yintrum: {
+		name: "Miserpy",
+	},
+	yanquil: {
+		name: "Inflocktion",
+	},
+	zenriest: {
+		name: "Flierarchy",
+	},
 };

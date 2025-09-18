@@ -100676,4 +100676,40 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			roost: ["9M", "9L24"],
 		},
 	},
+	yintrum: {
+		learnset: {
+			wyvernblast: ["9M"],
+			mysticalpower: ["9M"],
+			wish: ["9M"],
+			calmmind: ["9M", "9L24"],
+			spiritbomb: ["9M"],
+			moonblast: ["9M"],
+			gigadrain: ["9M"],
+			mysticalfire: ["9M", "9L24"],
+		},
+	},
+	yanquil: {
+		learnset: {
+			wyvernblast: ["9M"],
+			mysticalpower: ["9M"],
+			wish: ["9M"],
+			calmmind: ["9M", "9L24"],
+			spiritbomb: ["9M"],
+			moonblast: ["9M"],
+			gigadrain: ["9M"],
+			mysticalfire: ["9M", "9L24"],
+		},
+	},
+	zenriest: {
+		learnset: {
+			wyvernblast: ["9M"],
+			mysticalpower: ["9M"],
+			wish: ["9M"],
+			calmmind: ["9M", "9L24"],
+			spiritbomb: ["9M"],
+			moonblast: ["9M"],
+			gigadrain: ["9M"],
+			mysticalfire: ["9M", "9L24"],
+		},
+	},
 };
