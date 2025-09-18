@@ -100169,4 +100169,22 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			roost: ["9M", "9L24"],
 		},
 	},
+	araqmite: {
+		learnset: {
+			uturn: ["9M"],
+			stickyweb: ["9M"],
+			basaltbarrage: ["9M"],
+			stealthrock: ["9M", "9L24"],
+			lunge: ["9M", "9L24"],
+		},
+	},
+	stalantula: {
+		learnset: {
+			uturn: ["9M"],
+			stickyweb: ["9M"],
+			basaltbarrage: ["9M"],
+			stealthrock: ["9M", "9L24"],
+			lunge: ["9M", "9L24"],
+		},
+	},
 };

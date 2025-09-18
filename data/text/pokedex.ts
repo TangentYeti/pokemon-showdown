@@ -3836,4 +3836,10 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	gryfantle: {
 		name: "Gryfantle",
 	},
+	araqmite: {
+		name: "Araqmite",
+	},
+	stalantula: {
+		name: "Stalantula",
+	},
 };
