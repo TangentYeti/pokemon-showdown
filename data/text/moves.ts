@@ -7946,4 +7946,24 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Justice Wrought",
 		shortDesc: "Resets all of the target's stat stages to 0.",
 	},
+	powerhouse: {
+		name: "Powerhouse",
+		desc: "Damage is calculated using the user's Special Defence stat as its Attack, including stat stage changes. Other effects that modify the Attack stat are used as normal.",
+		shortDesc: "Uses user's SpDef stat as Atk in damage calculation.",
+	},
+	ravagingtide: {
+		name: "Ravaging Tide",
+		desc: "This move combines Dark in its type effectiveness against the target. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
+		shortDesc: "Combines Dark in its type effectiveness.",
+	},
+	remedialradiance: {
+		name: "Remedial Radiance",
+		desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
+		shortDesc: "User recovers 50% of the damage dealt.",
+	},
+	temporalrift: {
+		name: "Temporal Rift",
+		desc: "Power is equal to (25 * target's current Speed / user's current Speed) + 1, rounded down, but not more than 150. If the user's current Speed is 0, this move's power is 1.",
+		shortDesc: "More power the slower the user than the target.",
+	},
 }; 

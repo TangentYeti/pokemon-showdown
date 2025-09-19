@@ -23450,7 +23450,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	dyinglight: {
 		num: 986,
 		accuracy: 100,
-		basePower: 50,
+		basePower: 70,
 		category: "Special",
 		name: "Dying Light",
 		pp: 10,
@@ -23465,7 +23465,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		contestType: "Cool",
 	},
 	justicewrought: {
-		num: 499,
+		num: 987,
 		accuracy: 100,
 		basePower: 100,
 		category: "Physical",
@@ -23481,5 +23481,75 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Fairy",
 		contestType: "Beautiful",
+	},
+	powerhouse: {
+		num: 988,
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		name: "Powerhouse",
+		pp: 10,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1 },
+		overrideOffensiveStat: 'spd',
+		secondary: null,
+		target: "normal",
+		type: "Grass",
+	},
+	ravagingtide: {
+		num: 989,
+		accuracy: 100,
+		basePower: 100,
+		category: "Special",
+		name: "Ravaging Tide",
+		pp: 10,
+		flags: { contact: 1, protect: 1, mirror: 1, gravity: 1, distance: 1, nonsky: 1, metronome: 1 },
+		onEffectiveness(typeMod, target, type, move) {
+			return typeMod + this.dex.getEffectiveness('Dark', type);
+		},
+		priority: 0,
+		secondary: null,
+		target: "any",
+		type: "Water",
+		zMove: { basePower: 170 },
+		contestType: "Tough",
+	},
+	remedialradiance: {
+		num: 990,
+		accuracy: 100,
+		basePower: 100,
+		category: "Special",
+		name: "Remedial Radiance",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, heal: 1, metronome: 1 },
+		drain: [1, 2],
+		secondary: null,
+		target: "normal",
+		type: "Psychic",
+		contestType: "Clever",
+	},
+	gyroball: {
+		num: 360,
+		accuracy: 100,
+		basePower: 0,
+		basePowerCallback(pokemon, target) {
+			let power = Math.floor(25 * target.getStat('spe') / pokemon.getStat('spe')) + 1;
+			if (!isFinite(power)) power = 1;
+			if (power > 150) power = 150;
+			this.debug(`BP: ${power}`);
+			return power;
+		},
+		category: "Special",
+		name: "Temporal Rift",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1},
+		secondary: null,
+		target: "normal",
+		type: "Psychic",
+		zMove: { basePower: 160 },
+		maxMove: { basePower: 130 },
+		contestType: "Cool",
 	},
 };
