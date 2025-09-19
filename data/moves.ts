@@ -23529,7 +23529,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Psychic",
 		contestType: "Clever",
 	},
-	gyroball: {
+	temporalrift: {
 		num: 360,
 		accuracy: 100,
 		basePower: 0,
