@@ -100904,4 +100904,28 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			bulkup: ["9M", "9L24"],
 		},
 	},
+	swaxic: {
+		learnset: {
+			partingshot: ["9M"],
+			knockoff: ["9M"],
+			gunkshot: ["9M"],
+			powerwhip: ["9M", "9L24"],
+			strengthsap: ["9M"],
+			liquidation: ["9M"],
+			geigerblade: ["9M"],
+			toxicspikes: ["9M", "9L24"],
+		},
+	},
+	murmarsh: {
+		learnset: {
+			partingshot: ["9M"],
+			knockoff: ["9M"],
+			gunkshot: ["9M"],
+			powerwhip: ["9M", "9L24"],
+			strengthsap: ["9M"],
+			liquidation: ["9M"],
+			geigerblade: ["9M"],
+			toxicspikes: ["9M", "9L24"],
+		},
+	},
 };

@@ -3998,4 +3998,10 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	timberam: {
 		name: "Timberam",
 	},
+	swaxic: {
+		name: "Swaxic",
+	},
+	murmarsh: {
+		name: "Murmarsh",
+	},
 };
