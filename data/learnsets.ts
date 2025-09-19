@@ -100964,4 +100964,16 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dragonhammer: ["9M", "9L24"],
 		},
 	},
+	carniveel: {
+		learnset: {
+			wyvernblast: ["9M"],
+			scald: ["9M"],
+			flipturn: ["9M"],
+			glare: ["9M", "9L24"],
+			icebeam: ["9M"],
+			darkpulse: ["9M"],
+			shadowball: ["9M"],
+			dragonpulse: ["9M", "9L24"],
+		},
+	},
 };

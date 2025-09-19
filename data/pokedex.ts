@@ -20881,4 +20881,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Mineral"],
 		tags: ["Fakemon"],
 	},
+	carniveel: {
+		num: 1108,
+		name: "Carniveel",
+		types: ["Dragon", "Water"],
+		baseStats: {hp: 77, atk: 63, def: 49, spa: 116, spd: 77, spe: 113},
+		abilities: {0: "Marvel Scale", 1: "Drizzle"},
+		heightm: 1.4,
+		weightkg: 12,
+		color: "White",
+		eggGroups: ["Mineral"],
+		tags: ["Fakemon"],
+	},
 };
