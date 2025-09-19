@@ -7961,9 +7961,24 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
 		shortDesc: "User recovers 50% of the damage dealt.",
 	},
+	scourgestrike: {
+		name: "Scourge Strike",
+		desc: "Applies Curse on hit",
+		shortDesc: "Applies Curse.",
+	},
 	temporalrift: {
 		name: "Temporal Rift",
 		desc: "Power is equal to (25 * target's current Speed / user's current Speed) + 1, rounded down, but not more than 150. If the user's current Speed is 0, this move's power is 1.",
 		shortDesc: "More power the slower the user than the target.",
+	},
+	tranquiltide: {
+		name: "Tranquil Tide",
+		desc: "Sets Crystal Tide",
+		shortDesc: "Sets Crystal Tide.",
+	},
+	tyrannicaltempest: {
+		name: "Tyrannical Tempest",
+		desc: "Turn 1 charge and boost speed, Turn 2 deal damage",
+		shortDesc: "Turn 1 charge and boost speed, Turn 2 deal damage.",
 	},
 }; 

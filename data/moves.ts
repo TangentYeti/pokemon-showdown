@@ -23529,8 +23529,23 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Psychic",
 		contestType: "Clever",
 	},
+	scourgestrike: {
+		num: 991,
+		accuracy: 100,
+		basePower: 100,
+		category: "Special",
+		name: "Scourge Strike",
+		pp: 10,
+		priority: 0,
+		volatileStatus: 'curse',
+		flags: {protect: 1, mirror: 1, metronome: 1 },
+		secondary: null,
+		target: "normal",
+		type: "Ghost",
+		contestType: "Cool",
+	},
 	temporalrift: {
-		num: 360,
+		num: 992,
 		accuracy: 100,
 		basePower: 0,
 		basePowerCallback(pokemon, target) {
@@ -23552,4 +23567,46 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		maxMove: { basePower: 130 },
 		contestType: "Cool",
 	},
+	tranquiltide: {
+		num: 993,
+		accuracy: 100,
+		basePower: 100,
+		category: "Special",
+		name: "Tranquil Tide",
+		pp: 10,
+		priority: 1,
+		flags: {},
+		pseudoWeather: 'crystaltide',
+		secondary: null,
+		target: "all",
+		type: "Water",
+		zMove: {boost: {spa: 1}},
+		contestType: "Beautiful",
+	},
+	tyrannicaltempest: {
+		num: 994,
+		accuracy: 100,
+		basePower: 100,
+		category: "Physical",
+		name: "Tyrannical Tempest",
+		pp: 10,
+		priority: 0,
+		flags: { charge: 1, protect: 1, mirror: 1, metronome: 1 },
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			this.boost({ spe: 1 }, attacker, attacker, move);
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Flying",
+	},
+	
 };
