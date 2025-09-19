@@ -23464,4 +23464,22 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Fire",
 		contestType: "Cool",
 	},
+	justicewrought: {
+		num: 499,
+		accuracy: 100,
+		basePower: 100,
+		category: "Physical",
+		name: "Justice Wrought",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onTryHit(target) {
+			target.clearBoosts();
+			this.add('-clearboost', target);
+		},
+		secondary: null,
+		target: "normal",
+		type: "Fairy",
+		contestType: "Beautiful",
+	},
 };

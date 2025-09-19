@@ -7942,4 +7942,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Raises the user's Attack and Special Attack by 1 stage if this move knocks out the target.",
 		shortDesc: "Raises user's Attack and Special Attack by 1 if this KOes the target.",
 	},
+	justicewrought: {
+		name: "Justice Wrought",
+		shortDesc: "Resets all of the target's stat stages to 0.",
+	},
 }; 
