@@ -4004,4 +4004,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	murmarsh: {
 		name: "Murmarsh",
 	},
+	hammark: {
+		name: "Hammark",
+	},
+	steahamark: {
+		name: "Steahamark",
+	},
+	phaestamark: {
+		name: "Phaestamark",
+	},
 };

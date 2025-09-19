@@ -100928,4 +100928,40 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxicspikes: ["9M", "9L24"],
 		},
 	},
+	hammark: {
+		learnset: {
+			hornleech: ["9M"],
+			trailblaze: ["9M"],
+			wildcharge: ["9M"],
+			woodhammer: ["9M", "9L24"],
+			headsmash: ["9M"],
+			superpower: ["9M"],
+			voltswitch: ["9M"],
+			bulkup: ["9M", "9L24"],
+		},
+	},
+	steahamark: {
+		learnset: {
+			partingshot: ["9M"],
+			knockoff: ["9M"],
+			gunkshot: ["9M"],
+			powerwhip: ["9M", "9L24"],
+			strengthsap: ["9M"],
+			liquidation: ["9M"],
+			geigerblade: ["9M"],
+			toxicspikes: ["9M", "9L24"],
+		},
+	},
+	phaestamark: {
+		learnset: {
+			flareblitz: ["9M"],
+			coralcrash: ["9M"],
+			headsmash: ["9M"],
+			flipturn: ["9M", "9L24"],
+			liquidation: ["9M"],
+			swordsdance: ["9M"],
+			spectralhammer: ["9M"],
+			dragonhammer: ["9M", "9L24"],
+		},
+	},
 };
