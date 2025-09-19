@@ -23429,4 +23429,39 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Dark",
 		contestType: "Beautiful",
 	},
+	divineorder: {
+		num: 985,
+		accuracy: 100,
+		basePower: 100,
+		category: "Special",
+		name: "Divine Order",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		onModifyMove(move, pokemon) {
+			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) move.category = 'Physical';
+		},
+		ignoreAbility: true,
+		secondary: null,
+		target: "normal",
+		type: "Fighting",
+		contestType: "Cool",
+	},
+	dyinglight: {
+		num: 986,
+		accuracy: 100,
+		basePower: 50,
+		category: "Special",
+		name: "Dying Light",
+		pp: 10,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		onAfterMoveSecondarySelf(pokemon, target, move) {
+			if (!target || target.fainted || target.hp <= 0) this.boost({ atk: 1, spa: 1 }, pokemon, pokemon, move);
+		},
+		secondary: null,
+		target: "normal",
+		type: "Fire",
+		contestType: "Cool",
+	},
 };

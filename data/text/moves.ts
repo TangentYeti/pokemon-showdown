@@ -7932,4 +7932,14 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Super effective on Grass types.",
 		shortDesc: "Super effective on Grass",
 	},
+	divineorder: {
+		name: "Divine Order",
+		desc: "This move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes. This move and its effects ignore the Abilities of other Pokemon.",
+		shortDesc: "Physical if user's Atk > Sp. Atk. Ignores Abilities.",
+	},
+	dyinglight: {
+		name: "Dying Light",
+		desc: "Raises the user's Attack and Special Attack by 1 stage if this move knocks out the target.",
+		shortDesc: "Raises user's Attack and Special Attack by 1 if this KOes the target.",
+	},
 }; 
