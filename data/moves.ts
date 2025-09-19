@@ -23578,7 +23578,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: {},
 		pseudoWeather: 'crystaltide',
 		secondary: null,
-		target: "all",
+		target: "normal",
 		type: "Water",
 		zMove: {boost: {spa: 1}},
 		contestType: "Beautiful",
