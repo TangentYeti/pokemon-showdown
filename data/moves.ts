@@ -23396,7 +23396,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		contestType: "Cool",
 	},
 	wyvernblast: {
-		num: 1002,
+		num: 983,
 		accuracy: 85,
 		basePower: 110,
 		category: "Special",
@@ -23411,5 +23411,22 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Dragon",
 		contestType: "Tough",
+	},
+	// Legendary Unique Moves
+	defilingrage: {
+		num: 984,
+		accuracy: 100,
+		basePower: 100,
+		category: "Special",
+		name: "Defiling Rage",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1, contact: 1 },
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Grass') return 1;
+		},
+		target: "normal",
+		type: "Dark",
+		contestType: "Beautiful",
 	},
 };
