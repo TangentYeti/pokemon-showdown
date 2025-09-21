@@ -100976,4 +100976,40 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dragonpulse: ["9M", "9L24"],
 		},
 	},
+	drecko: {
+		learnset: {
+			wyvernblast: ["9M"],
+			ancientpower: ["9M"],
+			earthpower: ["9M"],
+			stealthrock: ["9M", "9L24"],
+			psyshock: ["9M"],
+			darkpulse: ["9M"],
+			thudnerbolt: ["9M"],
+			clangoroussoul: ["9M", "9L24"],
+		},
+	},
+	dracorok: {
+		learnset: {
+			wyvernblast: ["9M"],
+			ancientpower: ["9M"],
+			earthpower: ["9M"],
+			stealthrock: ["9M", "9L24"],
+			psyshock: ["9M"],
+			darkpulse: ["9M"],
+			thudnerbolt: ["9M"],
+			clangoroussoul: ["9M", "9L24"],
+		},
+	},
+	mounteleon: {
+		learnset: {
+			wyvernblast: ["9M"],
+			ancientpower: ["9M"],
+			earthpower: ["9M"],
+			stealthrock: ["9M", "9L24"],
+			psyshock: ["9M"],
+			darkpulse: ["9M"],
+			thudnerbolt: ["9M"],
+			clangoroussoul: ["9M", "9L24"],
+		},
+	},
 };
