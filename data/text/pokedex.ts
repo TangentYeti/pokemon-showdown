@@ -4025,4 +4025,19 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	mounteleon: {
 		name: "Mounteleon",
 	},
+	in: {
+		name: "I.N.",
+	},
+	centriot: {
+		name: "Centriot",
+	},
+	zentis: {
+		name: "Zentis",
+	},
+	medizen: {
+		name: "Medizen",
+	},
+	Prayzen: {
+		name: "Prayzen",
+	},
 };
