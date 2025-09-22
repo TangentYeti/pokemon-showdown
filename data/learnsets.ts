@@ -101180,4 +101180,28 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			weatherball: ["9M", "9L24"],
 		},
 	},
+	wolviate: {
+		learnset: {
+			uturn: ["9M"],
+			switcheroo: ["9M"],
+			suckerpunch: ["9M"],
+			bulkup: ["9M", "9L24"],
+			geigerblade: ["9M"],
+			closecombat: ["9M"],
+			highhorsepower: ["9M"],
+			playrough: ["9M", "9L24"],
+		},
+	},
+	lycanobyl: {
+		learnset: {
+			uturn: ["9M"],
+			switcheroo: ["9M"],
+			suckerpunch: ["9M"],
+			bulkup: ["9M", "9L24"],
+			geigerblade: ["9M"],
+			closecombat: ["9M"],
+			highhorsepower: ["9M"],
+			playrough: ["9M", "9L24"],
+		},
+	},
 };
