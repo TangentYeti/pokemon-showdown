@@ -21107,7 +21107,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		tags: ["Fakemon"],
 	},
 	wolviate: {
-		num: 1118,
+		num: 1122,
 		name: "Wolviate",
 		types: ["Poison"],
 		baseStats: {hp: 56, atk: 62, def: 38, spa: 50, spd: 32, spe: 71},
@@ -21120,7 +21120,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		tags: ["Fakemon"],
 	},
 	lycanobyl: {
-		num: 1119,
+		num: 1123,
 		name: "Lycanobyl",
 		types: ["Poison"],
 		baseStats: {hp: 84, atk: 111, def: 63, spa: 86, spd: 60, spe: 111},
