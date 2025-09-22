@@ -4040,4 +4040,10 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	Prayzen: {
 		name: "Prayzen",
 	},
+	corean: {
+		name: "Corean",
+	},
+	archorean: {
+		name: "Archorean",
+	},
 };

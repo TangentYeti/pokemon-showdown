@@ -101072,4 +101072,28 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			vacuumwave: ["9M", "9L24"],
 		},
 	},
+	corean: {
+		learnset: {
+			willowisp: ["9M"],
+			lavaplume: ["9M"],
+			earthpower: ["9M"],
+			solarbeam: ["9M", "9L24"],
+			fireblast: ["9M"],
+			protect: ["9M"],
+			weartherball: ["9M"],
+			rockslide: ["9M", "9L24"],
+		},
+	},
+	archorean: {
+		learnset: {
+			willowisp: ["9M"],
+			lavaplume: ["9M"],
+			earthpower: ["9M"],
+			solarbeam: ["9M", "9L24"],
+			fireblast: ["9M"],
+			protect: ["9M"],
+			weartherball: ["9M"],
+			rockslide: ["9M", "9L24"],
+		},
+	},
 };
