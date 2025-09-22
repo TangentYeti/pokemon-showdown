@@ -4052,4 +4052,16 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	lymbynx: {
 		name: "Lymbynx",
 	},
+	desquire: {
+		name: "Desquire",
+	},
+	defaith: {
+		name: "Defaith",
+	},
+	defonour: {
+		name: "Defonour",
+	},
+	destrayal: {
+		name: "Destrayal",
+	},
 };

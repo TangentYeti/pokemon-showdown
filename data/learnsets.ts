@@ -101120,4 +101120,52 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			encore: ["9M", "9L24"],
 		},
 	},
+	desquire: {
+		learnset: {
+			poltergeist: ["9M"],
+			knockoff: ["9M"],
+			bodypress: ["9M"],
+			irondefense: ["9M", "9L24"],
+			shadowsneak: ["9M"],
+			knightsblade: ["9M"],
+			swordsdance: ["9M"],
+			taunt: ["9M", "9L24"],
+		},
+	},
+	defaith: {
+		learnset: {
+			poltergeist: ["9M"],
+			knockoff: ["9M"],
+			bodypress: ["9M"],
+			irondefense: ["9M", "9L24"],
+			shadowsneak: ["9M"],
+			knightsblade: ["9M"],
+			swordsdance: ["9M"],
+			taunt: ["9M", "9L24"],
+		},
+	},
+	defonour: {
+		learnset: {
+			poltergeist: ["9M"],
+			knockoff: ["9M"],
+			bodypress: ["9M"],
+			irondefense: ["9M", "9L24"],
+			shadowsneak: ["9M"],
+			knightsblade: ["9M"],
+			swordsdance: ["9M"],
+			taunt: ["9M", "9L24"],
+		},
+	},
+	destrayal: {
+		learnset: {
+			falsesurrender: ["9M"],
+			knightsblade: ["9M"],
+			powertrip: ["9M"],
+			partingshot: ["9M", "9L24"],
+			bulletpunch: ["9M"],
+			earthquake: ["9M"],
+			swordsdance: ["9M"],
+			psychocut: ["9M", "9L24"],
+		},
+	},
 };
