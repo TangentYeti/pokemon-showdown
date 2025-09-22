@@ -101168,4 +101168,16 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			psychocut: ["9M", "9L24"],
 		},
 	},
+	manrawin: {
+		learnset: {
+			flipturn: ["9M"],
+			roost: ["9M"],
+			dragondance: ["9M"],
+			liquidation: ["9M", "9L24"],
+			rockslide: ["9M"],
+			acrobatics: ["9M"],
+			tailwind: ["9M"],
+			weatherball: ["9M", "9L24"],
+		},
+	},
 };

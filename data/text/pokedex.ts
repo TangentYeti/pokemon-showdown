@@ -4064,4 +4064,7 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	destrayal: {
 		name: "Destrayal",
 	},
+	manrawin: {
+		name: "Manrawin",
+	},
 };

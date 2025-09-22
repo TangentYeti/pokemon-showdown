@@ -21094,4 +21094,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Mineral"],
 		tags: ["Fakemon"],
 	},
+	manrawin: {
+		num: 1121,
+		name: "Manrawin",
+		types: ["Water", "Ground"],
+		baseStats: {hp: 92, atk: 86, def: 71, spa: 79, spd: 93, spe: 54},
+		abilities: {0: "Sand Rush", 1: "Sand Force"},
+		heightm: 2.6,
+		weightkg: 65,
+		color: "White",
+		eggGroups: ["Mineral"],
+		tags: ["Fakemon"],
+	},
 };
