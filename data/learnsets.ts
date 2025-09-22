@@ -101096,4 +101096,28 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			rockslide: ["9M", "9L24"],
 		},
 	},
+	felynx: {
+		learnset: {
+			esperwing: ["9M"],
+			mysticalpower: ["9M"],
+			airslash: ["9M"],
+			cosmicpower: ["9M", "9L24"],
+			storedpower: ["9M"],
+			slackoff: ["9M"],
+			cyclone: ["9M"],
+			encore: ["9M", "9L24"],
+		},
+	},
+	lymbynx: {
+		learnset: {
+			esperwing: ["9M"],
+			mysticalpower: ["9M"],
+			airslash: ["9M"],
+			cosmicpower: ["9M", "9L24"],
+			storedpower: ["9M"],
+			slackoff: ["9M"],
+			cyclone: ["9M"],
+			encore: ["9M", "9L24"],
+		},
+	},
 };
