@@ -100900,8 +100900,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			leafblade: ["9L1"],
 			synthesis: ["9L1"],
 			powerwhip: ["9L1"],
-			waterfall: ["9L1"],
-			wavecrash: ["9L1"],
 			aquajet: ["9L1"],
 			brine: ["9L1"],
 			chillingwater: ["9L1"],
