@@ -4073,4 +4073,25 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	lycanobyl: {
 		name: "Lycanobyl",
 	},
+	chucabra: {
+		name: "Chucabra",
+	},
+	chupaprace: {
+		name: "Chupaprace",
+	},
+	terracabra: {
+		name: "Terracabra",
+	},
+	cycliner: {
+		name: "Cycliner",
+	},
+	spelyclops: {
+		name: "Spelyclops",
+	},
+	kyvolt: {
+		name: "Kyvolt",
+	},
+	kybohm: {
+		name: "Kybohm",
+	},
 };
