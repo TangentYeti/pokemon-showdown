@@ -20694,7 +20694,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	boonique: {
 		num: 1093,
-		name: "boonique",
+		name: "Boonique",
 		types: ["Ghost"],
 		baseStats: {hp: 48, atk: 63, def: 52, spa: 49, spd: 47, spe: 61},
 		abilities: {0: "Shadow Tag", 1: "Simple"},
