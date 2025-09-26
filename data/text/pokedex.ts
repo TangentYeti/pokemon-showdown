@@ -4094,4 +4094,85 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	kybohm: {
 		name: "Kybohm",
 	},
+	froose: {
+		name: "Froose",
+	},
+	moosicle: {
+		name: "Moosicle",
+	},
+	junra: {
+		name: "Junra",
+	},
+	gojukuda: {
+		name: "Gojukuda",
+	},
+	scraplet: {
+		name: "Scraplet",
+	},
+	boarpath: {
+		name: "Boarpath",
+	},
+	icito: {
+		name: "Icito",
+	},
+	frosquito: {
+		name: "Frosquito",
+	},
+	succubush: {
+		name: "Succubush",
+	},
+	axolittle: {
+		name: "Axolittle",
+	},
+	ambycoal: {
+		name: "Ambycoal",
+	},
+	novalotl: {
+		name: "Novalotl",
+	},
+	cephaqua: {
+		name: "Cephaqua",
+	},
+	constethulu: {
+		name: "Constethulu",
+	},
+	draby: {
+		name: "Draby",
+	},
+	dranova: {
+		name: "Dranova",
+	},
+	drabloom: {
+		name: "Drabloom",
+	},
+	drarate: {
+		name: "Drarate",
+	},
+	draquake: {
+		name: "Draquake",
+	},
+	dranyon: {
+		name: "Dranyon",
+	},
+	drachaun: {
+		name: "Drachaun",
+	},
+	octern: {
+		name: "Octern",
+	},
+	doctopus: {
+		name: "Doctopus",
+	},
+	octopsy: {
+		name: "Octopsy",
+	},
+	blat: {
+		name: "Blat",
+	},
+	vampyre: {
+		name: "Vampyre",
+	},
+	counsol: {
+		name: "Counsol",
+	},
 };
