@@ -23532,7 +23532,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	scourgestrike: {
 		num: 991,
 		accuracy: 100,
-		basePower: 100,
+		basePower: 90,
 		category: "Special",
 		name: "Scourge Strike",
 		pp: 10,
@@ -23569,8 +23569,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	tranquiltide: {
 		num: 993,
-		accuracy: 100,
-		basePower: 100,
+		accuracy: 70,
+		basePower: 110,
 		category: "Special",
 		name: "Tranquil Tide",
 		pp: 10,
