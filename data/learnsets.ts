@@ -103181,7 +103181,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			memento: ["9L1"],
 			irondefense: ["9L1"],
 			metalsound: ["9L1"],
-			shadowsneak: ["9L1"],
 			curse: ["9L1"],
 			disable: ["9L1"],
 			protect: ["9L1"],
