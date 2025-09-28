@@ -23358,8 +23358,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	witchbolt: {
 		num: 981,
-		accuracy: 95,
-		basePower: 80,
+		accuracy: 100,
+		basePower: 85,
 		category: "Special",
 		name: "Witch Bolt",
 		pp: 15,
