@@ -4175,4 +4175,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	counsol: {
 		name: "Counsol",
 	},
+	miaskma: {
+		name: "Miaskma",
+	},
+	damaskma: {
+		name: "Damaskma",
+	},
+	plagasma: {
+		name: "Plagasma",
+	},
 };
