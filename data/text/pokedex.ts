@@ -4190,4 +4190,10 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	chasorm: {
 		name: "Chasorm",
 	},
+	sektylo: {
+		name: "Sektylo",
+	},
+	mangisekto: {
+		name: "Mangisekto",
+	},
 };
