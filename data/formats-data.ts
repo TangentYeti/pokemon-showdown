@@ -5443,7 +5443,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 	roaringmoon: {
 		tier: "Uber",
-		doublesTier: "DBL",
+		doublesTier: "DUU",
 		natDexTier: "Uber",
 	},
 	irontreads: {
