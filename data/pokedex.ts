@@ -21811,7 +21811,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Whirlydis",
 		types: ["Water", "Electric"],
 		baseStats: {hp: 73, atk: 106, def: 88, spa: 104, spd: 63, spe: 96},
-		abilities: {0: "Monsoon", 1: "Storm Drain"},
+		abilities: {0: "Maelstrom", 1: "Storm Drain"},
 		heightm: 4.1,
 		weightkg: 75,
 		color: "White",
