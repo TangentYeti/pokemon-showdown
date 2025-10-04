@@ -4202,4 +4202,40 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	shuriguin: {
 		name: "Shuriguin",
 	},
+	hummzinger: {
+		name: "Hummzinger",
+	},
+	baaly: {
+		name: "Baaly",
+	},
+	rambonkin: {
+		name: "Rambonkin",
+	},
+	mernox: {
+		name: "Mernox",
+	},
+	mervenom: {
+		name: "Mervenom",
+	},
+	narwimp: {
+		name: "Narwimp",
+	},
+	narfarious: {
+		name: "Narfarious",
+	},
+	tikape: {
+		name: "Tikape",
+	},
+	goriki: {
+		name: "Goriki",
+	},
+	tikikong: {
+		name: "Tikikong",
+	},
+	charsoon: {
+		name: "Charsoon",
+	},
+	whirlydis: {
+		name: "Whirlydis",
+	},
 };
