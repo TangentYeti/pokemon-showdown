@@ -4247,4 +4247,25 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	hydoracle: {
 		name: "Hydoracle",
 	},
+	dellin: {
+		name: "Dellin",
+	},
+	halestial: {
+		name: "Halestial",
+	},
+	valhangel: {
+		name: "Valhangel",
+	},
+	devastly: {
+		name: "Devastly",
+	},
+	lucangel: {
+		name: "Lucangel",
+	},
+	ignix: {
+		name: "Ignix",
+	},
+	pyrectix: {
+		name: "Pyrectix",
+	},
 };
