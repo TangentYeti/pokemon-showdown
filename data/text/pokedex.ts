@@ -4238,4 +4238,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	whirlydis: {
 		name: "Whirlydis",
 	},
+	psypent: {
+		name: "Psypent",
+	},
+	mystdra: {
+		name: "Mystdra",
+	},
+	hydoracle: {
+		name: "Hydoracle",
+	},
 };
