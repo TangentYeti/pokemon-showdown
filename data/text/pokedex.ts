@@ -4436,4 +4436,37 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	mollucone: {
 		name: "Mollucone",
 	},
+	larvaby: {
+		name: "Larvaby",
+	},
+	chryield: {
+		name: "Chryield",
+	},
+	crickmire: {
+		name: "Crickmire",
+	},
+	crickoat: {
+		name: "Crickoat",
+	},
+	disaspider: {
+		name: "Disaspider",
+	},
+	orbider: {
+		name: "Orbider",
+	},
+	chryalat: {
+		name: "Chryalat",
+	},
+	vesplume: {
+		name: "Vesplume",
+	},
+	vesplatinum: {
+		name: "Vesplatinum",
+	},
+	grapeetle: {
+		name: "Grapeetle",
+	},
+	foleetle: {
+		name: "Foleetle",
+	},
 };
