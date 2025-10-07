@@ -22351,7 +22351,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Weatherback",
 		types: ["Water", "Steel"],
 		baseStats: {hp: 86, atk: 87, def: 146, spa: 72, spd: 57, spe: 42},
-		abilities: {0: "Shell Armor", 1: "Swift Swim"},
+		abilities: {0: "Shell Armor", 1: "Battle Hardened"},
 		heightm: 2.6,
 		weightkg: 159,
 		color: "White",
