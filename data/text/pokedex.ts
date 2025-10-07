@@ -4385,31 +4385,31 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	skelegram: {
 		name: "Skelegram",
 	},
-	skeleavy: {
-		name: "Skeleavy",
-	},
-	skulletonne: {
-		name: "Skulletonne",
-	},
-	termuny: {
-		name: "Termuny",
-	},
-	terrormite: {
-		name: "Terrormite",
-	},
-	corake: {
-		name: "Corake",
-	},
-	venamba: {
-		name: "Venamba",
-	},
-	anaconoxious: {
-		name: "Anaconoxious",
-	},
-	slugnant: {
-		name: "Slugnant",
-	},
-	slumucus: {
-		name: "Slumucus",
-	},
+	// skeleavy: {
+	// 	name: "Skeleavy",
+	// },
+	// skulletonne: {
+	// 	name: "Skulletonne",
+	// },
+	// termuny: {
+	// 	name: "Termuny",
+	// },
+	// terrormite: {
+	// 	name: "Terrormite",
+	// },
+	// corake: {
+	// 	name: "Corake",
+	// },
+	// venamba: {
+	// 	name: "Venamba",
+	// },
+	// anaconoxious: {
+	// 	name: "Anaconoxious",
+	// },
+	// slugnant: {
+	// 	name: "Slugnant",
+	// },
+	// slumucus: {
+	// 	name: "Slumucus",
+	// },
 };
