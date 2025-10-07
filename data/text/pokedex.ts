@@ -4337,4 +4337,49 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	magmelly: {
 		name: "Magmelly",
 	},
+	salasander: {
+		name: "Salasander",
+	},
+	amphawkes: {
+		name: "Amphawkes",
+	},
+	dampling: {
+		name: "Dampling",
+	},
+	hurricrane: {
+		name: "Hurricrane",
+	},
+	lampire: {
+		name: "Lampire",
+	},
+	laveba: {
+		name: "Laveba",
+	},
+	laphorlamp: {
+		name: "Laphorlamp",
+	},
+	piscurtle: {
+		name: "Piscurtle",
+	},
+	agurtle: {
+		name: "Agurtle",
+	},
+	weatherback: {
+		name: "Weatherback",
+	},
+	deserolin: {
+		name: "Deserolin",
+	},
+	drakolin: {
+		name: "Drakolin",
+	},
+	drakolarmor: {
+		name: "Drakolarmor",
+	},
+	puppyre: {
+		name: "Puppyre",
+	},
+	inferthrope: {
+		name: "Inferthrope",
+	},
 };
