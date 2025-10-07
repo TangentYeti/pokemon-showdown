@@ -22443,7 +22443,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1.3,
 		weightkg: 38,
 		color: "White",
-		evos: ["Skeleavy"],
+		evos: ["Skulletonne"],
 		eggGroups: ["Mineral"],
 		tags: ["Fakemon"],
 	},
