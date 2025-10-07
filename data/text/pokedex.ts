@@ -4469,4 +4469,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	foleetle: {
 		name: "Foleetle",
 	},
+	calimare: {
+		name: "Calimare",
+	},
+	cepharbon: {
+		name: "Cepharbon",
+	},
+	abyssquid: {
+		name: "Abyssquid",
+	},
 };
