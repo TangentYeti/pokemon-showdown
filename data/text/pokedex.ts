@@ -4412,4 +4412,28 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	slumucus: {
 		name: "Slumucus",
 	},
+	golost: {
+		name: "Golost",
+	},
+	titectre: {
+		name: "Titectre",
+	},
+	stalagtergeist: {
+		name: "Stalagtergeist",
+	},
+	falust: {
+		name: "Falust",
+	},
+	falreeze: {
+		name: "Falreeze",
+	},
+	falnado: {
+		name: "Falnado",
+	},
+	gastroble: {
+		name: "Gastroble",
+	},
+	mollucone: {
+		name: "Mollucone",
+	},
 };
