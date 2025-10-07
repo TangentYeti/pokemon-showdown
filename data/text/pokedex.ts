@@ -4385,9 +4385,9 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	skelegram: {
 		name: "Skelegram",
 	},
-	// skeleavy: {
-	// 	name: "Skeleavy",
-	// },
+	skeleavy: {
+		name: "Skeleavy",
+	},
 	// skulletonne: {
 	// 	name: "Skulletonne",
 	// },
