@@ -22454,7 +22454,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		baseStats: {hp: 72, atk: 103, def: 84, spa: 51, spd: 65, spe: 75},
 		abilities: {0: "Slow Start", 1: "Comatose"},
 		heightm: 1.8,
-		weightkg: 1000,
+		weightkg: 999,
 		color: "White",
 		eggGroups: ["Mineral"],
 		tags: ["Fakemon"],
