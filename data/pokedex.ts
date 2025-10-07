@@ -22673,9 +22673,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Mineral"],
 		tags: ["Fakemon"],
 	},
-	crickmire: {
+	crickoat: {
 		num: 1251,
-		name: "Crickmire",
+		name: "Crickoat",
 		types: ["Bug", "Water"],
 		baseStats: {hp: 55, atk: 110, def: 55, spa: 120, spd: 60, spe: 130},
 		abilities: {0: "Pond Skipper", 1: "Water Veil"},
@@ -22685,7 +22685,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Mineral"],
 		tags: ["Fakemon"],
 	},
-	crickoat: {
+	crickmire: {
 		num: 1252,
 		name: "Crickmire",
 		types: ["Bug", "Normal"],
