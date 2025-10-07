@@ -4268,4 +4268,73 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	pyrectix: {
 		name: "Pyrectix",
 	},
+	drakyk: {
+		name: "Drakyk",
+	},
+	kraloch: {
+		name: "Kraloch",
+	},
+	salyrant: {
+		name: "Salyrant",
+	},
+	tremold: {
+		name: "Tremold",
+	},
+	komouldo: {
+		name: "Komouldo",
+	},
+	cubunch: {
+		name: "Cununch",
+	},
+	dojursa: {
+		name: "Dojursa",
+	},
+	grizzudo: {
+		name: "Grizzudo",
+	},
+	volchic: {
+		name: "Volchic",
+	},
+	roosolar: {
+		name: "Roosolar",
+	},
+	vipierce: {
+		name: "Vipierce",
+	},
+	ceramstes: {
+		name: "Ceramstes",
+	},
+	cerone: {
+		name: "Cerone",
+	},
+	mareberus: {
+		name: "Mareberus",
+	},
+	foalmise: {
+		name: "Foalmise",
+	},
+	neightmare: {
+		name: "Neightmare",
+	},
+	lilpine: {
+		name: "Lilpine",
+	},
+	marpine: {
+		name: "Marpine",
+	},
+	biappa: {
+		name: "Biappa",
+	},
+	appasky: {
+		name: "Appasky",
+	},
+	parafullo: {
+		name: "Parafullo",
+	},
+	jelava: {
+		name: "Jelava",
+	},
+	magmelly: {
+		name: "Magmelly",
+	},
 };
