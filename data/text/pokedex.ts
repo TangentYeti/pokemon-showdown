@@ -4382,4 +4382,34 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	inferthrope: {
 		name: "Inferthrope",
 	},
+	skelegram: {
+		name: "Skelegram",
+	},
+	skeleavy: {
+		name: "Skeleavy",
+	},
+	skulletonne: {
+		name: "Skulletonne",
+	},
+	termuny: {
+		name: "Termuny",
+	},
+	terrormite: {
+		name: "Terrormite",
+	},
+	corake: {
+		name: "Corake",
+	},
+	venamba: {
+		name: "Venamba",
+	},
+	anaconoxious: {
+		name: "Anaconoxious",
+	},
+	slugnant: {
+		name: "Slugnant",
+	},
+	slumucus: {
+		name: "Slumucus",
+	},
 };
