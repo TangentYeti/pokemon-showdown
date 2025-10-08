@@ -7248,4 +7248,19 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "(DOU)",
 		natDexTier: "OU",
 	},
+	emtap: {
+		tier: "OU",
+		doublesTier: "(DOU)",
+		natDexTier: "OU",
+	},
+	flajara: {
+		tier: "OU",
+		doublesTier: "(DOU)",
+		natDexTier: "OU",
+	},
+	tapinfera: {
+		tier: "OU",
+		doublesTier: "(DOU)",
+		natDexTier: "OU",
+	},
 };

@@ -4487,4 +4487,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	furianzhou: {
 		name: "Furianzhou",
 	},
+	emtap: {
+		name: "Emtap",
+	},
+	flajara: {
+		name: "Flajara",
+	},
+	tapinfera: {
+		name: "Tapinfera",
+	},
 };
