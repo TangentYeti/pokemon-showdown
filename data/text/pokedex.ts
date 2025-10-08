@@ -4478,4 +4478,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	abyssquid: {
 		name: "Abyssquid",
 	},
+	zhouptor: {
+		name: "Zhouptor",
+	},
+	junzhou: {
+		name: "Junzhou",
+	},
+	furianzhou: {
+		name: "Furianzhou",
+	},
 };
