@@ -4505,4 +4505,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	ankorient: {
 		name: "Ankorient",
 	},
+	recryes: {
+		name: "Recryes",
+	},
+	odivalk: {
+		name: "Odivalk",
+	},
+	valkischief: {
+		name: "Valkischief",
+	},
 };
