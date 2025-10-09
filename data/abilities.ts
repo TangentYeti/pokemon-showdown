@@ -6887,15 +6887,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	territorial: {
 		onAnyBeforeSwitchOut(pokemon, source) {
 				this.debug('Territorial start');
-				let alreadyAdded = false;
 				pokemon.removeVolatile('destinybond');
-				for (const source of this.effectState.sources) {
-					if (!source.isAdjacent(pokemon) || !this.queue.cancelMove(source) || !source.hp) continue;
-					if (!alreadyAdded) {
-						this.add('-activate', pokemon, 'ability: Territorial');
-						alreadyAdded = true;
-						this.boost({spe: 1})
-					}
+				if (!target === source || !source.hp === 0) {
+					source.boost({spe: 1})
 				}
 			},
 		name: "Territorial",
