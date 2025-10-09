@@ -6885,7 +6885,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 352,
 	},
 	territorial: {
-		onBeforeSwitchOut(pokemon, source) {
+		onAnySwitchIn(pokemon, source) {
 			this.debug('Territorial');
 			this.boost({spe: 1})
 		},
