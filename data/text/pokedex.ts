@@ -4496,4 +4496,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	tapinfera: {
 		name: "Tapinfera",
 	},
+	anklace: {
+		name: "Anklace",
+	},
+	ankevlar: {
+		name: "Ankevlar",
+	},
+	ankorient: {
+		name: "Ankorient",
+	},
 };

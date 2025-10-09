@@ -7263,4 +7263,19 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "(DOU)",
 		natDexTier: "OU",
 	},
+	anklace: {
+		tier: "OU",
+		doublesTier: "(DOU)",
+		natDexTier: "OU",
+	},
+	ankevlar: {
+		tier: "OU",
+		doublesTier: "(DOU)",
+		natDexTier: "OU",
+	},
+	ankorient: {
+		tier: "OU",
+		doublesTier: "(DOU)",
+		natDexTier: "OU",
+	},
 };
