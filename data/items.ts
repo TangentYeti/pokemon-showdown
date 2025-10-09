@@ -7793,8 +7793,8 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		fling: {
 				basePower: 40,
 		},
-		onModifySpDPriority: 1,
-		onModifySpD(hp, pokemon) {
+		onModifyHPPriority: 1,
+		onModifyHP(hp, pokemon) {
 			return this.chainModify(1.3);
 		},
 		num: 2508,
