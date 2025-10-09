@@ -7787,4 +7787,17 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 2507,
 		gen: 5,
 	},
+	vitalitycharm: {
+		name: "Vitality Charm",
+		spritenum: 385,
+		fling: {
+				basePower: 40,
+		},
+		onModifySpDPriority: 1,
+		onModifySpD(hp, pokemon) {
+			return this.chainModify(1.3);
+		},
+		num: 2508,
+		gen: 9,
+	},
 };

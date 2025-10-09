@@ -2466,5 +2466,8 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: "War Horn",
 		desc: "Slightly boosts attack and defence (15%).",
 	},
-
+	vitalitycharm: {
+		name: "Vitality Charm",
+		desc: "Boosts HP by 30%",
+	},
 };
