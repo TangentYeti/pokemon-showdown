@@ -7789,7 +7789,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	vitalitycharm: {
 		name: "Vitality Charm",
-		spritenum: 385,
+		spritenum: 705,
 		fling: {
 				basePower: 40,
 		},
