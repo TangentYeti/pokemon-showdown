@@ -22932,7 +22932,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Noxious Maw",
 		pp: 15,
 		priority: 0,
-		flags: {contact: 1, protect: 1, mirror: 1},
+		flags: {contact: 1, protect: 1, mirror: 1, bite: 1},
 		secondary: {
 			chance: 20,
 			status: 'psn',
