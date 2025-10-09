@@ -6886,8 +6886,11 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	territorial: {
 		onAnySwitchIn(pokemon, source) {
-			this.debug('Territorial');
-			this.boost({spe: 1})
+			if (!defender.activeTurns) return;
+			else{
+				this.debug('Territorial');
+				this.boost({spe: 1})
+			}
 		},
 		name: "Territorial",
 		rating: 3.5,
