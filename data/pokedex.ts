@@ -23009,9 +23009,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Mineral"],
 		tags: ["Fakemon"],
 	},
-	porkupulse: {
+	porcupulse: {
 		num: 1276,
-		name: "Porkupulse",
+		name: "Porcupulse",
 		types: ["Steel", "Electric"],
 		baseStats: {hp: 63, atk: 68, def: 111, spa: 104, spd: 83, spe: 71},
 		abilities: {0: "Iron Barbs", 1: "Lightning Rod"},
