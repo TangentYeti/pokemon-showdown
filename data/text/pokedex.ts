@@ -4532,4 +4532,10 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	solursa: {
 		name: "Solursa",
 	},
+	albafrost: {
+		name: "Albafrost",
+	},
+	permatross: {
+		name: "Permatross",
+	},
 };
