@@ -4547,4 +4547,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	scythatchi: {
 		name: "Scythatchi",
 	},
+	tsunanus: {
+		name: "Tsunanus",
+	},
+	erothys: {
+		name: "Erothys",
+	},
+	mortilance: {
+		name: "Mortilance",
+	},
 };
