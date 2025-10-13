@@ -4526,4 +4526,10 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	porcupulse: {
 		name: "Porcupulse",
 	},
+	cublaze: {
+		name: "Cublaze",
+	},
+	solursa: {
+		name: "Solursa",
+	},
 };
