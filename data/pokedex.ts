@@ -23186,7 +23186,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Zodelandar",
 		types: ["Electric", "Dark"],
 		baseStats: {hp: 180, atk: 75, def: 75, spa: 130, spd: 105, spe: 75},
-		abilities: {0: "COnstellation"},
+		abilities: {0: "Constellation"},
 		heightm: 3,
 		weightkg: 170,
 		color: "White",
