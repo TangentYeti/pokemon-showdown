@@ -23159,7 +23159,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	coeisdom: {
 		num: 1288,
-		name: "Coesidom",
+		name: "Coeisdom",
 		types: ["Psychic"],
 		baseStats: {hp: 160, atk: 80, def: 100, spa: 160, spd: 100, spe: 40},
 		abilities: {0: "Calculation"},
