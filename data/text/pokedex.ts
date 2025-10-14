@@ -4556,4 +4556,31 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	mortilance: {
 		name: "Mortilance",
 	},
+	luminilver: {
+		name: "Luminilver",
+	},
+	coeisdom: {
+		name: "Coeisdom",
+	},
+	phanacy: {
+		name: "Phanacy",
+	},
+	zodelandar: {
+		name: "Zodelandar",
+	},
+	forgeitymn: {
+		name: "Forgeitymn",
+	},
+	juriatal: {
+		name: "Juriatal",
+	},
+	trustice: {
+		name: "Trustice",
+	},
+	infonus: {
+		name: "Infonus",
+	},
+	fertiferus: {
+		name: "Fertiferus",
+	},
 };
