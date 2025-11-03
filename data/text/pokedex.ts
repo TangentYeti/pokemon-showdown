@@ -4622,4 +4622,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	bzzuzzg: {
 		name: "Bzzuzzg",
 	},
+	frusk: {
+		name: "Frusk",
+	},
+	goroadsion: {
+		name: "Goroadsion",
+	},
+	tectonitoad: {
+		name: "Tectonitoad",
+	},
 };

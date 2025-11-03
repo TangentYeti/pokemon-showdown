@@ -16620,7 +16620,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: 100,
 		basePower: 85,
 		category: "Physical",
-		isNonstandard: "Past",
 		name: "Shadow Bone",
 		pp: 10,
 		priority: 0,
