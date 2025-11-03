@@ -22138,7 +22138,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Neightmare",
 		types: ["Ghost", "Steel"],
 		baseStats: {hp: 66, atk: 115, def: 100, spa: 40, spd: 80, spe: 119},
-		abilities: {0: "Steelworker", 1: "Betrayal"},
+		abilities: {0: "Steelworker", 1: "Shadow Shield"},
 		heightm: 2,
 		weightkg: 150,
 		color: "White",
