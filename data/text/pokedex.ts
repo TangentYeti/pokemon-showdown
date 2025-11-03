@@ -4583,4 +4583,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	fertiferus: {
 		name: "Fertiferus",
 	},
+	dustandr: {
+		name: "Dustandr",
+	},
+	jormrust: {
+		name: "Jormrust",
+	},
+	subterrandr: {
+		name: "Subterrandr",
+	},
 };
