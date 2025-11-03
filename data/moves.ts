@@ -12707,6 +12707,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			case 'sandstorm':
 			case 'hail':
 			case 'snowscape':
+			case 'overcast':
+			case 'thunderstorm':
 				factor = 0.25;
 				break;
 			}
@@ -12744,6 +12746,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			case 'sandstorm':
 			case 'hail':
 			case 'snowscape':
+			case 'overcast':
+			case 'thunderstorm':
 				factor = 0.25;
 				break;
 			}
@@ -19449,6 +19453,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			case 'sandstorm':
 			case 'hail':
 			case 'snowscape':
+			case 'overcast':
+			case 'thunderstorm':
 				factor = 0.25;
 				break;
 			}

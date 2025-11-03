@@ -4592,4 +4592,34 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	subterrandr: {
 		name: "Subterrandr",
 	},
+	orplink: {
+		name: "Orplink",
+	},
+	satellity: {
+		name: "Satellity",
+	},
+	plaguerca: {
+		name: "Plaguerca",
+	},
+	dolpder: {
+		name: "Dolpder",
+	},
+	genorcade: {
+		name: "Genorcade",
+	},
+	cherubble: {
+		name: "Cherubble",
+	},
+	chemerufe: {
+		name: "Chemerufe",
+	},
+	volcarufe: {
+		name: "Volcarufe",
+	},
+	bzzug: {
+		name: "Bzzug",
+	},
+	bzzuzzg: {
+		name: "Bzzuzzg",
+	},
 };
