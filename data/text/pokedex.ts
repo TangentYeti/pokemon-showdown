@@ -4631,4 +4631,25 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	tectonitoad: {
 		name: "Tectonitoad",
 	},
+	arcangran: {
+		name: "Arcangran",
+	},
+	araquavolt: {
+		name: "Araquavolt",
+	},
+	regialpha: {
+		name: "Regialpha",
+	},
+	porygene: {
+		name: "Porygene",
+	},
+	venofree: {
+		name: "Venofree",
+	},
+	shargarch: {
+		name: "Shargarch",
+	},
+	draplisc: {
+		name: "Draplisc",
+	},
 };
