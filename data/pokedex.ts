@@ -22313,7 +22313,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Laphorlamp",
 		types: ["Fire", "Steel"],
 		baseStats: {hp: 112, atk: 86, def: 104, spa: 87, spd: 97, spe: 34},
-		abilities: {0: "Illuminate", 1: "Magma Armor"},
+		abilities: {0: "Magma Core", 1: "Magma Armor"},
 		heightm: 2,
 		weightkg: 68,
 		color: "White",
