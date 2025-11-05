@@ -4652,4 +4652,58 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	draplisc: {
 		name: "Draplisc",
 	},
+	therrazor: {
+		name: "Therrazor",
+	},
+	rizinraza: {
+		name: "Rizinraza",
+	},
+	mafimime: {
+		name: "Mafimime",
+	},
+	venoom: {
+		name: "Venoom",
+	},
+	sinicabre: {
+		name: "Sinicabre",
+	},
+	soulard: {
+		name: "Soulard",
+	},
+	wyvoul: {
+		name: "Wyvoul",
+	},
+	dragoulich: {
+		name: "Dragoulich",
+	},
+	haemogrief: {
+		name: "Haemogrief",
+	},
+	demogrievous: {
+		name: "Demogrievus",
+	},
+	avacus: {
+		name: "avacus",
+	},
+	demorcus: {
+		name: "Demorcus",
+	},
+	magich: {
+		name: "Magich",
+	},
+	lethalich: {
+		name: "Lethalich",
+	},
+	tarrtrum: {
+		name: "Tarrtrum",
+	},
+	tremasque: {
+		name: "Tremasque",
+	},
+	toxelalthon: {
+		name: "Toxel-Althon",
+	},
+	toxtricityalthon: {
+		name: "Toxtricity-Althon",
+	},
 };
