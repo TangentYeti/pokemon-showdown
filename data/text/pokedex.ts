@@ -4679,7 +4679,7 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	haemogrief: {
 		name: "Haemogrief",
 	},
-	demogrievous: {
+	demogrievus: {
 		name: "Demogrievus",
 	},
 	avacus: {

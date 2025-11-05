@@ -23740,9 +23740,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Mineral"],
 		tags: ["Fakemon"],
 	},
-	demogrievous: {
+	demogrievus: {
 		num: 1335,
-		name: "Demogrievous",
+		name: "Demogrievus",
 		types: ["Poison", "Dark"],
 		baseStats: {hp: 114, atk: 43, def: 102, spa: 83, spd: 102, spe: 96},
 		abilities: {0: "Furious", 1: "Hellborn"},
@@ -23831,6 +23831,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	toxelalthon: {
 		num: 848,
 		name: "Toxel-Althon",
+		forme: "Althon",
 		types: ["Electric", "Rock"],
 		baseStats: {hp: 47, atk: 52, def: 36, spa: 34, spd: 35, spe: 38},
 		abilities: {0: "Rock Head", 1: "Technician"},
@@ -23844,6 +23845,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	toxtricityalthon: {
 		num: 849,
 		name: "Toxtricity-Althon",
+		forme: "Althon",
 		types: ["Electric", "Rock"],
 		baseStats: {hp: 83, atk: 119, def: 81, spa: 67, spd: 69, spe: 83},
 		abilities: {0: "Rock Head", 1: "Technician"},
