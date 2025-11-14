@@ -4706,4 +4706,46 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	toxtricityalthon: {
 		name: "Toxtricity-Althon",
 	},
+	mienfood: {
+		name: "Mienfood",
+	},
+	mienshantis: {
+		name: "Mienshantis",
+	},
+	doduoalthon: {
+		name: "Doduo-Althon",
+	},
+	dodrioalthon: {
+		name: "Dodrio-Althon",
+	},
+	arite: {
+		name: "Arite",
+	},
+	lairite: {
+		name: "Lairite",
+	},
+	aggrite: {
+		name: "Aggrite",
+	},
+	malevite: {
+		name: "Malevite",
+	},
+	rotomalthon: {
+		name: "Rotom-Althon",
+	},
+	rotomlantern: {
+		name: "Rotom-Lantern",
+	},
+	rotommixer: {
+		name: "Rotom-Mixer",
+	},
+	rotomwindvane: {
+		name: "Rotom-Windvane",
+	},
+	rotombouzuki: {
+		name: "Rotom-Bouzuki",
+	},
+	rotomclock: {
+		name: "Rotom-Clock",
+	},
 };

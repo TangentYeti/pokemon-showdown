@@ -100065,6 +100065,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			switcheroo: ["9L1"],
 			raindance: ["9L1"],
 			taunt: ["9L1"],
+			sleeptalk: ["9L1"],
 		},
 	},
 	snogon: {
@@ -100137,6 +100138,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			rest: ["9L1"],
 			taunt: ["9L1"],
 			protect: ["9L1"],
+			sleeptalk: ["9L1"],
 		},
 	},
 	taurull: {
@@ -100203,6 +100205,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			magnetrise: ["9L1"],
 			recycle: ["9L1"],
 			imprison: ["9L1"],
+			sleeptalk: ["9L1"],
 		},
 	},
 	hagu: {
@@ -100489,6 +100492,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			roar: ["9L1"],
 			corrosivegas: ["9L1"],
 			protect: ["9L1"],
+			sleeptalk: ["9L1"],
 		},
 	},
 	greffin: {
@@ -100865,6 +100869,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			skillswap: ["9L1"],
 			spite: ["9L1"],
 			protect: ["9L1"],
+			sleeptalk: ["9L1"],
 		},
 	},
 	pygmini: {
@@ -101911,6 +101916,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			psychicterrain: ["9L1"],
 			skillswap: ["9L1"],
 			scaleshield: ["9L1"],
+			sleeptalk: ["9L1"],
 		},
 	},
 	uki: {
@@ -102005,6 +102011,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			torment: ["9L1"],
 			protect: ["9L1"],
 			transform: ["9L1"],
+			sleeptalk: ["9L1"],
 		},
 	},
 	scorath: {
@@ -106210,6 +106217,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trickroom: ["9L1"],
 			mist: ["9L1"],
 			raindance: ["9L1"],
+			sleeptalk: ["9L1"],
 		}
 	},
 	dellin: {
@@ -106617,7 +106625,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			featherdance: ["9L1"],
 			morningsun: ["9L1"],
 			roost: ["9L1"],
-			lunarblesing: ["9L1"],
+			lunarblessing: ["9L1"],
 			curse: ["9L1"],
 			defog: ["9L1"],
 			destinybond: ["9L1"],
@@ -106799,6 +106807,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			scaleshield: ["9L1"],
 			roar: ["9L1"],
 			taunt: ["9L1"],
+			sleeptalk: ["9L1"],
 		}
 	},
 	tremold: {
