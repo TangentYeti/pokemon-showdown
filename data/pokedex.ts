@@ -22293,7 +22293,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: 1220,
 		name: "Lampire",
 		types: ["Ghost", "Poison"],
-		baseStats: {hp: 46, atk: 82, def: 54, spa: 76, spd: 51, spe: 96},
+		baseStats: {hp: 56, atk: 92, def: 64, spa: 86, spd: 61, spe: 106},
 		abilities: {0: "Parasitic", 1: "Vampiric"},
 		heightm: 2,
 		weightkg: 2,
