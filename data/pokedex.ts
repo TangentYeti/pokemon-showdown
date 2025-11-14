@@ -22781,7 +22781,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Foleetle",
 		types: ["Bug", "Grass"],
 		baseStats: {hp: 120, atk: 100, def: 110, spa: 65, spd: 90, spe: 45},
-		abilities: {0: "Bodyguard", 1: "Leaf GUard"},
+		abilities: {0: "Bodyguard", 1: "Leaf Guard"},
 		heightm: 1.4,
 		weightkg: 90,
 		color: "White",
