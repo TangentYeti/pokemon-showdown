@@ -4700,6 +4700,66 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	tremasque: {
 		name: "Tremasque",
 	},
+	cyanial: {
+		name: "Cyanial",
+	},
+	apoxicary: {
+		name: "Apoxicary",
+	},
+	apoxicarybrute: {
+		name: "Apoxicary-Brute",
+	},
+	snowvern: {
+		name: "Snowvern",
+	},
+	frosvern: {
+		name: "Frosvern",
+	},
+	hypovernia: {
+		name: "Hypovernia",
+	},
+	psiropod: {
+		name: "Psiropod",
+	},
+	argecton: {
+		name: "Argecton",
+	},
+	psititan: {
+		name: "Psititan",
+	},
+	rapclaw: {
+		name: "Rapclaw",
+	},
+	velochem: {
+		name: "Velochem",
+	},
+	yuttengeist: {
+		name: "Yuttengeist",
+	},
+	herbara: {
+		name: "Herbara",
+	},
+	florabill: {
+		name: "Florabill",
+	},
+	iagtic: {
+		name: "Iagtic",
+	},
+	tundance: {
+		name: "Tundance",
+	},
+	wefwect: {
+		name: "Wefwect",
+	},
+	duplighoul: {
+		name: "Duplighoul",
+	},
+	spookeye: {
+		name: "Spookeye",
+	},
+	beholdrich: {
+		name: "Beholdrich",
+	},
 	toxelalthon: {
 		name: "Toxel-Althon",
 	},

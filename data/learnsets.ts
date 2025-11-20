@@ -108028,7 +108028,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sandtomb: ["9L1"],
 			stompingtantrum: ["9L1"],
 			fireblast: ["9L1"],
-			firefange: ["9L1"],
+			firefang: ["9L1"],
 			flamecharge: ["9L1"],
 			flareblitz: ["9L1"],
 			heatwave: ["9L1"],

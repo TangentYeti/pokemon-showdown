@@ -7069,4 +7069,18 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 2,
 		num: 363,
 	},
+	//New Abilties added after initial Dex
+	primalsense: {
+		onModifyMovePriority: 1,
+		onModifyMove(move, attacker, defender) {
+			if (attacker.species.baseSpecies !== 'Apoxicary' || attacker.transformed) return;
+			if (move.category === 'Status') return;
+			const targetForme = (move.category === "Status" ? 'Apoxicary' : 'Apoxicary-Brute');
+			if (attacker.species.name !== targetForme) attacker.formeChange(targetForme);
+		},
+		flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, cantsuppress: 1 },
+		name: "Stance Change",
+		rating: 4,
+		num: 364,
+	},
 };
