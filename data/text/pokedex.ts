@@ -4844,7 +4844,7 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	roggenrolaalthon: {
 		name: "Roggenrola-Althon",
 	},
-	boldore: {
+	boldorealthon: {
 		name: "Boldore-Althon",
 	},
 	gigalithalthon: {

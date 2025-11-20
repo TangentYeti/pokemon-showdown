@@ -24611,4 +24611,5 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Skiddo-Althon",
 		evoLevel: 32,
 		eggGroups: ["Field"],
+	},
 };
