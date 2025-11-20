@@ -4823,4 +4823,22 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	mastophan: {
 		name: "Mastophan",
 	},
+	shinxalthond: {
+		name: "Shinx-Althon-D",
+	},
+	luxioalthond: {
+		name: "Luxio-Althon-D",
+	},
+	luxrayalthond: {
+		name: "Luxray-Althon-D",
+	},
+	shinxalthonc: {
+		name: "Shinx-Althon-C",
+	},
+	luxioalthonc: {
+		name: "Luxio-Althon-C",
+	},
+	luxrayalthonc: {
+		name: "Luxray-Althon-C",
+	},
 };

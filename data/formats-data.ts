@@ -7810,4 +7810,34 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "(DOU)",
 		natDexTier: "OU",
 	},
+	shinxalthond: {
+		tier: "OU",
+		doublesTier: "(DOU)",
+		natDexTier: "OU",
+	},
+	luxioalthond: {
+		tier: "OU",
+		doublesTier: "(DOU)",
+		natDexTier: "OU",
+	},
+	luxrayalthond: {
+		tier: "OU",
+		doublesTier: "(DOU)",
+		natDexTier: "OU",
+	},
+	shinxalthonc: {
+		tier: "OU",
+		doublesTier: "(DOU)",
+		natDexTier: "OU",
+	},
+	luxioalthonc: {
+		tier: "OU",
+		doublesTier: "(DOU)",
+		natDexTier: "OU",
+	},
+	luxrayalthonc: {
+		tier: "OU",
+		doublesTier: "(DOU)",
+		natDexTier: "OU",
+	},
 };
