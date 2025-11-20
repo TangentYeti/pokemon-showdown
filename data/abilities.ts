@@ -7082,4 +7082,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4,
 		num: 364,
 	},
+	nitrogenize: {
+		onEffectiveness(typeMod, target, type, move) {
+			if (move.type === 'Ice' && type === 'Water') return 1;
+		}
+	},
 };

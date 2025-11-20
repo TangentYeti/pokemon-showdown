@@ -2707,11 +2707,17 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "This Pokemon's Attack and Special Attack are boosted when on low HP",
 		shortDesc: "+1 Attack, +1 SpAttack when under 25%"
 	},
+	//Abilities added after initial Dex
 	primalsense: {
 		name: "Primal Sense",
 		desc: "If this Pokemon is an Apoxicary, it changes to Brute Forme before using an attacking move, and changes to Bulk Forme before using a Status Move.",
 		shortDesc: "If Apoxicary, changes Forme to Brute before attacks and Bulk before Status Moves.",
 		transform: "Changed to Brute Forme!",
 		transformEnd: "Changed to Bulk Forme!",
+	},
+	nitrogenize: {
+		name: "Nitrogenize",
+		desc: "This Pokemon's ICe type attacks are super effective against Water Types",
+		shortDesc: "Ice Super effective against Water"
 	},
 };
