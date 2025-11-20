@@ -4808,4 +4808,19 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	rotomclock: {
 		name: "Rotom-Clock",
 	},
+	dunsparcealthon: {
+		name: "Dunsparce-Althon",
+	},
+	dunspartan: {
+		name: "Dunspartan",
+	},
+	phanpyalthon: {
+		name: "Phanpy-Althon",
+	},
+	donphanalthon: {
+		name: "Donphan-Althon",
+	},
+	mastophan: {
+		name: "Mastophan",
+	},
 };
