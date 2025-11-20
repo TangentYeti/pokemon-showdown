@@ -7079,7 +7079,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			if (attacker.species.name !== targetForme) attacker.formeChange(targetForme);
 		},
 		flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, cantsuppress: 1 },
-		name: "Stance Change",
+		name: "Primal Sense",
 		rating: 4,
 		num: 364,
 	},
