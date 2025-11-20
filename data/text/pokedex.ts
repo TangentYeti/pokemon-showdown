@@ -4841,4 +4841,28 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	luxrayalthonc: {
 		name: "Luxray-Althon-C",
 	},
+	roggenrolaalthon: {
+		name: "Roggenrola-Althon",
+	},
+	boldore: {
+		name: "Boldore-Althon",
+	},
+	gigalithalthon: {
+		name: "Gigalith-Althon",
+	},
+	corphishalthon: {
+		name: "Corphish-Althon",
+	},
+	crawdauntalthon: {
+		name: "Crawdaunt-Althon",
+	},
+	revolaunt: {
+		name: "Revolaunt",
+	},
+	skiddoalthon: {
+		name: "Skiddo-Althon",
+	},
+	gogoatalthon: {
+		name: "Gogoat-Althon",
+	},
 };
