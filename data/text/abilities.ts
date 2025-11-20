@@ -2717,7 +2717,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	},
 	nitrogenize: {
 		name: "Nitrogenize",
-		desc: "This Pokemon's ICe type attacks are super effective against Water Types",
-		shortDesc: "Ice Super effective against Water"
+		desc: "This Pokemon's Ice type attacks are super effective against Water Types",
+		shortDesc: "Ice Super effective against Water",
 	},
 };
