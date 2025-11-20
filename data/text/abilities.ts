@@ -2710,7 +2710,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	primalsense: {
 		name: "Primal Sense",
 		desc: "If this Pokemon is an Apoxicary, it changes to Brute Forme before using an attacking move, and changes to Bulk Forme before using a Status Move.",
-		shortDesc: "If Aegislash, changes Forme to Brute before attacks and Bulk before Status Moves.",
+		shortDesc: "If Apoxicary, changes Forme to Brute before attacks and Bulk before Status Moves.",
 		transform: "Changed to Brute Forme!",
 		transformEnd: "Changed to Bulk Forme!",
 	},
