@@ -7083,7 +7083,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 364,
 	},
 	nitrogenize: {
-		onSourceEffectiveness(typeMod, target, type, move) {
+		onAnyEffectiveness(typeMod, target, type, move) {
 			if (move.type === 'Ice' && type === 'Water') return 1;
 		},
 		name: "Nitrogenize",
