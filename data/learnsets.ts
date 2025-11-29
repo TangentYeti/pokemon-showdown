@@ -111904,7 +111904,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			encore: ["9L1"],
 		}
 	},
-	erothys: {
+	mortilance: {
 		learnset: {
 			discharge: ["9L1"],
 			killewatt: ["9L1"],
