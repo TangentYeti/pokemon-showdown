@@ -7084,7 +7084,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	nitrogenize: {
 		onFoeEffectiveness(typeMod, target, type, move) {
-			if (move.type === 'Ice' && type === 'Water') return 1;
+			if (move.type === 'Ice' && type === 'Water' && this.activePokemon === this.effectState.target) return 1;
 		},
 		name: "Nitrogenize",
 		rating: 4,
