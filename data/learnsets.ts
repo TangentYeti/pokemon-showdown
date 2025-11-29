@@ -111907,7 +111907,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	mortilance: {
 		learnset: {
 			discharge: ["9L1"],
-			killewatt: ["9L1"],
+			killerwatt: ["9L1"],
 			photonlance: ["9L1"],
 			supercellslam: ["9L1"],
 			thunder: ["9L1"],

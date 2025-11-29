@@ -23580,7 +23580,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Tranquil Tide",
 		pp: 10,
 		priority: 1,
-		flags: {},
+		flags: {protect: 1},
 		pseudoWeather: 'crystaltide',
 		secondary: null,
 		target: "normal",
