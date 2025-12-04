@@ -107245,7 +107245,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dualwingbeat: ["9L1"],
 			tailwind: ["9L1"],
 			lightscreen: ["9L1"],
-			willowoisp: ["9L1"],
+			willowisp: ["9L1"],
 			thunderwave: ["9L1"],
 			agility: ["9L1"],
 			workup: ["9L1"],
