@@ -28,9 +28,8 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] Divine Olympus Singles",
 		mod: 'gen9',
-		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod', '+DOS'],
-		banlist: ['Uber', 'AG', 'OU', 'UU', 'UUBL', 'RU', 'RUBL', 'NU', 'NUBL', 'PU', 'PUBL', 'ZU', 'ZUBL', 'LC', 'NFE'],
-		
+		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod',],
+		banlist: ['Uber', 'AG', 'OU', 'UU', 'UUBL', 'RU', 'RUBL', 'NU', 'NUBL', 'PU', 'PUBL', 'ZU', 'ZUBL', 'LC', 'NFE', '+DOS'],
 	},
 	{
 		name: "[Gen 9] Divine Olympus FFA",
