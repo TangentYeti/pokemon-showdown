@@ -23,6 +23,22 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
+		section: "Divine Olympus!",
+	},
+	{
+		name: "[Gen 9] Divine Olympus Singles",
+		mod: 'gen9',
+		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod'],
+	},
+	{
+		name: "[Gen 9] Divine Olympus FFA",
+		mod: 'gen9',
+		gameType: 'freeforall',
+		rated: false,
+		tournamentShow: false,
+		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod'],
+	},
+	{
 		section: "S/V Singles",
 	},
 	{
