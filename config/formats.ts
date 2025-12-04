@@ -29,6 +29,8 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] Divine Olympus Singles",
 		mod: 'gen9',
 		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod'],
+		banlist: ['Uber', 'AG', 'OU', 'UU', 'UUBL', 'RU', 'RUBL', 'NU', 'NUBL', 'PU', 'PUBL', 'ZU', 'ZUBL', 'LC', 'NFE'],
+		
 	},
 	{
 		name: "[Gen 9] Divine Olympus FFA",
@@ -37,6 +39,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		rated: false,
 		tournamentShow: false,
 		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod'],
+		banlist: ['Uber', 'AG', 'OU', 'UU', 'UUBL', 'RU', 'RUBL', 'NU', 'NUBL', 'PU', 'PUBL', 'ZU', 'ZUBL', 'LC', 'NFE'],
 	},
 	{
 		section: "S/V Singles",

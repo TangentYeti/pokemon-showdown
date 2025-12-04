@@ -32,7 +32,6 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 		ruleset: [
 			'Sleep Clause Mod', 'Species Clause', 'Nickname Clause', 'Obtainable', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause',
 		],
-		banlist: ['Uber', 'AG', 'OU', 'UU', 'UUBL', 'RU', 'RUBL', 'NU', 'NUBL', 'PU', 'PUBL', 'ZU', 'ZUBL', 'LC', 'NFE'],
 	},
 	standardnext: {
 		effectType: 'ValidatorRule',
