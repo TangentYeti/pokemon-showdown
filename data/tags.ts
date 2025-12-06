@@ -136,9 +136,9 @@ export const Tags: { [id: IDEntry]: TagData } = {
 
 	// Tiers
 	// -----
-	althon: {
-		name: "Althon",
-		speciesFilter: species => species.tier ==='Althon' || species.tier ==='(Althon)',
+	dos: {
+		name: "DOS",
+		speciesFilter: species => species.tier ==='DOS' || species.tier ==='(DOS)',
 	},
 	uber: {
 		name: "Uber",
@@ -215,6 +215,10 @@ export const Tags: { [id: IDEntry]: TagData } = {
 
 	// Doubles tiers
 	// -------------
+	dod: {
+		name: "DOD",
+		speciesFilter: species => species.doublesTier === 'DOD' || species.doublesTier === '(DOD)',
+	},
 	duber: {
 		name: "DUber",
 		speciesFilter: species => species.doublesTier === 'DUber' || species.doublesTier === '(DUber)',
