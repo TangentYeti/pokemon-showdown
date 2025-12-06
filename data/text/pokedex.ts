@@ -4865,4 +4865,40 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	gogoatalthon: {
 		name: "Gogoat-Althon",
 	},
+	shuppetalthon: {
+		name: "Shuppet-Althon",
+	},
+	banettealthon: {
+		name: "Banette-Althon",
+	},
+	marionectre: {
+		name: "Marionectre",
+	},
+	magbyalthon: {
+		name: "Magby-Althon",
+	},
+	magmaralthon: {
+		name: "Magmar-Althon",
+	},
+	magmortaralthon: {
+		name: "Magmortar-Althon",
+	},
+	elekidalthon: {
+		name: "Elekid-Althon",
+	},
+	electabuzzalthon: {
+		name: "Electabuzz-Althon",
+	},
+	electivirealthon: {
+		name: "Electivire-Althon",
+	},
+	combeealthon: {
+		name: "combeealthon",
+	},
+	vespiquenalthon: {
+		name: "Vespiquen-Althon",
+	},
+	glabeeator: {
+		name: "Glabeeator",
+	},
 };
