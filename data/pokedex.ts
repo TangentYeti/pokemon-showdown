@@ -24669,6 +24669,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Black",
 		prevo: "Banette-Althon",
 		eggGroups: ["Amorphous"],
+		tags: ["Fakemon"],
 	},
 	magbyalthon: {
 		num: 240,
@@ -24804,5 +24805,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Black",
 		prevo: "Combee-Althon",
 		eggGroups: ["Amorphous"],
+		tags: ["Fakemon"],
 	},
 };
