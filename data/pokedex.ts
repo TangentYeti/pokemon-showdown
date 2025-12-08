@@ -25116,7 +25116,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Shiftry-Althon",
 		forme: "Althon",
 		types: ["Grass", "Flying"],
-		baseStats: { hp: 90, atk: 100, def: 60, spa: 90, spd: 60, spe: 80 },
+		baseStats: { hp: 58, atk: 76, def: 53, spa: 121, spd: 41, spe: 131 },
 		abilities: { 0: "Turbine", 1: "Wind Power"},
 		heightm: 1.3,
 		weightkg: 59.6,
