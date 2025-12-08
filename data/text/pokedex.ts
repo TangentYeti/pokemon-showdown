@@ -4893,12 +4893,81 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 		name: "Electivire-Althon",
 	},
 	combeealthon: {
-		name: "combeealthon",
+		name: "Combee-Althon",
 	},
 	vespiquenalthon: {
 		name: "Vespiquen-Althon",
 	},
 	glabeeator: {
 		name: "Glabeeator",
+	},
+	sableyealthon: {
+		name: "Sableye-Althon",
+	},
+	sorcereye: {
+		name: "Sorcereye",
+	},
+	onixalthon: {
+		name: "Onix-Althon",
+	},
+	steelixalthon: {
+		name: "Steelix-Althon",
+	},
+	panchamalthon: {
+		name: "Pancham-Althon",
+	},
+	pangoroalthon: {
+		name: "Pangoro-Althon",
+	},
+	spindaalthon: {
+		name: "Spinda-Althon",
+	},
+	spindojo: {
+		name: "Spindojo",
+	},
+	mareepalthon: {
+		name: "Mareep-Althon",
+	},
+	flaaffyalthon: {
+		name: "Flaaffy-Althon",
+	},
+	ampharosalthon: {
+		name: "Ampharos-Althon",
+	},
+	purrloinalthon: {
+		name: "Purrloin-Althon",
+	},
+	liepardalthon: {
+		name: "Liepard-Althon",
+	},
+	spiritombalthon: {
+		name: "Spiritomb-Althon",
+	},
+	koffingalthon: {
+		name: "Koffing-Althon",
+	},
+	weezingalthon: {
+		name: "Weezing-Althon",
+	},
+	hexxing: {
+		name: "Hexxing",
+	},
+	seedotalthon: {
+		name: "Seedot-Althon",
+	},
+	nuzleafalthon: {
+		name: "Nuzleaf-Althon",
+	},
+	shiftryalthon: {
+		name: "Shiftry-Althon",
+	},
+	venipedealthon: {
+		name: "Venipede-Althon",
+	},
+	whirlipedealthon: {
+		name: "Whirlipede-Althon",
+	},
+	scolipedealthon: {
+		name: "Scolipede-Althon",
 	},
 };
