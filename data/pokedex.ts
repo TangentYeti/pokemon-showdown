@@ -25418,9 +25418,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Field"],
 		tags: ["Fakemon"],
 	},
-	quilava: {
+	quilavaalthon: {
 		num: 156,
-		name: "Quilava",
+		name: "Quilava-Althon",
 		forme: "Althon",
 		types: ["Fire", "Water"],
 		genderRatio: { M: 0.875, F: 0.125 },
