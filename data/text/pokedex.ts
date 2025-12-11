@@ -4970,4 +4970,88 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	scolipedealthon: {
 		name: "Scolipede-Althon",
 	},
+	oddishalthon: {
+		name: "Oddish-Althon",
+	},
+	gloomalthon: {
+		name: "Gloom-Althon",
+	},
+	vileplumealthon: {
+		name: "Vileplume-Althon",
+	},
+	bellossomalthon: {
+		name: "Bellossom-Althon",
+	},
+	silicobraalthon: {
+		name: "Silicobra-Althon",
+	},
+	sandacondaalthon: {
+		name: "Sandaconda-Althon",
+	},
+	zubatalthon: {
+		name: "Zubat-Althon",
+	},
+	golbatalthon: {
+		name: "Golbat-Althon",
+	},
+	crobatalthon: {
+		name: "Crobat-Althon",
+	},
+	chikoritaalthon: {
+		name: "Chikorita-Althon",
+	},
+	bayleefalthon: {
+		name: "Bayleef-Althon",
+	},
+	meganiumalthon: {
+		name: "Meganium-Althon",
+	},
+	cyndaquilalthon: {
+		name: "Cyndaquil-Althon",
+	},
+	quilavaalthon: {
+		name: "Quilava-Althon",
+	},
+	typhlosionalthon: {
+		name: "Typhlosion-Althon",
+	},
+	totodilealthon: {
+		name: "Golbat-Althon",
+	},
+	croconawalthon: {
+		name: "Croconaw-Althon",
+	},
+	feraligatralthon: {
+		name: "Feraligatr-Althon",
+	},
+	hoppipalthon: {
+		name: "Hoppip-Althon",
+	},
+	skiploomalthon: {
+		name: "Skiploom-Althon",
+	},
+	jumpluffalthon: {
+		name: "Jumpluff-Althon",
+	},
+	amaurtic: {
+		name: "Amaurtic",
+	},
+	aurorbyss: {
+		name: "Aurorbyss",
+	},
+	tyrunch: {
+		name: "Tyrunch",
+	},
+	tyranpact: {
+		name: "Tyranpact",
+	},
+	axewalthon: {
+		name: "Axew-Althon",
+	},
+	fraxurealthon: {
+		name: "Fraxure-Althon",
+	},
+	haxorusalthon: {
+		name: "Haxorus-Althon",
+	},
 };
