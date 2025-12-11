@@ -5054,4 +5054,19 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	haxorusalthon: {
 		name: "Haxorus-Althon",
 	},
+	anuguard: {
+		name: "Anuguard",
+	},
+	malfalpha: {
+		name: "Malfalpha",
+	},
+	calanity: {
+		name: "Calanity",
+	},
+	camidealth: {
+		name: "Camidealth",
+	},
+	babanova: {
+		name: "Babanova",
+	},
 };
