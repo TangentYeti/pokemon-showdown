@@ -25688,7 +25688,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	camidealth: {
 		num: 1382,
 		name: "Camidealth",
-		types: ["Water"],
+		types: ["Ice", "Ghost"],
 		gender: "N",
 		baseStats: { hp: 107, atk: 103, def: 53, spa: 79, spd: 61, spe: 167 },
 		abilities: { 0: "Beast Boost" },
