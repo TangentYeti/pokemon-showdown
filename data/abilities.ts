@@ -7099,6 +7099,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				move.secondaries = [];
 			}
 			move.secondaries.push({
+				chance: 50,
 				onHit(target, source) {
 					const result = this.random(5);
 					if (result === 0 || result === 1) {
