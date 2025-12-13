@@ -5069,4 +5069,13 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	babanova: {
 		name: "Babanova",
 	},
+	sulfire: {
+		name: "Sulfire",
+	},
+	leomura: {
+		name: "Leomura",
+	},
+	mantiphur: {
+		name: "Mantiphur",
+	},
 };

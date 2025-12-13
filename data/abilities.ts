@@ -5637,7 +5637,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	//Divine Olympus Exclusives
 	acidbreath: {
-		// upokecenter says this is implemented as an added secondary effect
 		onModifyMove(move) {
 			if (!move?.flags['bite'] || move.target === 'self') return;
 			if (!move.secondaries) {
@@ -7087,6 +7086,33 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			if (move.type === 'Ice' && type === 'Water' && this.activePokemon === this.effectState.target) return 1;
 		},
 		name: "Nitrogenize",
+		rating: 4,
+		num: 365,
+	},
+	triplethreat: {
+		onStart(pokemon) { 
+			this.add('-start', pokemon, 'typeadd', 'Dragon');
+		},
+		onModifyMove(move) {
+			if (!move?.category === 'Special') return;
+			if (!move.secondaries) {
+				move.secondaries = [];
+			}
+			move.secondaries.push({
+				onHit(target, source) {
+					const result = this.random(5);
+					if (result === 0 || result === 1) {
+						target.trySetStatus('brn', source);
+					} else if (result === 2 || result === 3) {
+						target.trySetStatus('par', source);
+					} else {
+						target.trySetStatus('frz', source);
+					}
+				},
+				ability: this.dex.abilities.get('triplethreat'),
+			});
+		},
+		name: "Triple Threat",
 		rating: 4,
 		num: 365,
 	},

@@ -2720,4 +2720,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "This Pokemon's Ice type attacks are super effective against Water Types",
 		shortDesc: "Ice Super effective against Water",
 	},
+	triplethreat: {
+		name: "Triple Threat",
+		desc: "This Pokemon is also a dragon type. Its special attacks have a 50% chacne to apply a status condition",
+		shortDesc: "Adds Dragon Type. 50% brn/para/frz",
+	},
 };
