@@ -25062,6 +25062,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Purple",
 		evos: ["Liepard-Althon"],
 		eggGroups: ["Field"],
+		tags: ["Fakemon"],
 	},
 	liepardalthon: {
 		num: 510,
@@ -25076,6 +25077,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Purrloin-Althon",
 		evoLevel: 20,
 		eggGroups: ["Field"],
+		tags: ["Fakemon"],
 	},
 	spiritombalthon: {
 		num: 442,
@@ -25088,6 +25090,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 108,
 		color: "Purple",
 		eggGroups: ["Amorphous"],
+		tags: ["Fakemon"],
 	},
 	koffingalthon: {
 		num: 109,
@@ -25100,6 +25103,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Purple",
 		evos: ["Weezing-Althon"],
 		eggGroups: ["Amorphous"],
+		tags: ["Fakemon"],
 	},
 	weezingalthon: {
 		num: 110,
@@ -25113,6 +25117,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Koffing-Althon",
 		evoLevel: 35,
 		eggGroups: ["Amorphous"],
+		tags: ["Fakemon"],
 	},
 	hexxing: {
 		num: 1374,
