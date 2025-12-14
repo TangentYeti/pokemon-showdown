@@ -25621,6 +25621,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Green",
 		evos: ["Fraxure"],
 		eggGroups: ["Monster", "Dragon"],
+		tags: ["Fakemon"],
 	},
 	fraxurealthon: {
 		num: 611,
@@ -25636,6 +25637,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 38,
 		evos: ["Haxorus"],
 		eggGroups: ["Monster", "Dragon"],
+		tags: ["Fakemon"],
 	},
 	haxorusalthon: {
 		num: 612,
@@ -25650,6 +25652,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Fraxure",
 		evoLevel: 48,
 		eggGroups: ["Monster", "Dragon"],
+		tags: ["Fakemon"],
 	},
 	anuguard: {
 		num: 1379,
