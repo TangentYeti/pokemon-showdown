@@ -5078,4 +5078,34 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	mantiphur: {
 		name: "Mantiphur",
 	},
+	lilljar: {
+		name: "Lilljar",
+	},
+	mischra: {
+		name: "Mischra",
+	},
+	guardora: {
+		name: "Guardora",
+	},
+	obolittle: {
+		name: "Obolittle",
+	},
+	stygian: {
+		name: "Stygian",
+	},
+	charonix: {
+		name: "Charonix",
+	},
+	pebblet: {
+		name: "Pebblet",
+	},
+	pillarus: {
+		name: "Pillarus",
+	},
+	claydon: {
+		name: "Claydon",
+	},
+	magolam: {
+		name: "Magolam",
+	},
 };

@@ -25804,7 +25804,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		baseStats: { hp: 85, atk: 65, def: 125, spa: 110, spd: 70, spe: 84 },
 		abilities: { 0: "Sturdy", 1: "Magic Seal"},
 		heightm: 2.7,
-		weightkg: 225,
+		weightkg: 65,
 		color: "Blue",
 		prevo: "Guardora",
 		eggGroups: ["Monster"],
