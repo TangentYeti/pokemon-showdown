@@ -25282,7 +25282,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	silicobraalthon: {
 		num: 843,
-		name: "Silicobra-Almagbython",
+		name: "Silicobra-Althon",
 		forme: "Althon",
 		types: ["Flying", "Ground"],
 		baseStats: { hp: 64, atk: 25, def: 53, spa: 81, spd: 69, spe: 48 },
