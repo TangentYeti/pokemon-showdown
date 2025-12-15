@@ -6903,14 +6903,12 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				if (pokemon.hasType('Normal')) return false;
 				if (!pokemon.addType('Normal')) return false;
 				this.add('-start', pokemon, 'typeadd', 'Normal');
+			} else {
+				pokemon.setTypes('Normal', 'Bug');
 			}
 		},
 		onResidual(pokemon){
-			if (['strongwinds', 'sunnyday', 'desolateland', 'raindance', 'primordialsea', 'sandstorm', 'snowscape', 'deepfog', 'thunderstorm', 'overcast'].includes(pokemon.effectiveWeather())) {
-				return;
-			} else {
-				pokemon.setType('Bug', 'Normal');
-			}
+			this.singleEvent('WeatherChange', this.effect, this.effectState, pokemon);
 		},
 		name: "Survivalist",
 		rating: 4,
