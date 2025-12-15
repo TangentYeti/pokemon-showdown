@@ -110702,6 +110702,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			synthesis: ["9L1"],
 			roar: ["9L1"],
 			taunt: ["9L1"],
+			stubbornroots: ["9L1"],
 		}
 	},
 	emtap: {
