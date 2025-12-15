@@ -21488,6 +21488,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			case 'snowscape':
 				move.type = 'Ice';
 				break;
+			case 'strongwinds':
+				move.type = 'Flying';
+				break;
+			case 'thunderstorm':
+				move.type = 'Electric'
+				break;
 			}
 		},
 		onModifyMove(move, pokemon) {
@@ -21505,6 +21511,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				break;
 			case 'hail':
 			case 'snowscape':
+				move.basePower *= 2;
+				break;
+			case 'strongwinds':
+				move.basePower *= 2;
+				break;
+			case 'thunderstorm':
 				move.basePower *= 2;
 				break;
 			}

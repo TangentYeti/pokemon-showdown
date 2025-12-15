@@ -6903,6 +6903,11 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				if (pokemon.hasType('Normal')) return false;
 				if (!pokemon.addType('Normal')) return false;
 				this.add('-start', pokemon, 'typeadd', 'Normal');
+			}
+		},
+		onResidual(pokemon){
+			if (['strongwinds', 'sunnyday', 'desolateland', 'raindance', 'primordialsea', 'sandstorm', 'snowscape', 'deepfog', 'thunderstorm', 'overcast'].includes(pokemon.effectiveWeather())) {
+				return;
 			} else {
 				pokemon.setType('Bug', 'Normal');
 			}
