@@ -23378,7 +23378,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Fertiferus",
 		types: ["Grass"],
 		baseStats: {hp: 150, atk: 50, def: 130, spa: 50, spd: 130, spe: 130},
-		abilities: {0: "Divination"},
+		abilities: {0: "Chloromancer"},
 		heightm: 3.3,
 		weightkg: 145,
 		color: "White",
