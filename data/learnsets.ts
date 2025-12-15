@@ -112160,7 +112160,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			magicroom: ["9L1"],
 		}
 	},
-	zodelander: {
+	zodelandar: {
 		learnset: {
 			discharge:["9L1"],
 			fusionbolt:["9L1"],
