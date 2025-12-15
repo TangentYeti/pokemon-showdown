@@ -23437,7 +23437,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	mosjito: {
 		num: 1300,
-		name: "Brojito",
+		name: "Mosjito",
 		types: ["Fire","Bug"],
 		baseStats: {hp: 37, atk: 64, def: 28, spa: 72, spd: 26, spe: 92},
 		abilities: {0: "Chlorophyll", 1: "Flame Body"},
