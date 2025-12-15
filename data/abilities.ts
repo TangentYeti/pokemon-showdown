@@ -6350,6 +6350,16 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4,
 		num: 321,
 	},
+	magicseal: {
+		onStart(pokemon) {
+			if (pokemon.volatiles['imprison']) return;
+				pokemon.addVolatile('imprison', this.effectState.pokemon);
+		},
+		flags: {},
+		name: "Magic Seal",
+		rating: 2,
+		num: 319,
+	},
 	magmacore: {
 		onResidualOrder: 28,
 		onResidualSubOrder: 2,

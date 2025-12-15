@@ -2725,4 +2725,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "This Pokemon is also a dragon type. Its special attacks have a 50% chacne to apply a status condition",
 		shortDesc: "Adds Dragon Type. special attacks have 50% brn/para/frz",
 	},
+	magicseal: {
+		name: "Magic Seal",
+		desc: "Applies Imprison to self on entry",
+		shortDesc: "Applies Imprison to self on entry",
+	}
 };
