@@ -6904,7 +6904,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				if (!pokemon.addType('Normal')) return false;
 				this.add('-start', pokemon, 'typeadd', 'Normal');
 			} else {
-				this.setType('Bug', 'Normal');
+				pokemon.setType('Bug', 'Normal');
 			}
 		},
 		name: "Survivalist",
