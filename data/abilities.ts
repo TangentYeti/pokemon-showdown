@@ -6904,7 +6904,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				if (!pokemon.addType('Normal')) return false;
 				this.add('-start', pokemon, 'typeadd', 'Normal');
 			} else {
-				pokemon.setTypes('Normal', 'Bug');
+				pokemon.setType('Normal', 'Bug');
 			}
 		},
 		onResidual(pokemon){
