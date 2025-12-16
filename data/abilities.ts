@@ -6837,92 +6837,92 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	survivalist: {
 		onStart(pokemon) {
 			if (['strongwinds'].includes(pokemon.effectiveWeather())) {
-				const type = ['Bug', 'Flying'];
-				if (!pokemon.setType(type)) return;
-				this.add('-start', pokemon, 'typechange', types.join('/'), type, '[from] ability: Survivalist');
+				const types = ['Bug', 'Flying'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Survivalist');
                 this.runEvent('ChangeType', pokemon);
 			} else if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
-				const type = ['Bug', 'Fire'];
-				if (!pokemon.setType(type)) return;
-				this.add('-start', pokemon, 'typechange', types.join('/'), type, '[from] ability: Survivalist');
+				const types = ['Bug', 'Fire'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Survivalist');
                 this.runEvent('ChangeType', pokemon);
 			} else if (['raindance', 'primordialsea'].includes(pokemon.effectiveWeather())) {
-				const type = ['Bug', 'Water'];
-				if (!pokemon.setType(type)) return;
-				this.add('-start', pokemon, 'typechange', types.join('/'), type, '[from] ability: Survivalist');
+				const types = ['Bug', 'Water'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Survivalist');
                 this.runEvent('ChangeType', pokemon);
 			} else if (['sandstorm'].includes(pokemon.effectiveWeather())) {
-				const type = ['Bug', 'Rock'];
-				if (!pokemon.setType(type)) return;
-				this.add('-start', pokemon, 'typechange', types.join('/'), type, '[from] ability: Survivalist');
+				const types = ['Bug', 'Rock'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Survivalist');
                 this.runEvent('ChangeType', pokemon);
 			} else if (['snowscape'].includes(pokemon.effectiveWeather())) {
-				const type = ['Bug', 'Ice'];
-				if (!pokemon.setType(type)) return;
-				this.add('-start', pokemon, 'typechange', types.join('/'), type, '[from] ability: Survivalist');
+				const types = ['Bug', 'Ice'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Survivalist');
                 this.runEvent('ChangeType', pokemon);
 			} else if (['deepfog'].includes(pokemon.effectiveWeather())) {
-				const type = ['Bug', 'Ghost'];
-				if (!pokemon.setType(type)) return;
-				this.add('-start', pokemon, 'typechange', types.join('/'), type, '[from] ability: Survivalist');
+				const types = ['Bug', 'Ghost'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Survivalist');
                 this.runEvent('ChangeType', pokemon);
 			} else if (['thunderstorm'].includes(pokemon.effectiveWeather())) {
-				const type = ['Bug', 'Electric'];
-				if (!pokemon.setType(type)) return;
-				this.add('-start', pokemon, 'typechange', types.join('/'), type, '[from] ability: Survivalist');
+				const types = ['Bug', 'Electric'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Survivalist');
                 this.runEvent('ChangeType', pokemon);
 			}else if (['overcast'].includes(pokemon.effectiveWeather())) {
-				const type = ['Bug', 'Normal'];
-				if (!pokemon.setType(type)) return;
-				this.add('-start', pokemon, 'typechange', types.join('/'), type, '[from] ability: Survivalist');
+				const types = ['Bug', 'Normal'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Survivalist');
                 this.runEvent('ChangeType', pokemon);
 			}
 		},
 		onWeatherChange(pokemon) {
 			if (['strongwinds'].includes(pokemon.effectiveWeather())) {
-				const type = ['Bug', 'Flying'];
-				if (!pokemon.setType(type)) return;
-				this.add('-start', pokemon, 'typechange', types.join('/'), type, '[from] ability: Survivalist');
+				const types = ['Bug', 'Flying'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Survivalist');
                 this.runEvent('ChangeType', pokemon);
 			} else if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
-				const type = ['Bug', 'Fire'];
-				if (!pokemon.setType(type)) return;
-				this.add('-start', pokemon, 'typechange', types.join('/'), type, '[from] ability: Survivalist');
+				const types = ['Bug', 'Fire'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Survivalist');
                 this.runEvent('ChangeType', pokemon);
 			} else if (['raindance', 'primordialsea'].includes(pokemon.effectiveWeather())) {
-				const type = ['Bug', 'Water'];
-				if (!pokemon.setType(type)) return;
-				this.add('-start', pokemon, 'typechange', types.join('/'), type, '[from] ability: Survivalist');
+				const types = ['Bug', 'Water'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Survivalist');
                 this.runEvent('ChangeType', pokemon);
 			} else if (['sandstorm'].includes(pokemon.effectiveWeather())) {
-				const type = ['Bug', 'Rock'];
-				if (!pokemon.setType(type)) return;
-				this.add('-start', pokemon, 'typechange', types.join('/'), type, '[from] ability: Survivalist');
+				const types = ['Bug', 'Rock'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Survivalist');
                 this.runEvent('ChangeType', pokemon);
 			} else if (['snowscape'].includes(pokemon.effectiveWeather())) {
-				const type = ['Bug', 'Ice'];
-				if (!pokemon.setType(type)) return;
-				this.add('-start', pokemon, 'typechange', types.join('/'), type, '[from] ability: Survivalist');
+				const types = ['Bug', 'Ice'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Survivalist');
                 this.runEvent('ChangeType', pokemon);
 			} else if (['deepfog'].includes(pokemon.effectiveWeather())) {
-				const type = ['Bug', 'Ghost'];
-				if (!pokemon.setType(type)) return;
-				this.add('-start', pokemon, 'typechange', types.join('/'), type, '[from] ability: Survivalist');
+				const types = ['Bug', 'Ghost'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Survivalist');
                 this.runEvent('ChangeType', pokemon);
 			} else if (['thunderstorm'].includes(pokemon.effectiveWeather())) {
-				const type = ['Bug', 'Electric'];
-				if (!pokemon.setType(type)) return;
-				this.add('-start', pokemon, 'typechange', types.join('/'), type, '[from] ability: Survivalist');
+				const types = ['Bug', 'Electric'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Survivalist');
                 this.runEvent('ChangeType', pokemon);
 			}else if (['overcast'].includes(pokemon.effectiveWeather())) {
-				const type = ['Bug', 'Normal'];
-				if (!pokemon.setType(type)) return;
-				this.add('-start', pokemon, 'typechange', types.join('/'), type, '[from] ability: Survivalist');
+				const types = ['Bug', 'Normal'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Survivalist');
                 this.runEvent('ChangeType', pokemon);
 			} else {
-				const type = ['Bug', 'Normal'];
-				if (!pokemon.setType(type)) return;
-				this.add('-start', pokemon, 'typechange', types.join('/'), type, '[from] ability: Survivalist');
+				const types = ['Bug', 'Normal'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Survivalist');
                 this.runEvent('ChangeType', pokemon);
 			}
 		},
