@@ -25355,7 +25355,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		forme: "Althon",
 		types: ["Poison", "Rock"],
 		baseStats: { hp: 125, atk: 110, def: 80, spa: 70, spd: 80, spe: 70 },
-		abilities: { 0: "Earth Eater", H: "Acid Breath" },
+		abilities: { 0: "Earth Eater", 1: "Acid Breath" },
 		heightm: 1.8,
 		weightkg: 75,
 		color: "Purple",
