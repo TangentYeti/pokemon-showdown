@@ -39,6 +39,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod'],
 	},
 	{
+		name: "[Gen 9] Divine Olympus Doubles",
+		mod: 'gen9',
+		gameType: 'doubles',
+		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod'],
+	},
+	{
 		section: "S/V Singles",
 	},
 	{
