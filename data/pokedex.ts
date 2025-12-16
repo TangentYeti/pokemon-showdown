@@ -24944,7 +24944,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Steelix-Althon",
 		forme: "Althon",
 		types: ["Steel", "Dragon"],
-		baseStats: { hp: 75, atk: 85, def: 200, spa: 55, spd: 65, spe: 30 },
+		baseStats: { hp: 89, atk: 30, def: 69, spa: 96, spd: 111, spe: 115 },
 		abilities: { 0: "Steely Spirit", 1: "Marvel Scale"},
 		heightm: 9.2,
 		weightkg: 400,
