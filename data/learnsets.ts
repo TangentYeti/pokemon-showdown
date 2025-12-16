@@ -112555,7 +112555,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	petarcass: {
 		learnset: {
 			bittermalice: ["9L1"],
-			nightshade: ["9L1"],
 			poltergeist: ["9L1"],
 			shadowball: ["9L1"],
 			shadowclaw: ["9L1"],
