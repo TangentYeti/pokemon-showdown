@@ -23552,7 +23552,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: 1309,
 		name: "Genorcade",
 		types: ["Dark", "Water"],
-		baseStats: {hp: 118, atk: 124, def: 97, spa: 36, spd: 73, spe: 102},
+		baseStats: {hp: 118, atk: 124, def: 97, spa: 46, spd: 78, spe: 87},
 		abilities: {0: "Thick Fat", 1: "Ruthless"},
 		heightm: 4.2,
 		weightkg: 111,
