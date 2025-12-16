@@ -13145,7 +13145,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
-		isNonstandard: "Past",
 		name: "Nightmare",
 		pp: 15,
 		priority: 0,
