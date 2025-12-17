@@ -117926,7 +117926,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			haze: ["9L1"],
 			barrier: ["9L1"],
 			nastyplot: ["9L1"],
-			shadowsneak: ["9L1"],
 			starburst: ["9L1"],
 			recover: ["9L1"],
 			curse: ["9L1"],
