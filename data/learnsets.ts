@@ -117947,4 +117947,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			spikes: ["9L1"],
 		}
 	},
+	wefwect: {
+		learnset: {
+			tackle: ["9L1"],
+		}
+	},
 };
