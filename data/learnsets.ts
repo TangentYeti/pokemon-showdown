@@ -112185,7 +112185,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			knockoff:["9L1"],
 			preemptivestrike:["9L1"],
 			suckerpunch:["9L1"],
-			throatclop:["9L1"],
+			throatchop:["9L1"],
 			assurance:["9L1"],
 			beatup:["9L1"],
 			jawlock:["9L1"],
