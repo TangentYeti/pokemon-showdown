@@ -2444,8 +2444,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
     },
 	gorgongaze: {
         name: "Gorgon Gaze",
-        desc: "This Pokemon sometimes paralyses opponents when they make contact",
-        shortDesc: "Chance for Opponent to be para'd upon contact"
+        desc: "Immune to Fighting on Switch In. Resists First hit at full HP (Tera Shell)",
+        shortDesc: "Immune to Fighting on Entry. Full HP: Resists attack."
     },
 	hellborn: {
         name: "Hellborn",

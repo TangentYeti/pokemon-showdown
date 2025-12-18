@@ -25839,7 +25839,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 2.7,
 		weightkg: 65,
 		color: "Blue",
-		prevo: "Guardora",
+		prevo: "Mischra",
 		eggGroups: ["Monster"],
 		tags: ["Fakemon"],
 	},
