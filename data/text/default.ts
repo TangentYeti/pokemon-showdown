@@ -293,7 +293,7 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 		weatherName: "Strong Winds",
 		start: "  A Strong Wind picks up!",
 		end: "  The Strong wind peetered out.",
-		upkeep: "  (The Winds coninue.)",
+		upkeep: "  (The Winds continue.)",
 	},
 	raindance: {
 		weatherName: "Rain",
