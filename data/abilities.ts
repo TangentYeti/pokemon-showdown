@@ -6183,13 +6183,21 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 310,
 	},
 	gorgongaze: {
-		onDamagingHit(damage, target, source, move) {
-			if (this.checkMoveMakesContact(move, source, target)) {
-				if (this.randomChance(3, 10)) {
-					source.trySetStatus('par', target);
-				}
+		onTryHit(target, source, move) {
+			if (move.type === 'Fighting' && !target.activeTurns) {
+				this.add('-immune', target, '[from] ability: Gorgon Gaze');
+				return null;
 			}
 		},
+			// effectiveness implemented in sim/pokemon.ts:Pokemon#runEffectiveness
+		// needs two checks to reset between regular moves and future attacks
+		onAnyBeforeMove() {
+			delete this.effectState.resisted;
+		},
+		onAnyAfterMove() {
+			delete this.effectState.resisted;
+		},
+		flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, breakable: 1 },
 		name: "Gorgon Gaze",
 		rating: 2,
 		num: 311,

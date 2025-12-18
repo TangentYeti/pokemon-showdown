@@ -2178,6 +2178,18 @@ export class Pokemon {
 			this.abilityState.resisted = true;
 			return -1;
 		}
+		if (this.species.name === 'Gordusa' && this.hasAbility('Gorgon Gaze') &&
+			!this.battle.suppressingAbility(this)) {
+			if (this.abilityState.resisted) return -1; // all hits of multi-hit move should be not very effective
+			if (move.category === 'Status' || move.id === 'struggle' || !this.runImmunity(move) ||
+				totalTypeMod < 0 || this.hp < this.maxhp) {
+				return totalTypeMod;
+			}
+
+			this.battle.add('-activate', this, 'ability: Gorgon Gaze');
+			this.abilityState.resisted = true;
+			return -1;
+		}
 		return totalTypeMod;
 	}
 
