@@ -23874,7 +23874,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: 1335,
 		name: "Demogrievus",
 		types: ["Poison", "Dark"],
-		baseStats: {hp: 114, atk: 43, def: 102, spa: 83, spd: 102, spe: 96},
+		baseStats: {hp: 116, atk: 35, def: 104, spa: 85, spd: 104, spe: 96},
 		abilities: {0: "Furious", 1: "Hellborn"},
 		heightm: 4.3,
 		weightkg: 75,
