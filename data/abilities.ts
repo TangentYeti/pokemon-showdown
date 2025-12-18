@@ -6129,13 +6129,25 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	galeglider: {
 		onStart(pokemon) {
 			this.field.setWeather('strongwinds');
+			if (['strongwinds'].includes(pokemon.effectiveWeather())) {
+				const types = ['Dragon', 'Fire', 'Flying'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Galeglider');
+                this.runEvent('ChangeType', pokemon);
+			} 
 		},
 		onWeatherChange(pokemon) {
 			if (['strongwinds'].includes(pokemon.effectiveWeather())) {
-				if (pokemon.hasType('Flying')) return false;
-				if (!pokemon.addType('Flying')) return false;
-				this.add('-start', pokemon, 'typeadd', 'Flying');
-			} 
+				const types = ['Dragon', 'Fire', 'Flying'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Galeglider');
+                this.runEvent('ChangeType', pokemon);
+			} else {
+				const types = ['Dragon', 'Fire'];
+				if (!pokemon.setType(types)) return;
+				this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Galeglider');
+                this.runEvent('ChangeType', pokemon);
+			}
 		},
 		name: "Galeglider",
 		rating: 4,
@@ -7165,7 +7177,10 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	triplethreat: {
 		onStart(pokemon) { 
-			this.add('-start', pokemon, 'typeadd', 'Dragon');
+			const types = ['Fire', 'Poison', 'Dragon'];
+			if (!pokemon.setType(types)) return;
+			this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Triple Threat');
+            this.runEvent('ChangeType', pokemon);
 		},
 		onModifyMove(move) {
 			if (!move?.category === 'Special') return;

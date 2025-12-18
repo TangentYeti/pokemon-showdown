@@ -25726,15 +25726,15 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		tags: ["Ultra Beast", "Fakemon"],
 		eggGroups: ["Undiscovered"],
 	},
-	camidealth: {
+	phantomine: {
 		num: 1382,
-		name: "Camidealth",
+		name: "Phantomine",
 		types: ["Ice", "Ghost"],
 		gender: "N",
 		baseStats: { hp: 107, atk: 103, def: 53, spa: 79, spd: 61, spe: 167 },
 		abilities: { 0: "Beast Boost" },
 		heightm: 2.4,
-		weightkg: 333.6,
+		weightkg: 3.6,
 		color: "Red",
 		tags: ["Ultra Beast", "Fakemon"],
 		eggGroups: ["Undiscovered"],

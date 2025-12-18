@@ -2399,8 +2399,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	},
 	ethereal: {
         name: "Ethereal",
-        desc: "Secondary typing changes to match the type of attack being used.",
-        shortDesc: "Secondary type changes to match attacking type."
+        desc: "Typing changes to gain the type of attack being used.",
+        shortDesc: "Type changes to gain attacking type."
     },
 	executioner: {
         name: "Executioner",

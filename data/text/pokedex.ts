@@ -5087,8 +5087,8 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	calanity: {
 		name: "Calanity",
 	},
-	camidealth: {
-		name: "Camidealth",
+	phantomine: {
+		name: "Phantomine",
 	},
 	babanova: {
 		name: "Babanova",

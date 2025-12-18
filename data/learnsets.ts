@@ -120065,7 +120065,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			monsoon: ["9L1"],
 		}
 	},
-	camidealth: {
+	phantomine: {
 		learnset: {
 			bittermalice: ["9L1"],
 			infernalparade: ["9L1"],
