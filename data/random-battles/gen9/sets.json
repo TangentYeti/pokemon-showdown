@@ -7759,5 +7759,16 @@
                 "teraTypes": ["Dark"]
             }
         ]
+    },
+    "plagasus": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Defog", "Gamma Burst", "Cyclone", "Roost", "Hurricane", "Moonblast"],
+                "abilities": ["Spiritual"],
+                "teraTypes": ["Dark"]
+            }
+        ]
     }
 }
