@@ -7708,8 +7708,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	corruption: {
 		name: "Corruption",
-		desc: "Has a 20% chance to badly poison",
-		shortDesc: "20% chance Badly Poison",
+		desc: "Has a 20% chance to badly poison. Super effective against Fairy",
+		shortDesc: "20% chance Badly Poison. Super effective on Fairy",
 	},
 	cretacialmaul: {
 		name: "Cretacial Maul",

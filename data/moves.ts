@@ -23364,17 +23364,17 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		num: 982,
 		accuracy: 100,
 		basePower: 80,
-		category: "Physical",
+		category: "Special",
 		name: "Wrath of Medusa",
 		pp: 15,
 		priority: 0,
-		flags: {bite: 1, contact: 1, protect: 1, mirror: 1},
+		flags: {protect: 1, mirror: 1},
 		secondaries: [
 			{
-				chance: 10,
+				chance: 15,
 				status: 'frz',
 			}, {
-				chance: 15,
+				chance: 25,
 				status: 'par',
 			},
 		],
