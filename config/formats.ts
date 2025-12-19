@@ -31,11 +31,28 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod'],
 	},
 	{
+		name: "[Gen 9] Divine Olympus RandBats",
+		desc: `Randomized teams of Pok&eacute;mon with sets that are generated to be competitively (un)viable.`,
+		mod: 'gen9',
+		team: 'random',
+		bestOfDefault: true,
+		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod'],
+	},
+	{
 		name: "[Gen 9] Divine Olympus FFA",
 		mod: 'gen9',
 		gameType: 'freeforall',
 		rated: false,
 		tournamentShow: false,
+		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod'],
+	},
+	{
+		name: "[Gen 9] Divine Olympus FFA RandBats",
+		mod: 'gen9',
+		team: 'randomFFA',
+		gameType: 'freeforall',
+		tournamentShow: false,
+		rated: false,
 		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod'],
 	},
 	{
