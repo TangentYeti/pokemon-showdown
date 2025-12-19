@@ -9,5 +9,60 @@
                 "teraTypes": ["Dark"]
             }
         ]
+    }, 
+    "gordusa": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["Nasty Plot", "Power Gem", "Wrath Of Medusa", "Accelrock", "Knock Off", "Freezing Glare"],
+                "abilities": ["Gorgon Gaze"],
+                "teraTypes": ["Dark"]
+            }
+        ]
+    }, 
+    "matretaur": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Milk Drink", "Substitute", "Drain Punch", "Bulk Up", "Shift Gear", "Heavy Slam"],
+                "abilities": ["Blacksmith"],
+                "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "hagufate": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["Witch Bolt", "Spirit Bomb", "Thunderbolt", "Psychic", "Calm Mind", "Sticky Web"],
+                "abilities": ["Bad Omen"],
+                "teraTypes": ["Dark"]
+            }
+        ]
+    }, 
+    "wyrmekes": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["First Impression", "U-Turn", "Dragon Claw", "Knock Off", "Scale Shot", "Gunk Shot"],
+                "abilities": ["Merciless", "Hyper Cutter"],
+                "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "tsunaren": {
+        "level": 90,
+        "sets": [
+            {
+                "role": "Fast Support",
+                "movepool": ["Scald", "Moonblast", "Ice Beam", "Encore", "Flip Turn"],
+                "abilities": ["Serene Grace"],
+                "teraTypes": ["Dark"]
+            }
+        ]
     }
 }
