@@ -23690,7 +23690,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Araquavolt",
 		types: ["Dragon", "Bug"],
 		baseStats: {hp: 65, atk: 70, def: 95, spa: 145, spd: 135, spe: 30},
-		abilities: {0: "Water Bubble", 1: "Levitate"},
+		abilities: {0: "Water Absorb", 1: "Levitate"},
 		heightm: 1.3,
 		weightkg: 14,
 		color: "White",

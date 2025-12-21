@@ -64,5 +64,296 @@
                 "teraTypes": ["Dark"]
             }
         ]
+    },
+    "drollepas": {
+	    "level": 85,
+	    "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["Earthquake", "Noxious Maw", "Bulk Up", "Crunch", "Dragon Tail", "Toxic"],
+                "abilities": ["Acid Breath"],
+                "teraTypes": ["Dark"]
+            }   
+        ]
+    },
+    "gryfantle": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "Fast Attacker",
+		        "movepool": ["Headlong Rush", "Skyquake", "Swords Dance", "Close Combat", "U-Turn", "Stone Edge"],
+		        "abilities": ["Sand Force"],
+		        "teraTypes": ["Dark"]
+            },
+            {
+		        "role": "Fast Support",
+		        "movepool": ["Earthquake", "Skyquake", "Defog", "Roost", "U-Turn", "Knock Off"],
+		        "abilities": ["Sand Force"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "stalantula": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "Fast Support",
+		        "movepool": ["Stealth Rock", "Sticky Web", "Spikes", "Accelerock", "Leech Life", "Basalt Barrage"],
+		        "abilities": ["Solid Rock, Infiltrator"],
+		        "teraTypes": ["Dark"]
+            },
+            {
+		        "role": "Setup Sweeper",
+		        "movepool": ["Shell Smash", "Knock Off", "High Horsepower", "Accelerock", "Leech Life", "Basalt Barrage"],
+		        "abilities": ["Solid Rock, Infiltrator"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
+    },   
+    "allopere": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "Fast Attacker",
+		        "movepool": ["Crunch", "Killerwatt", "Extreme Speed", "Psychic Fangs", "Close Combat", "Fire Fang"],
+		        "abilities": ["Strong Jaw"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "ganikinos": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "Wallbreaker",
+		        "movepool": ["Hammer Arm", "Liquidation", "Earthquake", "Knock Off", "Mighty Cleave", "Ice Hammer"],
+		        "abilities": ["War Cry, Stamina"],
+		        "teraTypes": ["Dark"]
+            },
+            {
+		        "role": "Bulky Setup",
+		        "movepool": ["Bulk Up", "Liquidation", "Circle Throw", "Knock Off", "Recover", "Earthquake"],
+		        "abilities": ["War Cry, Stamina"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "hahootination": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "AV Pivot",
+		        "movepool": ["Shadow Ball", "Hurricane", "Knock Off", "Heat Wave", "Cyclone", "Psychic Noise"],
+		        "abilities": ["Magic Bounce"],
+		        "teraTypes": ["Dark"]
+            },
+            {
+		        "role": "Bulky Support",
+		        "movepool": ["Hex", "Cyclone", "Knock Off", "Roost", "Glare", "Defog"],
+		        "abilities": ["Magic Bounce"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "kelampus": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "Bulky Support",
+		        "movepool": ["Scald", "Giga Drain", "Leech Seed", "Synthesis", "Flip Turn", "Taunt"],
+		        "abilities": ["Storm Drain"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "teuvenger": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "Fast Attacker",
+		        "movepool": ["Close Combat", "Headlong Rush", "Extreme Speed", "U-Turn", "Fake Out", "Switcheroo"],
+		        "abilities": ["Guts"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "tungfu": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "Fast Attacker",
+		        "movepool": ["Close Combat", "Ivy Cudgel", "Knock Off", "U-Turn", "Gunk Shot", "Thunder Punch"],
+		        "abilities": ["Iron Fist"],
+		        "teraTypes": ["Dark"]
+            },
+            {
+		        "role": "Setup Sweeper",
+		        "movepool": ["Close Combat", "Ivy Cudgel", "Sunny Day", "Fire Punch", "Swords Dance", "Stone Edge"],
+		        "abilities": ["Chlorophyll"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "sarcobral": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "Bulky Support",
+		        "movepool": ["Glare", "Teleport", "Dragon Tail", "Body Press", "Psychic Fangs", "Recover"],
+		        "abilities": ["Multiscale"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "cerekapro": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "Fast Attacker",
+		        "movepool": ["Noxious Maw", "Psychic Fangs", "Headlong Rush", "Liquidation", "Scorching Tail", "Knock Off"],
+		        "abilities": ["Multiscale, Acid Breath"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "martialeti": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "Setup Sweeper",
+		        "movepool": ["Belly Drum", "Mach Punch", "Ice Shard", "Close Combat", "Triple Axel", "Earthquake"],
+		        "abilities": ["Thick Fat"],
+		        "teraTypes": ["Dark"]
+            },
+            {
+		        "role": "Wallbreaker",
+		        "movepool": ["Close Combat", "Triple Axel", "Earthquake", "Darkest Lariat", "Rock Slide", "Play Rough"],
+		        "abilities": ["Thick Fat"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "depandrill": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "Wallbreaker",
+		        "movepool": ["Hyper Drill", "Knock Off", "Parting Shot", "Close Combat", "Switcheroo", "Play Rough"],
+		        "abilities": ["Unaware"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "vitalysis": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "Fast Attacker",
+		        "movepool": ["Expanding Force", "Thunderbolt", "Volt Switch", "Overheat", "Aura Sphere", "Shadow Ball"],
+		        "abilities": ["Psychic Surge"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "anaphyletric": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "Fast Attacker",
+		        "movepool": ["Poltergeist", "Volt Tackle", "Shadow Sneak", "Leech Life", "Killerwatt", "Spectral Hammer"],
+		        "abilities": ["Stunning Entrance, Intimidate"],
+		        "teraTypes": ["Dark"]
+            },
+            {
+		        "role": "Setup Sweeper",
+		        "movepool": ["Poltergeist", "Supercell Slam", "Shadow Sneak", "Shift Gear", "Spirit Break", "Leech Life"],
+		        "abilities": ["Stunning Entrance, Intimidate"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "purrforynx": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "Bulky Attacker",
+		        "movepool": ["Earth Power", "Moonblast", "Future Sight", "Doom Desire", "Aura Sphere", "Stealth Rock"],
+		        "abilities": ["Sand Stream, Competitive"],
+		        "teraTypes": ["Dark"]
+            },
+            {
+		        "role": "Bulky Setup",
+		        "movepool": ["Earth Power", "Moonblast", "Trick Room", "Calm Mind", "Meteor Beam", "Aura Sphere"],
+		        "abilities": ["Sand Stream, Competitive"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "flierarchy": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "Fast Attacker",
+		        "movepool": ["Hurricane", "Dark Pulse", "Boomburst", "Psychic Noise", "U-Turn", "Heat Wave"],
+		        "abilities": ["Shrill Voice"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "zenriest": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "Bulky Attacker",
+		        "movepool": ["Draco Meteor", "Psychic", "Flamethrower", "Ice Beam", "Calm Mind", "Dragon Pulse"],
+		        "abilities": ["Inner Peace"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "ukerial": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "Fast Attacker",
+		        "movepool": ["Ice Beam", "Psychic", "Moonblast", "Shadow Ball", "Nasty Plot", "Destiny Bond"],
+		        "abilities": ["Frosted Embrace"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "armorpion": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "Bulky Attacker",
+		        "movepool": ["Barb Barrage", "Iron Head", "Knock Off", "Shore Up", "Toxic Spikes", "Spikes"],
+		        "abilities": ["Corrosion"],
+		        "teraTypes": ["Dark"]
+            },
+            {
+		        "role": "Setup Sweeper",
+		        "movepool": ["Dire Claw", "Iron Head", "Knock Off", "Swords Dance", "Cross Chop ", "Lunge"],
+		        "abilities": ["Corrosion"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
+    },
+    "spirihit": {
+	    "level": 85,
+	    "sets": [
+	        {
+		        "role": "Setup Sweeper",
+		        "movepool": ["Bulk Up", "Mach Punch", "Shadow Sneak", "Drain Punch", "Poltergeist", "Darkest Lariat"],
+		        "abilities": ["Simple"],
+		        "teraTypes": ["Dark"]
+            },
+            {
+		        "role": "Wallbreaker",
+		        "movepool": ["Close Combat", "Poltergeist", "Mach Punch", "Ice Punch", "Fire Punch", "Knock Off"],
+		        "abilities": ["Iron Fist"],
+		        "teraTypes": ["Dark"]
+            }
+        ]
     }
 }

@@ -22500,7 +22500,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		basePower: 75,
 		category: "Special",
 		name: "Corruption",
-		pp: 25,
+		pp: 15,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		onEffectiveness(typeMod, target, type) {
