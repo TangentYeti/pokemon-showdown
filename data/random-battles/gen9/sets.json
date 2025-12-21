@@ -99,13 +99,13 @@
 	        {
 		        "role": "Fast Support",
 		        "movepool": ["Stealth Rock", "Sticky Web", "Spikes", "Accelerock", "Leech Life", "Basalt Barrage"],
-		        "abilities": ["Solid Rock, Infiltrator"],
+		        "abilities": ["Solid Rock", "Infiltrator"],
 		        "teraTypes": ["Dark"]
             },
             {
 		        "role": "Setup Sweeper",
 		        "movepool": ["Shell Smash", "Knock Off", "High Horsepower", "Accelerock", "Leech Life", "Basalt Barrage"],
-		        "abilities": ["Solid Rock, Infiltrator"],
+		        "abilities": ["Solid Rock", "Infiltrator"],
 		        "teraTypes": ["Dark"]
             }
         ]
@@ -127,13 +127,13 @@
 	        {
 		        "role": "Wallbreaker",
 		        "movepool": ["Hammer Arm", "Liquidation", "Earthquake", "Knock Off", "Mighty Cleave", "Ice Hammer"],
-		        "abilities": ["War Cry, Stamina"],
+		        "abilities": ["War Cry", "Stamina"],
 		        "teraTypes": ["Dark"]
             },
             {
 		        "role": "Bulky Setup",
 		        "movepool": ["Bulk Up", "Liquidation", "Circle Throw", "Knock Off", "Recover", "Earthquake"],
-		        "abilities": ["War Cry, Stamina"],
+		        "abilities": ["War Cry", "Stamina"],
 		        "teraTypes": ["Dark"]
             }
         ]
@@ -211,7 +211,7 @@
 	        {
 		        "role": "Fast Attacker",
 		        "movepool": ["Noxious Maw", "Psychic Fangs", "Headlong Rush", "Liquidation", "Scorching Tail", "Knock Off"],
-		        "abilities": ["Multiscale, Acid Breath"],
+		        "abilities": ["Multiscale", "Acid Breath"],
 		        "teraTypes": ["Dark"]
             }
         ]
@@ -261,13 +261,13 @@
 	        {
 		        "role": "Fast Attacker",
 		        "movepool": ["Poltergeist", "Volt Tackle", "Shadow Sneak", "Leech Life", "Killerwatt", "Spectral Hammer"],
-		        "abilities": ["Stunning Entrance, Intimidate"],
+		        "abilities": ["Stunning Entrance", "Intimidate"],
 		        "teraTypes": ["Dark"]
             },
             {
 		        "role": "Setup Sweeper",
 		        "movepool": ["Poltergeist", "Supercell Slam", "Shadow Sneak", "Shift Gear", "Spirit Break", "Leech Life"],
-		        "abilities": ["Stunning Entrance, Intimidate"],
+		        "abilities": ["Stunning Entrance", "Intimidate"],
 		        "teraTypes": ["Dark"]
             }
         ]
@@ -278,13 +278,13 @@
 	        {
 		        "role": "Bulky Attacker",
 		        "movepool": ["Earth Power", "Moonblast", "Future Sight", "Doom Desire", "Aura Sphere", "Stealth Rock"],
-		        "abilities": ["Sand Stream, Competitive"],
+		        "abilities": ["Sand Stream", "Competitive"],
 		        "teraTypes": ["Dark"]
             },
             {
 		        "role": "Bulky Setup",
 		        "movepool": ["Earth Power", "Moonblast", "Trick Room", "Calm Mind", "Meteor Beam", "Aura Sphere"],
-		        "abilities": ["Sand Stream, Competitive"],
+		        "abilities": ["Sand Stream", "Competitive"],
 		        "teraTypes": ["Dark"]
             }
         ]
