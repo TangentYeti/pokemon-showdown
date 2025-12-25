@@ -2325,13 +2325,13 @@
 			{
 				"role": "Bulky Setup",
 				"movepool": ["Meteor Beam", "Moonblast", "Calm Mind", "Earth Power", "Stealth Rock", "Diamond Storm"],
-				"abilities": ["Magic Seal, Sturdy"],
+				"abilities": ["Magic Seal", "Sturdy"],
 				"teraTypes": ["Dark"]
 			},
 			{
 				"role": "Wallbreaker",
 				"movepool": ["Power Gem", "Moonblast", "Earth Power", "Thunderbolt", "Fire Blast", "Dragon Pulse"],
-				"abilities": ["Magic Seal, Sturdy"],
+				"abilities": ["Magic Seal", "Sturdy"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -2342,13 +2342,13 @@
 			{
 				"role": "AV Pivot",
 				"movepool": ["Power Gem", "Psyshock", "Surf", "Earth Power", "Ice Beam", "Chi Pulse"],
-				"abilities": ["Solid Rock, Swift Swim"],
+				"abilities": ["Solid Rock", "Swift Swim"],
 				"teraTypes": ["Dark"]
 			},
 			{
 				"role": "Bulky Attacker",
 				"movepool": ["Meteor Beam", "Future Sight", "Chilly Reception", "Luster Purge", "Shadow Ball", "Destiny Bond"],
-				"abilities": ["Solid Rock, Swift Swim"],
+				"abilities": ["Solid Rock", "Swift Swim"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -2476,7 +2476,7 @@
 			{
 				"role": "Bulky Attacker",
 				"movepool": ["Earth Power", "Lava Plume", "Will-O-Wisp", "Morning Sun", "Thunderbolt", "Overheat"],
-				"abilities": ["Flame Body, Earth Eater"],
+				"abilities": ["Flame Body", "Earth Eater"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -2487,7 +2487,7 @@
 			{
 				"role": "Bulky Attacker",
 				"movepool": ["Bleakwind Storm", "Lava Plume", "Will-O-Wisp", "Morning Sun", "Thunderbolt", "Overheat"],
-				"abilities": ["Flame Body, Wind Rider"],
+				"abilities": ["Flame Body", "Wind Rider"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -2498,7 +2498,7 @@
 			{
 				"role": "Bulky Attacker",
 				"movepool": ["Boomburst", "Lava Plume", "Will-O-Wisp", "Morning Sun", "Thunderbolt", "Overheat"],
-				"abilities": ["Flame Body, Soundproof"],
+				"abilities": ["Flame Body", "Soundproof"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -2548,13 +2548,13 @@
 			{
 				"role": "Fast Attacker",
 				"movepool": ["Crunch", "Sucker Punch", "Superpower", "Play Rough", "Trailblaze", "Pursuit"],
-				"abilities": ["Battle Hardened, Scrappy"],
+				"abilities": ["Battle Hardened", "Scrappy"],
 				"teraTypes": ["Dark"]
 			},
 			{
 				"role": "AV Pivot",
 				"movepool": ["Crunch", "Sucker Punch", "Superpower", "Play Rough", "Wild Charge", "Pursuit"],
-				"abilities": ["Battle Hardened, Scrappy"],
+				"abilities": ["Battle Hardened", "Scrappy"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -2650,7 +2650,7 @@
 			{
 				"role": "Fast Attacker",
 				"movepool": ["Fire Blast", "Bleakwind Storm", "Focus Blast", "Scorching Sands", "Thunderbolt", "Explosion"],
-				"abilities": ["Steam Engine, Wind Rider"],
+				"abilities": ["Steam Engine", "Wind Rider"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -2740,7 +2740,7 @@
 			{
 				"role": "Bulky Setup",
 				"movepool": ["Ivy Cudgel", "Dragon Hammer", "Slack Off", "Bulk Up", "Taunt", "Drain Punch"],
-				"abilities": ["Inner Peace, Gluttony"],
+				"abilities": ["Inner Peace", "Gluttony"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -2785,7 +2785,7 @@
 			{
 				"role": "Fast Attacker",
 				"movepool": ["Close Combat", "Knock Off", "Sucker Punch", "U-Turn", "Poison Jab", "High Horsepower"],
-				"abilities": ["Tough Claws, Defiant"],
+				"abilities": ["Tough Claws", "Defiant"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -2874,13 +2874,13 @@
 			{
 				"role": "Bulky Support",
 				"movepool": ["Hurricane", "Scorching Sands", "Defog", "Slack Off", "Glare", "Dragon Tail"],
-				"abilities": ["Sand Spit, Vacuum"],
+				"abilities": ["Sand Spit", "Vacuum"],
 				"teraTypes": ["Dark"]
 			},
 			{
 				"role": "Wallbreaker",
 				"movepool": ["Hurricane", "Earth Power", "Vacuum Wave", "Power Gem", "Fire Blast", "Blizzard"],
-				"abilities": ["Sand Spit, Vacuum"],
+				"abilities": ["Sand Spit", "Vacuum"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -2986,13 +2986,13 @@
 			{
 				"role": "Wallbreaker",
 				"movepool": ["Dragon Hammer", "Glacier Crash", "First Impression", "Earthquake", "Ice Shard", "Mighty Cleave"],
-				"abilities": ["Mold Breaker, Swift Swim"],
+				"abilities": ["Mold Breaker", "Swift Swim"],
 				"teraTypes": ["Dark"]
 			},
 			{
 				"role": "Setup Sweeper",
 				"movepool": ["Dragon Hammer", "Glacier Crash", "Dragon Dance", "Earthquake", "Ice Shard", "Swords Dance"],
-				"abilities": ["Mold Breaker, Swift Swim"],
+				"abilities": ["Mold Breaker", "Swift Swim"],
 				"teraTypes": ["Dark"]
 			}
 		]
