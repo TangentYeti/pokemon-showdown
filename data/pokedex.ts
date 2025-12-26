@@ -21641,7 +21641,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: 1158,
 		name: "Octopsy",
 		types: ["Dark", "Steel"],
-		baseStats: {hp: 102, atk: 57, def: 33, spa: 107, spd: 119, spe: 52},
+		baseStats: {hp: 102, atk: 33, def: 57, spa: 107, spd: 119, spe: 52},
 		abilities: {0: "False Positive", 1: "Sticky Hold"},
 		heightm: 2.5,
 		weightkg: 85,

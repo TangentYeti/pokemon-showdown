@@ -7,6 +7,12 @@
                 "movepool": ["Defog", "Gamma Burst", "Cyclone", "Roost", "Hurricane", "Moonblast"],
                 "abilities": ["Spiritual"],
                 "teraTypes": ["Dark"]
+            },
+			{
+                "role": "Wallbreaker",
+                "movepool": ["Hurricane", "Gamma Burst", "Cyclone", "Moonblast", "Wildbolt Storm", "Vacuum Wave"],
+                "abilities": ["Spiritual"],
+                "teraTypes": ["Dark"]
             }
         ]
     }, 
@@ -14,7 +20,7 @@
         "level": 85,
         "sets": [
             {
-                "role": "Wallbreaker",
+                "role": "Bulky Attacker",
                 "movepool": ["Nasty Plot", "Power Gem", "Wrath Of Medusa", "Accelerock", "Knock Off", "Freezing Glare"],
                 "abilities": ["Gorgon Gaze"],
                 "teraTypes": ["Dark"]
@@ -22,7 +28,7 @@
         ]
     }, 
     "matretaur": {
-        "level": 83,
+        "level": 82,
         "sets": [
             {
                 "role": "Bulky Support",
@@ -44,7 +50,7 @@
         ]
     }, 
     "wyrmekes": {
-        "level": 85,
+        "level": 84,
         "sets": [
             {
                 "role": "Fast Attacker",
@@ -111,7 +117,7 @@
         ]
     },   
     "allopere": {
-	    "level": 85,
+	    "level": 82,
 	    "sets": [
 	        {
 		        "role": "Fast Attacker",
@@ -139,7 +145,7 @@
         ]
     },
     "hahootination": {
-	    "level": 85,
+	    "level": 86,
 	    "sets": [
 	        {
 		        "role": "AV Pivot",
@@ -156,11 +162,11 @@
         ]
     },
     "kelampus": {
-	    "level": 85,
+	    "level": 87,
 	    "sets": [
 	        {
 		        "role": "Bulky Support",
-		        "movepool": ["Scald", "Giga Drain", "Leech Seed", "Synthesis", "Flip Turn", "Taunt"],
+		        "movepool": ["Scald", "Giga Drain", "Leech Seed", "Synthesis", "Flip Turn", "Shed Tail"],
 		        "abilities": ["Storm Drain"],
 		        "teraTypes": ["Dark"]
             }
@@ -199,7 +205,7 @@
 	    "sets": [
 	        {
 		        "role": "Bulky Support",
-		        "movepool": ["Glare", "Teleport", "Dragon Tail", "Body Press", "Psychic Fangs", "Recover"],
+		        "movepool": ["Glare", "Teleport", "Dragon Tail", "Body Press", "Psyshield Bash", "Recover"],
 		        "abilities": ["Multiscale"],
 		        "teraTypes": ["Dark"]
             }
@@ -245,7 +251,7 @@
         ]
     },
     "vitalysis": {
-	    "level": 85,
+	    "level": 83,
 	    "sets": [
 	        {
 		        "role": "Fast Attacker",
@@ -273,7 +279,7 @@
         ]
     },
     "purrforynx": {
-	    "level": 85,
+	    "level": 82,
 	    "sets": [
 	        {
 		        "role": "Bulky Attacker",
@@ -312,7 +318,7 @@
         ]
     },
     "ukerial": {
-	    "level": 85,
+	    "level": 84,
 	    "sets": [
 	        {
 		        "role": "Fast Attacker",
@@ -357,7 +363,7 @@
         ]
     },
     "paranorpol": {
-	    "level": 85,
+	    "level": 86,
 	    "sets": [
 	        {
 		        "role": "Setup Sweeper",
@@ -382,7 +388,7 @@
 	    "level": 85,
 	    "sets": [
 	        {
-		        "role": "Wallbreaker",
+		        "role": "Fast Attacker",
 		        "movepool": ["Wood Hammer", "Volt Tackle", "Head Smash", "Earthquake", "Superpower", "Double Edge"],
 		        "abilities": ["Reckless"],
 		        "teraTypes": ["Dark"]
@@ -407,7 +413,7 @@
         ]
     },
     "phaestamark": {
-	    "level": 85,
+	    "level": 80,
 	    "sets": [
 	        {
 		        "role": "Fast Attacker",
@@ -418,7 +424,7 @@
         ]
     },
     "carniveel": {
-	    "level": 85,
+	    "level": 82,
 	    "sets": [
 	        {
 		        "role": "Fast Attacker",
@@ -479,7 +485,7 @@
         ]
     },
     "lymbynx": {
-	    "level": 85,
+	    "level": 84,
 	    "sets": [
 	        {
 		        "role": "Bulky Support",
@@ -518,7 +524,7 @@
         ]
     },
     "manrawin": {
-	    "level": 85,
+	    "level": 87,
 	    "sets": [
 	        {
 		        "role": "AV Pivot",
@@ -552,7 +558,7 @@
         ]
     },
     "terracabra": {
-	    "level": 85,
+	    "level": 86,
 	    "sets": [
 	        {
 		        "role": "Setup Sweeper",
@@ -563,7 +569,7 @@
             {
 		        "role": "Fast Support",
 		        "movepool": ["Stealth Rock", "Earthquake", "Toxic", "Super Fang", "Foul Play", "Strength Sap"],
-		        "abilities": ["Poison Touch"],
+		        "abilities": ["Unburden"],
 		        "teraTypes": ["Dark"]
             }
         ]
@@ -603,7 +609,7 @@
         ]
     },
     "moosicle": {
-	    "level": 85,
+	    "level": 86,
 	    "sets": [
 	        {
 		        "role": "Bulky Support",
@@ -614,7 +620,7 @@
         ]
     },
     "gojukuda": {
-	    "level": 85,
+	    "level": 84,
 	    "sets": [
 	        {
 		        "role": "Bulky Attacker",
@@ -631,7 +637,7 @@
         ]
     },
     "boarpath": {
-	    "level": 85,
+	    "level": 87,
 	    "sets": [
 	        {
 		        "role": "Wallbreaker",
@@ -642,7 +648,7 @@
         ]
     },
     "frosquito": {
-	    "level": 85,
+	    "level": 90,
 	    "sets": [
 	        {
 		        "role": "Fast Support",
@@ -663,7 +669,6 @@
             }
         ]
     },
-
     "novalotl": {
 	    "level": 85,
 	    "sets": [
@@ -704,7 +709,7 @@
 		]
 	},
 	"drabloom": {
-		"level": 85,
+		"level": 87,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -726,7 +731,7 @@
 		]
 	},
 	"draquake": {
-		"level": 85,
+		"level": 87,
 		"sets": [
 			{
 				"role": "Bulky Attacker",
@@ -737,7 +742,7 @@
 		]
 	},
 	"dranyon": {
-		"level": 85,
+		"level": 86,
 		"sets": [
 			{
 				"role": "Bulky Attacker",
@@ -759,18 +764,18 @@
 		]
 	},
 	"octopsy": {
-		"level": 85,
+		"level": 87,
 		"sets": [
 			{
 				"role": "Bulky Attacker",
 				"movepool": ["Dark Pulse", "Flash Cannon", "Focus Blast", "Pain Split", "Foul Play", "Thunder Wave"],
-				"abilities": ["False Positive", "Sticky Hold"],
+				"abilities": ["Sticky Hold"],
 				"teraTypes": ["Dark"]
 			}
 		]
 	},
 	"counsol": {
-		"level": 85,
+		"level": 84,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -809,7 +814,7 @@
 		]
 	},
 	"mangisekto": {
-		"level": 85,
+		"level": 86,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -932,7 +937,7 @@
 		]
 	},
 	"valhangel": {
-		"level": 85,
+		"level": 84,
 		"sets": [
 			{
 				"role": "Bulky Attacker",
@@ -998,14 +1003,14 @@
 			},
 			{
 				"role": "Bulky Setup",
-				"movepool": ["Earthquake", "Acid Armor", "Body Press", "Synthesis", "Toxic", "Dragon Tail"],
+				"movepool": ["Earthquake", "Acid Armor", "Body Press", "Synthesis", "Toxic", "Fever Claw"],
 				"abilities": ["Hunter’s Mark"],
 				"teraTypes": ["Dark"]
 			}
 		]
 	},
 	"grizzudo": {
-		"level": 85,
+		"level": 83,
 		"sets": [
 			{
 				"role": "Wallbreaker",
@@ -1016,7 +1021,7 @@
 		]
 	},
 	"roosolar": {
-		"level": 85,
+		"level": 84,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -1042,7 +1047,7 @@
 		"sets": [
 			{
 				"role": "Fast Attacker",
-				"movepool": ["Poltergeist", "Headlong Rush", "Crunch", "Shadow Sneak", "Stone Edge", "Destiny Bond"],
+				"movepool": ["Shadow Bone", "Headlong Rush", "Crunch", "Shadow Sneak", "Stone Edge", "Destiny Bond"],
 				"abilities": ["Hellborn"],
 				"teraTypes": ["Dark"]
 			},
@@ -1055,7 +1060,7 @@
 		]
 	},
 	"neightmare": {
-		"level": 85,
+		"level": 83,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -1066,7 +1071,7 @@
 		]
 	},
 	"marpine": {
-		"level": 85,
+		"level": 88,
 		"sets": [
 			{
 				"role": "Setup Sweeper",
@@ -1077,7 +1082,7 @@
 		]
 	},
 	"parafullo": {
-		"level": 85,
+		"level": 84,
 		"sets": [
 			{
 				"role": "Bulky Setup",
@@ -1105,7 +1110,7 @@
 		]
 	},
 	"amphawkes": {
-		"level": 85,
+		"level": 86,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -1116,7 +1121,7 @@
 		]
 	},
 	"hurricrane": {
-		"level": 85,
+		"level": 84,
 		"sets": [
 			{
 				"role": "Wallbreaker",
@@ -1127,7 +1132,7 @@
 		]
 	},
 	"lampire": {
-		"level": 85,
+		"level": 88,
 		"sets": [
 			{
 				"role": "Fast Support",
@@ -1178,7 +1183,7 @@
 		]
 	},
 	"drakolarmor": {
-		"level": 85,
+		"level": 86,
 		"sets": [
 			{
 				"role": "Bulky Support",
@@ -1189,7 +1194,7 @@
 		]
 	},
 	"inferthrope": {
-		"level": 85,
+		"level": 82,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -1217,7 +1222,7 @@
 		]
 	},
 	"terrormite": {
-		"level": 85,
+		"level": 89,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -1245,7 +1250,7 @@
 		]
 	},
 	"slumucus": {
-		"level": 85,
+		"level": 84,
 		"sets": [
 			{
 				"role": "Wallbreaker",
@@ -1262,7 +1267,7 @@
 		]
 	},
 	"titectre": {
-		"level": 85,
+		"level": 82,
 		"sets": [
 			{
 				"role": "Wallbreaker",
@@ -1313,7 +1318,7 @@
 		]
 	},
 	"mollucone": {
-		"level": 85,
+		"level": 87,
 		"sets": [
 			{
 				"role": "Bulky Setup",
@@ -1464,7 +1469,7 @@
 		]
 	},
 	"tapinfera": {
-		"level": 85,
+		"level": 83,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -1531,7 +1536,7 @@
 		]
 	},
 	"porcupulse": {
-		"level": 85,
+		"level": 86,
 		"sets": [
 			{
 				"role": "AV Pivot",
@@ -1559,7 +1564,7 @@
 		]
 	},
 	"permatross": {
-		"level": 85,
+		"level": 84,
 		"sets": [
 			{
 				"role": "Wallbreaker",
@@ -1576,7 +1581,7 @@
 		]
 	},
 	"scythatchi": {
-		"level": 85,
+		"level": 80,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -1597,7 +1602,7 @@
 			},
 			{
 				"role": "Fast Attacker",
-				"movepool": ["Ravaging Tide", "Liquidation", "Darkest Lariat", "Earthquake", "Ice Spinner", "Aqua Jet"],
+				"movepool": ["Ravaging Tide", "Liquidation", "Darkest Lariat", "Earthquake", "Ice Spinner", "Flip Turn"],
 				"abilities": ["Atmokinesis"],
 				"teraTypes": ["Dark"]
 			}
@@ -1672,7 +1677,7 @@
 		]
 	},
 	"phanacy": {
-		"level": 75,
+		"level": 73,
 		"sets": [
 			{
 				"role": "Wallbreaker",
@@ -1750,14 +1755,14 @@
 			},
 			{
 				"role": "Setup Sweeper",
-				"movepool": ["Justice Wrought", "Victory Dance", "Extreme Speed", "Rock Slide", "Roost", "Darkest Lariat"],
+				"movepool": ["Divine Order", "Victory Dance", "Extreme Speed", "Rock Slide", "Roost", "Darkest Lariat"],
 				"abilities": ["Divination"],
 				"teraTypes": ["Dark"]
 			}
 		]
 	},
 	"infonus": {
-		"level": 75,
+		"level": 76,
 		"sets": [
 			{
 				"role": "Bulky Attacker",
@@ -1785,7 +1790,7 @@
 		]
 	},
 	"petarcass": {
-		"level": 85,
+		"level": 84,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -1819,7 +1824,7 @@
 		]
 	},
 	"brojito": {
-		"level": 85,
+		"level": 87,
 		"sets": [
 			{
 				"role": "Setup Sweeper",
@@ -1864,7 +1869,7 @@
 		]
 	},
 	"plaguerca": {
-		"level": 85,
+		"level": 88,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -1949,7 +1954,7 @@
 		]
 	},
 	"arcangran": {
-		"level": 85,
+		"level": 84,
 		"sets": [
 			{
 				"role": "Wallbreaker",
@@ -2101,7 +2106,7 @@
 		]
 	},
 	"dragoulich": {
-		"level": 85,
+		"level": 81,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -2118,7 +2123,7 @@
 		]
 	},
 	"demogrievous": {
-		"level": 85,
+		"level": 83,
 		"sets": [
 			{
 				"role": "AV Pivot",
@@ -2152,7 +2157,7 @@
 		]
 	},
 	"lethalich": {
-		"level": 85,
+		"level": 87,
 		"sets": [
 			{
 				"role": "Wallbreaker",
@@ -2203,7 +2208,7 @@
 		]
 	},
 	"beholdrich": {
-		"level": 85,
+		"level": 88,
 		"sets": [
 			{
 				"role": "Bulky Setup",
@@ -2225,7 +2230,7 @@
 		]
 	},
 	"hypovernia": {
-		"level": 85,
+		"level": 83,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -2236,7 +2241,7 @@
 		]
 	},
 	"psititan": {
-		"level": 85,
+		"level": 83,
 		"sets": [
 			{
 				"role": "AV Pivot",
@@ -2253,7 +2258,7 @@
 		]
 	},
 	"velochem": {
-		"level": 85,
+		"level": 84,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -2264,7 +2269,7 @@
 		]
 	},
 	"yuttengeist": {
-		"level": 85,
+		"level": 83,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -2275,7 +2280,7 @@
 		]
 	},
 	"florabill": {
-		"level": 85,
+		"level": 86,
 		"sets": [
 			{
 				"role": "AV Pivot",
@@ -2532,7 +2537,7 @@
 		]
 	},
 	"mastophan": {
-		"level": 85,
+		"level": 87,
 		"sets": [
 			{
 				"role": "Bulky Setup",
@@ -2656,7 +2661,7 @@
 		]
 	},
 	"electivirealthon": {
-		"level": 85,
+		"level": 86,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -2695,7 +2700,7 @@
 		]
 	},
 	"sorcereye": {
-		"level": 85,
+		"level": 83,
 		"sets": [
 			{
 				"role": "Bulky Support",
@@ -2712,7 +2717,7 @@
 		]
 	},
 	"steelixalthon": {
-		"level": 85,
+		"level": 84,
 		"sets": [
 			{
 				"role": "AV Pivot",
@@ -2774,7 +2779,7 @@
 			{
 				"role": "Bulky Setup",
 				"movepool": ["Dragon Pulse", "Dark Pulse", "Tail Glow", "Dark Void", "Flash Cannon", "Parabolic Charge"],
-				"abilities": ["Marvel Scale"],
+				"abilities": ["Cursed Body"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -2791,7 +2796,7 @@
 		]
 	},
 	"spiritombalthon": {
-		"level": 85,
+		"level": 88,
 		"sets": [
 			{
 				"role": "Bulky Attacker",
@@ -2858,7 +2863,7 @@
 		]
 	},
 	"bellossomalthon": {
-		"level": 85,
+		"level": 87,
 		"sets": [
 			{
 				"role": "Bulky Setup",
@@ -2908,7 +2913,7 @@
 		]
 	},
 	"typhlosionalthon": {
-		"level": 85,
+		"level": 84,
 		"sets": [
 			{
 				"role": "Wallbreaker",
@@ -2936,7 +2941,7 @@
 		]
 	},
 	"jumpluffalthon": {
-		"level": 85,
+		"level": 86,
 		"sets": [
 			{
 				"role": "Fast Attacker",
