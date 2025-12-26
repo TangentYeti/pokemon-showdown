@@ -78,11 +78,11 @@ const CONTRARY_MOVES = [
 ];
 // Moves that boost Attack:
 const PHYSICAL_SETUP = [
-	'bellydrum', 'bulkup', 'coil', 'curse', 'dragondance', 'honeclaws', 'howl', 'meditate', 'poweruppunch', 'swordsdance', 'tidyup', 'victorydance',
+	'bellydrum', 'bulkup', 'coil', 'curse', 'dragondance', 'honeclaws', 'howl', 'meditate', 'poweruppunch', 'swordsdance', 'tidyup', 'victorydance', 'chrysalis',
 ];
 // Moves which boost Special Attack:
 const SPECIAL_SETUP = [
-	'calmmind', 'chargebeam', 'geomancy', 'nastyplot', 'quiverdance', 'tailglow', 'takeheart', 'torchsong',
+	'calmmind', 'chargebeam', 'geomancy', 'nastyplot', 'quiverdance', 'tailglow', 'takeheart', 'torchsong', 'phylactery',
 ];
 // Moves that boost Attack AND Special Attack:
 const MIXED_SETUP = [
@@ -96,7 +96,7 @@ const SPEED_SETUP = [
 const SETUP = [
 	'acidarmor', 'agility', 'autotomize', 'bellydrum', 'bulkup', 'calmmind', 'clangoroussoul', 'coil', 'cosmicpower', 'curse', 'dragondance',
 	'flamecharge', 'growth', 'honeclaws', 'howl', 'irondefense', 'meditate', 'nastyplot', 'noretreat', 'poweruppunch', 'quiverdance',
-	'rockpolish', 'shellsmash', 'shiftgear', 'swordsdance', 'tailglow', 'takeheart', 'tidyup', 'trailblaze', 'workup', 'victorydance',
+	'rockpolish', 'shellsmash', 'shiftgear', 'swordsdance', 'tailglow', 'takeheart', 'tidyup', 'trailblaze', 'workup', 'victorydance', 'phylactery', 'chrysalis',
 ];
 const SPEED_CONTROL = [
 	'electroweb', 'glare', 'icywind', 'lowsweep', 'nuzzle', 'quash', 'tailwind', 'thunderwave', 'trickroom',
@@ -107,7 +107,7 @@ const NO_STAB = [
 	'dragontail', 'doomdesire', 'electroweb', 'eruption', 'explosion', 'fakeout', 'feint', 'flamecharge', 'flipturn', 'futuresight',
 	'grassyglide', 'iceshard', 'icywind', 'incinerate', 'infestation', 'machpunch', 'meteorbeam', 'mortalspin', 'nuzzle', 'pluck', 'pursuit',
 	'quickattack', 'rapidspin', 'reversal', 'selfdestruct', 'shadowsneak', 'skydrop', 'snarl', 'strugglebug', 'suckerpunch', 'trailblaze',
-	'uturn', 'vacuumwave', 'voltswitch', 'watershuriken', 'waterspout',
+	'uturn', 'vacuumwave', 'voltswitch', 'watershuriken', 'waterspout', 'backdraft', 'dyinglight', 'starburst',
 ];
 // Hazard-setting moves
 const HAZARDS = [
@@ -115,11 +115,11 @@ const HAZARDS = [
 ];
 // Protect and its variants
 const PROTECT_MOVES = [
-	'banefulbunker', 'burningbulwark', 'protect', 'silktrap', 'spikyshield',
+	'banefulbunker', 'burningbulwark', 'protect', 'silktrap', 'spikyshield', 'scaleshield',
 ];
 // Moves that switch the user out
 const PIVOT_MOVES = [
-	'chillyreception', 'flipturn', 'partingshot', 'shedtail', 'teleport', 'uturn', 'voltswitch',
+	'chillyreception', 'flipturn', 'partingshot', 'shedtail', 'teleport', 'uturn', 'voltswitch', 'cyclone', 'backdraft',
 ];
 
 // Moves that should be paired together when possible
@@ -138,7 +138,7 @@ const PRIORITY_POKEMON = [
 
 /** Pokemon who should never be in the lead slot */
 const NO_LEAD_POKEMON = [
-	'Zacian', 'Zamazenta',
+	'Zacian', 'Zamazenta', 'Petarcass', 'Gojukuda',
 ];
 const DOUBLES_NO_LEAD_POKEMON = [
 	'Basculegion', 'Houndstone', 'Iron Bundle', 'Roaring Moon', 'Zacian', 'Zamazenta',

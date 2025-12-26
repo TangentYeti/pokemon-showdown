@@ -22,7 +22,7 @@
         ]
     }, 
     "matretaur": {
-        "level": 85,
+        "level": 83,
         "sets": [
             {
                 "role": "Bulky Support",
@@ -132,7 +132,7 @@
             },
             {
 		        "role": "Bulky Setup",
-		        "movepool": ["Bulk Up", "Liquidation", "Hammer Arm", "Recover", "Earthquake"],
+		        "movepool": ["Bulk Up", "Liquidation", "Circle Throw", "Recover"],
 		        "abilities": ["War Cry", "Stamina"],
 		        "teraTypes": ["Dark"]
             }
@@ -368,7 +368,7 @@
         ]
     },
     "mortarmur": {
-	    "level": 85,
+	    "level": 80,
 	    "sets": [
 	        {
 		        "role": "Setup Sweeper",
@@ -837,7 +837,7 @@
 		]
 	},
 	"hummzinger": {
-		"level": 85,
+		"level": 80,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -1385,7 +1385,7 @@
 		]
 	},
 	"vesplatinum": {
-		"level": 85,
+		"level": 83,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -1552,7 +1552,7 @@
 			},
 			{
 				"role": "Bulky Setup",
-				"movepool": ["Fire Punch", "Drain Punch", "Bulk Up", "Morning Sun", "Thunder Punch", "Darkest Lariat"],
+				"movepool": ["Fire Punch", "Drain Punch", "Bulk Up", "Morning Sun"],
 				"abilities": ["Iron Fist"],
 				"teraTypes": ["Dark"]
 			}
@@ -1932,7 +1932,7 @@
 		]
 	},
 	"tectonitoad": {
-		"level": 85,
+		"level": 82,
 		"sets": [
 			{
 				"role": "Wallbreaker",
@@ -2208,7 +2208,7 @@
 			{
 				"role": "Bulky Setup",
 				"movepool": ["Stored Power", "Calm Mind", "Moonlight", "Shadow Ball", "Hypnosis", "Aura Sphere"],
-				"abilities": ["Reflection"],
+				"abilities": ["Eldrich"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -2924,13 +2924,13 @@
 			{
 				"role": "Setup Sweeper",
 				"movepool": ["Dragon Dance", "Liquidation", "Power Whip", "Earthquake", "Stone Edge", "Trailblaze"],
-				"abilities": ["Sap Sipper, Defiant"],
+				"abilities": ["Sap Sipper", "Defiant"],
 				"teraTypes": ["Dark"]
 			},
 			{
 				"role": "Setup Sweeper",
 				"movepool": ["Belly Drum", "Liquidation", "Trailblaze", "Aqua Jet", "Stone Edge", "Earthquake"],
-				"abilities": ["Sap Sipper, Defiant"],
+				"abilities": ["Sap Sipper", "Defiant"],
 				"teraTypes": ["Dark"]
 			}
 		]
