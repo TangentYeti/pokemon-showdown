@@ -34,7 +34,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] Divine Olympus RandBats",
 		desc: `Randomized teams of Pok&eacute;mon with sets that are generated to be competitively (un)viable.`,
 		mod: 'gen9',
-		team: 'random',
+		team: 'randomFFA',
 		bestOfDefault: true,
 		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod'],
 	},
