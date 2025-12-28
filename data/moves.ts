@@ -22614,7 +22614,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Cyclone",
 		pp: 20,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, mirror: 1, wind: 1},
 		selfSwitch: true,
 		secondary: null,
 		target: "normal",
