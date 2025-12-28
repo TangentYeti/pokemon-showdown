@@ -53,7 +53,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'freeforall',
 		tournamentShow: false,
 		rated: false,
-		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod', 'Cancel Mod', 'Illusion Level Mod'],
+		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod',],
 	},
 	{
 		name: "[Gen 9] Divine Olympus Doubles",
