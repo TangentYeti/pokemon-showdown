@@ -49,7 +49,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] Divine Olympus FFA RandBats",
 		mod: 'gen9',
-		team: 'randomTeam',
+		team: 'random',
 		gameType: 'freeforall',
 		tournamentShow: false,
 		rated: false,
