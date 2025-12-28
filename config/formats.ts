@@ -49,11 +49,11 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] Divine Olympus FFA RandBats",
 		mod: 'gen9',
-		team: 'randomFFA',
+		team: 'random',
 		gameType: 'freeforall',
 		tournamentShow: false,
 		rated: false,
-		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod'],
+		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod', 'Cancel Mod', 'Illusion Level Mod'],
 	},
 	{
 		name: "[Gen 9] Divine Olympus Doubles",
