@@ -267,13 +267,13 @@
 	        {
 		        "role": "Fast Attacker",
 		        "movepool": ["Poltergeist", "Volt Tackle", "Shadow Sneak", "Leech Life", "Killerwatt", "Spectral Hammer"],
-		        "abilities": ["Stunning Entrance", "Intimidate"],
+		        "abilities": ["Stunning Entrance", "Electric Surge"],
 		        "teraTypes": ["Dark"]
             },
             {
 		        "role": "Setup Sweeper",
 		        "movepool": ["Poltergeist", "Supercell Slam", "Shadow Sneak", "Shift Gear", "Spirit Break", "Leech Life"],
-		        "abilities": ["Stunning Entrance", "Intimidate"],
+		        "abilities": ["Stunning Entrance", "Electric Surge"],
 		        "teraTypes": ["Dark"]
             }
         ]
@@ -1743,7 +1743,7 @@
 		"sets": [
 			{
 				"role": "Bulky Attacker",
-				"movepool": ["Divine Order", "Darkest Lariat", "Focus Blast", "Heat Wave", "Rock Slide", "Earth Power"],
+				"movepool": ["Divine Order", "Darkest Lariat", "Heat Wave", "Rock Slide", "Earth Power"],
 				"abilities": ["Divination"],
 				"teraTypes": ["Dark"]
 			},
@@ -3025,7 +3025,7 @@
 		]
 	},
 	"malfalpha": {
-		"level": 85,
+		"level": 81,
 		"sets": [
 			{
 				"role": "Wallbreaker",
