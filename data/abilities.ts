@@ -6432,7 +6432,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				move.secondaries = [];
 			}
 			move.secondaries.push({
-				chance: 30,
+				chance: 10,
 				status: 'brn',
 				ability: this.dex.abilities.get('molten'),
 			});

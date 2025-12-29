@@ -20413,7 +20413,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: 1060,
 		name: "Kelampus",
 		types: ["Water", "Grass"],
-		baseStats: {hp: 74, atk: 91, def: 89, spa: 91, spd: 106, spe: 69},
+		baseStats: {hp: 84, atk: 66, def: 104, spa: 91, spd: 106, spe: 69},
 		abilities: {0: "Storm Drain", 1: "Hydration"},
 		heightm: 4.6,
 		weightkg: 45,
