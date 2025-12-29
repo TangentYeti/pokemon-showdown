@@ -1525,7 +1525,7 @@
 		]
 	},
 	"reckleosteus": {
-		"level": 85,
+		"level": 83,
 		"sets": [
 			{
 				"role": "Wallbreaker",
@@ -1648,12 +1648,6 @@
 			{
 				"role": "Fast Attacker",
 				"movepool": ["Dying Light", "Supernova", "Earth Power", "Grass Knot", "Psychic", "Backdraft"],
-				"abilities": ["Sunrise"],
-				"teraTypes": ["Dark"]
-			},
-			{
-				"role": "Bulky Setup",
-				"movepool": ["Dying Light", "Calm Mind", "Morning Sun", "Will-O-Wisp", "Flame Charge", "Earth Power"],
 				"abilities": ["Sunrise"],
 				"teraTypes": ["Dark"]
 			}
@@ -1971,7 +1965,7 @@
 		]
 	},
 	"quendrill": {
-		"level": 85,
+		"level": 82,
 		"sets": [
 			{
 				"role": "Setup Sweeper",
@@ -2106,7 +2100,7 @@
 		]
 	},
 	"dragoulich": {
-		"level": 81,
+		"level": 79,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -2219,7 +2213,7 @@
 		]
 	},
 	"apoxicary": {
-		"level": 85,
+		"level": 82,
 		"sets": [
 			{
 				"role": "Setup Sweeper",
@@ -2813,7 +2807,7 @@
 		]
 	},
 	"hexxing": {
-		"level": 85,
+		"level": 87,
 		"sets": [
 			{
 				"role": "Bulky Support",

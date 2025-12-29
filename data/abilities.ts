@@ -6797,7 +6797,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	standoff: {
 		onDragOutPriority: 1,
 		onDragOut(pokemon) {
-			this.add('-activate', pokemon, 'ability: Guard Dog');
+			this.add('-activate', pokemon, 'ability: Stand Off');
 			return null;
 		},
 		onTryBoost(boost, target, source, effect) {
