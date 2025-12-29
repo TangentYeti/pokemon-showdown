@@ -1452,17 +1452,17 @@
 		]
 	},
 	"furianzhou": {
-		"level": 85,
+		"level": 78,
 		"sets": [
 			{
 				"role": "Fast Attacker",
-				"movepool": ["Headlong Rush", "Cretacial Maul", "Drill Peck", "Stone Edge", "Psychic Fangs", "Low Kick"],
-				"abilities": ["Avian"],
+				"movepool": ["Headlong Rush", "Cretacial Maul", "Rock Slide", "Psychic Fangs", "Low Kick"],
+				"abilities": ["Territorial"],
 				"teraTypes": ["Dark"]
 			},
 			{
 				"role": "Setup Sweeper",
-				"movepool": ["Headlong Rush", "Cretacial Maul", "Swords Dance", "Stone Edge", "Crunch", "Trailblaze"],
+				"movepool": ["Headlong Rush", "Cretacial Maul", "Swords Dance", "Rock Slide", "Crunch", "Trailblaze"],
 				"abilities": ["Territorial"],
 				"teraTypes": ["Dark"]
 			}
@@ -1486,7 +1486,7 @@
 		]
 	},
 	"ankorient": {
-		"level": 85,
+		"level": 84,
 		"sets": [
 			{
 				"role": "Bulky Setup",
