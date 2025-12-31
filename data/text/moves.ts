@@ -7834,8 +7834,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	psionicneedles: {
 		name: "Psionic Needles",
-		desc: "Hits 3 times.",
-		shortDesc: "Hits 3 times.",
+		desc: "Hits 2-5 times.",
+		shortDesc: "Hits 2-5 times.",
 	},
 	psychicoverload: {
 		name: "Psychic Overload",
