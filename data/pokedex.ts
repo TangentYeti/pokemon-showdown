@@ -25994,7 +25994,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	pentalex: {
 		num: 1400,
 		name: "Pentalex",
-		types: ["Ice"],
+		types: ["Psychic", "Fighting"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 100, atk: 130, def: 85, spa: 55, spd: 75, spe: 85 },
 		abilities: { 0: "Skill Link", 1: "Keen Eye"},
