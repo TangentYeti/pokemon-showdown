@@ -1705,7 +1705,7 @@
 		]
 	},
 	"forgeitymn": {
-		"level": 75,
+		"level": 70,
 		"sets": [
 			{
 				"role": "Bulky Support",
@@ -2100,7 +2100,7 @@
 		]
 	},
 	"dragoulich": {
-		"level": 79,
+		"level": 77,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -2235,7 +2235,7 @@
 		]
 	},
 	"psititan": {
-		"level": 83,
+		"level": 82,
 		"sets": [
 			{
 				"role": "AV Pivot",
@@ -2252,7 +2252,7 @@
 		]
 	},
 	"velochem": {
-		"level": 84,
+		"level": 83,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -2621,7 +2621,7 @@
 		]
 	},
 	"revolaunt": {
-		"level": 85,
+		"level": 83,
 		"sets": [
 			{
 				"role": "Wallbreaker",
@@ -2749,8 +2749,8 @@
 			},
 			{
 				"role": "Fast Support",
-				"movepool": ["Dragon Pulse", "Flash Cannon", "Wish", "Stealth Rock", "Roar", "Scorching Sands"],
-				"abilities": ["Marvel Scale"],
+				"movepool": ["Dragon Pulse", "Flash Cannon", "Wish", "Stealth Rock", "Roar", "Scale Shield"],
+				"abilities": ["Steely Spirit"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -3042,7 +3042,7 @@
 		]
 	},
 	"anuguard": {
-		"level": 85,
+		"level": 82,
 		"sets": [
 			{
 				"role": "Bulky Setup",
