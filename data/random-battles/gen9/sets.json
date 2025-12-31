@@ -528,14 +528,14 @@
 	    "sets": [
 	        {
 		        "role": "AV Pivot",
-		        "movepool": ["Earthquake", "Flip Turn", "Liquidation", "Triple Axel", "Dragon Tail", "Aqua Jet"],
-		        "abilities": ["Sand Rush"],
+		        "movepool": ["Earthquake", "Flip Turn", "Liquidation", "Basalt Barrage", "Dragon Tail", "Aqua Jet"],
+		        "abilities": ["Solid Rock"],
 		        "teraTypes": ["Dark"]
             },
             {
 		        "role": "Bulky Support",
-		        "movepool": ["Earthquake", "Flip Turn", "Liquidation", "Roost", "Defog", "Haze"],
-		        "abilities": ["Sand Rush"],
+		        "movepool": ["Basalt Barrage", "Flip Turn", "Liquidation", "Roost", "Defog", "Haze"],
+		        "abilities": ["Solid Rock"],
 		        "teraTypes": ["Dark"]
             }
         ]
@@ -1114,7 +1114,7 @@
 		"sets": [
 			{
 				"role": "Fast Attacker",
-				"movepool": ["Fire Blast", "Earth Power", "Glare", "Solar Beam", "Flare Blitz", "Headlong Rush"],
+				"movepool": ["Fire Blast", "Earth Power", "Power Gem", "Solar Beam", "Flare Blitz", "Stone Edge"],
 				"abilities": ["Drought"],
 				"teraTypes": ["Dark"]
 			}
@@ -1503,7 +1503,7 @@
 		]
 	},
 	"odivalk": {
-		"level": 85,
+		"level": 80,
 		"sets": [
 			{
 				"role": "Setup Sweeper",
@@ -1514,7 +1514,7 @@
 		]
 	},
 	"valkischief": {
-		"level": 85,
+		"level": 82,
 		"sets": [
 			{
 				"role": "Setup Sweeper",
@@ -2670,13 +2670,13 @@
 		"sets": [
 			{
 				"role": "Bulky Support",
-				"movepool": ["Earthquake", "Defog", "Heal Order", "Skyquake", "Toxic", "Knock Off"],
+				"movepool": ["Stone Edge", "Defog", "Heal Order", "Skyquake", "Toxic", "Knock Off"],
 				"abilities": ["Unnerve"],
 				"teraTypes": ["Dark"]
 			},
 			{
 				"role": "Bulky Attacker",
-				"movepool": ["Earthquake", "Skyquake", "Knock Off", "Heal Order", "Attack Order", "Gunk Shot"],
+				"movepool": ["Stone Edge", "Skyquake", "Knock Off", "Heal Order", "Attack Order", "Earthquake"],
 				"abilities": ["Hustle"],
 				"teraTypes": ["Dark"]
 			}
@@ -3057,7 +3057,7 @@
 		"sets": [
 			{
 				"role": "Fast Attacker",
-				"movepool": ["Triple Axel", "Poltergeist", "Ice Shard", "Shadow Sneak", "Ki Crush", "Leech Life"],
+				"movepool": ["Triple Axel", "Spirit Break", "Ice Shard", "Shadow Sneak", "Poltergeist", "Leech Life"],
 				"abilities": ["Beast Boost"],
 				"teraTypes": ["Dark"]
 			}

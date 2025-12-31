@@ -5132,4 +5132,16 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	magolam: {
 		name: "Magolam",
 	},
+	tartiny: {
+		name: "Tartiny",
+	},
+	tartanarch: {
+		name: "Tartanarch",
+	},
+	pentaling: {
+		name: "Pentaling",
+	},
+	pentalex: {
+		name: "Pentalex",
+	},
 };
