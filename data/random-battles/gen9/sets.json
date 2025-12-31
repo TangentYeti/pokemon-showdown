@@ -2380,6 +2380,34 @@
 			}
 		]
 	},
+	"tartanarch": {
+		"level": 85,
+		"sets": [
+			{
+				"role": "AV Pivot",
+				"movepool": ["Mountain Gale", "Earthquake", "Superpower", "Knock Off", "Ice Shard", "Zen Headbutt"],
+				"abilities": ["Earth Eater"],
+				"teraTypes": ["Dark"]
+			},
+			{
+				"role": "Wallbreaker",
+				"movepool": ["Ice Hammer", "Ice Shard", "Wild Charge", "Superpower", "Earthquake", "Zen Headbutt"],
+				"abilities": ["Earth Eater"],
+				"teraTypes": ["Dark"]
+			}
+		]
+	},
+	"pentalix": {
+		"level": 85,
+		"sets": [
+			{
+				"role": "Fast Attacker",
+				"movepool": ["Psionic Needles", "Arm Thrust", "Icicle Spear", "Rock Blast", "Bullet Punch", "Bullet Seed"],
+				"abilities": ["Skil Link"],
+				"teraTypes": ["Dark"]
+			}
+		]
+	},
 	"mienshantis": {
 		"level": 85,
 		"sets": [
