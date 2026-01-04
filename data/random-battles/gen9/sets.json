@@ -997,7 +997,7 @@
 		"sets": [
 			{
 				"role": "Bulky Attacker",
-				"movepool": ["Headlong Rush", "Fever Claw", "Stone Edge", "Synthesis", "Poison Jab", "Swamp Kick"],
+				"movepool": ["Earthquake", "Fever Claw", "Stone Edge", "Synthesis", "Poison Jab", "Swamp Kick"],
 				"abilities": ["Tough Claws"],
 				"teraTypes": ["Dark"]
 			},
