@@ -22846,7 +22846,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Orbider",
 		types: ["Bug", "Fairy"],
 		baseStats: {hp: 75, atk: 40, def: 55, spa: 110, spd: 130, spe: 120},
-		abilities: {0: "Silk Slinger", 1: "Bulletproof"},
+		abilities: {0: "Silk Slinger", 1: "Magic Guard"},
 		heightm: 0.8,
 		weightkg: 3,
 		color: "White",

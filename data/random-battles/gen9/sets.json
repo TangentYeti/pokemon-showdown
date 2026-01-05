@@ -2037,6 +2037,17 @@
 			}
 		]
 	},
+	"shargarch": {
+		"level": 85,
+		"sets": [
+			{
+				"role": "Fast Attacker",
+				"movepool": ["Scale Shot", "Liquidation", "Ice Spinner", "Earthquake", "Dragon Claw", "Iron Head"],
+				"abilities": ["Rough Skin"],
+				"teraTypes": ["Dark"]
+			}
+		]
+	},
 	"draplisc": {
 		"level": 85,
 		"sets": [
@@ -2116,7 +2127,7 @@
 			}
 		]
 	},
-	"demogrievous": {
+	"demogrievus": {
 		"level": 83,
 		"sets": [
 			{
