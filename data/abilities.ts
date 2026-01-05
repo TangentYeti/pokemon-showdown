@@ -5963,14 +5963,14 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	cursedgrowth: {
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
-			if (move.type === 'Grass') {
+			if (move.type === 'Dark') {
 				this.debug('Cursed Growth boost');
 				return this.chainModify(1.5);
 			}
 		},
 		onModifySpAPriority: 5,
 		onModifySpA(atk, attacker, defender, move) {
-			if (move.type === 'Grass') {
+			if (move.type === 'Dark') {
 				this.debug('Cursed Growth boost');
 				return this.chainModify(1.5);
 			}

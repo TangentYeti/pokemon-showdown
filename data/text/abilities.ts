@@ -2374,8 +2374,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	},
 	cursedgrowth: {
         name: "Cursed Growth",
-        desc: "This Pokemon's Grass type attacks are boosted by 50%",
-        shortDesc: "Boosts damage on Grass type attacks"
+        desc: "This Pokemon's Dark type attacks are boosted by 50%",
+        shortDesc: "Boosts damage on Dark type attacks"
     },
 	dissolve: {
 		name: "Dissolve",

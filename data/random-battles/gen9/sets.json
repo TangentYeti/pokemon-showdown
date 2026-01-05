@@ -546,13 +546,13 @@
 	        {
 		        "role": "Fast Attacker",
 		        "movepool": ["Noxious Maw", "Close Combat", "Knock Off", "High Horsepower", "U-Turn", "Sucker Punch"],
-		        "abilities": ["Quick Feet"],
+		        "abilities": ["Toxic Debris"],
 		        "teraTypes": ["Dark"]
             },
             {
 		        "role": "Fast Support",
-		        "movepool": ["Noxious Maw", "Toxic Spikes", "Knock Off", "Mortal Spin", "Taunt", "Close Combat"],
-		        "abilities": ["Quick Feet"],
+		        "movepool": ["Noxious Maw", "Toxic", "Knock Off", "Mortal Spin", "Taunt", "Close Combat"],
+		        "abilities": ["Toxic Debris"],
 		        "teraTypes": ["Dark"]
             }
         ]
@@ -648,7 +648,7 @@
         ]
     },
     "frosquito": {
-	    "level": 90,
+	    "level": 95,
 	    "sets": [
 	        {
 		        "role": "Fast Support",
@@ -2139,12 +2139,6 @@
 			{
 				"role": "Bulky Setup",
 				"movepool": ["Flare Blitz", "Skyquake", "Knock Off", "Swords Dance", "Taunt", "Bonemerang"],
-				"abilities": ["Hellborn"],
-				"teraTypes": ["Dark"]
-			},
-			{
-				"role": "Bulky Setup",
-				"movepool": ["Fire Blast", "Hurricane", "Fiery Wrath", "Nasty Plot", "Taunt", "Psyshock"],
 				"abilities": ["Hellborn"],
 				"teraTypes": ["Dark"]
 			}

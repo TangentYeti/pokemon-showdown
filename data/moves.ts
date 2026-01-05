@@ -22496,12 +22496,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	corruption: {
 		num: 940,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 70,
 		category: "Special",
 		name: "Corruption",
-		pp: 15,
+		pp: 20,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: { protect: 1, mirror: 1, metronome: 1 },
 		onEffectiveness(typeMod, target, type) {
 			if (type === 'Fairy') return 1;
 		},
