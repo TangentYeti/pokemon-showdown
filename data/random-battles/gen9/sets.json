@@ -2003,7 +2003,7 @@
 			},
 			{
 				"role": "Bulky Setup",
-				"movepool": ["Body Slam", "Knock Off", "Drain Punch", "Curse", "Rest", "Sleep Talk"],
+				"movepool": ["Body Slam", "Knock Off", "Drain Punch", "Thunder Wave", "Rest", "Sleep Talk"],
 				"abilities": ["Golem Grace"],
 				"teraTypes": ["Dark"]
 			}
