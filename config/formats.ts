@@ -64,14 +64,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		section: "S/V Singles",
 	},
-	{
-		name: "[Gen 9] Random Battle",
-		desc: `Randomized teams of Pok&eacute;mon with sets that are generated to be competitively viable.`,
-		mod: 'gen9',
-		team: 'random',
-		bestOfDefault: true,
-		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Terastal Clause'],
-	},
+	// {
+	// 	name: "[Gen 9] Random Battle",
+	// 	desc: `Randomized teams of Pok&eacute;mon with sets that are generated to be competitively viable.`,
+	// 	mod: 'gen9',
+	// 	team: 'random',
+	// 	bestOfDefault: true,
+	// 	ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Terastal Clause'],
+	// },
 	{
 		name: "[Gen 9] Unrated Random Battle",
 		mod: 'gen9',
@@ -80,15 +80,15 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		rated: false,
 		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod'],
 	},
-	{
-		name: "[Gen 9] Free-For-All Random Battle",
-		mod: 'gen9',
-		team: 'randomFFA',
-		gameType: 'freeforall',
-		tournamentShow: false,
-		rated: false,
-		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Terastal Clause'],
-	},
+	// {
+	// 	name: "[Gen 9] Free-For-All Random Battle",
+	// 	mod: 'gen9',
+	// 	team: 'randomFFA',
+	// 	gameType: 'freeforall',
+	// 	tournamentShow: false,
+	// 	rated: false,
+	// 	ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Terastal Clause'],
+	// },
 	{
 		name: "[Gen 9] Random Battle (Blitz)",
 		mod: 'gen9',
