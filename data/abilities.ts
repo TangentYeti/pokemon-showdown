@@ -7183,24 +7183,25 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
             this.runEvent('ChangeType', pokemon);
 		},
 		onModifyMove(move) {
-			if (!move?.category === 'Special') return;
-			if (!move.secondaries) {
-				move.secondaries = [];
-			}
-			move.secondaries.push({
-				chance: 50,
-				onHit(target, source) {
-					const result = this.random(5);
-					if (result === 0 || result === 1) {
-						target.trySetStatus('brn', source);
-					} else if (result === 2 || result === 3) {
-						target.trySetStatus('par', source);
-					} else {
-						target.trySetStatus('frz', source);
-					}
-				},
-				ability: this.dex.abilities.get('triplethreat'),
-			});
+			if (move.category === 'Special') {
+				if (!move.secondaries) {
+					move.secondaries = [];
+				}
+				move.secondaries.push({
+					chance: 50,
+					onHit(target, source) {
+						const result = this.random(5);
+						if (result === 0 || result === 1) {
+							target.trySetStatus('brn', source);
+						} else if (result === 2 || result === 3) {
+							target.trySetStatus('par', source);
+						} else {
+							target.trySetStatus('frz', source);
+						}
+					},
+					ability: this.dex.abilities.get('triplethreat'),
+				})
+			};
 		},
 		name: "Triple Threat",
 		rating: 4,
