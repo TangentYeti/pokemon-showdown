@@ -117,7 +117,7 @@
         ]
     },   
     "allopere": {
-	    "level": 82,
+	    "level": 80,
 	    "sets": [
 	        {
 		        "role": "Fast Attacker",
@@ -279,7 +279,7 @@
         ]
     },
     "purrforynx": {
-	    "level": 82,
+	    "level": 80,
 	    "sets": [
 	        {
 		        "role": "Bulky Attacker",
@@ -307,7 +307,7 @@
         ]
     },
     "zenriest": {
-	    "level": 85,
+	    "level": 88,
 	    "sets": [
 	        {
 		        "role": "Bulky Attacker",
@@ -742,7 +742,7 @@
 		]
 	},
 	"dranyon": {
-		"level": 86,
+		"level": 87,
 		"sets": [
 			{
 				"role": "Bulky Attacker",
@@ -842,7 +842,7 @@
 		]
 	},
 	"hummzinger": {
-		"level": 80,
+		"level": 77,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -971,7 +971,7 @@
 		]
 	},
 	"pyrectix": {
-		"level": 85,
+		"level": 83,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -2070,14 +2070,14 @@
 		"sets": [
 			{
 				"role": "Fast Attacker",
-				"movepool": ["Basalt Barrage", "Accelerock", "Earthquake", "Night Slash", "Psycho Cut", "Stealth Rock"],
+				"movepool": ["Stone Edge", "Accelerock", "Drill Run", "Night Slash", "Psycho Cut", "Stealth Rock"],
 				"abilities": ["Super Luck"],
 				"teraTypes": ["Dark"]
 			}
 		]
 	},
 	"mafimime": {
-		"level": 85,
+		"level": 87,
 		"sets": [
 			{
 				"role": "AV Pivot",
@@ -2173,7 +2173,7 @@
 		]
 	},
 	"tremasque": {
-		"level": 85,
+		"level": 83,
 		"sets": [
 			{
 				"role": "AV Pivot",
@@ -2240,7 +2240,7 @@
 		]
 	},
 	"psititan": {
-		"level": 82,
+		"level": 80,
 		"sets": [
 			{
 				"role": "AV Pivot",
@@ -2296,7 +2296,7 @@
 		]
 	},
 	"tundance": {
-		"level": 85,
+		"level": 87,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -2470,7 +2470,7 @@
 		]
 	},
 	"malevite": {
-		"level": 85,
+		"level": 83,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -2568,7 +2568,7 @@
 		"sets": [
 			{
 				"role": "Bulky Setup",
-				"movepool": ["Body Press", "Leech Seed", "Iron Defense", "Toxic", "Knock Off", "Iron Head"],
+				"movepool": ["Body Press", "Leech Seed", "Iron Defense", "Toxic", "Knock Off", "Flash Cannon"],
 				"abilities": ["Noxious Skin"],
 				"teraTypes": ["Dark"]
 			}
@@ -2890,7 +2890,7 @@
 		]
 	},
 	"bellossomalthon": {
-		"level": 87,
+		"level": 84,
 		"sets": [
 			{
 				"role": "Bulky Setup",
@@ -3030,7 +3030,7 @@
 		]
 	},
 	"golduckalthon": {
-		"level": 85,
+		"level": 86,
 		"sets": [
 			{
 				"role": "Bulky Support",
