@@ -117,7 +117,7 @@
         ]
     },   
     "allopere": {
-	    "level": 82,
+	    "level": 80,
 	    "sets": [
 	        {
 		        "role": "Fast Attacker",
@@ -267,19 +267,19 @@
 	        {
 		        "role": "Fast Attacker",
 		        "movepool": ["Poltergeist", "Volt Tackle", "Shadow Sneak", "Leech Life", "Killerwatt", "Spectral Hammer"],
-		        "abilities": ["Stunning Entrance", "Intimidate"],
+		        "abilities": ["Stunning Entrance", "Electric Surge"],
 		        "teraTypes": ["Dark"]
             },
             {
 		        "role": "Setup Sweeper",
 		        "movepool": ["Poltergeist", "Supercell Slam", "Shadow Sneak", "Shift Gear", "Spirit Break", "Leech Life"],
-		        "abilities": ["Stunning Entrance", "Intimidate"],
+		        "abilities": ["Stunning Entrance", "Electric Surge"],
 		        "teraTypes": ["Dark"]
             }
         ]
     },
     "purrforynx": {
-	    "level": 82,
+	    "level": 80,
 	    "sets": [
 	        {
 		        "role": "Bulky Attacker",
@@ -307,7 +307,7 @@
         ]
     },
     "zenriest": {
-	    "level": 85,
+	    "level": 88,
 	    "sets": [
 	        {
 		        "role": "Bulky Attacker",
@@ -528,14 +528,14 @@
 	    "sets": [
 	        {
 		        "role": "AV Pivot",
-		        "movepool": ["Earthquake", "Flip Turn", "Liquidation", "Triple Axel", "Dragon Tail", "Aqua Jet"],
-		        "abilities": ["Sand Rush"],
+		        "movepool": ["Earthquake", "Flip Turn", "Liquidation", "Basalt Barrage", "Dragon Tail", "Aqua Jet"],
+		        "abilities": ["Solid Rock"],
 		        "teraTypes": ["Dark"]
             },
             {
 		        "role": "Bulky Support",
-		        "movepool": ["Earthquake", "Flip Turn", "Liquidation", "Roost", "Defog", "Haze"],
-		        "abilities": ["Sand Rush"],
+		        "movepool": ["Basalt Barrage", "Flip Turn", "Liquidation", "Roost", "Defog", "Haze"],
+		        "abilities": ["Solid Rock"],
 		        "teraTypes": ["Dark"]
             }
         ]
@@ -546,13 +546,13 @@
 	        {
 		        "role": "Fast Attacker",
 		        "movepool": ["Noxious Maw", "Close Combat", "Knock Off", "High Horsepower", "U-Turn", "Sucker Punch"],
-		        "abilities": ["Quick Feet"],
+		        "abilities": ["Toxic Debris"],
 		        "teraTypes": ["Dark"]
             },
             {
 		        "role": "Fast Support",
-		        "movepool": ["Noxious Maw", "Toxic Spikes", "Knock Off", "Mortal Spin", "Taunt", "Close Combat"],
-		        "abilities": ["Quick Feet"],
+		        "movepool": ["Noxious Maw", "Toxic", "Knock Off", "Mortal Spin", "Taunt", "Close Combat"],
+		        "abilities": ["Toxic Debris"],
 		        "teraTypes": ["Dark"]
             }
         ]
@@ -648,7 +648,7 @@
         ]
     },
     "frosquito": {
-	    "level": 90,
+	    "level": 95,
 	    "sets": [
 	        {
 		        "role": "Fast Support",
@@ -742,7 +742,7 @@
 		]
 	},
 	"dranyon": {
-		"level": 86,
+		"level": 87,
 		"sets": [
 			{
 				"role": "Bulky Attacker",
@@ -842,7 +842,7 @@
 		]
 	},
 	"hummzinger": {
-		"level": 80,
+		"level": 77,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -971,7 +971,7 @@
 		]
 	},
 	"pyrectix": {
-		"level": 85,
+		"level": 83,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -997,7 +997,7 @@
 		"sets": [
 			{
 				"role": "Bulky Attacker",
-				"movepool": ["Headlong Rush", "Fever Claw", "Stone Edge", "Synthesis", "Poison Jab", "Swamp Kick"],
+				"movepool": ["Earthquake", "Fever Claw", "Stone Edge", "Synthesis", "Poison Jab", "Swamp Kick"],
 				"abilities": ["Tough Claws"],
 				"teraTypes": ["Dark"]
 			},
@@ -1114,7 +1114,7 @@
 		"sets": [
 			{
 				"role": "Fast Attacker",
-				"movepool": ["Fire Blast", "Earth Power", "Glare", "Solar Beam", "Flare Blitz", "Headlong Rush"],
+				"movepool": ["Fire Blast", "Earth Power", "Power Gem", "Solar Beam", "Flare Blitz", "Stone Edge"],
 				"abilities": ["Drought"],
 				"teraTypes": ["Dark"]
 			}
@@ -1452,17 +1452,17 @@
 		]
 	},
 	"furianzhou": {
-		"level": 85,
+		"level": 78,
 		"sets": [
 			{
 				"role": "Fast Attacker",
-				"movepool": ["Headlong Rush", "Cretacial Maul", "Drill Peck", "Stone Edge", "Psychic Fangs", "Low Kick"],
-				"abilities": ["Avian"],
+				"movepool": ["Headlong Rush", "Cretacial Maul", "Rock Slide", "Psychic Fangs", "Low Kick"],
+				"abilities": ["Territorial"],
 				"teraTypes": ["Dark"]
 			},
 			{
 				"role": "Setup Sweeper",
-				"movepool": ["Headlong Rush", "Cretacial Maul", "Swords Dance", "Stone Edge", "Crunch", "Trailblaze"],
+				"movepool": ["Headlong Rush", "Cretacial Maul", "Swords Dance", "Rock Slide", "Crunch", "Trailblaze"],
 				"abilities": ["Territorial"],
 				"teraTypes": ["Dark"]
 			}
@@ -1486,7 +1486,7 @@
 		]
 	},
 	"ankorient": {
-		"level": 85,
+		"level": 84,
 		"sets": [
 			{
 				"role": "Bulky Setup",
@@ -1503,7 +1503,7 @@
 		]
 	},
 	"odivalk": {
-		"level": 85,
+		"level": 80,
 		"sets": [
 			{
 				"role": "Setup Sweeper",
@@ -1514,7 +1514,7 @@
 		]
 	},
 	"valkischief": {
-		"level": 85,
+		"level": 82,
 		"sets": [
 			{
 				"role": "Setup Sweeper",
@@ -1525,7 +1525,7 @@
 		]
 	},
 	"reckleosteus": {
-		"level": 85,
+		"level": 83,
 		"sets": [
 			{
 				"role": "Wallbreaker",
@@ -1650,12 +1650,6 @@
 				"movepool": ["Dying Light", "Supernova", "Earth Power", "Grass Knot", "Psychic", "Backdraft"],
 				"abilities": ["Sunrise"],
 				"teraTypes": ["Dark"]
-			},
-			{
-				"role": "Bulky Setup",
-				"movepool": ["Dying Light", "Calm Mind", "Morning Sun", "Will-O-Wisp", "Flame Charge", "Earth Power"],
-				"abilities": ["Sunrise"],
-				"teraTypes": ["Dark"]
 			}
 		]
 	},
@@ -1711,7 +1705,7 @@
 		]
 	},
 	"forgeitymn": {
-		"level": 75,
+		"level": 70,
 		"sets": [
 			{
 				"role": "Bulky Support",
@@ -1749,7 +1743,7 @@
 		"sets": [
 			{
 				"role": "Bulky Attacker",
-				"movepool": ["Divine Order", "Darkest Lariat", "Focus Blast", "Heat Wave", "Rock Slide", "Earth Power"],
+				"movepool": ["Divine Order", "Darkest Lariat", "Heat Wave", "Rock Slide", "Earth Power"],
 				"abilities": ["Divination"],
 				"teraTypes": ["Dark"]
 			},
@@ -1971,7 +1965,7 @@
 		]
 	},
 	"quendrill": {
-		"level": 85,
+		"level": 82,
 		"sets": [
 			{
 				"role": "Setup Sweeper",
@@ -2009,7 +2003,7 @@
 			},
 			{
 				"role": "Bulky Setup",
-				"movepool": ["Body Slam", "Knock Off", "Drain Punch", "Curse", "Rest", "Sleep Talk"],
+				"movepool": ["Body Slam", "Knock Off", "Drain Punch", "Thunder Wave", "Rest", "Sleep Talk"],
 				"abilities": ["Golem Grace"],
 				"teraTypes": ["Dark"]
 			}
@@ -2043,6 +2037,17 @@
 			}
 		]
 	},
+	"shargarch": {
+		"level": 85,
+		"sets": [
+			{
+				"role": "Fast Attacker",
+				"movepool": ["Scale Shot", "Liquidation", "Ice Spinner", "Earthquake", "Dragon Claw", "Iron Head"],
+				"abilities": ["Rough Skin"],
+				"teraTypes": ["Dark"]
+			}
+		]
+	},
 	"draplisc": {
 		"level": 85,
 		"sets": [
@@ -2065,14 +2070,14 @@
 		"sets": [
 			{
 				"role": "Fast Attacker",
-				"movepool": ["Basalt Barrage", "Accelerock", "Earthquake", "Night Slash", "Psycho Cut", "Stealth Rock"],
+				"movepool": ["Stone Edge", "Accelerock", "Drill Run", "Night Slash", "Psycho Cut", "Stealth Rock"],
 				"abilities": ["Super Luck"],
 				"teraTypes": ["Dark"]
 			}
 		]
 	},
 	"mafimime": {
-		"level": 85,
+		"level": 87,
 		"sets": [
 			{
 				"role": "AV Pivot",
@@ -2106,7 +2111,7 @@
 		]
 	},
 	"dragoulich": {
-		"level": 81,
+		"level": 77,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -2122,7 +2127,7 @@
 			}
 		]
 	},
-	"demogrievous": {
+	"demogrievus": {
 		"level": 83,
 		"sets": [
 			{
@@ -2147,12 +2152,6 @@
 				"movepool": ["Flare Blitz", "Skyquake", "Knock Off", "Swords Dance", "Taunt", "Bonemerang"],
 				"abilities": ["Hellborn"],
 				"teraTypes": ["Dark"]
-			},
-			{
-				"role": "Bulky Setup",
-				"movepool": ["Fire Blast", "Hurricane", "Fiery Wrath", "Nasty Plot", "Taunt", "Psyshock"],
-				"abilities": ["Hellborn"],
-				"teraTypes": ["Dark"]
 			}
 		]
 	},
@@ -2174,7 +2173,7 @@
 		]
 	},
 	"tremasque": {
-		"level": 85,
+		"level": 83,
 		"sets": [
 			{
 				"role": "AV Pivot",
@@ -2219,7 +2218,7 @@
 		]
 	},
 	"apoxicary": {
-		"level": 85,
+		"level": 82,
 		"sets": [
 			{
 				"role": "Setup Sweeper",
@@ -2241,7 +2240,7 @@
 		]
 	},
 	"psititan": {
-		"level": 83,
+		"level": 80,
 		"sets": [
 			{
 				"role": "AV Pivot",
@@ -2258,7 +2257,7 @@
 		]
 	},
 	"velochem": {
-		"level": 84,
+		"level": 83,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -2297,7 +2296,7 @@
 		]
 	},
 	"tundance": {
-		"level": 85,
+		"level": 87,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -2386,6 +2385,34 @@
 			}
 		]
 	},
+	"tartanarch": {
+		"level": 85,
+		"sets": [
+			{
+				"role": "AV Pivot",
+				"movepool": ["Mountain Gale", "Earthquake", "Superpower", "Knock Off", "Ice Shard", "Zen Headbutt"],
+				"abilities": ["Earth Eater"],
+				"teraTypes": ["Dark"]
+			},
+			{
+				"role": "Wallbreaker",
+				"movepool": ["Ice Hammer", "Ice Shard", "Wild Charge", "Superpower", "Earthquake", "Zen Headbutt"],
+				"abilities": ["Earth Eater"],
+				"teraTypes": ["Dark"]
+			}
+		]
+	},
+	"pentalex": {
+		"level": 85,
+		"sets": [
+			{
+				"role": "Fast Attacker",
+				"movepool": ["Psionic Needles", "Arm Thrust", "Icicle Spear", "Rock Blast", "Bullet Punch", "Bullet Seed"],
+				"abilities": ["Skil Link"],
+				"teraTypes": ["Dark"]
+			}
+		]
+	},
 	"mienshantis": {
 		"level": 85,
 		"sets": [
@@ -2443,7 +2470,7 @@
 		]
 	},
 	"malevite": {
-		"level": 85,
+		"level": 83,
 		"sets": [
 			{
 				"role": "Fast Attacker",
@@ -2541,7 +2568,7 @@
 		"sets": [
 			{
 				"role": "Bulky Setup",
-				"movepool": ["Body Press", "Leech Seed", "Iron Defense", "Toxic", "Knock Off", "Iron Head"],
+				"movepool": ["Body Press", "Leech Seed", "Iron Defense", "Toxic", "Knock Off", "Flash Cannon"],
 				"abilities": ["Noxious Skin"],
 				"teraTypes": ["Dark"]
 			}
@@ -2599,7 +2626,7 @@
 		]
 	},
 	"revolaunt": {
-		"level": 85,
+		"level": 83,
 		"sets": [
 			{
 				"role": "Wallbreaker",
@@ -2676,13 +2703,13 @@
 		"sets": [
 			{
 				"role": "Bulky Support",
-				"movepool": ["Earthquake", "Defog", "Heal Order", "Skyquake", "Toxic", "Knock Off"],
+				"movepool": ["Stone Edge", "Defog", "Heal Order", "Skyquake", "Toxic", "Knock Off"],
 				"abilities": ["Unnerve"],
 				"teraTypes": ["Dark"]
 			},
 			{
 				"role": "Bulky Attacker",
-				"movepool": ["Earthquake", "Skyquake", "Knock Off", "Heal Order", "Attack Order", "Gunk Shot"],
+				"movepool": ["Stone Edge", "Skyquake", "Knock Off", "Heal Order", "Attack Order", "Earthquake"],
 				"abilities": ["Hustle"],
 				"teraTypes": ["Dark"]
 			}
@@ -2727,8 +2754,8 @@
 			},
 			{
 				"role": "Fast Support",
-				"movepool": ["Dragon Pulse", "Flash Cannon", "Wish", "Stealth Rock", "Roar", "Scorching Sands"],
-				"abilities": ["Marvel Scale"],
+				"movepool": ["Dragon Pulse", "Flash Cannon", "Wish", "Stealth Rock", "Roar", "Scale Shield"],
+				"abilities": ["Steely Spirit"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -2813,7 +2840,7 @@
 		]
 	},
 	"hexxing": {
-		"level": 85,
+		"level": 87,
 		"sets": [
 			{
 				"role": "Bulky Support",
@@ -2863,7 +2890,7 @@
 		]
 	},
 	"bellossomalthon": {
-		"level": 87,
+		"level": 84,
 		"sets": [
 			{
 				"role": "Bulky Setup",
@@ -3003,7 +3030,7 @@
 		]
 	},
 	"golduckalthon": {
-		"level": 85,
+		"level": 86,
 		"sets": [
 			{
 				"role": "Bulky Support",
@@ -3020,7 +3047,7 @@
 		]
 	},
 	"anuguard": {
-		"level": 85,
+		"level": 82,
 		"sets": [
 			{
 				"role": "Bulky Setup",
@@ -3031,7 +3058,7 @@
 		]
 	},
 	"malfalpha": {
-		"level": 85,
+		"level": 81,
 		"sets": [
 			{
 				"role": "Wallbreaker",
@@ -3063,7 +3090,7 @@
 		"sets": [
 			{
 				"role": "Fast Attacker",
-				"movepool": ["Triple Axel", "Poltergeist", "Ice Shard", "Shadow Sneak", "Ki Crush", "Leech Life"],
+				"movepool": ["Triple Axel", "Spirit Break", "Ice Shard", "Shadow Sneak", "Poltergeist", "Leech Life"],
 				"abilities": ["Beast Boost"],
 				"teraTypes": ["Dark"]
 			}
