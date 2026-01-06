@@ -31,12 +31,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod'],
 	},
 	{
-		name: "[Gen 9] Divine Olympus RandBats",
-		desc: `Randomized teams of Pok&eacute;mon with sets that are generated to be competitively (un)viable.`,
+		name: "[Gen 9] Random Battle",
+		desc: `Randomized teams of Pok&eacute;mon with sets that are generated to be competitively viable.`,
 		mod: 'gen9',
 		team: 'random',
 		bestOfDefault: true,
-		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod'],
+		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Terastal Clause'],
 	},
 	{
 		name: "[Gen 9] Divine Olympus FFA",
@@ -47,13 +47,13 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod'],
 	},
 	{
-		name: "[Gen 9] Divine Olympus FFA RandBats",
+		name: "[Gen 9] Free-For-All Random Battle",
 		mod: 'gen9',
 		team: 'randomFFA',
 		gameType: 'freeforall',
 		tournamentShow: false,
 		rated: false,
-		ruleset: ['Althon', 'Sleep Moves Clause', '!Sleep Clause Mod',],
+		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Terastal Clause'],
 	},
 	{
 		name: "[Gen 9] Divine Olympus Doubles",
