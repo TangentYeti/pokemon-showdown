@@ -2283,14 +2283,14 @@
 		"sets": [
 			{
 				"role": "AV Pivot",
-				"movepool": ["Leaf Storm", "Psychic", "Earth Power", "U-Turn", "Psychic Fangs", "Low Kick"],
-				"abilities": ["Soundproof"],
+				"movepool": ["Leaf Storm", "Psychic", "Earth Power", "U-Turn", "Energy Ball", "Dragon Pulse"],
+				"abilities": ["Psychic Surge"],
 				"teraTypes": ["Dark"]
 			},
 			{
 				"role": "Setup Sweeper",
-				"movepool": ["Solar Beam", "Psychic", "Weather Ball", "Growth", "Sunny Day", "Earth Power"],
-				"abilities": ["Chlorophyll"],
+				"movepool": ["Energy Ball", "Psychic", "Synthesis", "Calm Mind", "Dragon Pulse", "Earth Power"],
+				"abilities": ["Psychic Surge"],
 				"teraTypes": ["Dark"]
 			}
 		]
