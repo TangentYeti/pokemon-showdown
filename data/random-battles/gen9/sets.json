@@ -2408,7 +2408,7 @@
 			{
 				"role": "Fast Attacker",
 				"movepool": ["Psionic Needles", "Arm Thrust", "Icicle Spear", "Rock Blast", "Bullet Punch", "Bullet Seed"],
-				"abilities": ["Skil Link"],
+				"abilities": ["Skill Link"],
 				"teraTypes": ["Dark"]
 			}
 		]
