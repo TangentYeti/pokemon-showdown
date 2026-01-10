@@ -1082,7 +1082,7 @@
 		]
 	},
 	"parafullo": {
-		"level": 84,
+		"level": 80,
 		"sets": [
 			{
 				"role": "Bulky Setup",
@@ -1739,7 +1739,7 @@
 		]
 	},
 	"trustice": {
-		"level": 75,
+		"level": 77,
 		"sets": [
 			{
 				"role": "Bulky Attacker",
