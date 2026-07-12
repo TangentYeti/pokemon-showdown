@@ -21728,7 +21728,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	dirm: {
 		num: 1165,
 		name: "Dirm",
-		types: ["Bug", "Ground"],
+		types: ["Ground"],
 		baseStats: {hp: 72, atk: 64, def: 52, spa: 26, spd: 22, spe: 74},
 		abilities: {0: "Shed Skin", 1: "Arena Trap"},
 		heightm: 1.3,
@@ -21741,7 +21741,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	chasorm: {
 		num: 1166,
 		name: "Chasorm",
-		types: ["Bug", "Ground"],
+		types: ["Ground"],
 		baseStats: {hp: 99, atk: 106, def: 84, spa: 37, spd: 52, spe: 102},
 		abilities: {0: "Moxie", 1: "Arena Trap"},
 		heightm: 6,
