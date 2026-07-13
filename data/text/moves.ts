@@ -7934,8 +7934,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	divineorder: {
 		name: "Divine Order",
-		desc: "This move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes. This move and its effects ignore the Abilities of other Pokemon.",
-		shortDesc: "Physical if user's Atk > Sp. Atk. Ignores Abilities.",
+		desc: "This move applies torment on hit.",
+		shortDesc: "Applies Torment.",
 	},
 	dyinglight: {
 		name: "Dying Light",
