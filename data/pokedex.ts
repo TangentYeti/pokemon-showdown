@@ -26019,6 +26019,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Red",
 		evos: ["Electrode-Althon"],
 		eggGroups: ["Mineral"],
+		tags: ["Fakemon"],
 	},
 	electrodealthon: {
 		num: 101,
@@ -26036,5 +26037,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoType: "useItem",
 		evoItem: "Leaf Stone",
 		eggGroups: ["Mineral"],
+		tags: ["Fakemon"],
 	},
 };
