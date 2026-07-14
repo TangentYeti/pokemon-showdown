@@ -26032,7 +26032,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1.2,
 		weightkg: 71,
 		color: "Red",
-		prevo: "Voltorb-Hisui",
+		prevo: "Voltorb-Althon",
 		evoType: "useItem",
 		evoItem: "Leaf Stone",
 		eggGroups: ["Mineral"],

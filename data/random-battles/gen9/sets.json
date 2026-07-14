@@ -1562,8 +1562,8 @@
 				"teraTypes": ["Dark"]
 			},
 			{
-				"role": "Fast Attcker",
-				"movepool": ["Falre Blitz", "Triple Arrows", "Rock Slide", "Explosion", "Wild Charge", "Endure"],
+				"role": "Fast Attacker",
+				"movepool": ["Flare Blitz", "Triple Arrows", "Rock Slide", "Explosion", "Wild Charge", "Endure"],
 				"abilities": ["Anger Shell"],
 				"teraTypes": ["Dark"]
 			}
@@ -2491,7 +2491,7 @@
 			}
 		]
 	},
-	"rotomalthonlantern": {
+	"rotomlantern": {
 		"level": 85,
 		"sets": [
 			{
@@ -2502,7 +2502,7 @@
 			}
 		]
 	},
-	"rotomalthonmixer": {
+	"rotommixer": {
 		"level": 85,
 		"sets": [
 			{
@@ -2513,7 +2513,7 @@
 			}
 		]
 	},
-	"rotomalthonwindvane": {
+	"rotomwindvane": {
 		"level": 85,
 		"sets": [
 			{
@@ -2524,7 +2524,7 @@
 			}
 		]
 	},
-	"rotomalthonbouzuki": {
+	"rotombouzuki": {
 		"level": 85,
 		"sets": [
 			{
@@ -2535,7 +2535,7 @@
 			}
 		]
 	},
-	"rotomalthonclock": {
+	"rotomclock": {
 		"level": 85,
 		"sets": [
 			{
