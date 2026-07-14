@@ -1317,13 +1317,19 @@
 			}
 		]
 	},
-	"mollucone": {
+	"venobella": {
 		"level": 87,
 		"sets": [
 			{
-				"role": "Bulky Setup",
-				"movepool": ["Toxic", "Body Press", "Recover", "Iron Defense", "Protect", "Clear Smog"],
-				"abilities": ["Shell Armor"],
+				"role": "Bulky Attacker",
+				"movepool": ["Surf", "Sludge Bomb", "Giga Drain", "Earth Power", "Moonlight", "Shadow Ball"],
+				"abilities": ["Triage", "Effect Spore"],
+				"teraTypes": ["Dark"]
+			},
+			{
+				"role": "Bulky Support",
+				"movepool": ["Surf”, “Sludge Bomb”, “Leech Seed”, “Toxic”, “Moonlight”, “Night Shade"],
+				"abilities": ["Triage"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -1546,19 +1552,19 @@
 			}
 		]
 	},
-	"solursa": {
+	"electrodealthon": {
 		"level": 85,
 		"sets": [
 			{
-				"role": "AV Pivot",
-				"movepool": ["Fire Punch", "Drain Punch", "Thunder Punch", "Earthquake", "Rock Slide", "Darkest Lariat"],
-				"abilities": ["Iron Fist"],
+				"role": "Fast Support",
+				"movepool": ["Spikes", "Stealth Rock", "Pyro Ball", "Superpower", "Taunt", "Explosion"],
+				"abilities": ["Toxic Debris"],
 				"teraTypes": ["Dark"]
 			},
 			{
-				"role": "Bulky Setup",
-				"movepool": ["Fire Punch", "Drain Punch", "Bulk Up", "Morning Sun"],
-				"abilities": ["Iron Fist"],
+				"role": "Fast Attcker",
+				"movepool": ["Falre Blitz", "Triple Arrows", "Rock Slide", "Explosion", "Wild Charge", "Endure"],
+				"abilities": ["Anger Shell"],
 				"teraTypes": ["Dark"]
 			}
 		]

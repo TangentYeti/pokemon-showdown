@@ -6907,10 +6907,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
-	gastroble: {
+	burloch: {
 		tier: "LC",
 	},
-	mollucone: {
+	venobella: {
 		tier: "UU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
@@ -7037,10 +7037,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
-	cublaze: {
+	voltorbalthon: {
 		tier: "LC",
 	},
-	solursa: {
+	electrodealthon: {
 		tier: "UU",
 		doublesTier: "DOU",
 		natDexTier: "OU",

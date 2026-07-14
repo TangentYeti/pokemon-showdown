@@ -4430,11 +4430,11 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	falnado: {
 		name: "Falnado",
 	},
-	gastroble: {
-		name: "Gastroble",
+	burloch: {
+		name: "Burloch",
 	},
-	mollucone: {
-		name: "Mollucone",
+	venobella: {
+		name: "Venobella",
 	},
 	larvaby: {
 		name: "Larvaby",
@@ -4526,11 +4526,11 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	porcupulse: {
 		name: "Porcupulse",
 	},
-	cublaze: {
-		name: "Cublaze",
+	voltorbalthon: {
+		name: "Voltorb-Althon",
 	},
-	solursa: {
-		name: "Solursa",
+	electrodealthon: {
+		name: "Electrode-Althon",
 	},
 	albafrost: {
 		name: "Albafrost",
