@@ -7407,26 +7407,18 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
-	doduoalthon: {
+	chatotalthon: {
 		tier: "LC",
 	},
-	dodrioalthon: {
+	chitchatot: {
 		tier: "OU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
-	arite: {
+	fomantisalthon: {
 		tier: "LC",
 	},
-	lairite: {
-		tier: "NFE",
-	},
-	aggrite: {
-		tier: "OU",
-		doublesTier: "DOU",
-		natDexTier: "OU",
-	},
-	malevite: {
+	lurantisalthon: {
 		tier: "OU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
@@ -7480,24 +7472,24 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
-	shinxalthond: {
+	elgyemalthon: {
 		tier: "LC",
 	},
-	luxioalthond: {
+	beheeyemalthon: {
 		tier: "NFE",
 	},
-	luxrayalthond: {
+	uraineeyem: {
 		tier: "OU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
-	shinxalthonc: {
+	igglybuffalthon: {
 		tier: "LC",
 	},
-	luxioalthonc: {
+	jigglypuffalthon: {
 		tier: "NFE",
 	},
-	luxrayalthonc: {
+	wigglytuffalthon: {
 		tier: "OU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
@@ -7629,7 +7621,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
-	spiritombalthon: {
+	cyclizaralthon: {
 		tier: "OU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
@@ -7735,13 +7727,13 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
-	hoppipalthon: {
+	trapinchalthon: {
 		tier: "LC",
 	},
-	skiploomalthon: {
+	vibravaalthon: {
 		tier: "NFE",
 	},
-	jumpluffalthon: {
+	flygonalthon: {
 		tier: "OU",
 		doublesTier: "DOU",
 		natDexTier: "OU",

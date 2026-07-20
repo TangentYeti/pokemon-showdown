@@ -4790,23 +4790,17 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	mienshantis: {
 		name: "Mienshantis",
 	},
-	doduoalthon: {
-		name: "Doduo-Althon",
+	chatotalthon: {
+		name: "Chatot-Althon",
 	},
-	dodrioalthon: {
-		name: "Dodrio-Althon",
+	chitchatot: {
+		name: "Chitchatot",
 	},
-	arite: {
-		name: "Arite",
+	fomantisalthon: {
+		name: "Fomantis-Althon",
 	},
-	lairite: {
-		name: "Lairite",
-	},
-	aggrite: {
-		name: "Aggrite",
-	},
-	malevite: {
-		name: "Malevite",
+	lurantisalthon: {
+		name: "Lurantis-Althon",
 	},
 	rotomalthon: {
 		name: "Rotom-Althon",
@@ -4841,23 +4835,23 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	mastophan: {
 		name: "Mastophan",
 	},
-	shinxalthond: {
-		name: "Shinx-Althon-D",
+	elgyemalthon: {
+		name: "Elgyem-Althon",
 	},
-	luxioalthond: {
-		name: "Luxio-Althon-D",
+	beheeyemalthon: {
+		name: "Beheeyem-Althon",
 	},
-	luxrayalthond: {
-		name: "Luxray-Althon-D",
+	uraineeyem: {
+		name: "Uraineeyem",
 	},
-	shinxalthonc: {
-		name: "Shinx-Althon-C",
+	igglybuffalthon: {
+		name: "Igglybuff-Althon",
 	},
-	luxioalthonc: {
-		name: "Luxio-Althon-C",
+	jigglypuffalthon: {
+		name: "Jigglypuff-Althon",
 	},
-	luxrayalthonc: {
-		name: "Luxray-Althon-C",
+	wigglytuffalthon: {
+		name: "Wigglytuff-Althon",
 	},
 	roggenrolaalthon: {
 		name: "Roggenrola-Althon",
@@ -4958,8 +4952,8 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	liepardalthon: {
 		name: "Liepard-Althon",
 	},
-	spiritombalthon: {
-		name: "Spiritomb-Althon",
+	cyclizaralthon: {
+		name: "Cyclizar-Althon",
 	},
 	koffingalthon: {
 		name: "Koffing-Althon",
@@ -5042,14 +5036,14 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	feraligatralthon: {
 		name: "Feraligatr-Althon",
 	},
-	hoppipalthon: {
-		name: "Hoppip-Althon",
+	trapinchalthon: {
+		name: "Trapinch-Althon",
 	},
-	skiploomalthon: {
-		name: "Skiploom-Althon",
+	vibravaalthon: {
+		name: "Vibrava-Althon",
 	},
-	jumpluffalthon: {
-		name: "Jumpluff-Althon",
+	flygonalthon: {
+		name: "Flygon-Althon",
 	},
 	amaurtic: {
 		name: "Amaurtic",
