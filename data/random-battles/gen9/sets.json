@@ -2574,36 +2574,36 @@
 			}
 		]
 	},
-	"luxrayalthonc": {
+	"wigglytuffalthon": {
 		"level": 85,
 		"sets": [
 			{
-				"role": "Fast Attacker",
-				"movepool": ["Crunch", "Sucker Punch", "Superpower", "Play Rough", "Trailblaze", "Pursuit"],
-				"abilities": ["Battle Hardened", "Scrappy"],
+				"role": "Wallbreaker",
+				"movepool": ["Knock Off", "Sucker Punch", "Pursuit", "Play Rough", "Zen Headbutt", "Switcheroo"],
+				"abilities": ["Defiant"],
 				"teraTypes": ["Dark"]
 			},
 			{
-				"role": "AV Pivot",
-				"movepool": ["Crunch", "Sucker Punch", "Superpower", "Play Rough", "Wild Charge", "Pursuit"],
-				"abilities": ["Battle Hardened", "Scrappy"],
+				"role": "Bulky Attacker",
+				"movepool": ["Knock Off", "Sucker Punch", "Swords Dance", "Substitute", "Ice Punch", "Thunder Punch"],
+				"abilities": ["Defiant"],
 				"teraTypes": ["Dark"]
 			}
 		]
 	},
-	"luxrayalthond": {
+	"uraineeyem": {
 		"level": 85,
 		"sets": [
 			{
-				"role": "Bulky Setup",
-				"movepool": ["Draining Kiss", "Calm Mind", "Thunderbolt", "Mystical Fire", "Moonblast", "Focus Blast"],
-				"abilities": ["Wither"],
+				"role": "Wallbreaker",
+				"movepool": ["Psyshock", "Shadow Ball", "Earth Power", "Dazzling Gleam", "Thunderbolt", "Trick"],
+				"abilities": ["Irradiate", "Levitate"],
 				"teraTypes": ["Dark"]
 			},
 			{
-				"role": "AV Pivot",
-				"movepool": ["Moonblast", "Thunderbolt", "Mystical Fire", "Psyshock", "Trailblaze", "Focus Blast"],
-				"abilities": ["Wither"],
+				"role": "Bulky Attacker",
+				"movepool": ["Psychic", "Shadow Ball", "Meteor Beam", "Trick Room", "Dazzling Gleam", "Earth Power"],
+				"abilities": ["Levitate", "Irradiate"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -2822,21 +2822,15 @@
 			}
 		]
 	},
-	"spiritombalthon": {
-		"level": 88,
+	"cyclizaralthon": {
+		"level": 85,
 		"sets": [
 			{
-				"role": "Bulky Attacker",
-				"movepool": ["Poltergeist", "Spirit Break", "Shadow Sneak", "Trick", "Moonlight", "Pursuit"],
-				"abilities": ["Infiltrator"],
+				"role": "Setup Sweeper",
+				"movepool": ["Icicle Spear", "Tail Slap", "Shift Gear", "Knock Off", "Stomping Tantrum", "Wild Charge"],
+				"abilities": ["Mountaineer"],
 				"teraTypes": ["Dark"]
-			},
-			{
-				"role": "Bulky Attacker",
-				"movepool": ["Spirit Bomb", "Moonblast", "Psychic", "Trick", "Moonlight", "Black Hole"],
-				"abilities": ["Infiltrator"],
-				"teraTypes": ["Dark"]
-		}
+			}
 		]
 	},
 	"hexxing": {
@@ -2967,19 +2961,19 @@
 			}
 		]
 	},
-	"jumpluffalthon": {
-		"level": 86,
+	"flygonalthon": {
+		"level": 85,
 		"sets": [
 			{
 				"role": "Fast Attacker",
-				"movepool": ["Thunderbolt", "Leaf Storm", "Volt Switch", "Strength Sap", "Encore", "Air Slash"],
-				"abilities": ["Levitate"],
+				"movepool": ["Electro Drift", "Focus Blast", "Vacuum Wave", "Volt Switch", "Boomburst", "Flamethrower"],
+				"abilities": ["Competitive"],
 				"teraTypes": ["Dark"]
 			},
 			{
-				"role": "Setup Sweeper",
-				"movepool": ["Thunderbolt", "Energy Ball", "Quiver Dance", "Strength Sap", "Substitute", "Air Slash"],
-				"abilities": ["Levitate"],
+				"role": "Fast Support",
+				"movepool": ["Electro Drift", "Aura Sphere", "Volt Switch", "Defog", "Roost", "Earth Power"],
+				"abilities": ["Competitive"],
 				"teraTypes": ["Dark"]
 			}
 		]
