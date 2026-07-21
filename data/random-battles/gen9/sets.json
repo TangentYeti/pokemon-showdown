@@ -2441,13 +2441,19 @@
 			}
 		]
 	},
-	"dodrioalthon": {
+	"chitchatot": {
 		"level": 85,
 		"sets": [
 			{
 				"role": "Fast Attacker",
-				"movepool": ["Steam Eruption", "Blue Flare", "Sludge Wave", "Earth Power", "Fickle Beam", "Infernal Parade"],
-				"abilities": ["Flash Fire"],
+				"movepool": ["Psychic Noise", "Boomburst", "Hurricane", "Nasty Plot", "Esper Wing", "Heat Wave"],
+				"abilities": ["Shrill Voice"],
+				"teraTypes": ["Dark"]
+			},
+			{
+				"role": "Fast Support",
+				"movepool": ["Reflect", "Light Screen", "Taunt", "Cyclone", "Psychic Noise", "Knock Off"],
+				"abilities": ["Pranskter"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -2457,25 +2463,8 @@
 		"sets": [
 			{
 				"role": "Bulky Support",
-				"movepool": ["Stealth Rock", "Psyshield Bash", "Teleport", "Stone Edge", "Earthquake", "Thunder Wave"],
-				"abilities": ["Magic Bounce"],
-				"teraTypes": ["Dark"]
-			},
-			{
-				"role": "Bulky Attacker",
-				"movepool": ["Rock Slide", "Cerebral Saw", "Crunch", "Earthquake", "Power-Up Punch", "Dragon Claw"],
-				"abilities": ["Serene Grace"],
-				"teraTypes": ["Dark"]
-			}
-		]
-	},
-	"malevite": {
-		"level": 83,
-		"sets": [
-			{
-				"role": "Fast Attacker",
-				"movepool": ["Dark Pulse", "Meteor Beam", "Thunderbolt", "Geo Cannon", "Spirit Bomb", "Flamethrower"],
-				"abilities": ["Serene Grace"],
+				"movepool": ["Bug Buzz", "Power Gem", "Moonlight", "U-Turn", "Stealth Rock", "Defog"],
+				"abilities": ["Mimicry"],
 				"teraTypes": ["Dark"]
 			}
 		]
