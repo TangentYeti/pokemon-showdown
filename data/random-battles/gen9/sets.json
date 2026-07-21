@@ -636,17 +636,6 @@
             }
         ]
     },
-    "boarpath": {
-	    "level": 87,
-	    "sets": [
-	        {
-		        "role": "Wallbreaker",
-		        "movepool": ["Close Combat", "Iron Head", "Headlong Rush", "Head Smash", "Lash Out", "Stone Edge"],
-		        "abilities": ["Intimidate", "War Cry"],
-		        "teraTypes": ["Dark"]
-            }
-        ]
-    },
     "frosquito": {
 	    "level": 95,
 	    "sets": [
@@ -1178,17 +1167,6 @@
 				"role": "Bulky Attacker",
 				"movepool": ["Body Press", "Roar", "Rest", "Sleep Talk", "Stealth Rock", "Swamp Kick"],
 				"abilities": ["Battle Hardened"],
-				"teraTypes": ["Dark"]
-			}
-		]
-	},
-	"drakolarmor": {
-		"level": 86,
-		"sets": [
-			{
-				"role": "Bulky Support",
-				"movepool": ["Dragon Tail", "Spikes", "Spiky Shield", "Earthquake", "Stone Edge", "Body Press"],
-				"abilities": ["Multiscale"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -2202,17 +2180,6 @@
 				"role": "Bulky Support",
 				"movepool": ["Bitter Malice", "Wish", "Protect", "Haze", "Reflect", "Light Screen"],
 				"abilities": ["Reflection"],
-				"teraTypes": ["Dark"]
-			}
-		]
-	},
-	"beholdrich": {
-		"level": 88,
-		"sets": [
-			{
-				"role": "Bulky Setup",
-				"movepool": ["Stored Power", "Calm Mind", "Moonlight", "Shadow Ball", "Hypnosis", "Aura Sphere"],
-				"abilities": ["Eldrich"],
 				"teraTypes": ["Dark"]
 			}
 		]
