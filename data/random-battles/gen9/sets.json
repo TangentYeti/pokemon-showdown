@@ -1306,7 +1306,7 @@
 			},
 			{
 				"role": "Bulky Support",
-				"movepool": ["Surf”, “Sludge Bomb”, “Leech Seed”, “Toxic”, “Moonlight”, “Night Shade"],
+				"movepool": ["Surf", "Sludge Bomb", "Leech Seed", "Toxic", "Moonlight", "Night Shade"],
 				"abilities": ["Triage"],
 				"teraTypes": ["Dark"]
 			}
