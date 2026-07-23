@@ -1244,7 +1244,7 @@
 			{
 				"role": "Bulky Support",
 				"movepool": ["Sticky Web", "Sludge Bomb", "Bug Buzz", "Synthesis", "Stun Spore", "Reflect"],
-				"abilities": ["Gooey"],
+				"abilities": ["Slow Motion"],
 				"teraTypes": ["Dark"]
 			}
 		]
