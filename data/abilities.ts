@@ -7244,10 +7244,10 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onStart(pokemon) { 
 			const types = ['Ice', 'Water', 'Fairy'];
 			if (!pokemon.setType(types)) return;
-			this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: purification');
+			this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Purification');
             this.runEvent('ChangeType', pokemon);
 		},
-		name: "Chrystalise",
+		name: "Purification",
 		rating: 4,
 		num: 367,
 	},
