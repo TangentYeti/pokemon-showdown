@@ -563,7 +563,7 @@
 	        {
 		        "role": "Bulky Setup",
 		        "movepool": ["Dragon Dance", "Icicle Spear", "Pin Missile", "Scale Shot", "Scale Shield"],
-		        "abilities": ["Unburden"],
+		        "abilities": ["Chrystalise"],
 		        "teraTypes": ["Dark"]
             }
         ]
