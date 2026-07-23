@@ -7207,4 +7207,48 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4,
 		num: 365,
 	},
+	triplepoint: {
+		onStart(pokemon) { 
+			const types = ['Ice', 'Water', 'Fire'];
+			if (!pokemon.setType(types)) return;
+			this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Triple Point');
+            this.runEvent('ChangeType', pokemon);
+		},
+		name: "Triple Point",
+		rating: 4,
+		num: 366,
+	},
+	chrystalise: {
+		onStart(pokemon) { 
+			const types = ['Dragon', 'Ice', 'Bug'];
+			if (!pokemon.setType(types)) return;
+			this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Chrystalise');
+            this.runEvent('ChangeType', pokemon);
+		},
+		name: "Chrystalise",
+		rating: 4,
+		num: 367,
+	},
+	prismatic: {
+		onStart(pokemon) { 
+			const types = ['Electric', 'Fairy', 'Psychic'];
+			if (!pokemon.setType(types)) return;
+			this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: Prismatic');
+            this.runEvent('ChangeType', pokemon);
+		},
+		name: "Prismatic",
+		rating: 4,
+		num: 368,
+	},
+	purification: {
+		onStart(pokemon) { 
+			const types = ['Ice', 'Water', 'Fairy'];
+			if (!pokemon.setType(types)) return;
+			this.add('-start', pokemon, 'typechange', types.join('/'), types, '[from] ability: purification');
+            this.runEvent('ChangeType', pokemon);
+		},
+		name: "Chrystalise",
+		rating: 4,
+		num: 367,
+	},
 };

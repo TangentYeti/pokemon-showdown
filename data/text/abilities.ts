@@ -2729,5 +2729,25 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		name: "Magic Seal",
 		desc: "Applies Imprison to self on entry",
 		shortDesc: "Applies Imprison to self on entry",
+	},
+	triplepoint: {
+		name: "Triple Point",
+		desc: "This Pokemon is also a Water type.",
+		shortDesc: "Adds Water Type.",
+	},
+	chrystalise: {
+		name: "Chrystalise",
+		desc: "This Pokemon is also a Bug type.",
+		shortDesc: "Adds Bug Type.",
+	},
+	prismatic: {
+		name: "Prismatic",
+		desc: "This Pokemon is also a Psychic type.",
+		shortDesc: "Adds Psychic Type.",
+	},
+	purification: {
+		name: "Purification",
+		desc: "This Pokemon is also a Fairy type.",
+		shortDesc: "Adds Fairy Type.",
 	}
 };

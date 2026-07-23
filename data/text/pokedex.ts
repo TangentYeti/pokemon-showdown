@@ -4079,8 +4079,8 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	chupaprace: {
 		name: "Chupaprace",
 	},
-	terracabra: {
-		name: "Terracabra",
+	glacibitis: {
+		name: "Glacibitis",
 	},
 	cycliner: {
 		name: "Cycliner",
@@ -4109,8 +4109,8 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	scraplet: {
 		name: "Scraplet",
 	},
-	boarpath: {
-		name: "Boarpath",
+	vaporace: {
+		name: "Vaporace",
 	},
 	icito: {
 		name: "Icito",
@@ -4373,8 +4373,8 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	drakolin: {
 		name: "Drakolin",
 	},
-	drakolarmor: {
-		name: "Drakolarmor",
+	fractastral: {
+		name: "Fractastral",
 	},
 	puppyre: {
 		name: "Puppyre",
@@ -4667,8 +4667,8 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	shargarch: {
 		name: "Shargarch",
 	},
-	draplisc: {
-		name: "Draplisc",
+	galaquas: {
+		name: "Galaquas",
 	},
 	therrazor: {
 		name: "Therrazor",

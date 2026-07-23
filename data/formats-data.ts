@@ -6444,7 +6444,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	chupaprace: {
 		tier: "NFE",
 	},
-	terracabra: {
+	glacibitis: {
 		tier: "OU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
@@ -6484,7 +6484,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	scraplet: {
 		tier: "LC",
 	},
-	boarpath: {
+	vaporace: {
 		tier: "UU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
@@ -6832,7 +6832,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	drakolin: {
 		tier: "NFE",
 	},
-	drakolarmor: {
+	fractastral: {
 		tier: "UU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
@@ -7245,7 +7245,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
-	draplisc: {
+	galaquas: {
 		tier: "OU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
