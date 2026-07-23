@@ -21421,7 +21421,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	vaporace: {
 		num: 1140,
 		name: "Vaporace",
-		types: ["Ice", "Ice"],
+		types: ["Ice", "Fire"],
 		baseStats: {hp: 70, atk: 63, def: 71, spa: 126, spd: 90, spe: 100},
 		abilities: {0: "Triple Point"},
 		heightm: 1.3,
