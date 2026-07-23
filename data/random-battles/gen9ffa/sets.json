@@ -557,19 +557,13 @@
             }
         ]
     },
-    "terracabra": {
+    "glacibitis": {
 	    "level": 86,
 	    "sets": [
 	        {
-		        "role": "Setup Sweeper",
-		        "movepool": ["Curse", "Headlong Rush", "Stone Edge", "Crunch", "Psychic Fangs", "Blaze Kick"],
-		        "abilities": ["Unburden"],
-		        "teraTypes": ["Dark"]
-            },
-            {
-		        "role": "Fast Support",
-		        "movepool": ["Stealth Rock", "Earthquake", "Toxic", "Super Fang", "Foul Play", "Strength Sap"],
-		        "abilities": ["Unburden"],
+		        "role": "Bulky Setup",
+		        "movepool": ["Dragon Dance", "Icicle Spear", "Pin Missile", "Scale Shot", "Scale Shield"],
+		        "abilities": ["Chrystalise"],
 		        "teraTypes": ["Dark"]
             }
         ]
@@ -1171,6 +1165,17 @@
 			}
 		]
 	},
+	"fractastral": {
+		"level": 85,
+		"sets": [
+			{
+				"role": "Bulky Setup",
+				"movepool": ["Thunderbolt", "Moonblast", "Photon Geyser", "Rock Polish", "Power Gem", "Calm Mind"],
+				"abilities": ["Prismatic"],
+				"teraTypes": ["Dark"]
+			}
+		]
+	},
 	"inferthrope": {
 		"level": 82,
 		"sets": [
@@ -1306,7 +1311,7 @@
 			},
 			{
 				"role": "Bulky Support",
-				"movepool": ["Surf”, “Sludge Bomb”, “Leech Seed”, “Toxic”, “Moonlight”, “Night Shade"],
+				"movepool": ["Surf", "Sludge Bomb", "Leech Seed", "Toxic", "Moonlight", "Night Shade"],
 				"abilities": ["Triage"],
 				"teraTypes": ["Dark"]
 			}
@@ -1560,6 +1565,17 @@
 				"role": "Bulky Support",
 				"movepool": ["Bleakwind Storm", "Freeze-Dry", "Defog", "Roost", "Cyclone", "Mirror Coat"],
 				"abilities": ["Gale Wings"],
+				"teraTypes": ["Dark"]
+			}
+		]
+	},
+	"vaporace": {
+		"level": 85,
+		"sets": [
+			{
+				"role": "Fast Attacker",
+				"movepool": ["Steam Eruption", "Fire Blast", "Backdraft", "Scald", "Freeze-Dry", "Earth Power"],
+				"abilities": ["Triple Point"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -2026,19 +2042,13 @@
 			}
 		]
 	},
-	"draplisc": {
+	"galaquas": {
 		"level": 85,
 		"sets": [
 			{
-				"role": "Fast Support",
-				"movepool": ["Spikes", "Dire Claw", "Earthquake", "U-Turn", "Toxic Spikes", "Knock Off"],
-				"abilities": ["Battle Armor", "Hyper Cutter"],
-				"teraTypes": ["Dark"]
-			},
-			{
-				"role": "Setup Sweeper",
-				"movepool": ["Dire Claw", "Swords Dance", "Earthquake", "Stone Edge", "Aqua Tail", "Agility"],
-				"abilities": ["Battle Armor", "Hyper Cutter"],
+				"role": "Bulky Support",
+				"movepool": ["Recover", "Flip Turn", "Freeze-Dry", "Toxic", "Surf", "Sludge Wave"],
+				"abilities": ["Unaware", "Purification"],
 				"teraTypes": ["Dark"]
 			}
 		]
