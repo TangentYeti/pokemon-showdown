@@ -697,7 +697,7 @@
 			{
 				"role": "Fast Attacker",
 				"movepool": ["Energy Ball", "Draco Meteor", "Dragon Pulse", "Synthesis", "Surf", "Thunderbolt"],
-				"abilities": ["Draconic Heritage", "Sap Sipper"],
+				"abilities": ["Draconic Heritage", "Grassy Surge"],
 				"teraTypes": ["Dark"]
 			}
 		]
@@ -2430,7 +2430,7 @@
 			{
 				"role": "Fast Support",
 				"movepool": ["Reflect", "Light Screen", "Taunt", "Cyclone", "Psychic Noise", "Knock Off"],
-				"abilities": ["Pranskter"],
+				"abilities": ["Prankster"],
 				"teraTypes": ["Dark"]
 			}
 		]
