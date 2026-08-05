@@ -7808,7 +7808,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	monsoon: {
 		name: "Monsoon",
 		desc: "Summons Thunderstorm.",
-		shortDesc: "Summons Thunderstorm.",
+		shortDesc: "For 5 turns, a raging thunderstorm powers Electric Moves.",
 	},
 	noxiousmaw: {
 		name: "Noxious Maw",

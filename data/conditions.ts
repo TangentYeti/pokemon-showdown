@@ -593,12 +593,6 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 						return 0;
 				}
 		},
-		onModifySpePriority: 10,
-		onModifySpe(spe, pokemon) {
-				if (pokemon.hasType('Flying') && this.field.isWeather('strongwinds')) {
-					return this.modify(spe, 1.2);
-				}
-		},
 		onFieldResidualOrder: 1,
 		onFieldResidual() {
 				this.add('-weather', 'Strong Winds', '[upkeep]');
