@@ -23705,7 +23705,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: 1321,
 		name: "Regialpha",
 		types: ["Normal"],
-		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
+		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 50},
 		abilities: {0: "Golem Grace"},
 		heightm: 2.3,
 		weightkg: 104,
